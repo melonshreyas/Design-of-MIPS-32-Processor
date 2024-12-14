@@ -1,0 +1,13 @@
+Open nets were found during extraction.
+
+Open nets are composed of multiple resistively connected groups (RCGs).
+
+StarRC attempts to determine the location where a net becomes open using
+the topology of the extracted resistor network. However, this determination
+is approximate. This determination is also affected by settings of the
+REDUCTION, REDUCTION_MAX_DELAY_ERROR and EXTRACTION options.
+
+OPEN net: b[0]  (2 RCGs) :
+	shorting resistor: 2 (resistance=0.01,width=100) is inserted between nodes b[0]:2 (located at (4.7590,0.2885), layer M4) and b_r_reg_0_:D (located at (1.9350,2.5000), layer M1 (floating))
+OPEN net: b_r[0]  (2 RCGs) :
+	shorting resistor: 15 (resistance=0.01,width=100) is inserted between nodes lb/U32:A2 (located at (2.6650,4.8355), layer M1) and b_r_reg_0_:Q (located at (3.4790,2.3020), layer M1 (floating))

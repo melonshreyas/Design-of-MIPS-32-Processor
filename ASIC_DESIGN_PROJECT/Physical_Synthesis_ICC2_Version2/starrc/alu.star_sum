@@ -1,0 +1,478 @@
+
+                                  StarRC (TM)
+
+               Version P-2019.03-SP4 for linux64 - Aug 29, 2019 
+
+                    Copyright (c) 1999 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /home/synopsys/installs/starrc/P-2019.03-SP4/linux64_starrc/bin/StarXtract
+Version: P-2019.03-SP4
+Built on: Aug 29 2019 18:58:12
+Start Time: Wed May 25 18:00:54 2022
+
+Host ............ synopsysserver
+
+xTractorName: /home/synopsys/installs/starrc/P-2019.03-SP4/linux64_starrc/bin/xTractor
+Version: P-2019.03-SP4
+Built on: Aug 29 2019 18:58:06
+
+WARNING: Command -clean is obsoleted for GATE level extraction and turned on by default. (SX-3582)
+
+Block ........... alu
+Star Directory .. /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/starrc/star
+WARNING: Running StarRC in single corner mode will result in degraded runtime for design flows where
+         multiple corners are used.  For optimal runtime, add the necessary commands to configure
+         the Simultaneous Multicorner flow (CORNERS_FILE and SELECTED_CORNERS). (SX-3552)
+NDM DB ....... /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/lib:lib
+ Ref Libs .......
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/saed14rvt_tt0p8v125c.ndm:saed14rvt_tt0p8v125c
+
+                 
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/saed14hvt_tt0p8v125c.ndm:saed14hvt_tt0p8v125c
+
+                 
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/saed14lvt_tt0p8v125c.ndm:saed14lvt_tt0p8v125c
+
+                 
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/saed14rvt_tt0p8v125c_physical_only.ndm:saed14rvt_tt0p8v125c_physical_only
+
+                 
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/saed14hvt_tt0p8v125c_physical_only.ndm:saed14hvt_tt0p8v125c_physical_only
+
+                 
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/saed14lvt_tt0p8v125c_physical_only.ndm:saed14lvt_tt0p8v125c_physical_only
+
+                 
+ /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/CLIBs/EXPLORE_physical_only.ndm:EXPLORE_physical_only
+
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+  Setup         Elp=00:00:02 Cpu=00:00:01 Usr=1.3    Sys=0.0    Mem=500.1 
+Done
+
+Map Layers:  Wed May 25 18:00:56 2022
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: Physical layer M1_3 does not exist in process Line: 	M1_3 M1_3 (SX-1919)
+WARNING: Physical layer M2_3 does not exist in process Line: 	M2_3 M2_3 (SX-1919)
+WARNING: Physical layer M3_3	 does not exist in process Line: 	M3_3 M3_3 (SX-1919)
+WARNING: Physical layer POLYCONT does not exist in process Line: 	VIA0	 POLYCONT (SX-1936)
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: MAPPING_FILE layer "M1_3" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "M2_3" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "M3_3" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "VIA0" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal1_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal1_3_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal2_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal2_3_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal3_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal3_3_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal4_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal5_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal6_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal7_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal8_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: MAPPING_FILE layer "metal9_pin" is not a valid database layer and will be removed.
+ (SX-1813)
+WARNING: Layer "DIFF" has no connections. (SX-1851)
+WARNING: Layer "PO" has no connections. (SX-1851)
+  Warnings: 24    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.2 
+Done
+
+Build HN:  Wed May 25 18:00:58 2022
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=510.2 
+Done
+
+Process Cells:  Wed May 25 18:00:58 2022
+  Warnings: 0    Errors: 0
+  Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=501.3 
+Done
+
+Translate DB:  Wed May 25 18:00:58 2022
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.2 
+Done
+
+Netlist Setup:  Wed May 25 18:00:59 2022
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+Done
+
+GPD XtractSetup:  Wed May 25 18:01:02 2022
+  Warnings: 0    Errors: 0
+  GPD_XtractSetup Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.2 
+Done
+
+GPD NameMap:  Wed May 25 18:01:05 2022
+  Warnings: 0    Errors: 0
+  GPD_NameMap   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.2 
+Done
+
+xTract DB:  Wed May 25 18:01:07 2022
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed   4%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (11688 3085), (11718 3115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11614 4285), (11644 4315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11688 5485), (11718 5515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11688 1885), (11718 1915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10208 3685), (10238 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10504 2485), (10534 2515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9912 1885), (9942 1915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7618 1885), (7648 1915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7914 4285), (7944 4315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8580 2485), (8610 2515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8728 3085), (8758 3115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6952 3085), (6982 3115)nm on
+         level 3. (EX-2202)
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (5842 1885), (5872 1915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5176 3085), (5206 3115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4066 1885), (4096 1915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (1920 2485), (1950 2515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3178 3085), (3208 3115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2290 3685), (2320 3715)nm on
+         level 3. (EX-2202)
+Completed  15%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (2003 12625), (2033 12655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4063 4345), (4093 4375)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8941 4825), (8971 4855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2882 11485), (2912 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3345 11485), (3375 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3557 11485), (3587 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5913 3625), (5943 3655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7914 4945), (7944 4975)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3696 10885), (3726 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3989 4225), (4019 4255)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4159 10885), (4189 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4371 10885), (4401 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11611 7225), (11641 7255)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5839 3745), (5869 3775)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5916 10885), (5946 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6379 10885), (6409 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6591 10885), (6621 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9835 5545), (9865 5575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7766 10885), (7796 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8229 10885), (8259 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8441 10885), (8471 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11537 7345), (11567 7375)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11611 8425), (11641 8455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9616 9085), (9646 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9761 5425), (9791 5455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10079 9085), (10109 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10291 9085), (10321 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11093 6025), (11123 6055)nm on
+         level 3. (EX-2202)
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (9152 4945), (9182 4975)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11537 8545), (11567 8575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12029 9685), (12059 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12241 9685), (12271 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12704 9685), (12734 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8125 4825), (8155 4855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8255 11485), (8285 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8467 11485), (8497 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8930 11485), (8960 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11019 6145), (11049 6175)nm on
+         level 3. (EX-2202)
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (4778 8365), (4808 8395)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2407 8305), (2437 8335)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3438 8485), (3468 8515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4522 8545), (4552 8575)nm on
+         level 3. (EX-2202)
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (4796 7285), (4826 7315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3338 8545), (3368 8575)nm on
+         level 3. (EX-2202)
+Completed  34%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (5758 9085), (5788 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4958 9025), (4988 9055)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2333 8425), (2363 8455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5277 9085), (5307 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4700 8425), (4730 8455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4622 8485), (4652 8515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3594 8365), (3624 8395)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3516 8425), (3546 8455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2363 12505), (2393 12535)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3094 11545), (3124 11575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3982 11545), (4012 11575)nm on
+         level 3. (EX-2202)
+Completed  39%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (3908 10825), (3938 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4796 10825), (4826 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6128 10825), (6158 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7016 10825), (7046 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7978 10825), (8008 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8866 10825), (8896 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9828 9145), (9858 9175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10716 9145), (10746 9175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11604 9625), (11634 9655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12492 9625), (12522 9655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6128 12685), (6158 12715)nm on
+         level 4. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7830 11545), (7860 11575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8718 11545), (8748 11575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2077 9685), (2107 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2743 9685), (2773 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3667 9685), (3697 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4963 10285), (4993 10315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6961 9685), (6991 9715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7701 9085), (7731 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8589 9085), (8619 9115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8811 8485), (8841 8515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2891 10705), (2921 10735)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5925 10465), (5955 10495)nm on
+         level 3. (EX-2202)
+Completed  44%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (9107 10465), (9137 10495)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9305 10345), (9335 10375)nm on
+         level 3. (EX-2202)
+Completed  49%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+WARNING: Instance port via center is not covered by any metal at: (3089 10825), (3119 10855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (2363 11305), (2393 11335)nm on
+         level 3. (EX-2202)
+Suppression: Message (EX-2202) suppressed beyond 100 times
+Completed  54%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  59%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  64%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  69%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  73%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  78%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  83%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  88%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  93%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed  98%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=357.82
+Extracted 0 capacitors, 13971 resistors, 12976 nodes
+Reduced to 2535 nodes,  (80.4639%)
+Reduced to 2313 resistors,  (83.4443%)
+  Warnings: 102    Errors: 0    (See file summary/xtract.sum)
+  xTract        Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.1    Mem=357.9 
+Done
+
+xTract Post Process DB:  Wed May 25 18:01:11 2022
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=238.9 
+Done
+
+Report Violations:  Wed May 25 18:01:13 2022
+WARNING: Found vias with one or no connection (see file vias.sum) (SX-0959)
+WARNING: Found shorted nets (see file shorts_all.sum). The capacitances of these nets may be
+         unreliable due to the shorts. (SX-0955)
+WARNING: Found vias with one or no connection (see file vias.sum) (SX-0959)
+WARNING: found open net(s) in the design. Check opens.sum file. (EX-414)
+  Warnings: 4    Errors: 0    (See file summary/report_violations.sum)
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+Done
+
+GPD Post Process:  Wed May 25 18:01:16 2022
+  Warnings: 0    Errors: 0
+  GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+Done
+
+GPD Converter Part 1:  Wed May 25 18:01:18 2022
+  Warnings: 0    Errors: 0
+  GPD_Converter1 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=239.0 
+Done
+
+GPD Converter Part 2:  Wed May 25 18:01:20 2022
+  Warnings: 0    Errors: 0
+  GPD_Converter2 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=238.7 
+Done
+
+GPD Converter Merge:  Wed May 25 18:01:22 2022
+  Warnings: 0    Errors: 0
+  GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=238.7 
+Done
+  
+Setup               Elp=00:00:02 Cpu=00:00:01 Usr=1.3    Sys=0.0    Mem=500.1 
+Layers              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.2 
+HN                  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=510.2 
+Cells               Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=501.3 
+Translate           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.2 
+NetlistSetup        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+GPD_XtractSetup     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.2 
+GPD_NameMap         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.2 
+xTract              Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.1    Mem=357.9 
+xTractPP            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=238.9 
+ReportViolations    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+GPD_PostProcess     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+GPD_Converter1      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=239.0 
+GPD_Converter2      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=238.7 
+GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=238.7 
+  
+Done          Elp=00:00:03 Cpu=00:00:01 Usr=1.7    Sys=0.1    Mem=510.2 
+
+End Time: Wed May 25 18:01:27 2022
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:02 Cpu=00:00:01 Mem=500.1  |May 25 18:00:56 |synopsysserver
+CPU_01 |*Layers                    Elp=00:00:00 Cpu=00:00:00 Mem=500.2  |May 25 18:00:56 |synopsysserver
+CPU_01 |*Cells                     Elp=00:00:00 Cpu=00:00:00 Mem=501.3  |May 25 18:00:58 |synopsysserver
+CPU_01 |*HN                        Elp=00:00:00 Cpu=00:00:00 Mem=510.2  |May 25 18:00:58 |synopsysserver
+CPU_01 |*Translate                 Elp=00:00:01 Cpu=00:00:00 Mem=500.2  |May 25 18:00:59 |synopsysserver
+CPU_01 |*NetlistSetup              Elp=00:00:01 Cpu=00:00:00 Mem=342.9  |May 25 18:01:00 |synopsysserver
+CPU_01 |*GPD_XtractSetup           Elp=00:00:01 Cpu=00:00:00 Mem=500.2  |May 25 18:01:03 |synopsysserver
+CPU_01 |*GPD_NameMap               Elp=00:00:00 Cpu=00:00:00 Mem=343.2  |May 25 18:01:05 |synopsysserver
+CPU_01 |*xTract                    Elp=00:00:00 Cpu=00:00:00 Mem=357.9  |May 25 18:01:07 |synopsysserver
+CPU_01 |*xTractPP                  Elp=00:00:00 Cpu=00:00:00 Mem=238.9  |May 25 18:01:11 |synopsysserver
+CPU_01 |*ReportViolations          Elp=00:00:01 Cpu=00:00:00 Mem=342.9  |May 25 18:01:14 |synopsysserver
+CPU_01 |*GPD_PostProcess           Elp=00:00:00 Cpu=00:00:00 Mem=342.9  |May 25 18:01:16 |synopsysserver
+CPU_01 |*GPD_Converter_DP          Elp=00:00:02 Cpu=00:00:00 Mem=239    |May 25 18:01:20 |synopsysserver
+CPU_01 |*GPD_Converter_merge       Elp=00:00:01 Cpu=00:00:00 Mem=238.7  |May 25 18:01:23 |synopsysserver
+----------------------------------------------------------------------------------------------
+Start Time: Wed May 25 18:00:54 2022
+End Time: Wed May 25 18:01:16 2022
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:18 Cpu= 00:00:01
+PreXtraction:    Elp=00:00:13 Cpu= 00:00:01
+Xtraction:       Elp=00:00:00 Cpu= 00:00:00
+PostXtraction:   Elp=00:00:05 Cpu= 00:00:00
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:05 Cpu= 00:00:00
+----------------------------------------------------------------------------------------------
+
+
+NOTE: Simultaneous Multicorner (SMC) is now the default mode for StarRC gate-level extraction.
+By running SMC, the overall runtime can be reduced by up to 2x with the same level of accuracy
+as single corner extraction. For more information, consult the Simultaneous Multicorner Section
+in the StarRC User Guide.
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+EX-2202 (x 100)|Warning      |INSTANCE PORT VIA CENTER IS NOT COVERED BY ANY METAL AT: (() ()), (() ())NM ON LEVEL ().
+EX-414  (x   1)|Warning      |FOUND OPEN NET(S) IN THE DESIGN. CHECK OPENS.SUM FILE.
+GRD-1018(x   6)|Warning      |ITF PROCESS HEADER IS NEEDED FOR ADVANCED PROCESS NODE. PLEASE ADD PROCESS HEADER INFORMATION TO ITF AND RERUN GRDGENXO. 
+SX-0955 (x   1)|Warning      |FOUND SHORTED NETS (SEE FILE SHORTS_ALL.SUM). THE CAPACITANCES OF THESE NETS MAY BE UNRELIABLE DUE TO THE SHORTS.
+SX-0959 (x   2)|Warning      |FOUND VIAS WITH ONE OR NO CONNECTION (SEE FILE VIAS.SUM)
+SX-1813 (x  16)|Warning      |MAPPING_FILE LAYER "()" IS NOT A VALID DATABASE LAYER AND WILL BE REMOVED.
+SX-1851 (x   2)|Warning      |LAYER "()" HAS NO CONNECTIONS.
+SX-1919 (x   3)|Warning      |PHYSICAL LAYER () DOES NOT EXIST IN PROCESS LINE: ()
+SX-1936 (x   1)|Warning      |PHYSICAL LAYER () DOES NOT EXIST IN PROCESS LINE: ()
+SX-3552 (x   1)|Warning      |RUNNING STARRC IN SINGLE CORNER MODE WILL RESULT IN DEGRADED RUNTIME FOR DESIGN FLOWS WHERE MULTIPLE CORNERS ARE USED.  FOR OPTIMAL RUNTIME, ADD THE NECESSARY COMMANDS TO CONFIGURE THE SIMULTANEOUS MULTICORNER FLOW (CORNERS_FILE AND SELECTED_CORNERS).
+SX-3582 (x   1)|Warning      |COMMAND -CLEAN IS OBSOLETED FOR GATE LEVEL EXTRACTION AND TURNED ON BY DEFAULT.
+

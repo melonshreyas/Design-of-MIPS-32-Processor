@@ -1,0 +1,87 @@
+
+set search_path {. .}
+. .
+set NDM_LIBS {}
+set FRAME_LIBS {/home/synopsys/SAED14nm_EDK/stdcell_rvt/ndm/saed14rvt_frame_only.ndm /home/synopsys/SAED14nm_EDK/stdcell_hvt/ndm/saed14hvt_frame_only.ndm /home/synopsys/SAED14nm_EDK/stdcell_lvt/ndm/saed14lvt_frame_only.ndm /home/synopsys/SAED14nm_EDK/stdcell_slvt/ndm/saed14slvt_frame_only.ndm}
+/home/synopsys/SAED14nm_EDK/stdcell_rvt/ndm/saed14rvt_frame_only.ndm /home/synopsys/SAED14nm_EDK/stdcell_hvt/ndm/saed14hvt_frame_only.ndm /home/synopsys/SAED14nm_EDK/stdcell_lvt/ndm/saed14lvt_frame_only.ndm /home/synopsys/SAED14nm_EDK/stdcell_slvt/ndm/saed14slvt_frame_only.ndm
+set LEF_FILES {}
+set DB_FILES {/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db /home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db /home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db}
+/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db /home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db /home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db
+set TECH_FILE "/home/synopsys/SAED14nm_EDK/tech/milkyway/saed14nm_1p9m_mw.tf"
+/home/synopsys/SAED14nm_EDK/tech/milkyway/saed14nm_1p9m_mw.tf
+set LIB_PATH CLIBs
+CLIBs
+setenv GROUP_LIBS_DUMP_FILE /tmp/.tARL1582/_lgRxmHqW
+/tmp/.tARL1582/_lgRxmHqW
+set_app_options -name lib.workspace.group_libs_combine_physical_only -value false
+lib.workspace.group_libs_combine_physical_only false
+set_app_options -name lib.workspace.fast_exploration -value true
+lib.workspace.fast_exploration true
+set_app_options -name lib.workspace.write_script_write_process_workspace -value true
+lib.workspace.write_script_write_process_workspace true
+set_app_options -name lib.workspace.create_cached_lib -value true
+lib.workspace.create_cached_lib true
+#suppress_messages
+set_app_options -name lib.workspace.allow_read_aggregate_lib -value true
+lib.workspace.allow_read_aggregate_lib true
+create_workspace EXPLORE -flow exploration -scale_factor 10000
+... created workspace EXPLORE in exploration flow
+foreach frame $FRAME_LIBS {
+  read_ndm $frame
+}
+Information: Loading library file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/ndm/saed14rvt_frame_only.ndm' (FILE-007)
+Information: Loading library file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/ndm/saed14hvt_frame_only.ndm' (FILE-007)
+Information: Loading library file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/ndm/saed14lvt_frame_only.ndm' (FILE-007)
+Information: Loading library file '/home/synopsys/SAED14nm_EDK/stdcell_slvt/ndm/saed14slvt_frame_only.ndm' (FILE-007)
+read_db $DB_FILES
+Information: Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db' (FILE-007)
+Information: Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db' (FILE-007)
+Information: Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db' (FILE-007)
+{saed14rvt_tt0p8v125c saed14hvt_tt0p8v125c saed14lvt_tt0p8v125c}
+group_libs
+...Created 7 lib groups
+...Created sub-workspace saed14rvt_tt0p8v125c with type normal: 1 logical lib, 1 physical lib, 0 scaling groups.
+...Created sub-workspace saed14hvt_tt0p8v125c with type normal: 1 logical lib, 1 physical lib, 0 scaling groups.
+...Created sub-workspace saed14lvt_tt0p8v125c with type normal: 1 logical lib, 1 physical lib, 0 scaling groups.
+...Created sub-workspace saed14rvt_tt0p8v125c_physical_only with type physical_only.
+...Created sub-workspace saed14hvt_tt0p8v125c_physical_only with type physical_only.
+...Created sub-workspace saed14lvt_tt0p8v125c_physical_only with type physical_only.
+...Created sub-workspace EXPLORE_physical_only with type physical_only.
+...Created 7 sub-workspaces
+write_workspace -directory ./.scripts -commit_output $LIB_PATH -check_options {-allow_missing} -commit_options {-force}
+remove_workspace
+... removing lib groups
+... removing library 'saed14rvt_tt0p8v125c'
+... removing library 'saed14rvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14hvt_tt0p8v125c'
+... removing library 'saed14hvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14lvt_tt0p8v125c'
+... removing library 'saed14lvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14rvt_tt0p8v125c'
+... removing library 'saed14rvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14hvt_tt0p8v125c'
+... removing library 'saed14hvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14lvt_tt0p8v125c'
+... removing library 'saed14lvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14slvt_frame_only'
+... lib workspace removed!
+... removing library 'saed14rvt_tt0p8v125c'
+... removing library 'saed14hvt_tt0p8v125c'
+... removing library 'saed14lvt_tt0p8v125c'
+... removing library 'saed14rvt_frame_only'
+... removing library 'saed14hvt_frame_only'
+... removing library 'saed14lvt_frame_only'
+... removing library 'saed14slvt_frame_only'
+... lib workspace removed!
+exit
+Maximum memory usage for this session: 494.98 MB
+CPU usage for this session:      4 seconds (  0.00 hours)
+Elapsed time for this session:      4 seconds (  0.00 hours)
+Thank you for using IC Compiler II Library Manager.
+

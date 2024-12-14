@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep synopsysserver > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 7800 
+else 
+ssh synopsysserver kill 7800 
+ sleep 10 
+ssh synopsysserver kill -9 7800 
+fi

@@ -1,0 +1,155 @@
+
+icc2_shell> man set_clock_tree_options
+2.  Synopsys Commands                                        Command Reference
+                            set_clock_tree_options
+
+NAME
+       set_clock_tree_options
+              Set target skew/latency constraints for clock trees.
+
+SYNTAX
+       status set_clock_tree_options
+              [-clocks clock_list]
+              [-corners corner_list]
+              [-target_skew skew_value]
+              [-target_latency latency_value]
+              [-copy_exceptions_across_modes]
+              [-from_mode original_mode]
+              [-to_mode mode_list]
+              [-root_ndr_fanout_limit fanout_limit_value]
+              [-max_incr_repeater_levels level_value]]
+
+   Data Types
+       clock_list       list or collection
+       corner_list      list or collection
+       mode_list        list or collection
+       original_mode    object
+       skew_value       float
+       latency_value    float
+       fanout_limit_value integer
+       level_value      integer
+
+ARGUMENTS
+       -clocks clock_list
+              Specifies  the  clock  trees  to  which  target  skew/latency is
+              applied.  If not specified, the constraints are applied  to  all
+              clocks.
+
+       -corners corner_list
+              Specifies  the  corners to which target skew/latency is applied.
+              If not specified, the constraints are applied to current corner.
+
+       -target_skew skew_value
+              Specifies  the required value for maximum skew for the specified
+              clock trees.  The default value for this option is 0.
+
+       -target_latency latency_value
+              Specifies the minimum early insertion delay constraint  for  the
+              specified  clock  trees.   There  is  no  default value for this
+              option.
+
+       -copy_exceptions_across_modes
+              Enables the automatic copying of CTS balance points  (considered
+              for   balancing)   settings  from  the  mode  specified  by  the
+              -from_mode option to the mode specified by the -to_mode  option.
+
+              You  must specify the -copy_exceptions_across_modes, -from_mode,
+              and -to_mode options together.
+
+              You can specify only one group of -from_mode and  -to_mode  set-
+              tings.  If  additional  groups  are needed, they need additional
+              commands.  The modes across different groups  must  be  mutually
+              exclusive.
+
+       -from_mode original_mode
+              Specifies the mode from which to copy to CTS balance points. You
+              can specify only one mode.
+
+              You must specify the -copy_exceptions_across_modes,  -from_mode,
+              and -to_mode options together.
+
+       -to_mode mode_list
+              Specifies the modes to which to copy the CTS balance points. You
+              can specify one or more modes.
+
+              You must specify the -copy_exceptions_across_modes,  -from_mode,
+              and -to_mode options together.
+
+       -root_ndr_fanout_limit fanout_limit_value
+              Specifies the boundary on the clock nets where root NDR/layer or
+              internal NDR/layer should be applied, depending on the number of
+              transitive  fanout  of  the  clock  net  driver.  The transitive
+              fanouts include register CK pin that are valid  sinks  and  does
+              not  include  ignore pins and they are counted per master clock.
+              If a net driver is on multiple (master) clock domain, the max of
+              downstream transitive fanouts for each clock domain will be con-
+              sidered.  If the downstream transitive fanout of a net driver is
+              larger  than  or equal to this user-specified fanout limit, root
+              NDR/layer would be used for that net; If the downstream  transi-
+              tive  fanout of a net driver is smaller than this user-specified
+              fanout limit, internal NDR/layer would be  used  for  that  net;
+              This is also called fanout-based ndr.
+
+       -max_incr_repeater_levels level_value
+              Specifies  the  maximum  number  of incrementally added repeater
+              level during  concurrent  clock  and  data  (CCD)  optimization,
+              depending  on the repeater level of each sink. The -clock option
+              could be used together to  specify  clock.  Newer  setting  will
+              overwrite  the  older  one  on the same clock and be treated the
+              same as the first time it's being set.
+
+DESCRIPTION
+       Specifies settings  like  target  skew/latency  for  clocks,  exception
+       duplication across modes or fanout-based ndr limit.
+
+       If target skew is specified, clock tree synthesis engine minimizes skew
+       to meet the specified target.  After this target is met, the  optimiza-
+       tion  concentrates more on other QoR goals, such as insertion delay and
+       area.
+
+       If target latency is specified, clock tree synthesis  engine  minimizes
+       latency  to  meet  the specified target.  After this target is met, the
+       optimization concentrates more on other QoR goals,  such  as  skew  and
+       area.  If  the  insertion delay of this initial optimized clock tree is
+       smaller than the specified value, the clock tree synthesis engine  adds
+       a  chain of cells from the reference list as needed to meet this delay.
+
+       If fanout-based ndr is specified,  clock  tree  synthesis  engine  will
+       apply root/internal rules based on the limit setting. The sink ndr rule
+       will not be affected and remain as sink ndr rule. Small net (e.g., bbox
+       <  10um)  will  still  have internal rules even if its fanout is larger
+       than limit.
+
+       To   report    target    skew/latency    constraint    settings,    use
+       report_clock_tree_options.
+
+       To      remove      target      skew/latency      constraints,      use
+       remove_clock_tree_options.
+
+       To report fanout-based ndr settings, use report_clock_tree_options.
+
+       To remove fanout-based ndr settings, use remove_clock_tree_options.
+
+   Multicorner-Multimode Support
+EXAMPLES
+       The following example sets a target skew of 2.0 units for clock clk1.
+
+              prompt> set_clock_tree_options -target_skew 2.0 -clock clk1
+
+              The following example sets a target latency of 4.0 units for all
+              clocks.
+
+              prompt> set_clock_tree_options -target_latency 4.0
+
+SEE ALSO
+       report_clock_tree_options(2)
+       remove_clock_tree_options(2)
+
+                                Version
+            Copyright (c) 2019 Synopsys, Inc. All rights reserved.
+icc2_shell> exit
+Maximum memory usage for this session: 158.55 MB
+CPU usage for this session:      7 seconds (  0.00 hours)
+Elapsed time for this session:    117 seconds (  0.03 hours)
+Thank you for using IC Compiler II.
+

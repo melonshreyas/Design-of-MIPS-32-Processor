@@ -1,0 +1,694 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-slack_lesser_than 0.00
+	-max_paths 20
+	-sort_by slack
+Design : simple_processor_Top
+Version: O-2018.06-SP4
+Date   : Thu May 19 12:02:24 2022
+****************************************
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_0_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U9/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_3_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U7/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_6_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_6_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_6_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_6_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U10/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_6_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_1_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_1_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U6/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_4_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_4_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_4_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_4_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U11/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_4_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_7_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_7_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_7_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_7_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U5/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_7_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_2_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_2_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_2_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_2_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U12/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_2_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_5_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_5_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_5_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_5_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U3/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_5_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_8_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_8_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_8_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_8_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U4/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_8_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_0_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U3/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_3_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U9/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_6_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_6_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_6_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_6_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U12/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_6_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_1_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_1_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U11/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_4_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_4_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_4_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_4_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U8/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_4_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_7_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_7_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_7_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_7_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U6/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_7_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_2_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_2_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_2_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_2_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U10/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_2_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_5_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_5_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_5_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_5_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U7/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_5_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg0/dout_reg_8_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg0/dout_reg_8_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg0/dout_reg_8_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg0/dout_reg_8_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg0/U5/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg0/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg0/dout_reg_8_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg1/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg1/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg1/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg1/dout_reg_0_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg1/U5/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg1/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg1/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+  Startpoint: G2_Datapath/Reg1/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg1/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg1/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg1/dout_reg_3_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg1/U11/X (SAEDHVT14_AO32_U_0P5)           0.02       2.07 f
+  G2_Datapath/Reg1/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg1/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+1

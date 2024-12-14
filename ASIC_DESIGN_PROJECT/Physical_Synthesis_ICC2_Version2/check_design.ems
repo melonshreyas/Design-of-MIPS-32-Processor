@@ -1,0 +1,111 @@
+<Database>
+Name/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/check_design.ems
+Creation TimeSun May 29 21:34:34 2022
+Modified TimeSun May 29 21:34:34 2022
+Design Name29th_MAY_CTS_DONE
+Library Namelib
+</Database>
+<RuleCount>
+DFT-0111
+NEX-0481
+TCK-00151
+TCK-00241
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+DFT-011reason10
+NEX-048portNameVSS_110
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR3_reg/G1[ get_pin { G1_Controller/LdR3_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R2out_reg/G1[ get_pin { G1_Controller/R2out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_6_/G1[ get_pin { G1_Controller/IR_reg_6_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_7_/G1[ get_pin { G1_Controller/IR_reg_7_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_8_/G1[ get_pin { G1_Controller/IR_reg_8_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IRin_reg/G1[ get_pin { G1_Controller/IRin_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdA_reg/G1[ get_pin { G1_Controller/LdA_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdG_reg/G1[ get_pin { G1_Controller/LdG_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/Gout_reg/G1[ get_pin { G1_Controller/Gout_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_5_/G1[ get_pin { G1_Controller/IR_reg_5_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_4_/G1[ get_pin { G1_Controller/IR_reg_4_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_3_/G1[ get_pin { G1_Controller/IR_reg_3_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR7_reg/G1[ get_pin { G1_Controller/LdR7_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR6_reg/G1[ get_pin { G1_Controller/LdR6_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR5_reg/G1[ get_pin { G1_Controller/LdR5_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR4_reg/G1[ get_pin { G1_Controller/LdR4_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR2_reg/G1[ get_pin { G1_Controller/LdR2_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR1_reg/G1[ get_pin { G1_Controller/LdR1_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/LdR0_reg/G1[ get_pin { G1_Controller/LdR0_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_2_/G1[ get_pin { G1_Controller/IR_reg_2_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_1_/G1[ get_pin { G1_Controller/IR_reg_1_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/IR_reg_0_/G1[ get_pin { G1_Controller/IR_reg_0_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R7out_reg/G1[ get_pin { G1_Controller/R7out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R6out_reg/G1[ get_pin { G1_Controller/R6out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R5out_reg/G1[ get_pin { G1_Controller/R5out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/Done_reg/G1[ get_pin { G1_Controller/Done_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/Add_sub_reg/G1[ get_pin { G1_Controller/Add_sub_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/DINout_reg/G1[ get_pin { G1_Controller/DINout_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R0out_reg/G1[ get_pin { G1_Controller/R0out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R1out_reg/G1[ get_pin { G1_Controller/R1out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R3out_reg/G1[ get_pin { G1_Controller/R3out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG1_Controller/R4out_reg/G1[ get_pin { G1_Controller/R4out_reg/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_3_/G1[ get_pin { G2_Datapath/m1/Bus_reg_3_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_8_/G1[ get_pin { G2_Datapath/m1/Bus_reg_8_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_7_/G1[ get_pin { G2_Datapath/m1/Bus_reg_7_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_6_/G1[ get_pin { G2_Datapath/m1/Bus_reg_6_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_5_/G1[ get_pin { G2_Datapath/m1/Bus_reg_5_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_4_/G1[ get_pin { G2_Datapath/m1/Bus_reg_4_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_2_/G1[ get_pin { G2_Datapath/m1/Bus_reg_2_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_1_/G1[ get_pin { G2_Datapath/m1/Bus_reg_1_/G } ]6
+TCK-002cornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinG2_Datapath/m1/Bus_reg_0_/G1[ get_pin { G2_Datapath/m1/Bus_reg_0_/G } ]6
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR3_reg/D1[ get_pin { G1_Controller/LdR3_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R2out_reg/D1[ get_pin { G1_Controller/R2out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_6_/D1[ get_pin { G1_Controller/IR_reg_6_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_7_/D1[ get_pin { G1_Controller/IR_reg_7_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_8_/D1[ get_pin { G1_Controller/IR_reg_8_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IRin_reg/D1[ get_pin { G1_Controller/IRin_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdA_reg/D1[ get_pin { G1_Controller/LdA_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdG_reg/D1[ get_pin { G1_Controller/LdG_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/Gout_reg/D1[ get_pin { G1_Controller/Gout_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_5_/D1[ get_pin { G1_Controller/IR_reg_5_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_4_/D1[ get_pin { G1_Controller/IR_reg_4_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_3_/D1[ get_pin { G1_Controller/IR_reg_3_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR7_reg/D1[ get_pin { G1_Controller/LdR7_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR6_reg/D1[ get_pin { G1_Controller/LdR6_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR5_reg/D1[ get_pin { G1_Controller/LdR5_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR4_reg/D1[ get_pin { G1_Controller/LdR4_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR2_reg/D1[ get_pin { G1_Controller/LdR2_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR1_reg/D1[ get_pin { G1_Controller/LdR1_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/LdR0_reg/D1[ get_pin { G1_Controller/LdR0_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_2_/D1[ get_pin { G1_Controller/IR_reg_2_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_1_/D1[ get_pin { G1_Controller/IR_reg_1_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/IR_reg_0_/D1[ get_pin { G1_Controller/IR_reg_0_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R7out_reg/D1[ get_pin { G1_Controller/R7out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R6out_reg/D1[ get_pin { G1_Controller/R6out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R5out_reg/D1[ get_pin { G1_Controller/R5out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/Done_reg/D1[ get_pin { G1_Controller/Done_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/Add_sub_reg/D1[ get_pin { G1_Controller/Add_sub_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/DINout_reg/D1[ get_pin { G1_Controller/DINout_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R0out_reg/D1[ get_pin { G1_Controller/R0out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R1out_reg/D1[ get_pin { G1_Controller/R1out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R3out_reg/D1[ get_pin { G1_Controller/R3out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG1_Controller/R4out_reg/D1[ get_pin { G1_Controller/R4out_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_3_/D1[ get_pin { G2_Datapath/m1/Bus_reg_3_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_8_/D1[ get_pin { G2_Datapath/m1/Bus_reg_8_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_7_/D1[ get_pin { G2_Datapath/m1/Bus_reg_7_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_6_/D1[ get_pin { G2_Datapath/m1/Bus_reg_6_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_5_/D1[ get_pin { G2_Datapath/m1/Bus_reg_5_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_4_/D1[ get_pin { G2_Datapath/m1/Bus_reg_4_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_2_/D1[ get_pin { G2_Datapath/m1/Bus_reg_2_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_1_/D1[ get_pin { G2_Datapath/m1/Bus_reg_1_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointG2_Datapath/m1/Bus_reg_0_/D1[ get_pin { G2_Datapath/m1/Bus_reg_0_/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[8]1[ get_port { Bus[8] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[7]1[ get_port { Bus[7] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[6]1[ get_port { Bus[6] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[5]1[ get_port { Bus[5] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[4]1[ get_port { Bus[4] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[3]1[ get_port { Bus[3] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[2]1[ get_port { Bus[2] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[1]1[ get_port { Bus[1] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointBus[0]1[ get_port { Bus[0] } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+TCK-001cornerfast1[ get_corners { fast } ]40endpointDone1[ get_port { Done } ]7modefunc1[ get_modes { func } ]39reasonno arrival path10
+</Messages>

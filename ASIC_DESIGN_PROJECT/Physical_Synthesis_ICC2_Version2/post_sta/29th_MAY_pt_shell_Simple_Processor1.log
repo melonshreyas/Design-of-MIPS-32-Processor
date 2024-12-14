@@ -1,0 +1,496 @@
+Information: current_design won't return any data before link (DES-071)
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_ROUTED.v'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Linking design simple_processor_Top...
+Removed 221 unconnected cells and blackboxes.
+Information: Removing 78 unneeded designs..... (LNK-034)
+Information: 882 (95.66%) library cells are unused in library saed14hvt_tt0p8v125c..... (LNK-045)
+Information: 919 (99.67%) library cells are unused in library saed14lvt_tt0p8v125c..... (LNK-045)
+Information: 904 (98.05%) library cells are unused in library saed14rvt_tt0p8v125c..... (LNK-045)
+Information: total 2705 library cells are unused (LNK-046)
+Design 'simple_processor_Top' was successfully linked.
+Information: There are 944 leaf cells, ports, hiers and 1707 nets in the design (LNK-047)
+
+Reading SDC version 2.1...
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/post_sta/db/simple_processor_Top.session'. (SR-002)
+Information: At least 2 MB of free disk space in pt_tmp_dir will be required to restore this session.  (SR-044)
+1
+Information: Defining new variable 'input_sdc'. (CMD-041)
+Information: Defining new variable 'DESIGN_REF_PATH'. (CMD-041)
+Information: Defining new variable 'my_design'. (CMD-041)
+Information: Defining new variable 'input_spef'. (CMD-041)
+Information: Defining new variable 'input_verilog'. (CMD-041)
+Information: Defining new variable 'std_cell_delay_corner'. (CMD-041)
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Mon May 30 11:35:06 2022
+****************************************
+
+
+  Startpoint: Resetn (input port clocked by clock)
+  Endpoint: G2_Datapath/Reg1/dout_reg_4_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             1.03       1.03
+  input external delay                                    1.00       2.03 r
+  Resetn (in)                                             0.01 &     2.04 r
+  G2_Datapath/HFSBUF_753_2/X (SAEDHVT14_BUF_UCDC_0P5)     0.10 &     2.14 r
+  G2_Datapath/Reg1/U10/X (SAEDRVT14_AO32_1)               0.03 &     2.17 r
+  G2_Datapath/Reg1/copt_h_inst_5558/X (SAEDRVT14_BUF_S_0P5)
+                                                          0.01 &     2.19 r
+  G2_Datapath/Reg1/copt_h_inst_5559/X (SAEDHVT14_DEL_R2V3_1)
+                                                          0.03 &     2.22 r
+  G2_Datapath/Reg1/copt_h_inst_5560/X (SAEDHVT14_DEL_R2V3_1)
+                                                          0.03 &     2.25 r
+  G2_Datapath/Reg1/copt_h_inst_5561/X (SAEDHVT14_DEL_R2V3_2)
+                                                          0.03 &     2.28 r
+  G2_Datapath/Reg1/dout_reg_4_/D (SAEDRVT14_FDP_V2_1)     0.00 &     2.28 r
+  data arrival time                                                  2.28
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (propagated)                        1.03      11.03
+  clock reconvergence pessimism                           0.00      11.03
+  clock uncertainty                                      -0.15      10.88
+  G2_Datapath/Reg1/dout_reg_4_/CK (SAEDRVT14_FDP_V2_1)              10.88 r
+  library setup time                                     -0.01      10.87
+  data required time                                                10.87
+  ------------------------------------------------------------------------------
+  data required time                                                10.87
+  data arrival time                                                 -2.28
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.59
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Mon May 30 11:35:29 2022
+****************************************
+
+
+  Startpoint: G2_Datapath/Reg2/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg2/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Last common pin: Clock
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.03       1.03
+  G2_Datapath/Reg2/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       1.03 r
+  G2_Datapath/Reg2/dout_reg_3_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.04 &     1.07 f
+  G2_Datapath/Reg2/U5/X (SAEDHVT14_AO32_4)                0.03 &     1.10 f
+  G2_Datapath/Reg2/ropt_h_inst_5907/X (SAEDHVT14_DEL_R2V3_1)
+                                                          0.03 &     1.12 f
+  G2_Datapath/Reg2/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00 &     1.12 f
+  data arrival time                                                  1.12
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.03       1.03
+  clock reconvergence pessimism                           0.00       1.03
+  clock uncertainty                                       0.15       1.18
+  G2_Datapath/Reg2/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)           1.18 r
+  library hold time                                       0.01       1.19
+  data required time                                                 1.19
+  ------------------------------------------------------------------------------
+  data required time                                                 1.19
+  data arrival time                                                 -1.12
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.06
+
+
+1
+Information: Setting timing_save_pin_arrival_and_required to TRUE and updating timing. (PTE-076)
+Information: It is recommended that the variable timing_save_pin_arrival_and_required be set before the initial timing update for optimal performance of this command. (PTE-077)
+Information: Starting DRC fix iteration 1 at [ Mon May 30 11:38:06 2022 ]...
+Information: Detected 0 max transition violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Mon May 30 11:38:06 2022 ]
+
+Information: Starting DRC fix iteration 1 at [ Mon May 30 11:38:06 2022 ]...
+Information: Detected 7 max capacitance violations.
+Information: Fixing violations...
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Starting updating timing at [ Mon May 30 11:38:06 2022 ]...
+Information: Finished updating timing at [ Mon May 30 11:38:06 2022 ]...
+
+ECO Summary:
+--------------------------------------------------------
+Number of size_cell commands                           1
+Total number of commands                               1
+Area increased by cell sizing                       0.00
+Total area increased                                0.00
+
+Information: Starting DRC fix iteration 2 at [ Mon May 30 11:38:06 2022 ]...
+Information: Detected 6 max capacitance violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  G2_Datapath/m1/Bus_reg_7_/Q                                   Q                 
+  G2_Datapath/m1/Bus_reg_2_/Q                                   Q                 
+  G2_Datapath/m1/Bus_reg_5_/Q                                   Q                 
+  G2_Datapath/m1/Bus_reg_1_/Q                                   Q                 
+  G2_Datapath/m1/Bus_reg_4_/Q                                   Q                 
+  G2_Datapath/m1/Bus_reg_3_/Q                                   Q                 
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             6
+Unfixable violations                                   6
+
+Final ECO Summary:
+--------------------------------------------------------
+Number of size_cell commands                           1
+Total number of commands                               1
+Area increased by cell sizing                       0.00
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Mon May 30 11:38:06 2022 ]
+
+Information: Starting DRC fix iteration 1 at [ Mon May 30 11:38:06 2022 ]...
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDLVT14_BUF_8        0.62
+SAEDLVT14_BUF_6        0.49
+SAEDLVT14_BUF_4        0.40
+SAEDLVT14_BUF_2        0.31
+
+Information: Detected 0 max transition violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+         No buffer           
+--------------------------------------------------------
+       0 TOTAL                                      0.00
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Mon May 30 11:38:06 2022 ]
+
+Information: Starting DRC fix iteration 1 at [ Mon May 30 11:38:06 2022 ]...
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDLVT14_BUF_8        0.62
+SAEDLVT14_BUF_6        0.49
+SAEDLVT14_BUF_4        0.40
+SAEDLVT14_BUF_2        0.31
+
+Information: Detected 6 max capacitance violations.
+Information: Fixing violations...
+Information: Starting updating timing at [ Mon May 30 11:38:07 2022 ]...
+Information: Finished updating timing at [ Mon May 30 11:38:07 2022 ]...
+
+ECO Summary:
+--------------------------------------------------------
+Number of insert_buffer commands                       6
+Total number of commands                               6
+Area increased by buffer insertion                  1.86
+Total area increased                                1.86
+
+Information: Starting DRC fix iteration 2 at [ Mon May 30 11:38:07 2022 ]...
+Information: Detected 0 max capacitance violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+       6 SAEDLVT14_BUF_2        0.31                1.86
+--------------------------------------------------------
+       6 TOTAL                                      1.86
+
+Final ECO Summary:
+--------------------------------------------------------
+Number of insert_buffer commands                       6
+Total number of commands                               6
+Area increased by buffer insertion                  1.86
+Total area increased                                1.86
+
+Information: Elapsed time [                1 seconds ]
+Information: Completed at [ Mon May 30 11:38:07 2022 ]
+
+Information: Starting pre-processing at [ Mon May 30 11:38:07 2022 ]...
+Information: 0 violating endpoints located... (PTECO-022)
+Information: 0 cells have been down-sized.
+Information: Starting updating timing at [ Mon May 30 11:38:07 2022 ]...
+Information: Finished updating timing at [ Mon May 30 11:38:07 2022 ]...
+Information: Analyzing timing improvement...
+Information: Tuning changes...
+Information: Starting updating timing at [ Mon May 30 11:38:07 2022 ]...
+Information: Finished updating timing at [ Mon May 30 11:38:07 2022 ]...
+
+Information: Starting timing fix iteration 1 at [ Mon May 30 11:38:07 2022 ]...
+Information: 0 violating endpoints located... (PTECO-022)
+Information: 0 endpoints are being considered for fixing... (PTECO-027)
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The timing violation fixing process is complete.
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Fixing Summary:
+--------------------------------------------------------
+Total violating endpoints found                        0
+Total violating endpoints fixed                        0
+Total violating endpoints remaining                    0
+Total percentage of violations fixed                 0.0%
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Mon May 30 11:38:07 2022 ]
+
+Information: Writing change list file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/post_sta/timing_eco_1.tcl'.
+1
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Mon May 30 11:38:56 2022
+****************************************
+
+
+  Startpoint: G2_Datapath/Reg2/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg2/dout_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Last common pin: Clock
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.03       1.03
+  G2_Datapath/Reg2/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       1.03 r
+  G2_Datapath/Reg2/dout_reg_3_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.04 &     1.07 f
+  G2_Datapath/Reg2/U5/X (SAEDHVT14_AO32_4)                0.03 &     1.10 f
+  G2_Datapath/Reg2/ropt_h_inst_5907/X (SAEDHVT14_DEL_R2V3_1)
+                                                          0.03 &     1.12 f
+  G2_Datapath/Reg2/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00 &     1.12 f
+  data arrival time                                                  1.12
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.03       1.03
+  clock reconvergence pessimism                           0.00       1.03
+  clock uncertainty                                       0.15       1.18
+  G2_Datapath/Reg2/dout_reg_3_/CK (SAEDHVT14_FDP_V2LP_0P5)           1.18 r
+  library hold time                                       0.01       1.19
+  data required time                                                 1.19
+  ------------------------------------------------------------------------------
+  data required time                                                 1.19
+  data arrival time                                                 -1.12
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.06
+
+
+1
+3160
+Error: could not open script file "post_sta/timing_eco.tcl" (CMD-015)
+Information: script 'run_eco.tcl'
+	stopped at line 1 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"snps_cci_builtin_source  post_sta/timing_eco.tcl"
+    invoked from within
+"source post_sta/timing_eco.tcl"
+ -- End Extended Error Info
+Error: could not open script file "post_sta/timing_eco_1.tcl" (CMD-015)
+Information: script 'run_eco.tcl'
+	stopped at line 1 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"snps_cci_builtin_source  post_sta/timing_eco_1.tcl"
+    invoked from within
+"source post_sta/timing_eco_1.tcl"
+ -- End Extended Error Info
+Information: Current instance is the top-level of design 'simple_processor_Top'. (DES-070)
+Error: Could not size 'G2_Datapath/HFSBUF_277_5' ('saed14lvt_tt0p8v125c/SAEDLVT14_BUF_S_1') with 'saed14lvt_tt0p8v125c/SAEDLVT14_BUF_S_1':
+	Trying to swap same lib cell. (NED-005)
+Error: No changes made. (NED-040)
+Information: Current instance is the top-level of design 'simple_processor_Top'. (DES-070)
+Error: Net named 'net_PTECO_DRC_NET1' already exists in the design hierarchy where the buffer will be inserted.
+Error: No changes made. (NED-040)
+Error: Net named 'net_PTECO_DRC_NET2' already exists in the design hierarchy where the buffer will be inserted.
+Error: No changes made. (NED-040)
+Error: Net named 'net_PTECO_DRC_NET3' already exists in the design hierarchy where the buffer will be inserted.
+Error: No changes made. (NED-040)
+Error: Net named 'net_PTECO_DRC_NET4' already exists in the design hierarchy where the buffer will be inserted.
+Error: No changes made. (NED-040)
+Error: Net named 'net_PTECO_DRC_NET5' already exists in the design hierarchy where the buffer will be inserted.
+Error: No changes made. (NED-040)
+Error: Net named 'net_PTECO_DRC_NET6' already exists in the design hierarchy where the buffer will be inserted.
+Error: No changes made. (NED-040)
+Information: Current instance is the top-level of design 'simple_processor_Top'. (DES-070)
+Error: Unknown attribute 'name'. (FLT-005)
+Error: while parsing filter expression: 
+	at 'name==VDD
+	    ^' (FLT-003)
+Error: unknown command 'connect_pg_net' (CMD-005)
+Information: script 'run_eco.tcl'
+	stopped at line 3 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"connect_pg_net -net VDD [get_pins -hier * -filter "name==VDD"]"
+ -- End Extended Error Info
+Error: unknown command 'connect_pg_net' (CMD-005)
+Error: can't read "::dcs_enable_replay": no such variable
+	Use error_info for more info. (CMD-013)
+Maximum memory usage for this session: 1382.09 MB
+CPU usage for this session: 9 seconds 
+Elapsed time for this session: 2902 seconds
+Diagnostics summary: 15 errors, 7 warnings, 45 informationals
+
+Thank you for using pt_shell!

@@ -1,0 +1,33 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Simulation/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpdfVUnW
+synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.21mvd0086.22342}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.21mvd0086.22342}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+ucliGUI::vpdAddHierarchy -scope simple_processor_testbench_add_op.T1 -depth 1 -file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Simulation/inter.vpd; synopsys::dump -flush VPD0
+synopsys::dump -add {simple_processor_testbench_add_op.T1.Add_sub simple_processor_testbench_add_op.T1.Bus simple_processor_testbench_add_op.T1.Clock simple_processor_testbench_add_op.T1.DIN simple_processor_testbench_add_op.T1.Done simple_processor_testbench_add_op.T1.Gout simple_processor_testbench_add_op.T1.LdA simple_processor_testbench_add_op.T1.LdG simple_processor_testbench_add_op.T1.LdR0 simple_processor_testbench_add_op.T1.LdR2 simple_processor_testbench_add_op.T1.R0out simple_processor_testbench_add_op.T1.R2out simple_processor_testbench_add_op.T1.Resetn simple_processor_testbench_add_op.T1.Run } -aggregates  -fid VPD0
+synopsys::dump -add {simple_processor_testbench_add_op.T1.G2_Datapath.A_data_out simple_processor_testbench_add_op.T1.G2_Datapath.G simple_processor_testbench_add_op.T1.G2_Datapath.R0_data_out simple_processor_testbench_add_op.T1.G2_Datapath.R2_data_out simple_processor_testbench_add_op.T1.G2_Datapath.Sum } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

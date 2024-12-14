@@ -1,0 +1,77 @@
+Information: current_design won't return any data before link (DES-071)
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_ROUTED.v'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Linking design simple_processor_Top...
+Removed 221 unconnected cells and blackboxes.
+Information: Removing 78 unneeded designs..... (LNK-034)
+Information: 882 (95.66%) library cells are unused in library saed14hvt_tt0p8v125c..... (LNK-045)
+Information: 919 (99.67%) library cells are unused in library saed14lvt_tt0p8v125c..... (LNK-045)
+Information: 904 (98.05%) library cells are unused in library saed14rvt_tt0p8v125c..... (LNK-045)
+Information: total 2705 library cells are unused (LNK-046)
+Design 'simple_processor_Top' was successfully linked.
+Information: There are 944 leaf cells, ports, hiers and 1707 nets in the design (LNK-047)
+
+Reading SDC version 2.1...
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/post_sta/db/simple_processor_Top.session'. (SR-002)
+Information: At least 2 MB of free disk space in pt_tmp_dir will be required to restore this session.  (SR-044)
+1
+Information: Defining new variable 'input_sdc'. (CMD-041)
+Information: Defining new variable 'DESIGN_REF_PATH'. (CMD-041)
+Information: Defining new variable 'my_design'. (CMD-041)
+Information: Defining new variable 'input_spef'. (CMD-041)
+Information: Defining new variable 'input_verilog'. (CMD-041)
+Information: Defining new variable 'std_cell_delay_corner'. (CMD-041)
+1
+[H[2J
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_ROUTED.v'
+Warning: Design 'simple_processor_Top' (file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_ROUTED.v') is already registered. Remove the design before rereading. (DBR-003)
+Error: Design is already linked. (DES-067)
+
+Reading SDC version 2.1...
+Warning: Converting clock object 'clock' from ideal to propagated. (UITE-315)
+Information: Invalidating logical update. (PTE-139)
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Derived library resistance unit is 999.999939 Kohm (Time unit is 1 ns, and Capacitance unit is 0.001000 pF). (DES-028)
+Error: Parasitics of nets are double annotated (for example, net Run, ground cap at terminal Run). Ignoring invalid double-annotated parasitics. (PARA-114)
+
+****************************************
+Report : read_parasitics /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/starrc/29th_MAY_ROUTE_DONE.cworst.spef
+	-keep_capacitive_coupling
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Mon May 30 11:32:40 2022
+****************************************
+
+        1 error(s)
+        Format is SPEF
+        Annotated nets                   :            0
+        Annotated capacitances           :            0
+        Annotated resistances            :            0
+        Annotated coupling capacitances  :            0
+        Annotated PI models              :            0
+        Annotated Elmore delays          :            0
+
+Information: Invalidating logical update. (PTE-139)
+Information: Abandoning fast timing updates. Forced full update. (PTE-018)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/post_sta/db/simple_processor_Top.session'. (SR-002)
+Information: At least 2 MB of free disk space in pt_tmp_dir will be required to restore this session.  (SR-044)
+1
+1
+Maximum memory usage for this session: 1389.18 MB
+CPU usage for this session: 9 seconds 
+Elapsed time for this session: 45 seconds
+Diagnostics summary: 2 errors, 3 warnings, 30 informationals
+
+Thank you for using pt_shell!

@@ -1,0 +1,52 @@
+
+-------------------------------------------------------------------------------
+Rule:    M1.A.2: M1 minimum enclosed area must be 0.04	             34 errors
+Rule:             M1.S.1.2 Minimum notch must be 0.055	            554 errors
+Rule:          M1.S.1: Minimum M1 spacing must be 0.03	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M1.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.07 must be 0.05	            173 errors
+Rule: M1.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.07 must be 0.055	            217 errors
+Rule:           M1.W.1: Minimum M1 width must be 0.034	             92 errors
+Rule: M2.S.1.1: Minimum space for run length >= 2.7 must be 0.06	              1 error
+Rule:             M2.S.1.2 Minimum notch must be 0.055	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M2.S.1: Minimum M2 spacing must be 0.03	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M2.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.07 must be 0.06	              2 errors
+Rule: M2.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.07 must be 0.065	              2 errors
+Rule:           M2.W.1: Minimum M2 width must be 0.034	              8 errors
+Rule: M3.S.1.1: Minimum space for run length >= 2.7 must be 0.06	              1 error
+Rule:             M3.S.1.2 Minimum notch must be 0.055	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M3.S.1: Minimum M3 spacing must be 0.03	            195 errors
+Rule: M3.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.07 must be 0.06	            212 errors
+Rule: M3.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.07 must be 0.065	            231 errors
+Rule:              M4.S.1.2 Minimum notch must be 0.04	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M4.S.1: Minimum M4 spacing must be 0.04	              6 errors
+Rule: M4.S.2: Minimum M4 spacing when width is > 0.2 must be 0.06	            149 errors
+Rule: M4.W.1: M4 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:              M5.S.1.2 Minimum notch must be 0.04	            517 errors
+Rule: M5.S.2: Minimum m5 spacing when widht is > 0.2 must be 0.06	             61 errors
+Rule: M5.W.1: m5 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2	            814 errors
+Rule:              M6.S.1.2 Minimum notch must be 0.04	            191 errors
+Rule: M6.S.2: Minimum M6 spacing when widht is > 0.2 must be 0.06	             11 errors
+Rule: M6.W.1: M6 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2	            388 errors
+Rule:              M7.S.1.2 Minimum notch must be 0.04	            704 errors
+Rule: M7.W.1: M7 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:              M8.S.1.2 Minimum notch must be 0.04	            164 errors
+Rule: M8.W.1: M8 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2	             82 errors
+Rule:              M9.S.1.2 Minimum notch must be 0.04	            164 errors
+Rule: M9.W.1: M9 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2	             82 errors
+Rule: VIA1.B.2: VIA1 must be covered by (M1 or M1_3) and (M2 or M2_3), min. enclosure is 0.003um (1)	             25 errors
+Rule: VIA1.B.2: VIA1 must be covered by (M1 or M1_3) and (M2 or M2_3), min. enclosure is 0.003um (2)	            490 errors
+Rule: VIA1.E.1: Minimum VIA1 enclosure by M1 and M2 must be  0.002	             12 errors
+Rule: VIA1.S.1: Minimum center to center spacing of VIA1SQ to VIA1SQ: 0.074	             16 errors
+Rule: VIA1.S.2: Minimum spacing of VIA1SQ to VIA1BAR or VIA1LG  must be 0.08	              6 errors
+Rule: VIA1.W.1 VIA1.W.2 VIA1.W.3 VIA1.W.4: VIA1 must be square with 0.03 or 0.06 width and length or VIA1 must be rectangular with length 0.06 and width 0.03	              1 error
+Rule: VIA3.S.1: Minimum center to center spacing of VIA3SQ to VIA3SQ: 0.15	             10 errors
+Rule: VIA4.S.1: Minimum center to center spacing of VIA4SQ to VIA4SQ: 0.15	              3 errors
+-------------------------------------------------------------------------------
+NOTE: TRANSLATE_ERROR_INST is ON

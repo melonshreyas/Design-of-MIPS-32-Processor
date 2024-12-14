@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : qor
+Design : simple_processor_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 00:03:16 2022
+****************************************
+
+
+  Timing Path Group 'CLOCK'
+  -----------------------------------
+  Levels of Logic:              12.00
+  Critical Path Length:          0.87
+  Critical Path Slack:           8.98
+  Critical Path Clk Period:     10.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.08
+  Total Hold Violation:         -5.63
+  No. of Hold Violations:       96.00
+  -----------------------------------
+
+  Timing Path Group 'INPUTS'
+  -----------------------------------
+  Levels of Logic:               4.00
+  Critical Path Length:          0.15
+  Critical Path Slack:           8.70
+  Critical Path Clk Period:     10.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         78
+  Hierarchical Port Count:        818
+  Leaf Cell Count:                535
+  Buf/Inv Cell Count:              43
+  Buf Cell Count:                   5
+  Inv Cell Count:                  38
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       397
+  Sequential Cell Count:          138
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      143.412001
+  Noncombinational Area:   115.928398
+  Buf/Inv Area:              8.080800
+  Total Buffer Area:             1.33
+  Total Inverter Area:           6.75
+  Macro/Black Box Area:      0.000000
+  Net Area:                255.538166
+  -----------------------------------
+  Cell Area:               259.340398
+  Design Area:             514.878564
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           552
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: synopsysserver
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.21
+  Logic Optimization:                  0.37
+  Mapping Optimization:                2.53
+  -----------------------------------------
+  Overall Compile Time:               21.29
+  Overall Compile Wall Clock Time:    21.76
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.08  TNS: 5.63  Number of Violating Paths: 96
+
+  --------------------------------------------------------------------
+
+
+1

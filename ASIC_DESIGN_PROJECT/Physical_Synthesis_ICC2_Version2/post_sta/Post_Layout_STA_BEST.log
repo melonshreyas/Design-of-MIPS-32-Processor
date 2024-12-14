@@ -1,0 +1,58 @@
+Information: current_design won't return any data before link (DES-071)
+Loading verilog file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Linking design alu...
+Removed 129 unconnected cells and blackboxes.
+Information: Removing 17 unneeded designs..... (LNK-034)
+Information: 885 (95.99%) library cells are unused in library saed14hvt_tt0p8v125c..... (LNK-045)
+Information: 920 (99.78%) library cells are unused in library saed14lvt_tt0p8v125c..... (LNK-045)
+Information: 917 (99.46%) library cells are unused in library saed14rvt_tt0p8v125c..... (LNK-045)
+Information: total 2722 library cells are unused (LNK-046)
+Design 'alu' was successfully linked.
+Information: There are 311 leaf cells, ports, hiers and 540 nets in the design (LNK-047)
+
+Reading SDC version 2.1...
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+1
+Information: Defining new variable 'input_sdc'. (CMD-041)
+Information: Defining new variable 'my_design'. (CMD-041)
+Information: Defining new variable 'input_verilog'. (CMD-041)
+Information: Defining new variable 'input_spef'. (CMD-041)
+Information: Defining new variable 'DESIGN_REF_PATH'. (CMD-041)
+Information: Defining new variable 'std_cell_delay_corner'. (CMD-041)
+1
+****************************************
+Report : analysis_coverage
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:07:14 2022
+****************************************
+
+Type of Check         Total              Met         Violated         Untested
+--------------------------------------------------------------------------------
+setup                    64        64 (100%)         0 (  0%)         0 (  0%)
+hold                     64        63 ( 98%)         1 (  2%)         0 (  0%)
+recovery                 52        52 (100%)         0 (  0%)         0 (  0%)
+removal                  52        52 (100%)         0 (  0%)         0 (  0%)
+min_pulse_width         518       276 ( 53%)         0 (  0%)       242 ( 47%)
+out_setup                14        14 (100%)         0 (  0%)         0 (  0%)
+out_hold                 14        14 (100%)         0 (  0%)         0 (  0%)
+--------------------------------------------------------------------------------
+All Checks              778       535 ( 69%)         1 (  0%)       242 ( 31%)
+
+1
+Maximum memory usage for this session: 983.61 MB
+CPU usage for this session: 5 seconds 
+Elapsed time for this session: 106 seconds
+Diagnostics summary: 1 warning, 20 informationals
+
+Thank you for using pt_shell!

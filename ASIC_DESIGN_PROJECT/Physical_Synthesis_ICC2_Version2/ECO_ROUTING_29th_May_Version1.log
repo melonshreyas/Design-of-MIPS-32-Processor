@@ -1,0 +1,141 @@
+
+icc2_shell> open_lib lib
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/lib' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14rvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14hvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14lvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14rvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14hvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14lvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/EXPLORE_physical_only.ndm' (FILE-007)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Information: Auto created reference libraries are up-to-date, no need to rebuild. (LIB-084)
+{lib}
+icc2_shell> list_blocks
+Lib lib /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/lib tech current
+  ->  0 simple_processor_Top.design May-22-15:53
+  ->  0 import_done.design May-22-15:53
+  ->  0 Simple_Processor_Floorplan_done.design May-22-16:12
+  ->  0 Simple_Processor_Powerplan_done.design May-22-16:19
+  ->  0 Placement_done_22nd_may.design May-22-17:31
+  ->  0 CTS_Done_22nd_May.design May-22-17:32
+  ->  0 Simple_Processor_27th_May_Done.design May-27-18:40
+  ->  0 Simple_Processor_Placement_27th_May_done.design May-27-18:42
+  ->  0 29th_MAY_FLOORPLAN.design May-29-20:04
+  ->  0 29th_MAY_POWERPLAN_DONE.design May-29-20:59
+  ->  0 29th_MAY_PLACEMENT_DONE.design May-29-21:12
+  ->  0 29th_MAY_CTS_DONE.design May-29-21:23
+  ->  0 29th_MAY_Initial_Route_1.design May-29-21:40
+  ->  0 29th_MAY_ROUTE_DONE.design May-29-21:45
+14
+icc2_shell> open_block 29th_MAY_Initial_Route_1
+Information: User units loaded from library 'saed14rvt_tt0p8v125c' (LNK-040)
+Opening block 'lib:29th_MAY_Initial_Route_1.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Begin building search trees for block lib:29th_MAY_Initial_Route_1.design
+Done building search trees for block lib:29th_MAY_Initial_Route_1.design (time 0s)
+{lib:29th_MAY_Initial_Route_1.design}
+icc2_shell> link_block
+Using libraries: lib saed14rvt_tt0p8v125c saed14hvt_tt0p8v125c saed14lvt_tt0p8v125c saed14rvt_tt0p8v125c_physical_only saed14hvt_tt0p8v125c_physical_only saed14lvt_tt0p8v125c_physical_only EXPLORE_physical_only
+Updating block lib:29th_MAY_Initial_Route_1.design
+  skip name data 173... end_option 
+Design 'simple_processor_Top' was successfully linked.
+1
+icc2_shell> start_gui
+Load ICV ICCII menu file: /home/synopsys/installs/icvalidator/P-2019.06-3/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2448
+
+icc2_shell> source ./post_sta/timing_eco_1.tcl
+Current instance is the top-level of block 'lib:29th_MAY_Initial_Route_1.design'
+Warning: Nothing implicitly matched 'sb' (SEL-003)
+Error: Nothing matched for instance (SEL-005)
+Error: Cannot find cell 'sb' in design 'lib:29th_MAY_Initial_Route_1.design' (DES-002)
+Information: script '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/post_sta/timing_eco_1.tcl'
+                stopped at line 8 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"current_instance {sb}"
+ -- End Extended Error Info
+icc2_shell> sh clear
+[H[2J
+icc2_shell> current_instance
+Current instance is the top-level of block 'lib:29th_MAY_Initial_Route_1.design'
+icc2_shell> current_instance {sb}
+Warning: Nothing implicitly matched 'sb' (SEL-003)
+Error: Nothing matched for instance (SEL-005)
+Error: Cannot find cell 'sb' in design 'lib:29th_MAY_Initial_Route_1.design' (DES-002)
+icc2_shell> current_instance {sb}
+Warning: Nothing implicitly matched 'sb' (SEL-003)
+Error: Nothing matched for instance (SEL-005)
+Error: Cannot find cell 'sb' in design 'lib:29th_MAY_Initial_Route_1.design' (DES-002)
+icc2_shell> sh clear
+[H[2J
+icc2_shell> current_instance {sb}
+Warning: Nothing implicitly matched 'sb' (SEL-003)
+Error: Nothing matched for instance (SEL-005)
+Error: Cannot find cell 'sb' in design 'lib:29th_MAY_Initial_Route_1.design' (DES-002)
+icc2_shell> current_instance
+Current instance is the top-level of block 'lib:29th_MAY_Initial_Route_1.design'
+icc2_shell> current_instance {G2_Datapath}
+G2_Datapath
+icc2_shell> size_cell {copt_h_inst_9153} {SAEDHVT14_DEL_R2V1_2}
+Warning: Nothing implicitly matched 'copt_h_inst_9153' (SEL-003)
+Error: Nothing matched for cells (SEL-005)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> size_cell {G2_Datapath} {SAEDHVT14_DEL_R2V1_2}
+Warning: Nothing implicitly matched 'G2_Datapath' (SEL-003)
+Error: Nothing matched for cells (SEL-005)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> size_cell {G2_Datapath/} {SAEDHVT14_DEL_R2V1_2}
+Warning: Nothing implicitly matched 'G2_Datapath/' (SEL-003)
+Error: Nothing matched for cells (SEL-005)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> size_cell {G2_Datapath/Reg1/dout_reg_4_} {SAEDLVT14_FDP_V2LP_0P5}
+Warning: Nothing implicitly matched 'G2_Datapath/Reg1/dout_reg_4_' (SEL-003)
+Error: Nothing matched for cells (SEL-005)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> size_cell {dout_reg_4_} {SAEDLVT14_FDP_V2LP_0P5}
+Warning: Nothing implicitly matched 'dout_reg_4_' (SEL-003)
+Error: Nothing matched for cells (SEL-005)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> sh clear
+[H[2J
+icc2_shell> close_blocks -f
+Closing block 'lib:29th_MAY_Initial_Route_1.design'
+1
+icc2_shell> stop_gui
+icc2_shell> close_lib
+Closing library 'lib'
+1
+icc2_shell> exit
+Maximum memory usage for this session: 412.34 MB
+CPU usage for this session:     26 seconds (  0.01 hours)
+Elapsed time for this session:    492 seconds (  0.14 hours)
+Thank you for using IC Compiler II.
+

@@ -1,0 +1,36 @@
+run_in_same_process: start time = 1653889645
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: Physical layer M1_3 does not exist in process Line: 	M1_3 M1_3 (SX-1919)
+WARNING: Physical layer M2_3 does not exist in process Line: 	M2_3 M2_3 (SX-1919)
+WARNING: Physical layer M3_3	 does not exist in process Line: 	M3_3 M3_3 (SX-1919)
+WARNING: Physical layer POLYCONT does not exist in process Line: 	VIA0	 POLYCONT (SX-1936)
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: MAPPING_FILE layer "M1_3" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "M2_3" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "M3_3" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "VIA0" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal1_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal1_3_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal2_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal2_3_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal3_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal3_3_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal4_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal5_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal6_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal7_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal8_pin" is not a valid database layer and will be removed. (SX-1813)
+WARNING: MAPPING_FILE layer "metal9_pin" is not a valid database layer and will be removed. (SX-1813)
+dbLayers.C:generate_tall_trench_contact_clones
+
+WARNING: Layer "DIFF" has no connections. (SX-1851)
+WARNING: Layer "PO" has no connections. (SX-1851)
+  
+InitDB           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=500.5 
+CacheStdCellPort Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=501.7 
+CacheTopCellPort Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=502.1 
+Layers           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=502.1 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=502.1 

@@ -1,0 +1,299 @@
+Error: Cannot read file 'alu_routed.v'. (DBR-001)
+Error: Problem in read_verilog: No designs were read. (DBR-011)
+Information: current_design won't return any data before link (DES-071)
+Error: Cannot find design 'alu'. (DES-004)
+Error: Cannot find design 'alu'. (DES-004)
+Error: Current design is not defined. (DES-001)
+Error: Current design is not defined. (DES-001)
+Error: Current design is not defined. (DES-001)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+0
+Information: Defining new variable 'input_sdc'. (CMD-041)
+Information: Defining new variable 'my_design'. (CMD-041)
+Information: Defining new variable 'input_verilog'. (CMD-041)
+Information: Defining new variable 'input_spef'. (CMD-041)
+Information: Defining new variable 'DESIGN_REF_PATH'. (CMD-041)
+Information: Defining new variable 'std_cell_delay_corner'. (CMD-041)
+0
+Error: Cannot read file 'alu_route.v'. (DBR-001)
+Error: Problem in read_verilog: No designs were read. (DBR-011)
+Information: current_design won't return any data before link (DES-071)
+Error: Cannot find design 'alu'. (DES-004)
+Error: Cannot find design 'alu'. (DES-004)
+Error: Current design is not defined. (DES-001)
+Error: Current design is not defined. (DES-001)
+Error: Current design is not defined. (DES-001)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+0
+0
+Error: Cannot read file '../lib/alu_route.v'. (DBR-001)
+Error: Problem in read_verilog: No designs were read. (DBR-011)
+Information: current_design won't return any data before link (DES-071)
+Error: Cannot find design 'alu'. (DES-004)
+Error: Cannot find design 'alu'. (DES-004)
+Error: Current design is not defined. (DES-001)
+Error: Current design is not defined. (DES-001)
+Error: Current design is not defined. (DES-001)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+0
+0
+Information: current_design won't return any data before link (DES-071)
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading verilog file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Linking design alu...
+Removed 129 unconnected cells and blackboxes.
+Information: Removing 17 unneeded designs..... (LNK-034)
+Information: 885 (95.99%) library cells are unused in library saed14hvt_tt0p8v125c..... (LNK-045)
+Information: 920 (99.78%) library cells are unused in library saed14lvt_tt0p8v125c..... (LNK-045)
+Information: 917 (99.46%) library cells are unused in library saed14rvt_tt0p8v125c..... (LNK-045)
+Information: total 2722 library cells are unused (LNK-046)
+Design 'alu' was successfully linked.
+Information: There are 311 leaf cells, ports, hiers and 540 nets in the design (LNK-047)
+
+Reading SDC version 2.1...
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+1
+1
+Error: unknown command 'analysis_coverage' (CMD-005)
+****************************************
+Report : analysis_coverage
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:00:38 2022
+****************************************
+
+Type of Check         Total              Met         Violated         Untested
+--------------------------------------------------------------------------------
+setup                    64        64 (100%)         0 (  0%)         0 (  0%)
+hold                     64        64 (100%)         0 (  0%)         0 (  0%)
+recovery                 52        52 (100%)         0 (  0%)         0 (  0%)
+removal                  52        52 (100%)         0 (  0%)         0 (  0%)
+min_pulse_width         518       276 ( 53%)         0 (  0%)       242 ( 47%)
+out_setup                14        14 (100%)         0 (  0%)         0 (  0%)
+out_hold                 14        14 (100%)         0 (  0%)         0 (  0%)
+--------------------------------------------------------------------------------
+All Checks              778       536 ( 69%)         0 (  0%)       242 ( 31%)
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:01:17 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: v (output port clocked by clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.09       1.09
+  s_r_reg_3_/CK (SAEDHVT14_FDPRBQ_V2LP_0P5)               0.00       1.09 r
+  s_r_reg_3_/Q (SAEDHVT14_FDPRBQ_V2LP_0P5)                0.04 &     1.13 r
+  copt_h_inst_9149/X (SAEDHVT14_BUF_S_0P5)                0.09 &     1.21 r
+  ab/m1/U2/X (SAEDHVT14_INV_0P5)                          0.07 &     1.28 f
+  ab/m1/U10/X (SAEDHVT14_MUXI2_U_0P5)                     0.04 &     1.32 r
+  ab/U6/X (SAEDHVT14_AN2_MM_0P5)                          0.02 &     1.34 r
+  ab/U20/X (SAEDHVT14_OA21_1)                             0.02 &     1.36 r
+  ab/f1/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.39 r
+  ab/f2/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.42 r
+  ab/f3/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.45 r
+  ab/f4/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.48 r
+  ab/f5/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.51 r
+  ab/f6/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.04 &     1.55 r
+  ab/f7/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.09 &     1.64 r
+  ab/U5/X (SAEDHVT14_EO2_V1_0P75)                         0.13 &     1.77 f
+  v (out)                                                 0.00 &     1.77 f
+  data arrival time                                                  1.77
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             1.05      11.05
+  clock reconvergence pessimism                           0.00      11.05
+  clock uncertainty                                      -0.15      10.90
+  output external delay                                  -1.00       9.90
+  data required time                                                 9.90
+  ------------------------------------------------------------------------------
+  data required time                                                 9.90
+  data arrival time                                                 -1.77
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.13
+
+
+1
+****************************************
+Report : constraint
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:01:33 2022
+****************************************
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    INPUTS                       0.00      1.00      0.00
+    OUTPUTS                      0.00      1.00      0.00
+    clock                        0.00      1.00      0.00
+    -----------------------------------------------------
+    max_delay/setup                                  0.00
+
+                                                   Weighted
+    Group (min_delay/hold)       Cost     Weight     Cost
+    -----------------------------------------------------
+    INPUTS                       0.00      1.00      0.00
+    OUTPUTS                      0.00      1.00      0.00
+    clock                        0.00      1.00      0.00
+    -----------------------------------------------------
+    min_delay/hold                                   0.00
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    max_delay/setup                                  0.00  (MET)
+    min_delay/hold                                   0.00  (MET)
+    sequential_clock_pulse_width                     0.00  (MET)
+    max_capacitance                                  0.00  (MET)
+    min_capacitance                                  0.00  (MET)
+    max_transition                                   0.00  (MET)
+
+1
+Loading verilog file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v'
+Warning: Design 'alu' (file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v') is already registered. Remove the design before rereading. (DBR-003)
+Error: Design is already linked. (DES-067)
+
+Reading SDC version 2.1...
+Warning: Converting clock object 'clock' from ideal to propagated. (UITE-315)
+Information: Invalidating logical update. (PTE-139)
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Derived library resistance unit is 999.999939 Kohm (Time unit is 1 ns, and Capacitance unit is 0.001000 pF). (DES-028)
+Error: Parasitics of nets are double annotated (for example, net f[7], ground cap at terminal f[7]). Ignoring invalid double-annotated parasitics. (PARA-114)
+
+****************************************
+Report : read_parasitics /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/starrc/alu.cbest.spef
+	-keep_capacitive_coupling
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:02:15 2022
+****************************************
+
+        1 error(s)
+        Format is SPEF
+        Annotated nets                   :            0
+        Annotated capacitances           :            0
+        Annotated resistances            :            0
+        Annotated coupling capacitances  :            0
+        Annotated PI models              :            0
+        Annotated Elmore delays          :            0
+
+Information: Invalidating logical update. (PTE-139)
+Information: Abandoning fast timing updates. Forced full update. (PTE-018)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+1
+1
+Loading verilog file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v'
+Warning: Design 'reg_block' (file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v') is already registered. Remove the design before rereading. (DBR-003)
+Error: Design is already linked. (DES-067)
+
+Reading SDC version 2.1...
+Warning: Converting clock object 'clock' from ideal to propagated. (UITE-315)
+Information: Invalidating logical update. (PTE-139)
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Derived library resistance unit is 999.999939 Kohm (Time unit is 1 ns, and Capacitance unit is 0.001000 pF). (DES-028)
+Error: Parasitics of nets are double annotated (for example, net f[7], ground cap at terminal f[7]). Ignoring invalid double-annotated parasitics. (PARA-114)
+
+****************************************
+Report : read_parasitics /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/starrc/alu.cbest.spef
+	-keep_capacitive_coupling
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:02:46 2022
+****************************************
+
+        1 error(s)
+        Format is SPEF
+        Annotated nets                   :            0
+        Annotated capacitances           :            0
+        Annotated resistances            :            0
+        Annotated coupling capacitances  :            0
+        Annotated PI models              :            0
+        Annotated Elmore delays          :            0
+
+Information: Invalidating logical update. (PTE-139)
+Information: Abandoning fast timing updates. Forced full update. (PTE-018)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+1
+1
+****************************************
+Report : analysis_coverage
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:02:54 2022
+****************************************
+
+Type of Check         Total              Met         Violated         Untested
+--------------------------------------------------------------------------------
+setup                    64        64 (100%)         0 (  0%)         0 (  0%)
+hold                     64        64 (100%)         0 (  0%)         0 (  0%)
+recovery                 52        52 (100%)         0 (  0%)         0 (  0%)
+removal                  52        52 (100%)         0 (  0%)         0 (  0%)
+min_pulse_width         518       276 ( 53%)         0 (  0%)       242 ( 47%)
+out_setup                14        14 (100%)         0 (  0%)         0 (  0%)
+out_hold                 14        14 (100%)         0 (  0%)         0 (  0%)
+--------------------------------------------------------------------------------
+All Checks              778       536 ( 69%)         0 (  0%)       242 ( 31%)
+
+1
+****************************************
+Report : constraint
+Design : alu
+Version: O-2018.06-SP4
+Date   : Mon May 23 13:02:59 2022
+****************************************
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    INPUTS                       0.00      1.00      0.00
+    OUTPUTS                      0.00      1.00      0.00
+    clock                        0.00      1.00      0.00
+    -----------------------------------------------------
+    max_delay/setup                                  0.00
+
+                                                   Weighted
+    Group (min_delay/hold)       Cost     Weight     Cost
+    -----------------------------------------------------
+    INPUTS                       0.00      1.00      0.00
+    OUTPUTS                      0.00      1.00      0.00
+    clock                        0.00      1.00      0.00
+    -----------------------------------------------------
+    min_delay/hold                                   0.00
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    max_delay/setup                                  0.00  (MET)
+    min_delay/hold                                   0.00  (MET)
+    sequential_clock_pulse_width                     0.00  (MET)
+    max_capacitance                                  0.00  (MET)
+    min_capacitance                                  0.00  (MET)
+    max_transi

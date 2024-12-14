@@ -1,0 +1,224 @@
+****************************************
+Report : Data Mismatches
+Version: P-2019.03-SP4
+Date   : Sun May 29 21:34:34 2022
+****************************************
+No mismatches exist on the design.
+1
+1
+Warning: Technology layer 'M4' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+NEX: 859 nets
+NEX: 99.77%(857/859) nets are valid placed
+
+Histogram of "num of nodes per net"
+  value: 	percent%
+     0: 	0.2% 
+     2: 	64.3% (peak)
+     3: 	21.5% 
+     4: 	2.4% 
+     5: 	5.6% (average = 5) 
+    10: 	5.0% 
+    20: 	0.7% 
+    1000: 	0.2% 
+
+
+Histogram of "net bbox size(um)"
+  value: 	percent%
+   0.00: 	6.2% 
+   0.50: 	22.4% (peak)
+   1.00: 	32.0% 
+   2.00: 	17.7% (average = 2.8) 
+   3.00: 	5.1% 
+   4.00: 	2.9% 
+   5.00: 	9.1% 
+   10.00: 	3.8% 
+   20.00: 	0.8% 
+
+
+Histogram of "net bbox aspect()"
+  value: 	percent%
+   0.00: 	0.2% 
+   1.00: 	12.7% 
+   1.10: 	14.7% (peak)
+   1.20: 	11.4% 
+   1.30: 	7.8% 
+   1.40: 	7.2% 
+   1.50: 	7.6% 
+   1.60: 	7.7% (average = 1.7) 
+   1.70: 	4.7% 
+   1.80: 	3.1% 
+   1.90: 	3.6% 
+   2.00: 	9.9% 
+   2.50: 	4.2% 
+   3.00: 	1.6% 
+   4.00: 	1.6% 
+   5.00: 	1.9% 
+   10.00: 	0.1% 
+
+NEX: 1061 insts
+
+Histogram of "inst bbox size(um)"
+  value: 	percent%
+   0.50: 	74.0% (average = 0.9) (peak)
+   1.00: 	25.7% 
+   2.00: 	0.2% 
+   3.00: 	0.1% 
+
+NEX: 1 NDR rules: 
+  [0] clk_rule
+1
+
+======================================================
+=== Check global route congestion map for overflow ===
+======================================================
+
+>>> Running global route to generate congestion map...
+
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Ignore 2 top cell ports with no pins. (ZRT-027)
+Info: number of net_type_blockage: 0 
+Via on layer (VIA2) needs more than one tracks
+Warning: Layer M2 pitch 0.060 may be too small: wire/via-down 0.060, wire/via-up 0.098. (ZRT-026)
+Wire on layer (M3) needs more than one tracks
+Via on layer (VIA2) needs more than one tracks
+Via on layer (VIA3) needs more than one tracks
+Warning: Layer M3 pitch 0.074 may be too small: wire/via-down 0.098, wire/via-up 0.078. (ZRT-026)
+Wire on layer (M4) needs more than one tracks
+Via on layer (VIA3) needs more than one tracks
+Via on layer (VIA4) needs more than one tracks
+Warning: Layer M4 pitch 0.074 may be too small: wire/via-down 0.105, wire/via-up 0.135. (ZRT-026)
+Via on layer (VIA8) needs more than one tracks
+Warning: Layer M8 pitch 0.120 may be too small: wire/via-down 0.105, wire/via-up 0.135. (ZRT-026)
+Wire on layer (M9) needs more than one tracks
+Via on layer (VIA8) needs more than one tracks
+Via on layer (VIARDL) needs more than one tracks
+Warning: Layer M9 pitch 0.120 may be too small: wire/via-down 0.135, wire/via-up 1.570. (ZRT-026)
+Via on layer (VIARDL) needs more than one tracks
+Warning: Layer MRDL pitch 0.600 may be too small: wire/via-down 4.500, wire/via-up 0.600. (ZRT-026)
+Transition layer name: M3(2)
+Warning: Standard cell pin SAEDHVT14_NR3B_U_0P5/A has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_ND2B_U_0P5/A has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_OAI22_0P5/A1 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_MUXI2_U_0P5/D1 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_OA221_U_0P5/B1 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_OA221_U_0P5/B2 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_EO2_V1_0P75/A1 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_EO2_0P5/A2 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_EO2_0P5/X has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_AO32_4/A1 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_MUX2_4/D0 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDHVT14_NR2_5/A1 has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDRVT14_MUX2_4/D0 has no valid via regions. (ZRT-044)
+Loading parastics information to the router ...
+Warning: Technology layer 'M4' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+parastics information loaded to the router.
+Information: RC layer preference is turned on for this design. (ZRT-613)
+
+>>> No gCell with overflow >= 30 is found.
+Printing options for 'route.common.*'
+common.global_max_layer_mode                            :	 soft                
+common.global_min_layer_mode                            :	 allow_pin_connection
+
+Printing options for 'route.detail.*'
+detail.force_end_on_preferred_grid                      :	 true                
+detail.timing_driven                                    :	 true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+Information: RC layer preference is turned on for this design. (ZRT-613)
+
+============================================
+==  Check for overlap of standard cells   ==
+============================================
+
+>>>>>> No overlap of standard cells found
+
+============================================
+==     Check for min-grid violations      ==
+============================================
+
+>>>>>> No min-grid violations found
+
+
+============================================
+==    Check for out-of-boundary ports     ==
+============================================
+
+>>>>>> No out-of-boundary error found
+
+============================================
+==        Check for blocked ports         ==
+============================================
+
+>>>>>> No blocked ports found
+
+>>>>>> No blocked nets found
+
+============================================
+==     Check for shielding violations     ==
+============================================
+
+>>>>>> The following Non-PG net has a shape with shape_use shield_route
+
+>>> No non-PG net has a shape with shape_use shield_route.
+
+>>>>>> The following PG net has shape with shape_use detail_route and shape length is too long.
+
+>>> No PG net has shape with shape_use detail_route and shape length is too long.
+
+>>>>>> The following nets with shield non-default rule has no internal data representation in Zroute.
+
+>>> No nets with shield non-default rule has no internal data representation in Zroute.
+
+============================================
+==     Check for via cut blockage violation   ==
+============================================
+
+>>>>>> The following via cut blockages are wrongly treated as real vias.
+
+>>> No via cut blockage is wrongly treated as real via.
+
+============================================
+==     Check for custom via definition    ==
+============================================
+
+>>> No custom via definition has too many cuts
+
+============================================
+==          Check for via master          ==
+============================================
+
+>>> The total number of via master definition is 308
+
+===============================================
+==     Check non-default rule setting        ==
+===============================================
+
+>>> No NDR width is larger than signalRouteMaxWidth
+
+>>> No NDR shield width is larger than signalRouteMaxWidth
+
+======================================================
+==     Check redundant duplicated PG shapes         ==
+======================================================
+
+>>> No redundant duplicated PG shapes overlap with each other.
+
+End of check_routability
+1

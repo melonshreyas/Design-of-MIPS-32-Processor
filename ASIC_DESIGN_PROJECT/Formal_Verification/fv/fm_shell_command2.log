@@ -1,0 +1,80 @@
+#@ # 
+#@ # Running fm_shell Version O-2018.06-SP4 for linux64 -- Nov 26, 2018
+#@ # Date:   Mon May  2 19:03:47 2022
+#@ # Run by: 21mvd0086@synopsysserver
+#@ 
+
+source /home/synopsys/installs/fm/O-2018.06-SP4/admin/setup/.synopsys_fm.setup
+#@ # -- Starting source /home/synopsys/installs/fm/O-2018.06-SP4/admin/setup/.synopsys_fm.setup
+
+#@ #
+#@ # .synopsys_fm.setup: Initialization File for Formality
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" ||      $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ 
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ # -- End source /home/synopsys/installs/fm/O-2018.06-SP4/admin/setup/.synopsys_fm.setup
+
+source Simple_Processor_fm.tcl
+#@ # -- Starting source Simple_Processor_fm.tcl
+
+#@ #set Synopsys Auto Setup flow from minimum setup
+#@ set synopsys_auto_setup true
+#@ 
+#@ set DESIGN_REF_PATH "/home/synopsys/SAED14nm_EDK"
+#@ 
+#@ set_svf Simple_Processor.svf ; 
+#@ # SVF file
+#@ 
+#@ read_db -tech " ${DESIGN_REF_PATH}/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db ${DESIGN_REF_PATH}/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db ${DESIGN_REF_PATH}/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db"
+#@ 
+#@ read_verilog -r ./controller_12_april.v
+#@ read_verilog -r ./Datapath_path_work_version_2.v
+#@ read_verilog -r ./Decoders.v
+#@ read_verilog -r ./Simple_Processor_Top_Module.v
+#@ 
+#@ set_top simple_processor_Top
+#@ 
+#@ read_verilog -i ./Simple_Processor_netlist.v
+#@ 
+#@ set_top simple_processor_Top
+#@ 
+#@ match
+#@ verify
+#@ 
+#@ report_guidance -summary
+#@ 
+#@ # -- End source Simple_Processor_fm.tcl
+

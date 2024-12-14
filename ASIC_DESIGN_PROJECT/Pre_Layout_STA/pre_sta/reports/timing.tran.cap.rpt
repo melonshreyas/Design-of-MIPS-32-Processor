@@ -1,0 +1,122 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-input_pins
+	-nets
+	-max_paths 1
+	-transition_time
+	-capacitance
+	-sort_by slack
+Design : simple_processor_Top
+Version: O-2018.06-SP4
+Date   : Thu May 19 12:02:24 2022
+****************************************
+
+
+  Startpoint: G2_Datapath/A5/dout_reg_1_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/g2/Z_reg_7_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Point                       Fanout    Cap      Trans       Incr       Path
+  -----------------------------------------------------------------------------
+  clock clock (rise edge)                         0.12       0.00       0.00
+  clock network delay (ideal)                                2.00       2.00
+  G2_Datapath/A5/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                  0.12       0.00       2.00 r
+  G2_Datapath/A5/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                  0.01       0.05       2.05 r
+  G2_Datapath/A5/dout[1] (net)
+                                 5     1.85 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/U1/A2 (SAEDHVT14_AN2_MM_0P5)
+                                                  0.01       0.01       2.06 r
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/U1/X (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.08 r
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/cout (net)
+                                 2     0.60 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/U2/B (SAEDHVT14_OA21B_1)
+                                                  0.00       0.01       2.08 r
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/U2/X (SAEDHVT14_OA21B_1)
+                                                  0.01       0.01       2.09 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/sum (net)
+                                 2     0.53 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/U2/A1 (SAEDHVT14_OR2_0P5)
+                                                  0.01       0.01       2.10 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/U2/X (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.11 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/cout (net)
+                                 2     0.57 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/U1/A1 (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.11 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/U1/X (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.12 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/cout (net)
+                                 2     0.57 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/U1/A1 (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.13 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/U1/X (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.14 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/cout (net)
+                                 2     0.57 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/U1/A1 (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.15 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/U1/X (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.15 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/cout (net)
+                                 2     0.57 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/U1/A1 (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.16 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/U1/X (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.17 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/cout (net)
+                                 2     0.57 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/U1/A1 (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.18 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/U1/X (SAEDHVT14_AN2_MM_0P5)
+                                                  0.00       0.01       2.19 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/cout (net)
+                                 2     0.57 
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/U1/A1 (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.19 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/U1/X (SAEDHVT14_OR2_0P5)
+                                                  0.00       0.01       2.20 f
+  G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/cout (net)
+                                 1     0.22 
+  G2_Datapath/add_top/add1/csa_slice1/mc0/U1/D1 (SAEDHVT14_MUX2_U_0P5)
+                                                  0.00       0.00       2.21 f
+  G2_Datapath/add_top/add1/csa_slice1/mc0/U1/X (SAEDHVT14_MUX2_U_0P5)
+                                                  0.01       0.02       2.23 f
+  G2_Datapath/add_top/add1/csa_slice1/mc0/out (net)
+                                 4     1.68 
+  G2_Datapath/add_top/add1/csa_slice2/ms0/U1/S (SAEDHVT14_MUX2_U_0P5)
+                                                  0.01       0.01       2.24 f
+  G2_Datapath/add_top/add1/csa_slice2/ms0/U1/X (SAEDHVT14_MUX2_U_0P5)
+                                                  0.00       0.02       2.25 r
+  G2_Datapath/add_top/add1/csa_slice2/ms0/out[2] (net)
+                                 1     0.27 
+  G2_Datapath/g2/U6/B2 (SAEDHVT14_OA221_U_0P5)
+                                                  0.00       0.01       2.26 r
+  G2_Datapath/g2/U6/X (SAEDHVT14_OA221_U_0P5)     0.01       0.02       2.28 r
+  G2_Datapath/g2/n9 (net)        1     0.26 
+  G2_Datapath/g2/Z_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                  0.01       0.01       2.28 r
+  data arrival time                                                     2.28
+
+  clock clock (rise edge)                         0.12      10.00      10.00
+  clock network delay (ideal)                                2.00      12.00
+  clock reconvergence pessimism                              0.00      12.00
+  clock uncertainty                                         -0.15      11.85
+  G2_Datapath/g2/Z_reg_7_/CK (SAEDHVT14_FDP_V2LP_0P5)                  11.85 r
+  library setup time                                        -0.00      11.85
+  data required time                                                   11.85
+  -----------------------------------------------------------------------------
+  data required time                                                   11.85
+  data arrival time                                                    -2.28
+  -----------------------------------------------------------------------------
+  slack (MET)                                                           9.56
+
+
+1

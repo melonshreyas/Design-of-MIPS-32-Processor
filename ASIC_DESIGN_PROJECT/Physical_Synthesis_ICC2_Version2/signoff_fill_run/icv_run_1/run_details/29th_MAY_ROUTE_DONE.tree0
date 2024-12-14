@@ -1,0 +1,2552 @@
+*** 29th_MAY_ROUTE_DONE		Mon May 30 12:20:15 2022
+
+PRE_TREE
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+Top Cell Area             The area of the top cell in square microns.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "29th_MAY_ROUTE_DONE".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=              2
+	Unique cells		=             70
+	Hierarchical placements	=           1132
+	Total design placements	=           1132
+	Exploded references	=              0
+	Exploded placements	=              0
+	Total data count	=          60697
+	SREF placements		=           1132
+	AREFS			=              0
+	AREF placements		=              0
+	DATA 			=          31672
+	TEXT			=             40
+	Top Cell Area		=         598.18
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		TOP 20 CELLS WITH LOWEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAEDRVT14_CAPB2          11      11       0       0      74    USED
+ SAEDRVT14_CAPT2          11      11       0       0      76    USED
+ SAEDLVT14_FILL2          13      13       0       0       5    USED
+ SAEDRVT14_CAPBTAP6       14      14       0       0      36    USED
+ SAEDLVT14_FILL3          15      15       0       0      50    USED
+ SAEDRVT14_INV_0P5        16      16       0       0       1    USED
+ SAEDRVT14_INV_S_0P5      16      16       0       0       1    USED
+ SAEDHVT14_INV_0P5        17      17       0       0      32    USED
+ SAEDRVT14_BUF_S_0P5      19      19       0       0       6    USED
+ SAEDRVT14_ND2_CDC_0P5      19      19       0       0      26    USED
+ SAEDRVT14_BUF_1          19      19       0       0      26    USED
+ SAEDRVT14_NR2_1          19      19       0       0       1    USED
+ SAEDHVT14_BUF_1          20      20       0       0       1    USED
+ SAEDRVT14_AN2_MM_0P5      20      20       0       0       1    USED
+ SAEDHVT14_BUF_U_0P5      20      20       0       0       2    USED
+ SAEDLVT14_BUF_S_1        20      20       0       0       1    USED
+ SAEDHVT14_BUF_UCDC_0P5      20      20       0       0       3    USED
+ SAEDHVT14_BUF_S_0P5      20      20       0       0       4    USED
+ SAEDHVT14_NR2_MM_0P5      20      20       0       0      25    USED
+ SAEDHVT14_ND2B_U_0P5      21      21       0       0       1    USED
+
+
+		TOP 20 CELLS WITH HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ 29th_MAY_ROUTE_DONE   30555   29424    1131      40       1    USED
+ SAEDLVT14_NR2_MM_16      82      82       0       0       1    USED
+ SAEDRVT14_ND2_MM_16      81      81       0       0       1    USED
+ SAEDHVT14_MUX2_ECO_2      81      81       0       0       1    USED
+ SAEDHVT14_MUX2_ECO_1      76      76       0       0       1    USED
+ SAEDHVT14_OR2_MM_16      73      73       0       0       1    USED
+ SAEDHVT14_FDP_V2LP_0P5      67      67       0       0      96    USED
+ SAEDRVT14_FDP_V2_1       66      66       0       0       1    USED
+ SAEDHVT14_NR3_8          65      65       0       0       1    USED
+ SAEDHVT14_MUX2_4         59      59       0       0       1    USED
+ SAEDLVT14_INV_20         58      58       0       0       1    USED
+ SAEDHVT14_LDPQ_U_0P5      45      45       0       0      41    USED
+ SAEDHVT14_AO32_4         44      44       0       0       3    USED
+ SAEDRVT14_AO32_4         43      43       0       0       3    USED
+ SAEDHVT14_AO32_2         42      42       0       0       5    USED
+ SAEDHVT14_OAI22_4        41      41       0       0       1    USED
+ SAEDHVT14_NR2_ECO_1      41      41       0       0       1    USED
+ SAEDHVT14_AO32_1         40      40       0       0      10    USED
+ SAEDRVT14_AO32_U_0P5      39      39       0       0       1    USED
+ SAEDRVT14_AO32_1         39      39       0       0      59    USED
+
+
+		TOP 20 CELLS WITH LOWEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ 29th_MAY_ROUTE_DONE       1   29424    1131      40   30555    USED
+ SAEDLVT14_NR2_MM_16       1      82       0       0      82    USED
+ SAEDHVT14_ND3B_0P75       1      33       0       0      33    USED
+ SAEDRVT14_ND2_MM_16       1      81       0       0      81    USED
+ SAEDHVT14_MUX2_ECO_2       1      81       0       0      81    USED
+ SAEDRVT14_INV_0P5         1      16       0       0      16    USED
+ SAEDRVT14_INV_S_0P5       1      16       0       0      16    USED
+ SAEDHVT14_MUX2_ECO_1       1      76       0       0      76    USED
+ SAEDRVT14_BUF_S_6         1      32       0       0      32    USED
+ SAEDHVT14_OR2_MM_16       1      73       0       0      73    USED
+ SAEDRVT14_FDP_V2_1        1      66       0       0      66    USED
+ SAEDRVT14_NR2_1           1      19       0       0      19    USED
+ SAEDHVT14_BUF_1           1      20       0       0      20    USED
+ SAEDRVT14_AN2_MM_0P5       1      20       0       0      20    USED
+ SAEDLVT14_DEL_R2V3_2       1      26       0       0      26    USED
+ SAEDLVT14_BUF_S_1         1      20       0       0      20    USED
+ SAEDRVT14_EO2_V1_0P75       1      29       0       0      29    USED
+ SAEDRVT14_AO32_U_0P5       1      39       0       0      39    USED
+ SAEDHVT14_NR3_8           1      65       0       0      65    USED
+ SAEDHVT14_ND2B_U_0P5       1      21       0       0      21    USED
+
+
+		TOP 20 CELLS WITH HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAEDHVT14_DEL_R2V3_1           206      24       0       0      24    USED
+ SAEDHVT14_FDP_V2LP_0P5          96      67       0       0      67    USED
+ SAEDRVT14_CAPT2                 76      11       0       0      11    USED
+ SAEDRVT14_CAPB2                 74      11       0       0      11    USED
+ SAEDRVT14_AO32_1                59      39       0       0      39    USED
+ SAEDLVT14_FILL3                 50      15       0       0      15    USED
+ SAEDHVT14_AOI22_0P5             45      33       0       0      33    USED
+ SAEDHVT14_LDPQ_U_0P5            41      45       0       0      45    USED
+ SAEDRVT14_CAPBTAP6              36      14       0       0      14    USED
+ SAEDRVT14_CAPBIN13              35      24       0       0      24    USED
+ SAEDHVT14_AN2_MM_0P5            33      21       0       0      21    USED
+ SAEDHVT14_INV_0P5               32      17       0       0      17    USED
+ SAEDRVT14_DEL_R2V3_1            31      23       0       0      23    USED
+ SAEDHVT14_DEL_R2V3_2            28      26       0       0      26    USED
+ SAEDHVT14_OA21B_1               26      29       0       0      29    USED
+ SAEDRVT14_ND2_CDC_0P5           26      19       0       0      19    USED
+ SAEDRVT14_BUF_1                 26      19       0       0      19    USED
+ SAEDHVT14_NR2_MM_0P5            25      20       0       0      20    USED
+ SAEDHVT14_AN3_0P5               13      31       0       0      31    USED
+ SAEDLVT14_BUF_2                 12      21       0       0      21    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "29th_MAY_ROUTE_DONE".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+29th_MAY_ROUTE_DONE			      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+ SAEDHVT14_AN2_MM_0P5			      Level=1  Count=     33      33       0   10    0    5    0    9    0    9    0
+ SAEDHVT14_AN3_0P5			      Level=1  Count=     13      13       0    3    0    1    0    5    0    4    0
+ SAEDHVT14_AN4_0P75			      Level=1  Count=     10      10       0    5    0    2    0    2    0    1    0
+ SAEDHVT14_AO22_0P5			      Level=1  Count=      8       8       0    2    0    3    0    3    0    0    0
+ SAEDHVT14_AO32_1			      Level=1  Count=     10      10       0    5    0    2    0    1    0    2    0
+ SAEDHVT14_AO32_2			      Level=1  Count=      5       5       0    0    0    4    0    0    0    1    0
+ SAEDHVT14_AO32_4			      Level=1  Count=      3       3       0    1    0    0    0    1    0    1    0
+ SAEDHVT14_AOI21_0P5			      Level=1  Count=      2       2       0    1    0    0    0    1    0    0    0
+ SAEDHVT14_AOI22_0P5			      Level=1  Count=     45      45       0   17    0   12    0    8    0    8    0
+ SAEDHVT14_BUF_1			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_BUF_S_0P5			      Level=1  Count=      4       4       0    2    0    0    0    2    0    0    0
+ SAEDHVT14_BUF_UCDC_0P5			      Level=1  Count=      3       3       0    0    0    1    0    1    0    1    0
+ SAEDHVT14_BUF_U_0P5			      Level=1  Count=      2       2       0    2    0    0    0    0    0    0    0
+ SAEDHVT14_DEL_R2V2_1			      Level=1  Count=      7       7       0    4    0    0    0    3    0    0    0
+ SAEDHVT14_DEL_R2V3_1			      Level=1  Count=    206     206       0  106    0    0    0  100    0    0    0
+ SAEDHVT14_DEL_R2V3_2			      Level=1  Count=     28      28       0   17    0    0    0   11    0    0    0
+ SAEDHVT14_EO2_V1_0P75			      Level=1  Count=      3       3       0    1    0    1    0    0    0    1    0
+ SAEDHVT14_FDP_V2LP_0P5			      Level=1  Count=     96      96       0   44    0    0    0   52    0    0    0
+ SAEDHVT14_INV_0P5			      Level=1  Count=     32      32       0    7    0    1    0   12    0   12    0
+ SAEDHVT14_LDPQ_U_0P5			      Level=1  Count=     41      41       0   17    0    5    0   16    0    3    0
+ SAEDHVT14_MUX2_4			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDHVT14_MUX2_ECO_1			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_MUX2_ECO_2			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDHVT14_MUX2_U_0P5			      Level=1  Count=      8       8       0    4    0    1    0    3    0    0    0
+ SAEDHVT14_MUXI2_U_0P5			      Level=1  Count=      9       9       0    2    0    3    0    1    0    3    0
+ SAEDHVT14_ND2B_U_0P5			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_ND3B_0P75			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_NR2_ECO_1			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_NR2_MM_0P5			      Level=1  Count=     25      25       0    9    0    6    0    5    0    5    0
+ SAEDHVT14_NR3B_U_0P5			      Level=1  Count=      3       3       0    1    0    0    0    0    0    2    0
+ SAEDHVT14_NR3_8			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_OA21B_1			      Level=1  Count=     26      26       0    3    0    8    0    6    0    9    0
+ SAEDHVT14_OA221_U_0P5			      Level=1  Count=      9       9       0    1    0    2    0    1    0    5    0
+ SAEDHVT14_OAI21_0P5			      Level=1  Count=      3       3       0    1    0    1    0    1    0    0    0
+ SAEDHVT14_OAI22_4			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDHVT14_OR2_0P5			      Level=1  Count=      8       8       0    4    0    0    0    3    0    1    0
+ SAEDHVT14_OR2_MM_0P5			      Level=1  Count=      4       4       0    2    0    1    0    0    0    1    0
+ SAEDHVT14_OR2_MM_16			      Level=1  Count=      1       1       0    0    0    1    0    0    0    0    0
+ SAEDHVT14_OR3_0P5			      Level=1  Count=      2       2       0    1    0    0    0    1    0    0    0
+ SAEDHVT14_OR4_1			      Level=1  Count=      9       9       0    4    0    1    0    1    0    3    0
+ SAEDLVT14_BUF_2			      Level=1  Count=     12      12       0    7    0    0    0    5    0    0    0
+ SAEDLVT14_BUF_S_1			      Level=1  Count=      1       1       0    0    0    0    0    0    0    1    0
+ SAEDLVT14_DEL_R2V3_2			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDLVT14_FILL2			      Level=1  Count=      5       5       0    2    0    0    0    3    0    0    0
+ SAEDLVT14_FILL3			      Level=1  Count=     50      50       0   32    0    0    0   18    0    0    0
+ SAEDLVT14_INV_20			      Level=1  Count=      1       1       0    0    0    0    0    0    0    1    0
+ SAEDLVT14_NR2_MM_16			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDRVT14_AN2_MM_0P5			      Level=1  Count=      1       1       0    0    0    1    0    0    0    0    0
+ SAEDRVT14_AO32_1			      Level=1  Count=     59      59       0   16    0   16    0   12    0   15    0
+ SAEDRVT14_AO32_4			      Level=1  Count=      3       3       0    1    0    2    0    0    0    0    0
+ SAEDRVT14_AO32_U_0P5			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDRVT14_BUF_1			      Level=1  Count=     26      26       0    8    0    1    0   16    0    1    0
+ SAEDRVT14_BUF_S_0P5			      Level=1  Count=      6       6       0    2    0    0    0    4    0    0    0
+ SAEDRVT14_BUF_S_2			      Level=1  Count=      3       3       0    3    0    0    0    0    0    0    0
+ SAEDRVT14_BUF_S_6			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDRVT14_CAPB2			      Level=1  Count=     74      74       0    0    0    0    0   74    0    0    0
+ SAEDRVT14_CAPBIN13			      Level=1  Count=     35      35       0   18    0    0    0   17    0    0    0
+ SAEDRVT14_CAPBTAP6			      Level=1  Count=     36      36       0   18    0    0    0   18    0    0    0
+ SAEDRVT14_CAPT2			      Level=1  Count=     76      76       0    0    0    0    0   76    0    0    0
+ SAEDRVT14_DEL_R2V2_1			      Level=1  Count=      8       8       0    3    0    0    0    5    0    0    0
+ SAEDRVT14_DEL_R2V3_1			      Level=1  Count=     31      31       0   17    0    0    0   14    0    0    0
+ SAEDRVT14_EO2_V1_0P75			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDRVT14_FDP_V2_1			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDRVT14_INV_0P5			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDRVT14_INV_S_0P5			      Level=1  Count=      1       1       0    0    0    0    0    0    0    1    0
+ SAEDRVT14_MUX2_MM_0P5			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+ SAEDRVT14_ND2_CDC_0P5			      Level=1  Count=     26      26       0    7    0    5    0    6    0    8    0
+ SAEDRVT14_ND2_MM_16			      Level=1  Count=      1       1       0    0    0    0    0    1    0    0    0
+ SAEDRVT14_NR2_1			      Level=1  Count=      1       1       0    1    0    0    0    0    0    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = 29th_MAY_ROUTE_DONE
+	Cell Status			= USED
+	NDM Library			= lib
+	NDM Cell Name			= 29th_MAY_ROUTE_DONE
+	NDM Cell Extents (LL,UR)	= (0.000, 0.000) (24.718, 24.200)
+	Cell Area			=         598.18
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=           1131	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=          29424
+	TEXT				=             40
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ M1               19:0      2269/0      (1.00, 0.95) (23.72, 23.25)        90.12      design 11  PA VIA
+ M1DMY            19:0      2269/0      (1.00, 0.95) (23.72, 23.25)        90.12      design 11  PA VIA
+ VIA1             20:0      2080/0      (1.64, 0.98) (22.55, 23.21)        1.91       design 11  VIA
+ metal_layer      21:0      8707/0      (1.52, 0.13) (22.62, 23.25)        64.13      design 11  PA VIA
+ M2               21:0      8707/0      (1.52, 0.13) (22.62, 23.25)        64.13      design 11  PA VIA
+ M2DMY            21:0      8707/0      (1.52, 0.13) (22.62, 23.25)        64.13      design 11  PA VIA
+ via_layer        22:0      2701/0      (1.52, 0.17) (22.61, 23.21)        2.43       design 11  VIA
+ VIA2             22:0      2701/0      (1.52, 0.17) (22.61, 23.21)        2.43       design 11  VIA
+ metal_layer      23:0      7167/0      (0.21, 0.15) (23.99, 23.25)        104.30     design 11  PA VIA
+ M3               23:0      7167/0      (0.21, 0.15) (23.99, 23.25)        104.30     design 11  PA VIA
+ M3DMY            23:0      7167/0      (0.21, 0.15) (23.99, 23.25)        104.30     design 11  PA VIA
+ via_layer        24:0       774/0      (1.64, 0.16) (23.16, 23.23)        2.79       design 11  VIA
+ VIA3             24:0       774/0      (1.64, 0.16) (23.16, 23.23)        2.79       design 11  VIA
+ metal_layer      25:0      2050/0      (1.41, 0.00) (23.38, 24.20)        52.02      design 11  PA PI VIA
+ M4               25:0      2050/0      (1.41, 0.00) (23.38, 24.20)        52.02      design 11  PA PI VIA
+ M4DMY            25:0      2050/0      (1.41, 0.00) (23.38, 24.20)        52.02      design 11  PA PI VIA
+ via_layer        26:0       377/0      (1.41, 0.25) (23.38, 23.95)        1.97       design 11  VIA
+ VIA4             26:0       377/0      (1.41, 0.25) (23.38, 23.95)        1.97       design 11  VIA
+ metal_layer      27:0      1046/0      (1.41, 0.24) (23.38, 23.96)        24.88      design 11  PA VIA
+ M5               27:0      1046/0      (1.41, 0.24) (23.38, 23.96)        24.88      design 11  PA VIA
+ via_layer        28:0       265/0      (2.57, 0.25) (22.03, 23.83)        0.95       design 11  VIA
+ VIA5             28:0       265/0      (2.57, 0.25) (22.03, 23.83)        0.95       design 11  VIA
+ metal_layer      29:0       715/0      (2.56, 0.24) (22.03, 23.83)        19.72      design 11  PA VIA
+ M6               29:0       715/0      (2.56, 0.24) (22.03, 23.83)        19.72      design 11  PA VIA
+ M6DMY            29:0       715/0      (2.56, 0.24) (22.03, 23.83)        19.72      design 11  PA VIA
+ via_layer        30:0       194/0      (2.57, 0.97) (21.83, 23.23)        0.70       design 11  VIA
+ VIA6             30:0       194/0      (2.57, 0.97) (21.83, 23.23)        0.70       design 11  VIA
+ metal_layer      31:0       559/0      (2.48, 0.96) (21.91, 23.24)        7.06       design 11  PA VIA
+ M7               31:0       559/0      (2.48, 0.96) (21.91, 23.24)        7.06       design 11  PA VIA
+ M7DMY            31:0       559/0      (2.48, 0.96) (21.91, 23.24)        7.06       design 11  PA VIA
+ VIA7             32:0       171/0      (2.57, 0.97) (21.83, 23.23)        0.62       design 11  VIA
+ M8               33:0       239/0      (2.53, 0.00) (21.86, 24.20)        27.97      design 11  PA PI VIA
+ M8DMY            33:0       239/0      (2.53, 0.00) (21.86, 24.20)        27.97      design 11  PA PI VIA
+ VIA8             34:0        41/0      (2.54, 2.54) (21.86, 21.86)        0.59       design 11  VIA
+ M9               35:0        68/0      (0.00, 2.53) (24.72, 21.86)        27.65      design 11  PA PI VIA
+ M9DMY            35:0        68/0      (0.00, 2.53) (24.72, 21.86)        27.65      design 11  PA PI VIA
+ smf_chip_boundary   BOUNDARY      1/0   (0.00, 0.00) (24.72, 24.20)       598.18     design 11  BO
+ M4_text.text     25:0         0/22     (1.44, 0.13) (23.35, 24.07)                   design 11 
+ M8_text.text     33:0         0/18     (2.60, 0.06) (21.80, 24.14)                   design 11 
+
+CELL = SAEDHVT14_NR2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.444, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             25
+	Flat Placements			=             25
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.44, 0.62)         0.17       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.06       frame 0   RE
+ PO               13:0         6/0      (-0.01, 0.00) (0.38, 0.60)         0.05       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.41, 0.65)        0.12       frame 0   PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.41, 0.65)        0.12       frame 0   PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.41, 0.65)        0.11       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.41, 0.65)        0.11       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.37, 0.60)          0.22       frame 0   RE
+
+CELL = SAEDRVT14_ND2_CDC_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_ND2_CDC_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.444, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.44, 0.60)         0.16       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.08       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.08       frame 0   RE
+ PO               13:0         6/0      (-0.01, 0.00) (0.38, 0.60)         0.05       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.41, 0.65)        0.12       frame 0   PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.41, 0.65)        0.12       frame 0   PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.41, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.41, 0.65)        0.12       frame 0   PI
+
+CELL = SAEDHVT14_AN3_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AN3_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=             13
+	Flat Placements			=             13
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             31
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.29) (0.67, 0.60)         0.23       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.10       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.10       frame 0   PO
+ PO               13:0         9/0      (-0.01, 0.00) (0.60, 0.60)         0.08       frame 0   RE
+ M1               19:0         7/0      (-0.04, -0.05) (0.63, 0.65)        0.19       frame 0   RE PO PI
+ M1DMY            19:0         7/0      (-0.04, -0.05) (0.63, 0.65)        0.19       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (0.63, 0.65)        0.14       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (0.63, 0.65)        0.14       frame 0   PI
+ VIA1             20:0         3/0      (0.11, 0.16) (0.32, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         2/0      (0.19, 0.22) (0.46, 0.38)          0.01       frame 0   PI
+ M2               21:0         2/0      (0.19, 0.22) (0.46, 0.38)          0.01       frame 0   PI
+ M2DMY            21:0         2/0      (0.19, 0.22) (0.46, 0.38)          0.01       frame 0   PI
+ metal_layer      21:251       3/0      (0.03, 0.16) (0.46, 0.38)          0.01       frame 0   PI
+ M2               21:251       3/0      (0.03, 0.16) (0.46, 0.38)          0.01       frame 0   PI
+ M2DMY            21:251       3/0      (0.03, 0.16) (0.46, 0.38)          0.01       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.59, 0.60)          0.36       frame 0   RE
+
+CELL = SAEDHVT14_INV_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_INV_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             32
+	Flat Placements			=             32
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             17
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.37, 0.60)         0.13       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.22, 0.50)          0.03       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.22, 0.50)          0.03       frame 0   RE
+ PO               13:0         5/0      (-0.01, 0.00) (0.30, 0.60)         0.04       frame 0   RE
+ M1               19:0         4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1DMY            19:0         4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.30, 0.60)          0.18       frame 0   RE
+
+CELL = SAEDHVT14_LDPQ_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_LDPQ_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.110, 0.647)
+	Cell Area			=           0.82
+	Hierarchical Placements		=             41
+	Flat Placements			=             41
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             45
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.11, 0.60)         0.36       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.96, 0.55)          0.22       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.96, 0.55)          0.22       frame 0   PO
+ PO               13:0        15/0      (-0.01, 0.00) (1.04, 0.60)         0.13       frame 0   RE
+ M1               19:0        12/0      (-0.04, -0.05) (1.08, 0.65)        0.35       frame 0   RE PO PI
+ M1DMY            19:0        12/0      (-0.04, -0.05) (1.08, 0.65)        0.35       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (1.08, 0.65)        0.23       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (1.08, 0.65)        0.23       frame 0   PI
+ VIA1             20:0         7/0      (0.17, 0.16) (0.87, 0.43)          0.01       frame 0   RE PI
+ metal_layer      21:0         2/0      (0.23, 0.22) (0.89, 0.38)          0.03       frame 0   RE
+ M2               21:0         2/0      (0.23, 0.22) (0.89, 0.38)          0.03       frame 0   RE
+ M2DMY            21:0         2/0      (0.23, 0.22) (0.89, 0.38)          0.03       frame 0   RE
+ metal_layer      21:251       1/0      (0.55, 0.16) (0.85, 0.20)          0.01       frame 0   PI
+ M2               21:251       1/0      (0.55, 0.16) (0.85, 0.20)          0.01       frame 0   PI
+ M2DMY            21:251       1/0      (0.55, 0.16) (0.85, 0.20)          0.01       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.04, 0.60)          0.62       frame 0   RE
+
+CELL = SAEDHVT14_FDP_V2LP_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_FDP_V2LP_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.046) (1.628, 0.647)
+	Cell Area			=           1.18
+	Hierarchical Placements		=             96
+	Flat Placements			=             96
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             67
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.63, 0.60)         0.51       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.48, 0.55)          0.28       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (1.48, 0.55)          0.28       frame 0   RE
+ PO               13:0        22/0      (-0.01, 0.00) (1.56, 0.60)         0.18       frame 0   RE
+ M1               19:0        19/0      (-0.04, -0.05) (1.60, 0.65)        0.51       frame 0   RE PO PI
+ M1DMY            19:0        19/0      (-0.04, -0.05) (1.60, 0.65)        0.51       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (1.60, 0.65)        0.33       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (1.60, 0.65)        0.33       frame 0   PI
+ VIA1             20:0        14/0      (0.17, 0.16) (1.38, 0.43)          0.01       frame 0   RE PI
+ metal_layer      21:0         2/0      (0.16, 0.22) (1.26, 0.38)          0.07       frame 0   RE
+ M2               21:0         2/0      (0.16, 0.22) (1.26, 0.38)          0.07       frame 0   RE
+ M2DMY            21:0         2/0      (0.16, 0.22) (1.26, 0.38)          0.07       frame 0   RE
+ metal_layer      21:251       2/0      (0.96, 0.28) (1.40, 0.44)          0.02       frame 0   PI
+ M2               21:251       2/0      (0.96, 0.28) (1.40, 0.44)          0.02       frame 0   PI
+ M2DMY            21:251       2/0      (0.96, 0.28) (1.40, 0.44)          0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.55, 0.60)          0.93       frame 0   RE
+
+CELL = SAEDHVT14_AN2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AN2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=             33
+	Flat Placements			=             33
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.09       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.09       frame 0   RE PO
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ M1DMY            19:0         4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.52, 0.60)          0.31       frame 0   RE
+
+CELL = SAEDHVT14_ND3B_0P75
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_ND3B_0P75
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.96, 0.60)         0.31       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.81, 0.55)          0.21       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.81, 0.55)          0.21       frame 0   PO
+ PO               13:0        13/0      (-0.01, 0.00) (0.89, 0.60)         0.11       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.93, 0.65)        0.24       frame 0   RE PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.93, 0.65)        0.24       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (0.93, 0.65)        0.19       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (0.93, 0.65)        0.19       frame 0   PI
+ VIA1             20:0         3/0      (0.14, 0.28) (0.44, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         1/0      (0.17, 0.34) (0.37, 0.38)          0.01       frame 0   PI
+ M2               21:0         1/0      (0.17, 0.34) (0.37, 0.38)          0.01       frame 0   PI
+ M2DMY            21:0         1/0      (0.17, 0.34) (0.37, 0.38)          0.01       frame 0   PI
+ metal_layer      21:251       3/0      (-0.02, 0.28) (0.61, 0.38)         0.02       frame 0   PI
+ M2               21:251       3/0      (-0.02, 0.28) (0.61, 0.38)         0.02       frame 0   PI
+ M2DMY            21:251       3/0      (-0.02, 0.28) (0.61, 0.38)         0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.89, 0.60)          0.53       frame 0   RE
+
+CELL = SAEDRVT14_INV_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_INV_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             16
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.37, 0.60)         0.13       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.22, 0.50)          0.03       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.22, 0.50)          0.03       frame 0   RE
+ PO               13:0         5/0      (-0.01, 0.00) (0.30, 0.60)         0.04       frame 0   RE
+ M1               19:0         4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1DMY            19:0         4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+
+CELL = SAEDRVT14_INV_S_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_INV_S_0P5
+	NDM Cell Extents (LL,UR)	= (-0.078, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             16
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.08, 0.30) (0.37, 0.60)         0.13       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.22, 0.50)          0.03       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.22, 0.50)          0.03       frame 0   RE
+ PO               13:0         5/0      (-0.01, 0.00) (0.30, 0.60)         0.04       frame 0   RE
+ M1               19:0         4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1DMY            19:0         4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.34, 0.65)        0.09       frame 0   PI
+
+CELL = SAEDLVT14_INV_20
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_INV_20
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (1.776, 0.647)
+	Cell Area			=           1.29
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             58
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.78, 0.60)         0.56       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.63, 0.55)          0.62       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (1.63, 0.55)          0.62       frame 0   RE
+ PO               13:0        24/0      (-0.01, 0.00) (1.71, 0.60)         0.20       frame 0   RE
+ M1               19:0        13/0      (-0.04, -0.05) (1.74, 0.65)        0.68       frame 0   RE PO PI
+ M1DMY            19:0        13/0      (-0.04, -0.05) (1.74, 0.65)        0.68       frame 0   RE PO PI
+ M1               19:251       2/0      (-0.04, -0.05) (1.74, 0.65)        0.34       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (1.74, 0.65)        0.34       frame 0   PI
+ VIA1             20:0        13/0      (0.24, 0.16) (1.46, 0.43)          0.01       frame 0   PI
+ metal_layer      21:251       2/0      (0.16, 0.16) (1.58, 0.44)          0.10       frame 0   PI
+ M2               21:251       2/0      (0.16, 0.16) (1.58, 0.44)          0.10       frame 0   PI
+ M2DMY            21:251       2/0      (0.16, 0.16) (1.58, 0.44)          0.10       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (1.70, 0.60)          1.02       frame 0   RE
+
+CELL = SAEDHVT14_AN4_0P75
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AN4_0P75
+	NDM Cell Extents (LL,UR)	= (-0.075, -0.047) (0.740, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=             10
+	Flat Placements			=             10
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.74, 0.60)         0.24       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.14       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.14       frame 0   PO
+ PO               13:0        10/0      (-0.01, 0.00) (0.67, 0.60)         0.08       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.71, 0.65)        0.17       frame 0   PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.71, 0.65)        0.17       frame 0   PI
+ M1               19:251       7/0      (-0.04, -0.05) (0.71, 0.65)        0.19       frame 0   PI
+ M1DMY            19:251       7/0      (-0.04, -0.05) (0.71, 0.65)        0.19       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.67, 0.60)          0.40       frame 0   RE
+
+CELL = SAEDHVT14_NR3B_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR3B_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             32
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.96, 0.60)         0.31       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.81, 0.55)          0.16       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.81, 0.55)          0.16       frame 0   RE PO
+ PO               13:0        13/0      (-0.01, 0.00) (0.89, 0.60)         0.11       frame 0   RE
+ M1               19:0         9/0      (-0.04, -0.05) (0.93, 0.65)        0.29       frame 0   PO PI
+ M1DMY            19:0         9/0      (-0.04, -0.05) (0.93, 0.65)        0.29       frame 0   PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.93, 0.65)        0.22       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.93, 0.65)        0.22       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.89, 0.60)          0.53       frame 0   RE
+
+CELL = SAEDRVT14_NR2_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_NR2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.424, 0.647)
+	Cell Area			=           0.35
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.42, 0.60)         0.15       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.06       frame 0   RE
+ PO               13:0         6/0      (-0.01, 0.00) (0.38, 0.60)         0.05       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.39, 0.65)        0.11       frame 0   PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.39, 0.65)        0.11       frame 0   PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.39, 0.65)        0.11       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.39, 0.65)        0.11       frame 0   PI
+
+CELL = SAEDHVT14_NR3_8
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR3_8
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.776, 0.647)
+	Cell Area			=           1.28
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             65
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.78, 0.60)         0.56       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.63, 0.55)          0.55       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (1.63, 0.55)          0.55       frame 0   PO
+ PO               13:0        24/0      (-0.01, 0.00) (1.71, 0.60)         0.20       frame 0   RE
+ M1               19:0        17/0      (-0.04, -0.05) (1.74, 0.65)        0.68       frame 0   RE PO PI
+ M1DMY            19:0        17/0      (-0.04, -0.05) (1.74, 0.65)        0.68       frame 0   RE PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (1.74, 0.65)        0.36       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (1.74, 0.65)        0.36       frame 0   PI
+ VIA1             20:0        13/0      (0.32, 0.16) (1.46, 0.43)          0.01       frame 0   RE PI
+ metal_layer      21:0         1/0      (0.30, 0.22) (1.35, 0.26)          0.04       frame 0   RE
+ M2               21:0         1/0      (0.30, 0.22) (1.35, 0.26)          0.04       frame 0   RE
+ M2DMY            21:0         1/0      (0.30, 0.22) (1.35, 0.26)          0.04       frame 0   RE
+ metal_layer      21:251       1/0      (1.05, 0.40) (1.56, 0.44)          0.02       frame 0   PI
+ M2               21:251       1/0      (1.05, 0.40) (1.56, 0.44)          0.02       frame 0   PI
+ M2DMY            21:251       1/0      (1.05, 0.40) (1.56, 0.44)          0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.70, 0.60)          1.02       frame 0   RE
+
+CELL = SAEDHVT14_OAI21_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OAI21_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.10       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.10       frame 0   PO
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         7/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         7/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.49, 0.65)        0.13       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.49, 0.65)        0.13       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDHVT14_OR4_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR4_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.740, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             35
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.74, 0.60)         0.24       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.16       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.16       frame 0   PO
+ PO               13:0        10/0      (-0.01, 0.00) (0.67, 0.60)         0.08       frame 0   RE
+ M1               19:0         8/0      (-0.04, -0.05) (0.71, 0.65)        0.22       frame 0   RE PO PI
+ M1DMY            19:0         8/0      (-0.04, -0.05) (0.71, 0.65)        0.22       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (0.71, 0.65)        0.15       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (0.71, 0.65)        0.15       frame 0   PI
+ VIA1             20:0         4/0      (0.11, 0.22) (0.40, 0.43)          0.00       frame 0   PI
+ metal_layer      21:0         2/0      (0.15, 0.22) (0.60, 0.38)          0.01       frame 0   PI
+ M2               21:0         2/0      (0.15, 0.22) (0.60, 0.38)          0.01       frame 0   PI
+ M2DMY            21:0         2/0      (0.15, 0.22) (0.60, 0.38)          0.01       frame 0   PI
+ metal_layer      21:251       4/0      (0.01, 0.22) (0.60, 0.44)          0.03       frame 0   PI
+ M2               21:251       4/0      (0.01, 0.22) (0.60, 0.44)          0.03       frame 0   PI
+ M2DMY            21:251       4/0      (0.01, 0.22) (0.60, 0.44)          0.03       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.67, 0.60)          0.40       frame 0   RE
+
+CELL = SAEDHVT14_ND2B_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_ND2B_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.07       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.07       frame 0   RE
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         4/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         4/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.52, 0.60)          0.31       frame 0   RE
+
+CELL = SAEDHVT14_AOI21_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AOI21_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.10       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.10       frame 0   PO
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         7/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         7/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.49, 0.65)        0.13       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.49, 0.65)        0.13       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDHVT14_AO22_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO22_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.96, 0.60)         0.31       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.81, 0.55)          0.20       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.81, 0.55)          0.20       frame 0   PO
+ PO               13:0        13/0      (-0.01, 0.00) (0.89, 0.60)         0.11       frame 0   RE
+ M1               19:0         9/0      (-0.04, -0.05) (0.93, 0.65)        0.28       frame 0   RE PO PI
+ M1DMY            19:0         9/0      (-0.04, -0.05) (0.93, 0.65)        0.28       frame 0   RE PO PI
+ M1               19:251       7/0      (-0.04, -0.05) (0.93, 0.65)        0.22       frame 0   PI
+ M1DMY            19:251       7/0      (-0.04, -0.05) (0.93, 0.65)        0.22       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.89, 0.60)          0.53       frame 0   RE
+
+CELL = SAEDHVT14_MUX2_ECO_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_ECO_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.554, 0.647)
+	Cell Area			=           1.13
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             76
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.55, 0.60)         0.49       frame 0   RE
+ DIFF              5:0        12/0      (0.07, 0.05) (1.33, 0.55)          0.36       frame 0   RE
+ DDMY              5:0        12/0      (0.07, 0.05) (1.33, 0.55)          0.36       frame 0   RE
+ PO               13:0        21/0      (-0.01, 0.00) (1.49, 0.60)         0.18       frame 0   RE
+ M1               19:0        17/0      (-0.04, -0.05) (1.52, 0.65)        0.48       frame 0   RE PO PI
+ M1DMY            19:0        17/0      (-0.04, -0.05) (1.52, 0.65)        0.48       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (1.52, 0.65)        0.31       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (1.52, 0.65)        0.31       frame 0   PI
+ VIA1             20:0        12/0      (0.24, 0.10) (1.31, 0.49)          0.01       frame 0   RE PI
+ metal_layer      21:0         6/0      (0.21, 0.10) (1.32, 0.50)          0.10       frame 0   RE PI
+ M2               21:0         6/0      (0.21, 0.10) (1.32, 0.50)          0.10       frame 0   RE PI
+ M2DMY            21:0         6/0      (0.21, 0.10) (1.32, 0.50)          0.10       frame 0   RE PI
+ metal_layer      21:251       3/0      (0.25, 0.34) (1.32, 0.50)          0.04       frame 0   PI
+ M2               21:251       3/0      (0.25, 0.34) (1.32, 0.50)          0.04       frame 0   PI
+ M2DMY            21:251       3/0      (0.25, 0.34) (1.32, 0.50)          0.04       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.48, 0.60)          0.89       frame 0   RE
+
+CELL = SAEDHVT14_MUX2_ECO_2
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_ECO_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.777, 0.647)
+	Cell Area			=           1.28
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             81
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.78, 0.60)         0.56       frame 0   RE
+ DIFF              5:0        14/0      (0.07, 0.05) (1.55, 0.55)          0.41       frame 0   RE
+ DDMY              5:0        14/0      (0.07, 0.05) (1.55, 0.55)          0.41       frame 0   RE
+ PO               13:0        24/0      (-0.01, 0.00) (1.71, 0.60)         0.20       frame 0   RE
+ M1               19:0        17/0      (-0.04, -0.05) (1.74, 0.65)        0.54       frame 0   RE PO PI
+ M1DMY            19:0        17/0      (-0.04, -0.05) (1.74, 0.65)        0.54       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (1.74, 0.65)        0.35       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (1.74, 0.65)        0.35       frame 0   PI
+ VIA1             20:0        13/0      (0.24, 0.10) (1.53, 0.49)          0.01       frame 0   RE PI
+ metal_layer      21:0         5/0      (0.57, 0.10) (1.54, 0.50)          0.08       frame 0   RE PI
+ M2               21:0         5/0      (0.57, 0.10) (1.54, 0.50)          0.08       frame 0   RE PI
+ M2DMY            21:0         5/0      (0.57, 0.10) (1.54, 0.50)          0.08       frame 0   RE PI
+ metal_layer      21:251       3/0      (0.57, 0.34) (1.54, 0.50)          0.04       frame 0   PI
+ M2               21:251       3/0      (0.57, 0.34) (1.54, 0.50)          0.04       frame 0   PI
+ M2DMY            21:251       3/0      (0.57, 0.34) (1.54, 0.50)          0.04       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.70, 0.60)          1.02       frame 0   RE
+
+CELL = SAEDRVT14_ND2_MM_16
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_ND2_MM_16
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (3.182, 0.647)
+	Cell Area			=           2.26
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             81
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (3.18, 0.60)         0.98       frame 0   RE
+ DIFF              5:0         3/0      (0.07, 0.05) (3.03, 0.55)          0.97       frame 0   RE
+ DDMY              5:0         3/0      (0.07, 0.05) (3.03, 0.55)          0.97       frame 0   RE
+ PO               13:0        43/0      (-0.01, 0.00) (3.11, 0.60)         0.36       frame 0   RE
+ M1               19:0         3/0      (-0.04, -0.05) (3.15, 0.65)        0.80       frame 0   PO PI
+ M1DMY            19:0         3/0      (-0.04, -0.05) (3.15, 0.65)        0.80       frame 0   PO PI
+ M1               19:251       2/0      (-0.04, -0.05) (3.15, 0.65)        0.60       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (3.15, 0.65)        0.60       frame 0   PI
+ VIA1             20:0        24/0      (0.20, 0.22) (2.83, 0.37)          0.02       frame 0   PI
+ metal_layer      21:0         2/0      (0.18, 0.22) (2.42, 0.38)          0.15       frame 0   PI
+ M2               21:0         2/0      (0.18, 0.22) (2.42, 0.38)          0.15       frame 0   PI
+ M2DMY            21:0         2/0      (0.18, 0.22) (2.42, 0.38)          0.15       frame 0   PI
+ metal_layer      21:251       3/0      (0.18, 0.22) (2.86, 0.38)          0.23       frame 0   PI
+ M2               21:251       3/0      (0.18, 0.22) (2.86, 0.38)          0.23       frame 0   PI
+ M2DMY            21:251       3/0      (0.18, 0.22) (2.86, 0.38)          0.23       frame 0   PI
+
+CELL = SAEDHVT14_NR2_ECO_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR2_ECO_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.110, 0.647)
+	Cell Area			=           0.82
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             41
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.11, 0.60)         0.36       frame 0   RE
+ DIFF              5:0         8/0      (0.07, 0.05) (0.96, 0.55)          0.16       frame 0   RE
+ DDMY              5:0         8/0      (0.07, 0.05) (0.96, 0.55)          0.16       frame 0   RE
+ PO               13:0        15/0      (-0.01, 0.00) (1.04, 0.60)         0.13       frame 0   RE
+ M1               19:0         9/0      (-0.04, -0.05) (1.08, 0.65)        0.34       frame 0   RE PO PI
+ M1DMY            19:0         9/0      (-0.04, -0.05) (1.08, 0.65)        0.34       frame 0   RE PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (1.08, 0.65)        0.24       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (1.08, 0.65)        0.24       frame 0   PI
+ VIA1             20:0         2/0      (0.69, 0.28) (0.79, 0.31)          0.00       frame 0   RE
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.04, 0.60)          0.62       frame 0   RE
+
+CELL = SAEDLVT14_NR2_MM_16
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_NR2_MM_16
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (2.664, 0.647)
+	Cell Area			=           1.90
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             82
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (2.66, 0.60)         0.82       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (2.52, 0.55)          0.85       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (2.52, 0.55)          0.85       frame 0   RE
+ PO               13:0        36/0      (-0.01, 0.00) (2.60, 0.60)         0.30       frame 0   RE
+ M1               19:0        12/0      (-0.04, -0.05) (2.63, 0.65)        0.91       frame 0   RE PO PI
+ M1DMY            19:0        12/0      (-0.04, -0.05) (2.63, 0.65)        0.91       frame 0   RE PO PI
+ M1               19:251       2/0      (-0.04, -0.05) (2.63, 0.65)        0.52       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (2.63, 0.65)        0.52       frame 0   PI
+ VIA1             20:0        23/0      (0.21, 0.22) (2.38, 0.37)          0.02       frame 0   PI
+ metal_layer      21:0         2/0      (0.18, 0.22) (2.41, 0.38)          0.15       frame 0   PI
+ M2               21:0         2/0      (0.18, 0.22) (2.41, 0.38)          0.15       frame 0   PI
+ M2DMY            21:0         2/0      (0.18, 0.22) (2.41, 0.38)          0.15       frame 0   PI
+ metal_layer      21:251       3/0      (0.18, 0.22) (2.41, 0.38)          0.21       frame 0   PI
+ M2               21:251       3/0      (0.18, 0.22) (2.41, 0.38)          0.21       frame 0   PI
+ M2DMY            21:251       3/0      (0.18, 0.22) (2.41, 0.38)          0.21       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (2.59, 0.60)          1.55       frame 0   RE
+
+CELL = SAEDHVT14_OR3_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR3_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.67, 0.60)         0.22       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.10       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.10       frame 0   RE PO
+ PO               13:0         9/0      (-0.01, 0.00) (0.60, 0.60)         0.08       frame 0   RE
+ M1               19:0         7/0      (-0.04, -0.05) (0.63, 0.65)        0.19       frame 0   PO PI
+ M1DMY            19:0         7/0      (-0.04, -0.05) (0.63, 0.65)        0.19       frame 0   PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.63, 0.65)        0.16       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.63, 0.65)        0.16       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.59, 0.60)          0.36       frame 0   RE
+
+CELL = SAEDHVT14_OAI22_4
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OAI22_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.554, 0.647)
+	Cell Area			=           1.13
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             41
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.55, 0.60)         0.49       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.41, 0.55)          0.53       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (1.41, 0.55)          0.53       frame 0   RE
+ PO               13:0        21/0      (-0.01, 0.00) (1.49, 0.60)         0.18       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (1.52, 0.65)        0.41       frame 0   RE PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (1.52, 0.65)        0.41       frame 0   RE PI
+ M1               19:251       4/0      (-0.04, -0.05) (1.52, 0.65)        0.31       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (1.52, 0.65)        0.31       frame 0   PI
+ VIA1             20:0         4/0      (0.24, 0.28) (1.23, 0.33)          0.00       frame 0   PI
+ metal_layer      21:251       3/0      (0.23, 0.28) (1.28, 0.33)          0.02       frame 0   PI
+ M2               21:251       3/0      (0.23, 0.28) (1.28, 0.33)          0.02       frame 0   PI
+ M2DMY            21:251       3/0      (0.23, 0.28) (1.28, 0.33)          0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.48, 0.60)          0.89       frame 0   RE
+
+CELL = SAEDRVT14_MUX2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_MUX2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.818, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.82, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.12       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.12       frame 0   RE
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0         8/0      (-0.04, -0.05) (0.79, 0.65)        0.24       frame 0   PO PI
+ M1DMY            19:0         8/0      (-0.04, -0.05) (0.79, 0.65)        0.24       frame 0   PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.79, 0.65)        0.19       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.79, 0.65)        0.19       frame 0   PI
+
+CELL = SAEDHVT14_AOI22_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AOI22_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=             45
+	Flat Placements			=             45
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.89, 0.60)         0.29       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.14       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.14       frame 0   PO
+ PO               13:0        12/0      (-0.01, 0.00) (0.82, 0.60)         0.10       frame 0   RE
+ M1               19:0        10/0      (-0.04, -0.05) (0.86, 0.65)        0.27       frame 0   PO PI
+ M1DMY            19:0        10/0      (-0.04, -0.05) (0.86, 0.65)        0.27       frame 0   PO PI
+ M1               19:251       7/0      (-0.04, -0.05) (0.86, 0.65)        0.21       frame 0   PI
+ M1DMY            19:251       7/0      (-0.04, -0.05) (0.86, 0.65)        0.21       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.81, 0.60)          0.49       frame 0   RE
+
+CELL = SAEDRVT14_AN2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AN2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.09       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.09       frame 0   RE PO
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ M1DMY            19:0         4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+
+CELL = SAEDHVT14_OA21B_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OA21B_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             29
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.67, 0.60)         0.22       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.13       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.13       frame 0   RE
+ PO               13:0         9/0      (-0.01, 0.00) (0.60, 0.60)         0.08       frame 0   RE
+ M1               19:0         7/0      (-0.04, -0.05) (0.63, 0.65)        0.19       frame 0   RE PO PI
+ M1DMY            19:0         7/0      (-0.04, -0.05) (0.63, 0.65)        0.19       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (0.63, 0.65)        0.13       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (0.63, 0.65)        0.13       frame 0   PI
+ VIA1             20:0         3/0      (0.11, 0.10) (0.51, 0.26)          0.00       frame 0   PI
+ metal_layer      21:0         2/0      (-0.03, 0.10) (0.62, 0.26)         0.01       frame 0   PI
+ M2               21:0         2/0      (-0.03, 0.10) (0.62, 0.26)         0.01       frame 0   PI
+ M2DMY            21:0         2/0      (-0.03, 0.10) (0.62, 0.26)         0.01       frame 0   PI
+ metal_layer      21:251       1/0      (0.26, 0.16) (0.43, 0.20)          0.01       frame 0   PI
+ M2               21:251       1/0      (0.26, 0.16) (0.43, 0.20)          0.01       frame 0   PI
+ M2DMY            21:251       1/0      (0.26, 0.16) (0.43, 0.20)          0.01       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.59, 0.60)          0.36       frame 0   RE
+
+CELL = SAEDHVT14_OR2_MM_16
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR2_MM_16
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (2.146, 0.647)
+	Cell Area			=           1.54
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             73
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (2.15, 0.60)         0.67       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (2.00, 0.55)          0.74       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (2.00, 0.55)          0.74       frame 0   RE PO
+ PO               13:0        29/0      (-0.01, 0.00) (2.08, 0.60)         0.24       frame 0   RE
+ M1               19:0        14/0      (-0.04, -0.05) (2.11, 0.65)        0.70       frame 0   RE PO PI
+ M1DMY            19:0        14/0      (-0.04, -0.05) (2.11, 0.65)        0.70       frame 0   RE PO PI
+ M1               19:251       2/0      (-0.04, -0.05) (2.11, 0.65)        0.41       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (2.11, 0.65)        0.41       frame 0   PI
+ VIA1             20:0        18/0      (0.21, 0.10) (1.83, 0.43)          0.02       frame 0   RE PI
+ metal_layer      21:0         3/0      (0.19, 0.10) (1.91, 0.38)          0.10       frame 0   RE PI
+ M2               21:0         3/0      (0.19, 0.10) (1.91, 0.38)          0.10       frame 0   RE PI
+ M2DMY            21:0         3/0      (0.19, 0.10) (1.91, 0.38)          0.10       frame 0   RE PI
+ metal_layer      21:251       3/0      (0.27, 0.10) (1.91, 0.44)          0.05       frame 0   PI
+ M2               21:251       3/0      (0.27, 0.10) (1.91, 0.44)          0.05       frame 0   PI
+ M2DMY            21:251       3/0      (0.27, 0.10) (1.91, 0.44)          0.05       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (2.07, 0.60)          1.24       frame 0   RE
+
+CELL = SAEDHVT14_BUF_UCDC_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_UCDC_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.29) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDHVT14_OR2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             27
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.08       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.08       frame 0   RE PO
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.56, 0.65)        0.16       frame 0   RE PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.56, 0.65)        0.16       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (0.56, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (0.56, 0.65)        0.12       frame 0   PI
+ VIA1             20:0         2/0      (0.11, 0.22) (0.24, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         2/0      (0.01, 0.22) (0.35, 0.38)          0.01       frame 0   PI
+ M2               21:0         2/0      (0.01, 0.22) (0.35, 0.38)          0.01       frame 0   PI
+ M2DMY            21:0         2/0      (0.01, 0.22) (0.35, 0.38)          0.01       frame 0   PI
+ metal_layer      21:251       2/0      (0.01, 0.22) (0.35, 0.38)          0.01       frame 0   PI
+ M2               21:251       2/0      (0.01, 0.22) (0.35, 0.38)          0.01       frame 0   PI
+ M2DMY            21:251       2/0      (0.01, 0.22) (0.35, 0.38)          0.01       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.52, 0.60)          0.31       frame 0   RE
+
+CELL = SAEDHVT14_OR2_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR2_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             23
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.08       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.08       frame 0   RE PO
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.56, 0.65)        0.16       frame 0   PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.56, 0.65)        0.16       frame 0   PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.56, 0.65)        0.14       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.52, 0.60)          0.31       frame 0   RE
+
+CELL = SAEDRVT14_BUF_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_1
+	NDM Cell Extents (LL,UR)	= (-0.080, -0.047) (0.525, 0.647)
+	Cell Area			=           0.42
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.08, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.12       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.12       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.02, -0.05) (0.47, 0.65)        0.13       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.02, -0.05) (0.47, 0.65)        0.13       frame 0   PO PI
+ M1               19:251       4/0      (-0.02, -0.05) (0.47, 0.65)        0.11       frame 0   PI
+ M1DMY            19:251       4/0      (-0.02, -0.05) (0.47, 0.65)        0.11       frame 0   PI
+
+CELL = SAEDHVT14_MUX2_4
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.702, 0.647)
+	Cell Area			=           1.23
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             59
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.70, 0.60)         0.53       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.55, 0.55)          0.59       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (1.55, 0.55)          0.59       frame 0   RE
+ PO               13:0        23/0      (-0.01, 0.00) (1.63, 0.60)         0.19       frame 0   RE
+ M1               19:0        12/0      (-0.04, -0.05) (1.67, 0.65)        0.49       frame 0   RE PO PI
+ M1DMY            19:0        12/0      (-0.04, -0.05) (1.67, 0.65)        0.49       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (1.67, 0.65)        0.34       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (1.67, 0.65)        0.34       frame 0   PI
+ VIA1             20:0        11/0      (0.17, 0.10) (1.38, 0.37)          0.01       frame 0   RE PI
+ metal_layer      21:0         3/0      (0.15, 0.10) (1.41, 0.38)          0.07       frame 0   RE PI
+ M2               21:0         3/0      (0.15, 0.10) (1.41, 0.38)          0.07       frame 0   RE PI
+ M2DMY            21:0         3/0      (0.15, 0.10) (1.41, 0.38)          0.07       frame 0   RE PI
+ metal_layer      21:251       2/0      (0.15, 0.22) (1.22, 0.38)          0.06       frame 0   PI
+ M2               21:251       2/0      (0.15, 0.22) (1.22, 0.38)          0.06       frame 0   PI
+ M2DMY            21:251       2/0      (0.15, 0.22) (1.22, 0.38)          0.06       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.63, 0.60)          0.98       frame 0   RE
+
+CELL = SAEDHVT14_MUX2_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.818, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             27
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.82, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.12       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.12       frame 0   RE
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.79, 0.65)        0.19       frame 0   PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.79, 0.65)        0.19       frame 0   PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.79, 0.65)        0.19       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.79, 0.65)        0.19       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.74, 0.60)          0.44       frame 0   RE
+
+CELL = SAEDLVT14_BUF_S_1
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_BUF_S_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.12       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.12       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDHVT14_EO2_V1_0P75
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_EO2_V1_0P75
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             30
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.81, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.18       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.18       frame 0   RE PO
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0         8/0      (-0.04, -0.05) (0.78, 0.65)        0.26       frame 0   RE PO PI
+ M1DMY            19:0         8/0      (-0.04, -0.05) (0.78, 0.65)        0.26       frame 0   RE PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ VIA1             20:0         2/0      (0.24, 0.28) (0.47, 0.31)          0.00       frame 0   RE PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.74, 0.60)          0.44       frame 0   RE
+
+CELL = SAEDRVT14_EO2_V1_0P75
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_EO2_V1_0P75
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             29
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.81, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.18       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.18       frame 0   RE PO
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0         8/0      (-0.04, -0.05) (0.78, 0.65)        0.26       frame 0   RE PO PI
+ M1DMY            19:0         8/0      (-0.04, -0.05) (0.78, 0.65)        0.26       frame 0   RE PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ VIA1             20:0         2/0      (0.24, 0.28) (0.47, 0.31)          0.00       frame 0   RE PI
+
+CELL = SAEDRVT14_BUF_S_6
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_S_6
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             32
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.89, 0.60)         0.29       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.27       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.27       frame 0   RE
+ PO               13:0        12/0      (-0.01, 0.00) (0.82, 0.60)         0.10       frame 0   RE
+ M1               19:0         8/0      (-0.04, -0.05) (0.86, 0.65)        0.29       frame 0   RE PO PI
+ M1DMY            19:0         8/0      (-0.04, -0.05) (0.86, 0.65)        0.29       frame 0   RE PO PI
+ M1               19:251       3/0      (-0.04, -0.05) (0.86, 0.65)        0.18       frame 0   PI
+ M1DMY            19:251       3/0      (-0.04, -0.05) (0.86, 0.65)        0.18       frame 0   PI
+ VIA1             20:0         5/0      (0.17, 0.16) (0.57, 0.43)          0.00       frame 0   RE PI
+ metal_layer      21:251       1/0      (0.32, 0.40) (0.69, 0.44)          0.01       frame 0   PI
+ M2               21:251       1/0      (0.32, 0.40) (0.69, 0.44)          0.01       frame 0   PI
+ M2DMY            21:251       1/0      (0.32, 0.40) (0.69, 0.44)          0.01       frame 0   PI
+
+CELL = SAEDRVT14_BUF_S_2
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_S_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.15       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.15       frame 0   RE
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.56, 0.65)        0.17       frame 0   RE PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.56, 0.65)        0.17       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+
+CELL = SAEDHVT14_MUXI2_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUXI2_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.078, -0.047) (0.740, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.08, 0.30) (0.74, 0.60)         0.25       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.10       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.10       frame 0   RE
+ PO               13:0        10/0      (-0.01, 0.00) (0.67, 0.60)         0.08       frame 0   RE
+ M1               19:0         5/0      (-0.05, -0.05) (0.71, 0.65)        0.17       frame 0   RE PI
+ M1DMY            19:0         5/0      (-0.05, -0.05) (0.71, 0.65)        0.17       frame 0   RE PI
+ M1               19:251       4/0      (-0.05, -0.05) (0.71, 0.65)        0.16       frame 0   PI
+ M1DMY            19:251       4/0      (-0.05, -0.05) (0.71, 0.65)        0.16       frame 0   PI
+ VIA1             20:0         2/0      (0.19, 0.22) (0.38, 0.31)          0.00       frame 0   PI
+ metal_layer      21:0         1/0      (0.17, 0.22) (0.38, 0.26)          0.01       frame 0   PI
+ M2               21:0         1/0      (0.17, 0.22) (0.38, 0.26)          0.01       frame 0   PI
+ M2DMY            21:0         1/0      (0.17, 0.22) (0.38, 0.26)          0.01       frame 0   PI
+ metal_layer      21:251       2/0      (0.17, 0.22) (0.44, 0.32)          0.02       frame 0   PI
+ M2               21:251       2/0      (0.17, 0.22) (0.44, 0.32)          0.02       frame 0   PI
+ M2DMY            21:251       2/0      (0.17, 0.22) (0.44, 0.32)          0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.67, 0.60)          0.40       frame 0   RE
+
+CELL = SAEDHVT14_OA221_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OA221_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             37
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.89, 0.60)         0.29       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.16       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.16       frame 0   RE PO
+ PO               13:0        12/0      (-0.01, 0.00) (0.82, 0.60)         0.10       frame 0   RE
+ M1               19:0        11/0      (-0.04, -0.05) (0.86, 0.65)        0.27       frame 0   RE PO PI
+ M1DMY            19:0        11/0      (-0.04, -0.05) (0.86, 0.65)        0.27       frame 0   RE PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (0.86, 0.65)        0.20       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (0.86, 0.65)        0.20       frame 0   PI
+ VIA1             20:0         2/0      (0.11, 0.28) (0.56, 0.43)          0.00       frame 0   PI
+ metal_layer      21:251       2/0      (-0.01, 0.28) (0.67, 0.44)         0.02       frame 0   PI
+ M2               21:251       2/0      (-0.01, 0.28) (0.67, 0.44)         0.02       frame 0   PI
+ M2DMY            21:251       2/0      (-0.01, 0.28) (0.67, 0.44)         0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.81, 0.60)          0.49       frame 0   RE
+
+CELL = SAEDHVT14_AO32_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO32_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=             10
+	Flat Placements			=             10
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             40
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.81, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.19       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.19       frame 0   PO
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0        10/0      (-0.04, -0.05) (0.78, 0.65)        0.25       frame 0   RE PO PI
+ M1DMY            19:0        10/0      (-0.04, -0.05) (0.78, 0.65)        0.25       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ VIA1             20:0         4/0      (0.17, 0.22) (0.49, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         3/0      (-0.02, 0.22) (0.47, 0.38)         0.02       frame 0   PI
+ M2               21:0         3/0      (-0.02, 0.22) (0.47, 0.38)         0.02       frame 0   PI
+ M2DMY            21:0         3/0      (-0.02, 0.22) (0.47, 0.38)         0.02       frame 0   PI
+ metal_layer      21:251       4/0      (-0.02, 0.22) (0.64, 0.38)         0.02       frame 0   PI
+ M2               21:251       4/0      (-0.02, 0.22) (0.64, 0.38)         0.02       frame 0   PI
+ M2DMY            21:251       4/0      (-0.02, 0.22) (0.64, 0.38)         0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.74, 0.60)          0.44       frame 0   RE
+
+CELL = SAEDRVT14_AO32_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AO32_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=             59
+	Flat Placements			=             59
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             39
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.81, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.19       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.19       frame 0   PO
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0        10/0      (-0.04, -0.05) (0.78, 0.65)        0.25       frame 0   RE PO PI
+ M1DMY            19:0        10/0      (-0.04, -0.05) (0.78, 0.65)        0.25       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.78, 0.65)        0.18       frame 0   PI
+ VIA1             20:0         4/0      (0.17, 0.22) (0.49, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         3/0      (-0.02, 0.22) (0.47, 0.38)         0.02       frame 0   PI
+ M2               21:0         3/0      (-0.02, 0.22) (0.47, 0.38)         0.02       frame 0   PI
+ M2DMY            21:0         3/0      (-0.02, 0.22) (0.47, 0.38)         0.02       frame 0   PI
+ metal_layer      21:251       4/0      (-0.02, 0.22) (0.64, 0.38)         0.02       frame 0   PI
+ M2               21:251       4/0      (-0.02, 0.22) (0.64, 0.38)         0.02       frame 0   PI
+ M2DMY            21:251       4/0      (-0.02, 0.22) (0.64, 0.38)         0.02       frame 0   PI
+
+CELL = SAEDRVT14_FDP_V2_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_FDP_V2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.046) (1.628, 0.647)
+	Cell Area			=           1.18
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             66
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.63, 0.60)         0.51       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.48, 0.55)          0.42       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (1.48, 0.55)          0.42       frame 0   PO
+ PO               13:0        22/0      (-0.01, 0.00) (1.56, 0.60)         0.18       frame 0   RE
+ M1               19:0        19/0      (-0.04, -0.05) (1.60, 0.65)        0.51       frame 0   RE PO PI
+ M1DMY            19:0        19/0      (-0.04, -0.05) (1.60, 0.65)        0.51       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (1.60, 0.65)        0.33       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (1.60, 0.65)        0.33       frame 0   PI
+ VIA1             20:0        14/0      (0.17, 0.16) (1.38, 0.43)          0.01       frame 0   RE PI
+ metal_layer      21:0         2/0      (0.16, 0.22) (1.26, 0.38)          0.07       frame 0   RE
+ M2               21:0         2/0      (0.16, 0.22) (1.26, 0.38)          0.07       frame 0   RE
+ M2DMY            21:0         2/0      (0.16, 0.22) (1.26, 0.38)          0.07       frame 0   RE
+ metal_layer      21:251       2/0      (0.96, 0.28) (1.40, 0.44)          0.02       frame 0   PI
+ M2               21:251       2/0      (0.96, 0.28) (1.40, 0.44)          0.02       frame 0   PI
+ M2DMY            21:251       2/0      (0.96, 0.28) (1.40, 0.44)          0.02       frame 0   PI
+
+CELL = SAEDRVT14_AO32_4
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AO32_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.258, 0.647)
+	Cell Area			=           0.92
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             43
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.26, 0.60)         0.40       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.11, 0.55)          0.29       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (1.11, 0.55)          0.29       frame 0   PO
+ PO               13:0        17/0      (-0.01, 0.00) (1.19, 0.60)         0.14       frame 0   RE
+ M1               19:0        12/0      (-0.04, -0.05) (1.23, 0.65)        0.38       frame 0   RE PO PI
+ M1DMY            19:0        12/0      (-0.04, -0.05) (1.23, 0.65)        0.38       frame 0   RE PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (1.23, 0.65)        0.27       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (1.23, 0.65)        0.27       frame 0   PI
+ VIA1             20:0         2/0      (0.32, 0.22) (0.49, 0.31)          0.00       frame 0   PI
+ metal_layer      21:0         1/0      (0.36, 0.22) (0.60, 0.26)          0.01       frame 0   PI
+ M2               21:0         1/0      (0.36, 0.22) (0.60, 0.26)          0.01       frame 0   PI
+ M2DMY            21:0         1/0      (0.36, 0.22) (0.60, 0.26)          0.01       frame 0   PI
+ metal_layer      21:251       2/0      (0.21, 0.22) (0.60, 0.32)          0.02       frame 0   PI
+ M2               21:251       2/0      (0.21, 0.22) (0.60, 0.32)          0.02       frame 0   PI
+ M2DMY            21:251       2/0      (0.21, 0.22) (0.60, 0.32)          0.02       frame 0   PI
+
+CELL = SAEDHVT14_AO32_4
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO32_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.258, 0.647)
+	Cell Area			=           0.92
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             44
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.26, 0.60)         0.40       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.11, 0.55)          0.29       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (1.11, 0.55)          0.29       frame 0   PO
+ PO               13:0        17/0      (-0.01, 0.00) (1.19, 0.60)         0.14       frame 0   RE
+ M1               19:0        12/0      (-0.04, -0.05) (1.23, 0.65)        0.38       frame 0   RE PO PI
+ M1DMY            19:0        12/0      (-0.04, -0.05) (1.23, 0.65)        0.38       frame 0   RE PO PI
+ M1               19:251       6/0      (-0.04, -0.05) (1.23, 0.65)        0.27       frame 0   PI
+ M1DMY            19:251       6/0      (-0.04, -0.05) (1.23, 0.65)        0.27       frame 0   PI
+ VIA1             20:0         2/0      (0.32, 0.22) (0.49, 0.31)          0.00       frame 0   PI
+ metal_layer      21:0         1/0      (0.36, 0.22) (0.60, 0.26)          0.01       frame 0   PI
+ M2               21:0         1/0      (0.36, 0.22) (0.60, 0.26)          0.01       frame 0   PI
+ M2DMY            21:0         1/0      (0.36, 0.22) (0.60, 0.26)          0.01       frame 0   PI
+ metal_layer      21:251       2/0      (0.21, 0.22) (0.60, 0.32)          0.02       frame 0   PI
+ M2               21:251       2/0      (0.21, 0.22) (0.60, 0.32)          0.02       frame 0   PI
+ M2DMY            21:251       2/0      (0.21, 0.22) (0.60, 0.32)          0.02       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (1.18, 0.60)          0.71       frame 0   RE
+
+CELL = SAEDHVT14_AO32_2
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO32_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              5
+	Flat Placements			=              5
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             42
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.89, 0.60)         0.29       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.22       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.22       frame 0   PO
+ PO               13:0        12/0      (-0.01, 0.00) (0.82, 0.60)         0.10       frame 0   RE
+ M1               19:0        10/0      (-0.04, -0.05) (0.86, 0.65)        0.26       frame 0   RE PO PI
+ M1DMY            19:0        10/0      (-0.04, -0.05) (0.86, 0.65)        0.26       frame 0   RE PO PI
+ M1               19:251       5/0      (-0.04, -0.05) (0.86, 0.65)        0.19       frame 0   RE PI
+ M1DMY            19:251       5/0      (-0.04, -0.05) (0.86, 0.65)        0.19       frame 0   RE PI
+ VIA1             20:0         4/0      (0.24, 0.10) (0.64, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         3/0      (0.06, 0.10) (0.83, 0.38)          0.02       frame 0   PI
+ M2               21:0         3/0      (0.06, 0.10) (0.83, 0.38)          0.02       frame 0   PI
+ M2DMY            21:0         3/0      (0.06, 0.10) (0.83, 0.38)          0.02       frame 0   PI
+ metal_layer      21:251       4/0      (0.06, 0.10) (0.83, 0.38)          0.03       frame 0   PI
+ M2               21:251       4/0      (0.06, 0.10) (0.83, 0.38)          0.03       frame 0   PI
+ M2DMY            21:251       4/0      (0.06, 0.10) (0.83, 0.38)          0.03       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.81, 0.60)          0.49       frame 0   RE
+
+CELL = SAEDRVT14_AO32_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AO32_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.834, 0.647)
+	Cell Area			=           0.63
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             39
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.81, 0.60)         0.27       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.13       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.67, 0.55)          0.13       frame 0   RE PO
+ PO               13:0        11/0      (-0.01, 0.00) (0.75, 0.60)         0.09       frame 0   RE
+ M1               19:0        10/0      (-0.04, -0.05) (0.78, 0.65)        0.25       frame 0   RE PO PI
+ M1DMY            19:0        10/0      (-0.04, -0.05) (0.78, 0.65)        0.25       frame 0   RE PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.78, 0.65)        0.17       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.78, 0.65)        0.17       frame 0   PI
+ VIA1             20:0         4/0      (0.24, 0.10) (0.64, 0.37)          0.00       frame 0   PI
+ metal_layer      21:0         3/0      (0.06, 0.10) (0.83, 0.38)          0.02       frame 0   PI
+ M2               21:0         3/0      (0.06, 0.10) (0.83, 0.38)          0.02       frame 0   PI
+ M2DMY            21:0         3/0      (0.06, 0.10) (0.83, 0.38)          0.02       frame 0   PI
+ metal_layer      21:251       4/0      (0.06, 0.10) (0.83, 0.38)          0.03       frame 0   PI
+ M2               21:251       4/0      (0.06, 0.10) (0.83, 0.38)          0.03       frame 0   PI
+ M2DMY            21:251       4/0      (0.06, 0.10) (0.83, 0.38)          0.03       frame 0   PI
+
+CELL = SAEDRVT14_DEL_R2V3_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_DEL_R2V3_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.740, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=             31
+	Flat Placements			=             31
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             23
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.74, 0.60)         0.24       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.18       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.18       frame 0   PO
+ PO               13:0        10/0      (-0.01, 0.00) (0.67, 0.60)         0.08       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.71, 0.65)        0.20       frame 0   PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.71, 0.65)        0.20       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.71, 0.65)        0.17       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.71, 0.65)        0.17       frame 0   PI
+
+CELL = SAEDHVT14_DEL_R2V3_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_DEL_R2V3_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.740, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=            206
+	Flat Placements			=            206
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.74, 0.60)         0.24       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.18       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.59, 0.55)          0.18       frame 0   PO
+ PO               13:0        10/0      (-0.01, 0.00) (0.67, 0.60)         0.08       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.71, 0.65)        0.20       frame 0   PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.71, 0.65)        0.20       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.71, 0.65)        0.17       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.71, 0.65)        0.17       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.67, 0.60)          0.40       frame 0   RE
+
+CELL = SAEDRVT14_BUF_S_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_S_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              6
+	Flat Placements			=              6
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+
+CELL = SAEDHVT14_DEL_R2V3_2
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_DEL_R2V3_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=             28
+	Flat Placements			=             28
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.89, 0.60)         0.29       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.27       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.27       frame 0   RE
+ PO               13:0        12/0      (-0.01, 0.00) (0.82, 0.60)         0.10       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.86, 0.65)        0.23       frame 0   PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.86, 0.65)        0.23       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.86, 0.65)        0.19       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.86, 0.65)        0.19       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.81, 0.60)          0.49       frame 0   RE
+
+CELL = SAEDRVT14_CAPT2
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPT2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             76
+	Flat Placements			=             76
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             11
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.37, 0.60)         0.13       frame 0   RE
+ DIFF              5:0         1/0      (0.07, 0.35) (0.22, 0.55)          0.03       frame 0   RE
+ DDMY              5:0         1/0      (0.07, 0.35) (0.22, 0.55)          0.03       frame 0   RE
+ PO               13:0         5/0      (-0.01, 0.00) (0.30, 0.60)         0.04       frame 0   RE
+ M1               19:0         2/0      (-0.05, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1DMY            19:0         2/0      (-0.05, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1               19:251       2/0      (-0.05, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1DMY            19:251       2/0      (-0.05, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+
+CELL = SAEDRVT14_CAPBTAP6
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPBTAP6
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.635, 0.647)
+	Cell Area			=           0.47
+	Hierarchical Placements		=             36
+	Flat Placements			=             36
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             14
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ DIFF              5:0         1/0      (0.22, 0.15) (0.37, 0.25)          0.01       frame 0   RE
+ DDMY              5:0         1/0      (0.22, 0.15) (0.37, 0.25)          0.01       frame 0   RE
+ PO               13:0         9/0      (-0.01, 0.00) (0.60, 0.60)         0.08       frame 0   RE
+ M1               19:0         2/0      (-0.04, -0.05) (0.63, 0.65)        0.13       frame 0   PI
+ M1DMY            19:0         2/0      (-0.04, -0.05) (0.63, 0.65)        0.13       frame 0   PI
+ M1               19:251       2/0      (-0.04, -0.05) (0.63, 0.65)        0.13       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (0.63, 0.65)        0.13       frame 0   PI
+
+CELL = SAEDRVT14_CAPB2
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPB2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             74
+	Flat Placements			=             74
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             11
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.37, 0.60)         0.13       frame 0   RE
+ DIFF              5:0         1/0      (0.07, 0.05) (0.22, 0.25)          0.03       frame 0   RE
+ DDMY              5:0         1/0      (0.07, 0.05) (0.22, 0.25)          0.03       frame 0   RE
+ PO               13:0         5/0      (-0.01, 0.00) (0.30, 0.60)         0.04       frame 0   RE
+ M1               19:0         2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1DMY            19:0         2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1               19:251       2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+
+CELL = SAEDRVT14_CAPBIN13
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPBIN13
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.184, 0.647)
+	Cell Area			=           0.87
+	Hierarchical Placements		=             35
+	Flat Placements			=             35
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (1.18, 0.60)         0.38       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (1.04, 0.55)          0.20       frame 0   RE PO
+ DDMY              5:0         2/0      (0.07, 0.05) (1.04, 0.55)          0.20       frame 0   RE PO
+ PO               13:0        17/0      (-0.01, 0.00) (1.12, 0.60)         0.15       frame 0   RE
+ M1               19:0         2/0      (-0.04, -0.05) (1.15, 0.65)        0.22       frame 0   PI
+ M1DMY            19:0         2/0      (-0.04, -0.05) (1.15, 0.65)        0.22       frame 0   PI
+ M1               19:251       2/0      (-0.04, -0.05) (1.15, 0.65)        0.22       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (1.15, 0.65)        0.22       frame 0   PI
+
+CELL = SAEDHVT14_BUF_S_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_S_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDRVT14_DEL_R2V2_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_DEL_R2V2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.67, 0.60)         0.22       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.13       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.13       frame 0   PO
+ PO               13:0         9/0      (-0.01, 0.00) (0.60, 0.60)         0.08       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.63, 0.65)        0.17       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.63, 0.65)        0.17       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.63, 0.65)        0.15       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.63, 0.65)        0.15       frame 0   PI
+
+CELL = SAEDHVT14_DEL_R2V2_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_DEL_R2V2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              7
+	Flat Placements			=              7
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             22
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.67, 0.60)         0.22       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.13       frame 0   PO
+ DDMY              5:0         2/0      (0.07, 0.05) (0.52, 0.55)          0.13       frame 0   PO
+ PO               13:0         9/0      (-0.01, 0.00) (0.60, 0.60)         0.08       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.63, 0.65)        0.17       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.63, 0.65)        0.17       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.63, 0.65)        0.15       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.63, 0.65)        0.15       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.59, 0.60)          0.36       frame 0   RE
+
+CELL = SAEDHVT14_BUF_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.29) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.06       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.49, 0.65)        0.14       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.49, 0.65)        0.12       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDLVT14_DEL_R2V3_2
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_DEL_R2V3_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.89, 0.60)         0.29       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.27       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.74, 0.55)          0.27       frame 0   RE
+ PO               13:0        12/0      (-0.01, 0.00) (0.82, 0.60)         0.10       frame 0   RE
+ M1               19:0         6/0      (-0.04, -0.05) (0.86, 0.65)        0.23       frame 0   PO PI
+ M1DMY            19:0         6/0      (-0.04, -0.05) (0.86, 0.65)        0.23       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.86, 0.65)        0.19       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.86, 0.65)        0.19       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (0.81, 0.60)          0.49       frame 0   RE
+
+CELL = SAEDHVT14_BUF_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_1
+	NDM Cell Extents (LL,UR)	= (-0.080, -0.047) (0.525, 0.647)
+	Cell Area			=           0.42
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.08, 0.30) (0.52, 0.60)         0.18       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.12       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.37, 0.55)          0.12       frame 0   RE
+ PO               13:0         7/0      (-0.01, 0.00) (0.45, 0.60)         0.06       frame 0   RE
+ M1               19:0         5/0      (-0.02, -0.05) (0.47, 0.65)        0.13       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.02, -0.05) (0.47, 0.65)        0.13       frame 0   PO PI
+ M1               19:251       4/0      (-0.02, -0.05) (0.47, 0.65)        0.11       frame 0   PI
+ M1DMY            19:251       4/0      (-0.02, -0.05) (0.47, 0.65)        0.11       frame 0   PI
+ HVTIMP           36:0         1/0      (0.00, 0.00) (0.44, 0.60)          0.27       frame 0   RE
+
+CELL = SAEDLVT14_BUF_2
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_BUF_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=             12
+	Flat Placements			=             12
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.59, 0.60)         0.20       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.15       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.44, 0.55)          0.15       frame 0   RE
+ PO               13:0         8/0      (-0.01, 0.00) (0.52, 0.60)         0.07       frame 0   RE
+ M1               19:0         5/0      (-0.04, -0.05) (0.56, 0.65)        0.15       frame 0   PO PI
+ M1DMY            19:0         5/0      (-0.04, -0.05) (0.56, 0.65)        0.15       frame 0   PO PI
+ M1               19:251       4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ M1DMY            19:251       4/0      (-0.04, -0.05) (0.56, 0.65)        0.13       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (0.52, 0.60)          0.31       frame 0   RE
+
+CELL = SAEDLVT14_FILL3
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_FILL3
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.444, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             50
+	Flat Placements			=             50
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             15
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.44, 0.60)         0.16       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.04       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.30, 0.55)          0.04       frame 0   RE
+ PO               13:0         6/0      (-0.01, 0.00) (0.38, 0.60)         0.05       frame 0   RE
+ M1               19:0         3/0      (-0.04, -0.05) (0.41, 0.65)        0.10       frame 0   RE PI
+ M1DMY            19:0         3/0      (-0.04, -0.05) (0.41, 0.65)        0.10       frame 0   RE PI
+ M1               19:251       2/0      (-0.04, -0.05) (0.41, 0.65)        0.09       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (0.41, 0.65)        0.09       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (0.37, 0.60)          0.22       frame 0   RE
+
+CELL = SAEDLVT14_FILL2
+	Cell Status			= USED
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_FILL2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              5
+	Flat Placements			=              5
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             13
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Purpose Data/Text  Layer Extents (LL,UR)              Lyr Area    VIEW Ver. OBJECT_TYPE
+ ---------------  ---------  --------   ---------------------------------  --------    ---- ---  ---------
+ NWELL             3:0         1/0      (-0.07, 0.30) (0.37, 0.60)         0.13       frame 0   RE
+ DIFF              5:0         2/0      (0.07, 0.05) (0.22, 0.55)          0.06       frame 0   RE
+ DDMY              5:0         2/0      (0.07, 0.05) (0.22, 0.55)          0.06       frame 0   RE
+ PO               13:0         5/0      (-0.01, 0.00) (0.30, 0.60)         0.04       frame 0   RE
+ M1               19:0         2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1DMY            19:0         2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1               19:251       2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ M1DMY            19:251       2/0      (-0.04, -0.05) (0.34, 0.65)        0.07       frame 0   PI
+ LVTIMP           37:0         1/0      (0.00, 0.00) (0.30, 0.60)          0.18       frame 0   RE

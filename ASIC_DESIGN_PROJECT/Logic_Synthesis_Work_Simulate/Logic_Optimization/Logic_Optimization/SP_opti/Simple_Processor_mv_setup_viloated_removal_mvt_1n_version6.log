@@ -1,0 +1,1345 @@
+Initializing gui preferences from file  /home/userdata/21mvd0086/.synopsys_dv_prefs.tcl
+dc_shell> source dc_script_processor_mvt_period_1n_viloated_removal.tcl
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Loading db file '/home/synopsys/installs/syn/O-2018.06-SP4/libraries/syn/gtech.db'
+Loading db file '/home/synopsys/installs/syn/O-2018.06-SP4/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Simple_Processor_Top_Top_Module.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Simple_Processor_Top_Top_Module.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/simple_processor_Top_Top.db:simple_processor_Top_Top'
+Loaded 1 design.
+Current design is 'simple_processor_Top_Top'.
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Simple_Processor_Top_Module.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Simple_Processor_Top_Module.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/simple_processor_Top.db:simple_processor_Top'
+Loaded 1 design.
+Current design is 'simple_processor_Top'.
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Decoders.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Decoders.v
+
+Statistics for case statements in always block at line 5 in file
+        '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Decoders.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            7             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/dec3to8.db:dec3to8'
+Loaded 2 designs.
+Current design is 'dec3to8'.
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v
+
+Statistics for case statements in always block at line 55 in file
+        '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            57            |    auto/auto     |
+|            61            |    auto/auto     |
+|            71            |    auto/auto     |
+|            80            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 92 in file
+        '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            94            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine controller_new line 37 in file
+                '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       PS_reg        | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine controller_new line 46 in file
+                '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     opcode_reg      | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine controller_new line 92 in file
+                '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_12_april.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|      R7out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R5out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      IRin_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|       LdG_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|       LdA_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR7_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR6_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR5_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR4_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR3_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR2_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR1_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      LdR0_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R6out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      Gout_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|       IR_reg        | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+|      Done_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     Add_sub_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     DINout_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R0out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R1out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R2out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R3out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      R4out_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/controller_new.db:controller_new'
+Loaded 1 design.
+Current design is 'controller_new'.
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Datapath_path_work_version_2.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Datapath_path_work_version_2.v
+
+Inferred memory devices in process
+        in routine mux_10to1 line 43 in file
+                '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Datapath_path_work_version_2.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|       Bus_reg       | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+        in routine Register line 77 in file
+                '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Datapath_path_work_version_2.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine reg_G line 106 in file
+                '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Datapath_path_work_version_2.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Z_reg        | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/datapath_register_array.db:datapath_register_array'
+Loaded 12 designs.
+Current design is 'datapath_register_array'.
+Current design is 'simple_processor_Top_Top'.
+Using operating conditions 'tt0p8v125c' found in library 'saed14hvt_tt0p8v125c'.
+
+  Linking design 'simple_processor_Top_Top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  saed14hvt_tt0p8v125c (library) /home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db
+  saed14lvt_tt0p8v125c (library) /home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db
+  saed14rvt_tt0p8v125c (library) /home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db
+
+Writing verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Simple_Processor_gtech.vs'.
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP4
+Date:        Thu May  5 11:10:24 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      6
+    Feedthrough (LINT-29)                                           3
+    Shorted outputs (LINT-31)                                       1
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                               2
+    Connected to power or ground (LINT-32)                          2
+
+Nets                                                                1
+    Unloaded nets (LINT-2)                                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'simple_processor_Top_Top', net 'G8/G2_Datapath/add_top/Cout' driven by pin 'G8/G2_Datapath/add_top/add1/cout' has no loads. (LINT-2)
+Warning: In design 'dec3to8_3bit', input port 'W[2]' is connected directly to output port 'Y[2]'. (LINT-29)
+Warning: In design 'dec3to8_3bit', input port 'W[1]' is connected directly to output port 'Y[1]'. (LINT-29)
+Warning: In design 'dec3to8_3bit', input port 'W[0]' is connected directly to output port 'Y[0]'. (LINT-29)
+Warning: In design 'dec3to8', output port 'Y[1]' is connected directly to output port 'Y[0]'. (LINT-31)
+Warning: In design 'carry_select_adder_4bit_slice', a pin on submodule 'rca1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'carry_select_adder_4bit_slice', a pin on submodule 'rca2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'dec3to8', output port 'Y[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'dec3to8', output port 'Y[0]' is connected directly to 'logic 0'. (LINT-52)
+Error: unknown command '-critical_range' (CMD-005)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+        set on the port. (UID-401)
+Current design is 'simple_processor_Top_Top'.
+Current design is 'simple_processor_Top_Top'.
+Current design is 'simple_processor_Top_Top'.
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+Bus[0]
+Bus[1]
+Bus[2]
+Bus[3]
+Bus[4]
+Bus[5]
+Bus[6]
+Bus[7]
+Bus[8]
+Done
+G8/G1_Controller/Add_sub_reg/data_in
+G8/G1_Controller/DINout_reg/data_in
+G8/G1_Controller/Done_reg/data_in
+G8/G1_Controller/Gout_reg/data_in
+G8/G1_Controller/IR_reg[0]/data_in
+G8/G1_Controller/IR_reg[1]/data_in
+G8/G1_Controller/IR_reg[2]/data_in
+G8/G1_Controller/IR_reg[3]/data_in
+G8/G1_Controller/IR_reg[4]/data_in
+G8/G1_Controller/IR_reg[5]/data_in
+G8/G1_Controller/IR_reg[6]/data_in
+G8/G1_Controller/IR_reg[7]/data_in
+G8/G1_Controller/IR_reg[8]/data_in
+G8/G1_Controller/IRin_reg/data_in
+G8/G1_Controller/LdA_reg/data_in
+G8/G1_Controller/LdG_reg/data_in
+G8/G1_Controller/LdR0_reg/data_in
+G8/G1_Controller/LdR1_reg/data_in
+G8/G1_Controller/LdR2_reg/data_in
+G8/G1_Controller/LdR3_reg/data_in
+G8/G1_Controller/LdR4_reg/data_in
+G8/G1_Controller/LdR5_reg/data_in
+G8/G1_Controller/LdR6_reg/data_in
+G8/G1_Controller/LdR7_reg/data_in
+G8/G1_Controller/R0out_reg/data_in
+G8/G1_Controller/R1out_reg/data_in
+G8/G1_Controller/R2out_reg/data_in
+G8/G1_Controller/R3out_reg/data_in
+G8/G1_Controller/R4out_reg/data_in
+G8/G1_Controller/R5out_reg/data_in
+G8/G1_Controller/R6out_reg/data_in
+G8/G1_Controller/R7out_reg/data_in
+G8/G1_Controller/opcode_reg[0]/next_state
+G8/G1_Controller/opcode_reg[0]/synch_enable
+G8/G1_Controller/opcode_reg[1]/next_state
+G8/G1_Controller/opcode_reg[1]/synch_enable
+G8/G1_Controller/opcode_reg[2]/next_state
+G8/G1_Controller/opcode_reg[2]/synch_enable
+G8/G2_Datapath/m1/Bus_reg[0]/data_in
+G8/G2_Datapath/m1/Bus_reg[1]/data_in
+G8/G2_Datapath/m1/Bus_reg[2]/data_in
+G8/G2_Datapath/m1/Bus_reg[3]/data_in
+G8/G2_Datapath/m1/Bus_reg[4]/data_in
+G8/G2_Datapath/m1/Bus_reg[5]/data_in
+G8/G2_Datapath/m1/Bus_reg[6]/data_in
+G8/G2_Datapath/m1/Bus_reg[7]/data_in
+G8/G2_Datapath/m1/Bus_reg[8]/data_in
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+Warning: There are 926 objects not found during annotation. (PWR-452)
+Loading db file '/home/synopsys/installs/syn/O-2018.06-SP4/libraries/syn/dw_foundation.sldb'
+Information: Failed to find dw_foundation.sldb in the user defined search_path, load it from 'Synopsys Root'. (UISN-70)
+Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Failed to find dw_foundation.sldb in the user defined search_path, load it from 'Synopsys Root'. (UISN-70)
+Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | O-2018.06-DWBB_201806.4 |     *     |
+| Licensed DW Building Blocks        | O-2018.06-DWBB_201806.4 |     *     |
+============================================================================
+
+
+Information: There are 9 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN4_V2_4'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN4_V2_2'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN4_V2_1'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN4_V2_0P5'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN2_V2_4'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN2_V2_2'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN2_V2_1'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDHVT14_FSDN2_V2_0P5'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN4_V2_4'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN4_V2_2'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN4_V2_1'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN4_V2_0P5'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN2_V2_4'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN2_V2_2'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN2_V2_1'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDLVT14_FSDN2_V2_0P5'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN4_V2_4'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN4_V2_2'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN4_V2_1'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN4_V2_0P5'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN2_V2_4'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN2_V2_2'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN2_V2_1'. (OPT-914)
+Warning: No single bit degenerate for multibit library cell 'SAEDRVT14_FSDN2_V2_0P5'. (OPT-914)
+Loaded alib file './alib-52/saed14hvt_tt0p8v125c.db.alib'
+Loaded alib file './alib-52/saed14lvt_tt0p8v125c.db.alib'
+Loaded alib file './alib-52/saed14rvt_tt0p8v125c.db.alib' (placeholder)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+  Processing 'Register_0'
+  Processing 'reg_G'
+  Processing 'mux2X1_1_0'
+  Processing 'mux2X1_0'
+  Processing 'half_adder_0'
+  Processing 'full_adder_0'
+  Processing 'Add_Sub'
+  Processing 'mux_10to1'
+  Processing 'dec3to8_0'
+  Processing 'controller_new'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'SAEDHVT14_TIE1_PV1ECO_1' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDHVT14_TIE0_PV1ECO_1' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDHVT14_TIE1_V1ECO_1' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDHVT14_TIE1_V1_2' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDHVT14_TIE1_4' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDHVT14_TIE0_V1_2' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDHVT14_TIE0_4' in the library 'saed14hvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE1_PV1ECO_1' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE0_PV1ECO_1' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE1_V1ECO_1' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE1_V1_2' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE1_4' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE0_V1_2' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDLVT14_TIE0_4' in the library 'saed14lvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE1_PV1ECO_1' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE0_PV1ECO_1' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE1_V1ECO_1' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE1_V1_2' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE1_4' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE0_V1_2' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SAEDRVT14_TIE0_4' in the library 'saed14rvt_tt0p8v125c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:18     262.4      0.36     109.6      75.0                           3096762.7500
+    0:00:18     262.4      0.36     109.6      75.0                           3096762.7500
+Information: Removing unused design 'mux2X1_1_1'. (OPT-1055)
+
+Threshold voltage group cell usage:
+>> HVt 99.41%, LVt 0.59%
+
+  Beginning Mapping Optimizations  (Ultra High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+Information: compile falsified 96 infeasible paths. (OPT-1720)
+    0:00:25     256.4      0.04       0.2      75.0                           3010164.0000
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:25     256.4      0.04       0.2      75.0                           3010164.0000
+    0:00:25     258.6      0.04       0.2      75.0                           3042776.0000
+    0:00:26     258.4      0.03       0.1      75.0                           3069133.7500
+    0:00:26     258.4      0.03       0.1      75.0                           3069133.7500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+
+Threshold voltage group cell usage:
+>> HVt 95.89%, LVt 3.91%, undefined 0.20%
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:26     258.5      0.00       0.0      75.0                           3625255.2500
+    0:00:27     258.1      0.00       0.0      75.0                           3507325.2500
+
+
+  Beginning Design Rule Fixing  (max_fanout)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:27     258.1      0.00       0.0      75.0                           3507325.2500
+    0:00:27     259.8      0.00       0.0       0.0                           3388032.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+
+
+  Beginning Critical Range Optimization
+  -------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:28     260.0      0.00       0.0       0.0                           3178069.0000
+    0:00:29     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:29     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:29     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:29     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:29     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:30     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:30     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:30     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:30     260.0      0.00       0.0       0.0                           3175125.7500
+    0:00:30     260.4      0.00       0.0       0.0                           3268096.7500
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:30     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:30     516.2      0.00       0.0       0.0                           3268096.7500
+
+Threshold voltage group cell usage:
+>> HVt 96.72%, LVt 2.51%, undefined 0.77%
+
+  Beginning Delay Optimization HSVT Pass
+  --------------------------------------
+    0:00:33     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:33     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:33     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:33     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:38     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:38     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:38     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:38     516.2      0.00       0.0       0.0                           3268096.7500
+    0:00:45     513.5      0.00       0.0       0.0                           2763910.2500
+    0:00:45     513.5      0.00       0.0       0.0                           2763910.2500
+    0:00:46     513.5      0.00       0.0       0.0                           2754129.0000
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: The derived toggle rate value (2.000000) for the clock net 'Clock' conflicts with the annotated value (0.000000). Using the annotated value. (PWR-12)
+ 
+****************************************
+Report : area
+Design : simple_processor_Top_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 11:11:26 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed14hvt_tt0p8v125c (File: /home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db)
+    saed14lvt_tt0p8v125c (File: /home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db)
+    saed14rvt_tt0p8v125c (File: /home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db)
+
+Number of ports:                          862
+Number of nets:                          1342
+Number of cells:                          594
+Number of combinational cells:            377
+Number of sequential cells:               138
+Number of macros/black boxes:               0
+Number of buf/inv:                         39
+Number of references:                       1
+
+Combinational area:                141.236401
+Buf/Inv area:                        7.459200
+Noncombinational area:             116.816398
+Macro/Black Box area:                0.000000
+Net Interconnect area:             256.073023
+
+Total cell area:                   258.052799
+Total area:                        514.125822
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : simple_processor_Top_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 11:11:26 2022
+****************************************
+
+
+Library(s) Used:
+
+    saed14hvt_tt0p8v125c (File: /home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db)
+    saed14lvt_tt0p8v125c (File: /home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db)
+    saed14rvt_tt0p8v125c (File: /home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db)
+
+
+Operating Conditions: tt0p8v125c   Library: saed14hvt_tt0p8v125c
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+simple_processor_Top_Top
+                       8000              saed14hvt_tt0p8v125c
+simple_processor_Top   8000              saed14hvt_tt0p8v125c
+controller_new         ForQA             saed14hvt_tt0p8v125c
+datapath_register_array
+                       8000              saed14hvt_tt0p8v125c
+dec3to8_0              ForQA             saed14hvt_tt0p8v125c
+dec3to8_3bit           ForQA             saed14hvt_tt0p8v125c
+mux_10to1              ForQA             saed14hvt_tt0p8v125c
+Add_Sub                ForQA             saed14hvt_tt0p8v125c
+reg_G                  ForQA             saed14hvt_tt0p8v125c
+Register_0             ForQA             saed14hvt_tt0p8v125c
+csa_9bit               ForQA             saed14hvt_tt0p8v125c
+full_adder_0           ForQA             saed14hvt_tt0p8v125c
+carry_select_adder_4bit_slice_0
+                       ForQA             saed14hvt_tt0p8v125c
+half_adder_0           ForQA             saed14hvt_tt0p8v125c
+ripple_carry_4_bit_0   ForQA             saed14hvt_tt0p8v125c
+mux2X1_0               ForQA             saed14hvt_tt0p8v125c
+mux2X1_1_0             ForQA             saed14hvt_tt0p8v125c
+dec3to8_1              ForQA             saed14hvt_tt0p8v125c
+Register_1             ForQA             saed14hvt_tt0p8v125c
+Register_2             ForQA             saed14hvt_tt0p8v125c
+Register_3             ForQA             saed14hvt_tt0p8v125c
+Register_4             ForQA             saed14hvt_tt0p8v125c
+Register_5             ForQA             saed14hvt_tt0p8v125c
+Register_6             ForQA             saed14hvt_tt0p8v125c
+Register_7             ForQA             saed14hvt_tt0p8v125c
+Register_8             ForQA             saed14hvt_tt0p8v125c
+carry_select_adder_4bit_slice_1
+                       ForQA             saed14hvt_tt0p8v125c
+mux2X1_1               ForQA             saed14hvt_tt0p8v125c
+ripple_carry_4_bit_1   ForQA             saed14hvt_tt0p8v125c
+ripple_carry_4_bit_2   ForQA             saed14hvt_tt0p8v125c
+ripple_carry_4_bit_3   ForQA             saed14hvt_tt0p8v125c
+full_adder_1           ForQA             saed14hvt_tt0p8v125c
+full_adder_2           ForQA             saed14hvt_tt0p8v125c
+full_adder_3           ForQA             saed14hvt_tt0p8v125c
+full_adder_4           ForQA             saed14hvt_tt0p8v125c
+full_adder_5           ForQA             saed14hvt_tt0p8v125c
+full_adder_6           ForQA             saed14hvt_tt0p8v125c
+full_adder_7           ForQA             saed14hvt_tt0p8v125c
+full_adder_8           ForQA             saed14hvt_tt0p8v125c
+full_adder_9           ForQA             saed14hvt_tt0p8v125c
+full_adder_10          ForQA             saed14hvt_tt0p8v125c
+full_adder_11          ForQA             saed14hvt_tt0p8v125c
+full_adder_12          ForQA             saed14hvt_tt0p8v125c
+full_adder_13          ForQA             saed14hvt_tt0p8v125c
+full_adder_14          ForQA             saed14hvt_tt0p8v125c
+full_adder_15          ForQA             saed14hvt_tt0p8v125c
+full_adder_16          ForQA             saed14hvt_tt0p8v125c
+half_adder_1           ForQA             saed14hvt_tt0p8v125c
+half_adder_2           ForQA             saed14hvt_tt0p8v125c
+half_adder_3           ForQA             saed14hvt_tt0p8v125c
+half_adder_4           ForQA             saed14hvt_tt0p8v125c
+half_adder_5           ForQA             saed14hvt_tt0p8v125c
+half_adder_6           ForQA             saed14hvt_tt0p8v125c
+half_adder_7           ForQA             saed14hvt_tt0p8v125c
+half_adder_8           ForQA             saed14hvt_tt0p8v125c
+half_adder_9           ForQA             saed14hvt_tt0p8v125c
+half_adder_10          ForQA             saed14hvt_tt0p8v125c
+half_adder_11          ForQA             saed14hvt_tt0p8v125c
+half_adder_12          ForQA             saed14hvt_tt0p8v125c
+half_adder_13          ForQA             saed14hvt_tt0p8v125c
+half_adder_14          ForQA             saed14hvt_tt0p8v125c
+half_adder_15          ForQA             saed14hvt_tt0p8v125c
+half_adder_16          ForQA             saed14hvt_tt0p8v125c
+half_adder_17          ForQA             saed14hvt_tt0p8v125c
+half_adder_18          ForQA             saed14hvt_tt0p8v125c
+half_adder_19          ForQA             saed14hvt_tt0p8v125c
+half_adder_20          ForQA             saed14hvt_tt0p8v125c
+half_adder_21          ForQA             saed14hvt_tt0p8v125c
+half_adder_22          ForQA             saed14hvt_tt0p8v125c
+half_adder_23          ForQA             saed14hvt_tt0p8v125c
+half_adder_24          ForQA             saed14hvt_tt0p8v125c
+half_adder_25          ForQA             saed14hvt_tt0p8v125c
+half_adder_26          ForQA             saed14hvt_tt0p8v125c
+half_adder_27          ForQA             saed14hvt_tt0p8v125c
+half_adder_28          ForQA             saed14hvt_tt0p8v125c
+half_adder_29          ForQA             saed14hvt_tt0p8v125c
+half_adder_30          ForQA             saed14hvt_tt0p8v125c
+half_adder_31          ForQA             saed14hvt_tt0p8v125c
+half_adder_32          ForQA             saed14hvt_tt0p8v125c
+half_adder_33          ForQA             saed14hvt_tt0p8v125c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  20.1914 nW   (61%)
+  Net Switching Power  =  13.0095 nW   (39%)
+                         ---------
+Total Dynamic Power    =  33.2010 nW  (100%)
+
+Cell Leakage Power     =   2.7471 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       1.6298e-02        1.4802e-03        1.1242e+06            1.1420  (  43.02%)
+sequential     6.2347e-06            0.0000        2.9818e+05            0.2982  (  11.23%)
+combinational  3.8870e-03        1.1529e-02        1.1991e+06            1.2146  (  45.75%)
+--------------------------------------------------------------------------------------------------
+Total          2.0191e-02 uW     1.3010e-02 uW     2.6215e+06 pW         2.6547 uW
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : simple_processor_Top_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 11:11:34 2022
+****************************************
+
+Operating Conditions: tt0p8v125c   Library: saed14hvt_tt0p8v125c
+Wire Load Model Mode: segmented
+
+  Startpoint: Resetn (input port clocked by clock)
+  Endpoint: G8/G2_Datapath/g2/Z_reg[2]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  datapath_register_array
+                     8000                  saed14hvt_tt0p8v125c
+  controller_new     ForQA                 saed14hvt_tt0p8v125c
+  simple_processor_Top_Top
+                     8000                  saed14hvt_tt0p8v125c
+  simple_processor_Top
+                     8000                  saed14hvt_tt0p8v125c
+  Register_5         ForQA                 saed14hvt_tt0p8v125c
+  Register_2         ForQA                 saed14hvt_tt0p8v125c
+  reg_G              ForQA                 saed14hvt_tt0p8v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  input external delay                                    1.00       3.00 r
+  Resetn (in)                                             0.00       3.00 r
+  G8/Resetn (simple_processor_Top)                        0.00       3.00 r
+  G8/G2_Datapath/rst (datapath_register_array)            0.00       3.00 r
+  G8/G2_Datapath/U3/X (SAEDHVT14_BUF_S_0P5)               0.08       3.08 r
+  G8/G2_Datapath/g2/rst (reg_G)                           0.00       3.08 r
+  G8/G2_Datapath/g2/U9/X (SAEDHVT14_BUF_U_0P5)            0.06       3.14 r
+  G8/G2_Datapath/g2/U12/X (SAEDHVT14_ND2B_U_0P5)          0.08       3.23 f
+  G8/G2_Datapath/g2/U11/X (SAEDHVT14_INV_0P5)             0.07       3.29 r
+  G8/G2_Datapath/g2/U4/X (SAEDHVT14_AO32_1)               0.04       3.33 r
+  G8/G2_Datapath/g2/Z_reg[2]/D (SAEDHVT14_FDP_V2_0P5)     0.01       3.34 r
+  data arrival time                                                  3.34
+
+  clock clock (rise edge)                                 1.00       1.00
+  clock network delay (ideal)                             2.00       3.00
+  clock uncertainty                                      -0.15       2.85
+  G8/G2_Datapath/g2/Z_reg[2]/CK (SAEDHVT14_FDP_V2_0P5)
+                                                          0.00       2.85 r
+  library setup time                                      0.00       2.85
+  data required time                                                 2.85
+  --------------------------------------------------------------------------
+  data required time                                                 2.85
+  data arrival time                                                 -3.34
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.49
+
+
+  Startpoint: G8/G2_Datapath/A5/dout_reg[1]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G8/G2_Datapath/g2/Z_reg[6]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Register_8         ForQA                 saed14hvt_tt0p8v125c
+  Register_7         ForQA                 saed14hvt_tt0p8v125c
+  Register_6         ForQA                 saed14hvt_tt0p8v125c
+  Register_5         ForQA                 saed14hvt_tt0p8v125c
+  Register_4         ForQA                 saed14hvt_tt0p8v125c
+  Register_3         ForQA                 saed14hvt_tt0p8v125c
+  Register_2         ForQA                 saed14hvt_tt0p8v125c
+  Register_1         ForQA                 saed14hvt_tt0p8v125c
+  Register_0         ForQA                 saed14hvt_tt0p8v125c
+  reg_G              ForQA                 saed14hvt_tt0p8v125c
+  datapath_register_array
+                     8000                  saed14hvt_tt0p8v125c
+  controller_new     ForQA                 saed14hvt_tt0p8v125c
+  simple_processor_Top_Top
+                     8000                  saed14hvt_tt0p8v125c
+  simple_processor_Top
+                     8000                  saed14hvt_tt0p8v125c
+  half_adder_32      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_24      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_16      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_12      ForQA                 saed14hvt_tt0p8v125c
+  ripple_carry_4_bit_3
+                     ForQA                 saed14hvt_tt0p8v125c
+  ripple_carry_4_bit_0
+                     ForQA                 saed14hvt_tt0p8v125c
+  carry_select_adder_4bit_slice_0
+                     ForQA                 saed14hvt_tt0p8v125c
+  csa_9bit           ForQA                 saed14hvt_tt0p8v125c
+  Add_Sub            ForQA                 saed14hvt_tt0p8v125c
+  half_adder_23      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_21      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_11      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_19      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_10      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_17      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_9       ForQA                 saed14hvt_tt0p8v125c
+  mux2X1_1_0         ForQA                 saed14hvt_tt0p8v125c
+  mux2X1_1           ForQA                 saed14hvt_tt0p8v125c
+  carry_select_adder_4bit_slice_1
+                     ForQA                 saed14hvt_tt0p8v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G8/G2_Datapath/A5/dout_reg[1]/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G8/G2_Datapath/A5/dout_reg[1]/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.07       2.07 r
+  G8/G2_Datapath/A5/dout[1] (Register_1)                  0.00       2.07 r
+  G8/G2_Datapath/add_top/A[1] (Add_Sub)                   0.00       2.07 r
+  G8/G2_Datapath/add_top/add1/a[1] (csa_9bit)             0.00       2.07 r
+  G8/G2_Datapath/add_top/add1/csa_slice1/a[0] (carry_select_adder_4bit_slice_0)
+                                                          0.00       2.07 r
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/a[0] (ripple_carry_4_bit_3)
+                                                          0.00       2.07 r
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/a (full_adder_12)
+                                                          0.00       2.07 r
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/a (half_adder_24)
+                                                          0.00       2.07 r
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/U1/X (SAEDHVT14_EO2_V1_0P75)
+                                                          0.11       2.17 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/sum (half_adder_24)
+                                                          0.00       2.17 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h2/a (half_adder_23)
+                                                          0.00       2.17 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h2/cout (half_adder_23)
+                                                          0.00       2.17 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/U1/X (SAEDHVT14_OR2_MM_0P5)
+                                                          0.06       2.24 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/cout (full_adder_12)
+                                                          0.00       2.24 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/cin (full_adder_11)
+                                                          0.00       2.24 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/b (half_adder_21)
+                                                          0.00       2.24 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/U2/X (SAEDHVT14_AN2_MM_0P5)
+                                                          0.05       2.29 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/cout (half_adder_21)
+                                                          0.00       2.29 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/U1/X (SAEDHVT14_OR2_MM_0P75)
+                                                          0.04       2.33 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/cout (full_adder_11)
+                                                          0.00       2.33 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/cin (full_adder_10)
+                                                          0.00       2.33 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/b (half_adder_19)
+                                                          0.00       2.33 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/U2/X (SAEDHVT14_AN2_MM_1)
+                                                          0.05       2.38 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/cout (half_adder_19)
+                                                          0.00       2.38 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/U1/X (SAEDHVT14_OR2_MM_0P75)
+                                                          0.04       2.42 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/cout (full_adder_10)
+                                                          0.00       2.42 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/cin (full_adder_9)
+                                                          0.00       2.42 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/b (half_adder_17)
+                                                          0.00       2.42 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/U2/X (SAEDHVT14_AN2_MM_1)
+                                                          0.05       2.47 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/cout (half_adder_17)
+                                                          0.00       2.47 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/U1/X (SAEDRVT14_OR2_0P5)
+                                                          0.04       2.51 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/cout (full_adder_9)
+                                                          0.00       2.51 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/cout (ripple_carry_4_bit_3)
+                                                          0.00       2.51 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/mc0/in1 (mux2X1_1_0)
+                                                          0.00       2.51 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/mc0/U1/X (SAEDHVT14_MUX2_1)
+                                                          0.10       2.60 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/mc0/out (mux2X1_1_0)
+                                                          0.00       2.60 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/cout (carry_select_adder_4bit_slice_0)
+                                                          0.00       2.60 f
+  G8/G2_Datapath/add_top/add1/csa_slice2/cin (carry_select_adder_4bit_slice_1)
+                                                          0.00       2.60 f
+  G8/G2_Datapath/add_top/add1/csa_slice2/ms0/sel (mux2X1_1)
+                                                          0.00       2.60 f
+  G8/G2_Datapath/add_top/add1/csa_slice2/ms0/U3/X (SAEDHVT14_MUX2_MM_1)
+                                                          0.06       2.66 r
+  G8/G2_Datapath/add_top/add1/csa_slice2/ms0/out[1] (mux2X1_1)
+                                                          0.00       2.66 r
+  G8/G2_Datapath/add_top/add1/csa_slice2/sum[1] (carry_select_adder_4bit_slice_1)
+                                                          0.00       2.66 r
+  G8/G2_Datapath/add_top/add1/sum[6] (csa_9bit)           0.00       2.66 r
+  G8/G2_Datapath/add_top/ALU_out[6] (Add_Sub)             0.00       2.66 r
+  G8/G2_Datapath/g2/Sum[6] (reg_G)                        0.00       2.66 r
+  G8/G2_Datapath/g2/U8/X (SAEDHVT14_AO32_1)               0.17       2.83 r
+  G8/G2_Datapath/g2/Z_reg[6]/D (SAEDHVT14_FDP_V2_0P5)     0.01       2.84 r
+  data arrival time                                                  2.84
+
+  clock clock (rise edge)                                 1.00       1.00
+  clock network delay (ideal)                             2.00       3.00
+  clock uncertainty                                      -0.15       2.85
+  G8/G2_Datapath/g2/Z_reg[6]/CK (SAEDHVT14_FDP_V2_0P5)
+                                                          0.00       2.85 r
+  library setup time                                      0.00       2.85
+  data required time                                                 2.85
+  --------------------------------------------------------------------------
+  data required time                                                 2.85
+  data arrival time                                                 -2.84
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 11:11:42 2022
+****************************************
+
+
+  Startpoint: Resetn (input port clocked by clock)
+  Endpoint: G8/G2_Datapath/g2/Z_reg[2]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  datapath_register_array
+                     8000                  saed14hvt_tt0p8v125c
+  controller_new     ForQA                 saed14hvt_tt0p8v125c
+  simple_processor_Top_Top
+                     8000                  saed14hvt_tt0p8v125c
+  simple_processor_Top
+                     8000                  saed14hvt_tt0p8v125c
+  Register_5         ForQA                 saed14hvt_tt0p8v125c
+  Register_2         ForQA                 saed14hvt_tt0p8v125c
+  reg_G              ForQA                 saed14hvt_tt0p8v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  input external delay                                    1.00       3.00 r
+  Resetn (in)                                             0.00       3.00 r
+  G8/G2_Datapath/U3/X (SAEDHVT14_BUF_S_0P5)               0.08       3.08 r
+  G8/G2_Datapath/g2/U9/X (SAEDHVT14_BUF_U_0P5)            0.06       3.14 r
+  G8/G2_Datapath/g2/U12/X (SAEDHVT14_ND2B_U_0P5)          0.08       3.23 f
+  G8/G2_Datapath/g2/U11/X (SAEDHVT14_INV_0P5)             0.07       3.29 r
+  G8/G2_Datapath/g2/U4/X (SAEDHVT14_AO32_1)               0.04       3.33 r
+  G8/G2_Datapath/g2/Z_reg[2]/D (SAEDHVT14_FDP_V2_0P5)     0.01       3.34 r
+  data arrival time                                                  3.34
+
+  clock clock (rise edge)                                 1.00       1.00
+  clock network delay (ideal)                             2.00       3.00
+  clock uncertainty                                      -0.15       2.85
+  G8/G2_Datapath/g2/Z_reg[2]/CK (SAEDHVT14_FDP_V2_0P5)
+                                                          0.00       2.85 r
+  library setup time                                      0.00       2.85
+  data required time                                                 2.85
+  --------------------------------------------------------------------------
+  data required time                                                 2.85
+  data arrival time                                                 -3.34
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.49
+
+
+  Startpoint: G8/G2_Datapath/A5/dout_reg[1]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G8/G2_Datapath/g2/Z_reg[6]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Register_8         ForQA                 saed14hvt_tt0p8v125c
+  Register_7         ForQA                 saed14hvt_tt0p8v125c
+  Register_6         ForQA                 saed14hvt_tt0p8v125c
+  Register_5         ForQA                 saed14hvt_tt0p8v125c
+  Register_4         ForQA                 saed14hvt_tt0p8v125c
+  Register_3         ForQA                 saed14hvt_tt0p8v125c
+  Register_2         ForQA                 saed14hvt_tt0p8v125c
+  Register_1         ForQA                 saed14hvt_tt0p8v125c
+  Register_0         ForQA                 saed14hvt_tt0p8v125c
+  reg_G              ForQA                 saed14hvt_tt0p8v125c
+  datapath_register_array
+                     8000                  saed14hvt_tt0p8v125c
+  controller_new     ForQA                 saed14hvt_tt0p8v125c
+  simple_processor_Top_Top
+                     8000                  saed14hvt_tt0p8v125c
+  simple_processor_Top
+                     8000                  saed14hvt_tt0p8v125c
+  half_adder_32      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_24      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_16      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_12      ForQA                 saed14hvt_tt0p8v125c
+  ripple_carry_4_bit_3
+                     ForQA                 saed14hvt_tt0p8v125c
+  ripple_carry_4_bit_0
+                     ForQA                 saed14hvt_tt0p8v125c
+  carry_select_adder_4bit_slice_0
+                     ForQA                 saed14hvt_tt0p8v125c
+  csa_9bit           ForQA                 saed14hvt_tt0p8v125c
+  Add_Sub            ForQA                 saed14hvt_tt0p8v125c
+  half_adder_23      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_21      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_11      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_19      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_10      ForQA                 saed14hvt_tt0p8v125c
+  half_adder_17      ForQA                 saed14hvt_tt0p8v125c
+  full_adder_9       ForQA                 saed14hvt_tt0p8v125c
+  mux2X1_1_0         ForQA                 saed14hvt_tt0p8v125c
+  mux2X1_1           ForQA                 saed14hvt_tt0p8v125c
+  carry_select_adder_4bit_slice_1
+                     ForQA                 saed14hvt_tt0p8v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G8/G2_Datapath/A5/dout_reg[1]/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G8/G2_Datapath/A5/dout_reg[1]/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.07       2.07 r
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h1/U1/X (SAEDHVT14_EO2_V1_0P75)
+                                                          0.11       2.17 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/U1/X (SAEDHVT14_OR2_MM_0P5)
+                                                          0.06       2.24 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/h2/U2/X (SAEDHVT14_AN2_MM_0P5)
+                                                          0.05       2.29 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa1/U1/X (SAEDHVT14_OR2_MM_0P75)
+                                                          0.04       2.33 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/U2/X (SAEDHVT14_AN2_MM_1)
+                                                          0.05       2.38 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/U1/X (SAEDHVT14_OR2_MM_0P75)
+                                                          0.04       2.42 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h2/U2/X (SAEDHVT14_AN2_MM_1)
+                                                          0.05       2.47 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/U1/X (SAEDRVT14_OR2_0P5)
+                                                          0.04       2.51 f
+  G8/G2_Datapath/add_top/add1/csa_slice1/mc0/U1/X (SAEDHVT14_MUX2_1)
+                                                          0.10       2.60 f
+  G8/G2_Datapath/add_top/add1/csa_slice2/ms0/U3/X (SAEDHVT14_MUX2_MM_1)
+                                                          0.06       2.66 r
+  G8/G2_Datapath/g2/U8/X (SAEDHVT14_AO32_1)               0.17       2.83 r
+  G8/G2_Datapath/g2/Z_reg[6]/D (SAEDHVT14_FDP_V2_0P5)     0.01       2.84 r
+  data arrival time                                                  2.84
+
+  clock clock (rise edge)                                 1.00       1.00
+  clock network delay (ideal)                             2.00       3.00
+  clock uncertainty                                      -0.15       2.85
+  G8/G2_Datapath/g2/Z_reg[6]/CK (SAEDHVT14_FDP_V2_0P5)
+                                                          0.00       2.85 r
+  library setup time                                      0.00       2.85
+  data required time                                                 2.85
+  --------------------------------------------------------------------------
+  data required time                                                 2.85
+  data arrival time                                                 -2.84
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: Resetn (input port clocked by clock)
+  Endpoint: G8/G1_Controller/PS_reg[1]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  datapath_register_array
+                     8000                  saed14hvt_tt0p8v125c
+  controller_new     ForQA                 saed14hvt_tt0p8v125c
+  simple_processor_Top_Top
+                     8000                  saed14hvt_tt0p8v125c
+  simple_processor_Top
+                     8000                  saed14hvt_tt0p8v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  input external delay                                    0.50       2.50 f
+  Resetn (in)                                             0.00       2.50 f
+  G8/G1_Controller/PS_reg[1]/RS (SAEDHVT14_FDPCBQ_V2LP_1)
+                                                          0.01       2.51 f
+  data arrival time                                                  2.51
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G8/G1_Controller/PS_reg[1]/CK (SAEDHVT14_FDPCBQ_V2LP_1)
+                                                          0.00       2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  --------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.51
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.34
+
+
+  Startpoint: G8/G1_Controller/opcode_reg[1]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G8/G1_Controller/opcode_reg[1]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Register_8         ForQA                 saed14hvt_tt0p8v125c
+  Register_7         ForQA                 saed14hvt_tt0p8v125c
+  Register_6         ForQA                 saed14hvt_tt0p8v125c
+  Register_5         ForQA                 saed14hvt_tt0p8v125c
+  Register_4         ForQA                 saed14hvt_tt0p8v125c
+  Register_3         ForQA                 saed14hvt_tt0p8v125c
+  Register_2         ForQA                 saed14hvt_tt0p8v125c
+  Register_1         ForQA                 saed14hvt_tt0p8v125c
+  Register_0         ForQA                 saed14hvt_tt0p8v125c
+  reg_G              ForQA                 saed14hvt_tt0p8v125c
+  datapath_register_array
+                     8000                  saed14hvt_tt0p8v125c
+  controller_new     ForQA                 saed14hvt_tt0p8v125c
+  simple_processor_Top_Top
+                     8000                  saed14hvt_tt0p8v125c
+  simple_processor_Top
+                     8000                  saed14hvt_tt0p8v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G8/G1_Controller/opcode_reg[1]/CK (SAEDHVT14_FDPCBQ_V2LP_0P5)
+                                                          0.00       2.00 r
+  G8/G1_Controller/opcode_reg[1]/Q (SAEDHVT14_FDPCBQ_V2LP_0P5)
+                                                          0.05       2.05 f
+  G8/G1_Controller/U3/X (SAEDHVT14_MUX2_MM_0P5)           0.02       2.07 f
+  G8/G1_Controller/opcode_reg[1]/D (SAEDHVT14_FDPCBQ_V2LP_0P5)
+                                                          0.01       2.08 f
+  data arrival time                                                  2.08
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G8/G1_Controller/opcode_reg[1]/CK (SAEDHVT14_FDPCBQ_V2LP_0P5)
+                                                          0.00       2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  --------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.08
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.09
+
+
+    Net: Bus[0]
+
+    max_transition         0.50
+  - Transition Time        0.11
+  ------------------------------
+    Slack                  0.39  (MET)
+
+
+    Net: G8/G2_Datapath/n2
+
+    max_fanout            20.00
+  - Fanout                20.00
+  ------------------------------
+    Slack                  0.00  (MET)
+
+
+    Net: Bus[0]
+
+    max_capacitance       19.27
+  - Capacitance           16.21
+  ------------------------------
+    Slack                  3.06  (MET)
+
+
+    Net: G8/G1_Controller/n29
+
+    Capacitance            0.39
+  - min_capacitance        0.15
+  ------------------------------
+    Slack                  0.24  (MET)
+
+
+Min pulse width constraints
+
+                       Required      Actual
+  Pin                pulse width   pulse width   Slack           Scenario
+--------------------------------------------------------------------------------
+  G8/G1_Controller/PS_reg[2]/CK(low)
+                      0.03          0.35          0.32 (MET)
+
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : qor
+Design : simple_processor_Top_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 11:11:51 2022
+****************************************
+
+
+  Timing Path Group 'INPUTS'
+  -----------------------------------
+  Levels of Logic:               5.00
+  Critical Path Length:          0.34
+  Critical Path Slack:          -0.49
+  Critical Path Clk Period:      1.00
+  Total Negative Slack:        -29.47
+  No. of Violating Paths:       95.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'CLOCK'
+  -----------------------------------
+  Levels of Logic:              11.00
+  Critical Path Length:          0.84
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.09
+  Total Hold Violation:         -6.47
+  No. of Hold Violations:       97.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         79
+  Hierarchical Port Count:        840
+  Leaf Cell Count:                515
+  Buf/Inv Cell Count:              39
+  Buf Cell Count:                   6
+  Inv Cell Count:                  33
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       377
+  Sequential Cell Count:          138
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      141.236401
+  Noncombinational Area:   116.816398
+  Buf/Inv Area:              7.459200
+  Total Buffer Area:             1.60
+  Total Inverter Area:           5.86
+  Macro/Black Box Area:      0.000000
+  Net Area:                256.073023
+  -----------------------------------
+  Cell Area:               258.052799
+  Design Area:             514.125822
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           538
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: synopsysserver
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.13
+  Logic Optimization:                  0.54
+  Mapping Optimization:                4.87
+  -----------------------------------------
+  Overall Compile Time:               56.73
+  Overall Compile Wall Clock Time:    57.45
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.49  TNS: 29.47  Number of Violating Paths: 95
+
+
+  Design (Hold)  WNS: 0.09  TNS: 6.47  Number of Violating Paths: 97
+
+  --------------------------------------------------------------------
+
+
+ 
+****************************************
+Report : clock_gating
+Design : simple_processor_Top_Top
+Version: O-2018.06-SP4
+Date   : Thu May  5 11:11:51 2022
+****************************************
+
+
+
+                             Clock Gating Summary
+          ------------------------------------------------------------
+          |    Number of Clock gating elements    |        0         |
+          |                                       |                  |
+          |    Number of Gated registers          |     0 (0.00%)    |
+          |                                       |                  |
+          |    Number of Ungated registers        |    97 (100.00%)  |
+          |                                       |                  |
+          |    Total number of registers          |       97         |
+          ------------------------------------------------------------
+
+
+
+Warning: In the design dec3to8_3bit, net 'W[2]' is connecting multiple ports. (UCN-1)
+Warning: In the design dec3to8_3bit, net 'W[1]' is connecting multiple ports. (UCN-1)
+Warning: In the design dec3to8_3bit, net 'W[0]' is connecting multiple ports. (UCN-1)
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+Warning: In the design half_adder_7, net 'a' is connecting multiple ports. (UCN-1)
+Warning: In the design half_adder_15, net 'a' is connecting multiple ports. (UCN-1)
+Warning: In the design half_adder_23, net 'a' is connecting multiple ports. (UCN-1)
+Warning: In the design half_adder_31, net 'a' is connecting multiple ports. (UCN-1)
+Writing verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Synthesis_Work_Simulate/Logic_Optimization/Logic_Optimization/SP_opti/Simple_Processor_netlist.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> exit
+
+Thank you...
+

@@ -1,0 +1,104 @@
+-abutment_merge_mode 4
+-layer_based_nxtgrd_read
+-pllayermap 2,1,6;3,1,6;4,1,6;5,1,6;2,1,6;3,1,6;4,1,6;5,1,6
+-noncritical_min_area 0.25
+-noncritical_min_length 0.25
+-local_nodeids
+-new_res_rc
+-new_res_environment 2
+-new_res_optimization 1
+-res_cache_hash_size 50000
+-do_not_handle_long_contacts
+-rx_enclosure_simple
+-new_ip_handling
+-process_point_based_ip
+-consistent_open_instance_port
+-new_cap_environment 6
+-new_cap_environment_nondominant 1
+-new_cap_model 1
+-ground_non_reciprocal_fill_coupling
+-thickness_var_threshold 0.05
+-thickness_var_threshold_discard 0.02
+-new_cap_plane_limit 4.0
+-new_cap_simple_via_pad_model 2
+-abstract_polygon_mode 1
+-abstract_pattern_expand_mode 5
+-fill_pattern_generation_mode 5
+-via_enclosure_modeling 1
+-fast_env_nondominant_scan_wmin_threshold 2.0
+-edge_cap_cache_hash_size 65000
+-fringe_cap_cache_hash_size 10000
+-cap_area_cache_hash_size 25000
+-tv_cache_hash_size 25000
+-single_cap_node_delay_threshold 7.0
+-max_ccap_merge_length 2.0
+-max_ccap_merge_distance 2.0
+-abstract_polygon_area_tuning_factor 0.6
+-abstract_polygon_via_tuning_factor 0.7
+-use_relaxed_area_cap_env_merge
+-new_cap_sort_small_environments 8
+-max_env_model_length_multiple 0.0
+-max_model_length_ratio 0.0
+-simple_model_plane_limit 0.0
+-max_env_prune_length_multiple 2.0
+-max_prune_length_ratio 1.0
+-max_via_env_prune_length_multiple 2.0
+-fill_extraction_abs_threshold 1e-19
+-new_cap_fill_extract_iterations 2
+-full_cap_fill_mode
+-last_fill_iteration_simple
+-fast_fill_model 5
+-select_pruned_fill_polygons 1
+-use_effective_edge_cap_to_ground
+-use_partition_based_density
+-ignore_reconnected_fill_in_ip_location
+-stage_id 1
+-o xout
+-handle_45_polygons
+-nonmanhattan_ratio 0.95
+-nonmanhattan_tolerance 5
+-enhanced_via_model_for_via_coverage
+-adjust_rpv_by_via_count
+-ignore_ek_stub_for_ip
+-filter
+-dsd 25
+-message_suppression_limit  100
+-i xin
+-tcad_file ../saed14nm_1p9m_Cmin.nxtgrd
+-layer_info layer_info
+-density_based_thickness
+-do_cc2g
+-enable_tall_contact_modeling
+-xm 400
+-extraction RC
+-keep_via_nodes 0
+-rfr 0.99
+-suppress_file xtract.sup
+-extra_geometry_info node
+-rcapi
+-fct 1e-19
+-tffct 1e-19
+-trench_contact_virtual_via_segmentation_ratio 2.0
+-max_virtual_via_segmentation_number 1000000
+-net_segment_cut_length 10
+-stop_extraction_on_numerous_shorts 
+-inter_pic_level_connections
+-fine_dbu
+-calc_text_count
+-pi_cap_polygon
+-pi_cap_polygon_ratio 0.22 
+-pi_cap_polygon_length 10
+-net_command_file select_nets
+-small_net_delay_threshold 0.25
+-random_access_xout
+-lateral_cap_scaling_mode 2
+-gpd_dir ../29th_MAY_ROUTE_DONE.gpd
+-direct_gpd
+-nco_setup_file gpd_connect_open_nets
+-enhanced_via_extraction
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000
+-vertical_gate_resistance
+-persistent_extractor_mode 3
+-enhanced_obs_short_reporting

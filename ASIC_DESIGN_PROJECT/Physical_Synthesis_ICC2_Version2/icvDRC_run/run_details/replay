@@ -1,0 +1,2852 @@
+#
+# runset is /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/saed14nm_1p9m_drc_rules.rs
+#
+runset_csum = 40987
+num_hosts = 2
+events {
+S 238.0.0 939 0
+# synopsysserver(0):       766  1 _prescan_library
+F 238.0.0 939 0
+S 240.0.0 946 0
+# synopsysserver(0):       812  1 _scan_hierarchy
+F 240.0.0 946 0
+S 242.0.0 950 1
+# synopsysserver(1):      7015  1 _read_library_segment
+F 242.0.0 950 1
+S 244.0.0 958 0
+# synopsysserver(0):      4790  1 _create_hierarchy_tree
+F 244.0.0 958 0
+S 261.0.0 1008 0
+# synopsysserver(0):      1331  1 _optimize_hierarchy_tree
+S 260.0.0 1006 1
+# synopsysserver(1):       725  1 _generate_sibling_refref
+F 260.0.0 1006 1
+S 277.0.0 1042 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 261.0.0 1008 0
+S 262.0.0 1015 0
+# synopsysserver(0):       959  1 _hierarchy_cleanup
+F 277.0.0 1042 1
+S 285.0.0 1072 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 285.0.0 1072 1
+S 290.0.0 1093 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 262.0.0 1015 0
+F 290.0.0 1093 1
+S 263.0.0 1018 1
+# synopsysserver(1):       979  1 _update_and_pushdown_refref
+F 263.0.0 1018 1
+S 331.0.0 1250 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 331.0.0 1250 1
+S 371.0.0 1418 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 371.0.0 1418 1
+S 366.0.0 1397 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 366.0.0 1397 1
+S 361.0.0 1376 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 361.0.0 1376 1
+S 356.0.0 1355 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 356.0.0 1355 1
+S 351.0.0 1334 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 351.0.0 1334 1
+S 346.0.0 1313 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 346.0.0 1313 1
+S 341.0.0 1292 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 341.0.0 1292 1
+S 336.0.0 1271 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 336.0.0 1271 1
+S 326.0.0 1229 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 326.0.0 1229 1
+S 321.0.0 1208 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 321.0.0 1208 1
+S 316.0.0 1187 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+F 316.0.0 1187 1
+S 311.0.0 1166 1
+# synopsysserver(1):      3635  1 _create_layer_dp
+F 311.0.0 1166 1
+S 303.0.0 1140 1
+# synopsysserver(1):      3619  1 _create_layer_dp
+S 298.0.0 1119 0
+# synopsysserver(0):      3635  1 _create_layer_dp
+F 303.0.0 1140 1
+S 376.0.0 1439 1
+# synopsysserver(1):      3651  1 _create_layer_dp
+F 376.0.0 1439 1
+S 295.0.0 1114 1
+# synopsysserver(1):      2317  1 _empty_layer
+F 295.0.0 1114 1
+S 283.0.0 1069 1
+# synopsysserver(1):      2319  1 _empty_layer
+F 283.0.0 1069 1
+S 282.0.0 1067 1
+# synopsysserver(1):      2317  1 _empty_layer
+F 282.0.0 1067 1
+S 308.0.0 1161 1
+# synopsysserver(1):      2317  1 _empty_layer
+F 308.0.0 1161 1
+S 275.0.0 1039 1
+# synopsysserver(1):      2319  1 _empty_layer
+F 275.0.0 1039 1
+S 274.0.0 1037 1
+# synopsysserver(1):      2317  1 _empty_layer
+F 274.0.0 1037 1
+S 296.0.0 1116 1
+# synopsysserver(1):      2319  1 _empty_layer
+F 296.0.0 1116 1
+S 272.0.0 1034 1
+# synopsysserver(1):      2316  1 _empty_layer
+F 272.0.0 1034 1
+S 271.0.0 1032 1
+# synopsysserver(1):      2314  1 _empty_layer
+F 271.0.0 1032 1
+S 269.0.0 1029 1
+# synopsysserver(1):      2319  1 _empty_layer
+F 269.0.0 1029 1
+S 268.0.0 1027 1
+# synopsysserver(1):      2317  1 _empty_layer
+F 268.0.0 1027 1
+S 266.0.0 1024 1
+# synopsysserver(1):      2316  1 _empty_layer
+F 266.0.0 1024 1
+S 265.0.0 1022 1
+# synopsysserver(1):      2314  1 _empty_layer
+F 265.0.0 1022 1
+S 309.0.0 1163 1
+# synopsysserver(1):      2319  1 _empty_layer
+F 309.0.0 1163 1
+S 347.0.0 1318 1
+# synopsysserver(1):      3470  1 _optimize_layer_dp
+F 298.0.0 1119 0
+S 317.0.0 1192 0
+# synopsysserver(0):      3470  1 _optimize_layer_dp
+F 347.0.0 1318 1
+S 372.0.0 1423 1
+# synopsysserver(1):      3478  1 _optimize_layer_dp
+F 372.0.0 1423 1
+S 342.0.0 1297 1
+# synopsysserver(1):      3478  1 _optimize_layer_dp
+F 317.0.0 1192 0
+S 352.0.0 1339 0
+# synopsysserver(0):      3478  1 _optimize_layer_dp
+F 342.0.0 1297 1
+S 291.0.0 1098 1
+# synopsysserver(1):      3470  1 _optimize_layer_dp
+F 352.0.0 1339 0
+S 357.0.0 1360 0
+# synopsysserver(0):      3470  1 _optimize_layer_dp
+F 357.0.0 1360 0
+S 332.0.0 1255 0
+# synopsysserver(0):      3478  1 _optimize_layer_dp
+F 332.0.0 1255 0
+S 362.0.0 1381 0
+# synopsysserver(0):      3478  1 _optimize_layer_dp
+F 291.0.0 1098 1
+S 286.0.0 1077 1
+# synopsysserver(1):      3478  1 _optimize_layer_dp
+F 362.0.0 1381 0
+S 367.0.0 1402 0
+# synopsysserver(0):      3470  1 _optimize_layer_dp
+F 286.0.0 1077 1
+S 312.0.0 1171 1
+# synopsysserver(1):      3478  1 _optimize_layer_dp
+F 367.0.0 1402 0
+S 304.0.0 1145 0
+# synopsysserver(0):      3470  1 _optimize_layer_dp
+F 312.0.0 1171 1
+S 299.0.0 1124 1
+# synopsysserver(1):      3478  1 _optimize_layer_dp
+F 299.0.0 1124 1
+S 377.0.0 1444 1
+# synopsysserver(1):      3486  1 _optimize_layer_dp
+F 377.0.0 1444 1
+S 278.0.0 1051 1
+# synopsysserver(1):      3470  1 _optimize_layer_dp
+F 304.0.0 1145 0
+S 322.0.0 1213 0
+# synopsysserver(0):      3478  1 _optimize_layer_dp
+F 322.0.0 1213 0
+S 327.0.0 1234 0
+# synopsysserver(0):      3470  1 _optimize_layer_dp
+F 278.0.0 1051 1
+S 337.0.0 1276 1
+# synopsysserver(1):      3470  1 _optimize_layer_dp
+F 327.0.0 1234 0
+S 1386.0.0 4724 0
+# synopsysserver(0):      1151  1 _copy
+F 1386.0.0 4724 0
+S 1382.0.0 4713 0
+# synopsysserver(0):      1153  1 _copy
+F 337.0.0 1276 1
+S 1334.0.0 4570 1
+# synopsysserver(1):      1153  1 _copy
+F 1382.0.0 4713 0
+S 1339.0.0 4584 0
+# synopsysserver(0):      1151  1 _copy
+F 1334.0.0 4570 1
+S 1330.0.0 4559 1
+# synopsysserver(1):      1153  1 _copy
+F 1339.0.0 4584 0
+S 1338.0.0 4581 0
+# synopsysserver(0):      1151  1 _copy
+F 1330.0.0 4559 1
+S 373.0.0 1428 1
+# synopsysserver(1):      3565  1 _optimize_unmerged_layer_dp
+F 1338.0.0 4581 0
+S 305.0.0 1150 0
+# synopsysserver(0):      3553  1 _optimize_unmerged_layer_dp
+F 373.0.0 1428 1
+S 384.0.0 1466 1
+# synopsysserver(1):       463  1 _create_q
+F 384.0.0 1466 1
+S 391.0.0 1480 1
+# synopsysserver(1):       534  1 _create_q
+F 391.0.0 1480 1
+S 301.0.0 1134 1
+# synopsysserver(1):      3569  1 _optimize_unmerged_layer_dp
+F 305.0.0 1150 0
+S 354.0.0 1349 0
+# synopsysserver(0):      3569  1 _optimize_unmerged_layer_dp
+F 354.0.0 1349 0
+S 397.0.0 1492 0
+# synopsysserver(0):       498  1 _create_q
+F 301.0.0 1134 1
+S 395.0.0 1488 1
+# synopsysserver(1):       568  1 _create_q
+F 397.0.0 1492 0
+S 924.0.0 3205 0
+# synopsysserver(0):      2187  1 _vertex_q
+F 395.0.0 1488 1
+S 1203.0.0 4150 1
+# synopsysserver(1):      6188  1 _external_q
+F 924.0.0 3205 0
+S 1612.0.0 5412 0
+# synopsysserver(0):      1647  1 _boolean_and_q
+F 1203.0.0 4150 1
+S 1128.0.0 3897 1
+# synopsysserver(1):      5198  1 _internal_q
+F 1612.0.0 5412 0
+S 368.0.0 1407 0
+# synopsysserver(0):      3553  1 _optimize_unmerged_layer_dp
+F 1128.0.0 3897 1
+S 1613.0.0 5416 1
+# synopsysserver(1):       463  1 _create_q
+F 1613.0.0 5416 1
+S 1112.0.0 3843 1
+# synopsysserver(1):      2187  1 _vertex_q
+F 1112.0.0 3843 1
+S 1206.0.0 4162 1
+# synopsysserver(1):      2187  1 _vertex_q
+F 368.0.0 1407 0
+S 1130.0.0 3906 0
+# synopsysserver(0):       430  1 _create_q
+F 1206.0.0 4162 1
+S 899.0.0 3127 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1130.0.0 3906 0
+S 1114.0.0 3850 0
+# synopsysserver(0):       453  1 _create_q
+F 1114.0.0 3850 0
+S 1109.0.0 3831 0
+# synopsysserver(0):      6188  1 _external_q
+F 899.0.0 3127 1
+S 1177.0.0 4056 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1109.0.0 3831 0
+S 1208.0.0 4169 0
+# synopsysserver(0):       453  1 _create_q
+F 1177.0.0 4056 1
+S 902.0.0 3138 1
+# synopsysserver(1):      1398  1 _boolean_not_q
+F 1208.0.0 4169 0
+S 936.0.0 3244 0
+# synopsysserver(0):      6248  1 _external_q
+F 902.0.0 3138 1
+S 1106.0.0 3823 1
+# synopsysserver(1):      2321  1 _find_wide_q
+F 936.0.0 3244 0
+S 1087.0.0 3765 0
+# synopsysserver(0):      5170  1 _internal_q
+F 1106.0.0 3823 1
+S 1086.0.0 3758 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1087.0.0 3765 0
+S 348.0.0 1323 0
+# synopsysserver(0):      3553  1 _optimize_unmerged_layer_dp
+F 1086.0.0 3758 1
+S 1232.0.0 4249 1
+# synopsysserver(1):      1451  1 _boolean_not_q
+F 1232.0.0 4249 1
+S 1207.0.0 4167 1
+# synopsysserver(1):       453  1 _create_q
+F 1207.0.0 4167 1
+S 1090.0.0 3776 1
+# synopsysserver(1):      1398  1 _boolean_not_q
+F 1090.0.0 3776 1
+S 1209.0.0 4171 1
+# synopsysserver(1):      2234  1 _interacting_edge_q
+F 348.0.0 1323 0
+S 1129.0.0 3904 0
+# synopsysserver(0):       424  1 _create_q
+F 1209.0.0 4171 1
+S 385.0.0 1468 1
+# synopsysserver(1):       529  1 _create_q
+F 1129.0.0 3904 0
+S 1091.0.0 3780 0
+# synopsysserver(0):       336  1 _create_q
+F 1091.0.0 3780 0
+S 1113.0.0 3848 0
+# synopsysserver(0):       308  1 _create_q
+F 1113.0.0 3848 0
+S 1131.0.0 3908 0
+# synopsysserver(0):      1354  1 _boolean_not_q
+F 1131.0.0 3908 0
+S 1115.0.0 3852 0
+# synopsysserver(0):      2234  1 _interacting_edge_q
+F 1115.0.0 3852 0
+S 1161.0.0 4000 0
+# synopsysserver(0):      7254  1 _external_q
+F 385.0.0 1468 1
+S 1210.0.0 4177 1
+# synopsysserver(1):       385  1 _create_q
+F 1161.0.0 4000 0
+S 926.0.0 3212 0
+# synopsysserver(0):       453  1 _create_q
+F 1210.0.0 4177 1
+S 1124.0.0 3882 1
+# synopsysserver(1):      6248  1 _external_q
+F 926.0.0 3212 0
+S 1383.0.0 4716 0
+# synopsysserver(0):      1761  1 _boolean_not_q
+F 1124.0.0 3882 1
+S 699.0.0 2440 1
+# synopsysserver(1):      2561  1 _level_one_q
+F 699.0.0 2440 1
+S 359.0.0 1370 1
+# synopsysserver(1):      3557  1 _optimize_unmerged_layer_dp
+F 1383.0.0 4716 0
+S 1211.0.0 4179 0
+# synopsysserver(0):      2204  1 _length_edge_q
+F 1211.0.0 4179 0
+S 925.0.0 3210 0
+# synopsysserver(0):       453  1 _create_q
+F 925.0.0 3210 0
+S 1085.0.0 3751 0
+# synopsysserver(0):      5170  1 _internal_q
+F 359.0.0 1370 1
+S 700.0.0 2444 1
+# synopsysserver(1):      1608  1 _select_donut_hole
+F 1085.0.0 3751 0
+S 696.0.0 2433 0
+# synopsysserver(0):      1736  1 _area_q
+F 696.0.0 2433 0
+S 623.0.0 2200 0
+# synopsysserver(0):      2183  1 _vertex_q
+F 700.0.0 2444 1
+S 896.0.0 3106 1
+# synopsysserver(1):      5170  1 _internal_q
+F 896.0.0 3106 1
+S 927.0.0 3214 1
+# synopsysserver(1):      2234  1 _interacting_edge_q
+F 927.0.0 3214 1
+S 1084.0.0 3744 1
+# synopsysserver(1):      5170  1 _internal_q
+F 623.0.0 2200 0
+S 928.0.0 3220 0
+# synopsysserver(0):       385  1 _create_q
+F 1084.0.0 3744 1
+S 1200.0.0 4142 1
+# synopsysserver(1):      2321  1 _find_wide_q
+F 928.0.0 3220 0
+S 1179.0.0 4070 0
+# synopsysserver(0):      5170  1 _internal_q
+F 1200.0.0 4142 1
+S 625.0.0 2207 1
+# synopsysserver(1):       453  1 _create_q
+F 1179.0.0 4070 0
+S 624.0.0 2205 0
+# synopsysserver(0):       453  1 _create_q
+F 625.0.0 2207 1
+S 702.0.0 2449 1
+# synopsysserver(1):      1766  1 _area_q
+F 624.0.0 2205 0
+S 323.0.0 1218 0
+# synopsysserver(0):      3565  1 _optimize_unmerged_layer_dp
+F 702.0.0 2449 1
+S 929.0.0 3222 1
+# synopsysserver(1):      2204  1 _length_edge_q
+F 929.0.0 3222 1
+S 1181.0.0 4084 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1181.0.0 4084 1
+S 344.0.0 1307 1
+# synopsysserver(1):      3569  1 _optimize_unmerged_layer_dp
+F 323.0.0 1218 0
+S 626.0.0 2209 0
+# synopsysserver(0):      2235  1 _interacting_edge_q
+F 344.0.0 1307 1
+S 620.0.0 2188 1
+# synopsysserver(1):      6284  1 _external_q
+F 620.0.0 2188 1
+S 617.0.0 2176 1
+# synopsysserver(1):      6183  1 _external_q
+F 626.0.0 2209 0
+S 1274.0.0 4386 0
+# synopsysserver(0):      2321  1 _find_wide_q
+F 1274.0.0 4386 0
+S 1184.0.0 4095 0
+# synopsysserver(0):      1398  1 _boolean_not_q
+F 1184.0.0 4095 0
+S 1218.0.0 4201 0
+# synopsysserver(0):      6248  1 _external_q
+F 617.0.0 2176 1
+S 1180.0.0 4077 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1218.0.0 4201 0
+S 1178.0.0 4063 0
+# synopsysserver(0):      5170  1 _internal_q
+F 1178.0.0 4063 0
+S 1288.0.0 4432 0
+# synopsysserver(0):      6393  1 _enclose
+F 1180.0.0 4077 1
+S 1240.0.0 4273 1
+# synopsysserver(1):      1468  1 _boolean_not_q
+F 1288.0.0 4432 0
+S 382.0.0 1462 0
+# synopsysserver(0):       463  1 _create_q
+F 1240.0.0 4273 1
+S 627.0.0 2215 1
+# synopsysserver(1):       385  1 _create_q
+F 627.0.0 2215 1
+S 1248.0.0 4297 1
+# synopsysserver(1):      1482  1 _boolean_not_q
+F 1248.0.0 4297 1
+S 386.0.0 1470 1
+# synopsysserver(1):       463  1 _create_q
+F 386.0.0 1470 1
+S 628.0.0 2217 1
+# synopsysserver(1):      2207  1 _length_edge_q
+F 628.0.0 2217 1
+S 613.0.0 2165 1
+# synopsysserver(1):      2409  1 _find_wide_q
+F 382.0.0 1462 0
+S 1393.0.0 4743 0
+# synopsysserver(0):      1826  1 _rectangles_q
+F 1393.0.0 4743 0
+S 1397.0.0 4757 0
+# synopsysserver(0):      1280  1 _copy
+F 1397.0.0 4757 0
+S 1396.0.0 4754 0
+# synopsysserver(0):      1278  1 _copy
+F 1396.0.0 4754 0
+S 1394.0.0 4749 0
+# synopsysserver(0):      1278  1 _copy
+F 1394.0.0 4749 0
+S 369.0.0 1412 0
+# synopsysserver(0):      3557  1 _optimize_unmerged_layer_dp
+F 613.0.0 2165 1
+S 638.0.0 2244 1
+# synopsysserver(1):      1263  1 _copy
+F 638.0.0 2244 1
+S 637.0.0 2241 1
+# synopsysserver(1):      1257  1 _copy
+F 637.0.0 2241 1
+S 636.0.0 2238 1
+# synopsysserver(1):      1260  1 _copy
+F 636.0.0 2238 1
+S 635.0.0 2235 1
+# synopsysserver(1):      1263  1 _copy
+F 635.0.0 2235 1
+S 614.0.0 2169 1
+# synopsysserver(1):      1650  1 _copy
+F 614.0.0 2169 1
+S 643.0.0 2261 1
+# synopsysserver(1):       467  1 _create_q
+F 369.0.0 1412 0
+S 648.0.0 2277 0
+# synopsysserver(0):      7181  1 _external_q
+F 643.0.0 2261 1
+S 1220.0.0 4211 1
+# synopsysserver(1):      2292  1 _tag_violation
+F 648.0.0 2277 0
+S 1213.0.0 4185 0
+# synopsysserver(0):      1362  1 _tag_violation
+F 1220.0.0 4211 1
+S 1205.0.0 4160 1
+# synopsysserver(1):      2285  1 _tag_violation
+F 1205.0.0 4160 1
+S 1202.0.0 4148 1
+# synopsysserver(1):      1269  1 _tag_violation
+F 1202.0.0 4148 1
+S 652.0.0 2291 1
+# synopsysserver(1):      7217  1 _external_q
+F 652.0.0 2291 1
+S 280.0.0 1061 1
+# synopsysserver(1):      3557  1 _optimize_unmerged_layer_dp
+F 280.0.0 1061 1
+S 1395.0.0 4752 1
+# synopsysserver(1):       431  1 _create_q
+F 1213.0.0 4185 0
+S 655.0.0 2303 0
+# synopsysserver(0):      3002  1 _explode_rotation
+F 655.0.0 2303 0
+S 392.0.0 1482 0
+# synopsysserver(0):       463  1 _create_q
+F 1395.0.0 4752 1
+S 390.0.0 1478 1
+# synopsysserver(1):       463  1 _create_q
+F 390.0.0 1478 1
+S 1404.0.0 4775 1
+# synopsysserver(1):      3127  1 _center_to_center_q
+F 392.0.0 1482 0
+S 1503.0.0 5081 0
+# synopsysserver(0):      1771  1 _boolean_not_q
+F 1404.0.0 4775 1
+S 1473.0.0 4986 1
+# synopsysserver(1):      1826  1 _rectangles_q
+F 1503.0.0 5081 0
+S 1281.0.0 4408 0
+# synopsysserver(0):      2279  1 _rectangles_q
+F 1281.0.0 4408 0
+S 334.0.0 1265 0
+# synopsysserver(0):      3569  1 _optimize_unmerged_layer_dp
+F 1473.0.0 4986 1
+S 1477.0.0 5000 1
+# synopsysserver(1):      1280  1 _copy
+F 1477.0.0 5000 1
+S 1476.0.0 4997 1
+# synopsysserver(1):      1278  1 _copy
+F 1476.0.0 4997 1
+S 1474.0.0 4992 1
+# synopsysserver(1):      1278  1 _copy
+F 1474.0.0 4992 1
+S 1487.0.0 5026 1
+# synopsysserver(1):      1087  1 _boolean_or
+F 1487.0.0 5026 1
+S 383.0.0 1464 1
+# synopsysserver(1):       529  1 _create_q
+F 334.0.0 1265 0
+S 1479.0.0 5005 0
+# synopsysserver(0):      1140  1 _boolean_or_list
+F 1479.0.0 5005 0
+S 1475.0.0 4995 0
+# synopsysserver(0):       350  1 _create_q
+F 1475.0.0 4995 0
+S 1480.0.0 5008 0
+# synopsysserver(0):       305  1 _create_q
+F 1480.0.0 5008 0
+S 1489.0.0 5031 0
+# synopsysserver(0):      7075  1 _external_q
+F 1489.0.0 5031 0
+S 1484.0.0 5018 0
+# synopsysserver(0):      3127  1 _center_to_center_q
+F 1484.0.0 5018 0
+S 378.0.0 1449 0
+# synopsysserver(0):      3577  1 _optimize_unmerged_layer_dp
+F 378.0.0 1449 0
+S 287.0.0 1082 0
+# synopsysserver(0):      3565  1 _optimize_unmerged_layer_dp
+F 287.0.0 1082 0
+S 1422.0.0 4835 0
+# synopsysserver(0):      1795  1 _boolean_not_q
+F 383.0.0 1464 1
+S 918.0.0 3185 1
+# synopsysserver(1):      2321  1 _find_wide_q
+F 1422.0.0 4835 0
+S 1492.0.0 5043 0
+# synopsysserver(0):      6284  1 _external_q
+F 1492.0.0 5043 0
+S 921.0.0 3193 0
+# synopsysserver(0):      6188  1 _external_q
+F 918.0.0 3185 1
+S 338.0.0 1281 1
+# synopsysserver(1):      3553  1 _optimize_unmerged_layer_dp
+F 921.0.0 3193 0
+S 374.0.0 1433 0
+# synopsysserver(0):      3569  1 _optimize_unmerged_layer_dp
+F 338.0.0 1281 1
+S 656.0.0 2306 1
+# synopsysserver(1):       406  1 _create_q
+F 374.0.0 1433 0
+S 510.0.0 1843 0
+# synopsysserver(0):      2409  1 _find_wide_q
+F 656.0.0 2306 1
+S 1276.0.0 4392 1
+# synopsysserver(1):      1276  1 _tag_violation
+F 1276.0.0 4392 1
+S 402.0.0 1504 1
+# synopsysserver(1):      2988  1 _tag_violation
+F 402.0.0 1504 1
+S 400.0.0 1499 1
+# synopsysserver(1):      2596  1 _tag_violation
+F 400.0.0 1499 1
+S 339.0.0 1286 1
+# synopsysserver(1):      3557  1 _optimize_unmerged_layer_dp
+F 510.0.0 1843 0
+S 535.0.0 1922 0
+# synopsysserver(0):      1263  1 _copy
+F 535.0.0 1922 0
+S 534.0.0 1919 0
+# synopsysserver(0):      1257  1 _copy
+F 534.0.0 1919 0
+S 533.0.0 1916 0
+# synopsysserver(0):      1260  1 _copy
+F 533.0.0 1916 0
+S 532.0.0 1913 0
+# synopsysserver(0):      1263  1 _copy
+F 339.0.0 1286 1
+S 511.0.0 1847 1
+# synopsysserver(1):      1650  1 _copy
+F 532.0.0 1913 0
+S 938.0.0 3254 0
+# synopsysserver(0):      2292  1 _tag_violation
+F 938.0.0 3254 0
+S 931.0.0 3228 0
+# synopsysserver(0):      1362  1 _tag_violation
+F 511.0.0 1847 1
+S 923.0.0 3203 1
+# synopsysserver(1):      2285  1 _tag_violation
+F 923.0.0 3203 1
+S 920.0.0 3191 1
+# synopsysserver(1):      1269  1 _tag_violation
+F 920.0.0 3191 1
+S 545.0.0 1955 1
+# synopsysserver(1):      7181  1 _external_q
+F 545.0.0 1955 1
+S 449.0.0 1659 1
+# synopsysserver(1):      3002  1 _explode_rotation
+F 449.0.0 1659 1
+S 540.0.0 1939 1
+# synopsysserver(1):       467  1 _create_q
+F 540.0.0 1939 1
+S 450.0.0 1662 1
+# synopsysserver(1):       406  1 _create_q
+F 931.0.0 3228 0
+S 394.0.0 1486 0
+# synopsysserver(0):       463  1 _create_q
+F 394.0.0 1486 0
+S 541.0.0 1941 0
+# synopsysserver(0):      7213  1 _external_q
+F 541.0.0 1941 0
+S 536.0.0 1925 0
+# synopsysserver(0):       469  1 _create_q
+F 450.0.0 1662 1
+S 1581.0.0 5319 1
+# synopsysserver(1):      1771  1 _boolean_not_q
+F 536.0.0 1925 0
+S 457.0.0 1684 0
+# synopsysserver(0):      5164  1 _internal_q
+F 1581.0.0 5319 1
+S 451.0.0 1664 1
+# synopsysserver(1):      5166  1 _internal_q
+F 457.0.0 1684 0
+S 537.0.0 1927 0
+# synopsysserver(0):      7214  1 _external_q
+F 451.0.0 1664 1
+S 466.0.0 1711 1
+# synopsysserver(1):      1144  1 _merge_dirty_layer
+F 537.0.0 1927 0
+S 458.0.0 1691 0
+# synopsysserver(0):      1143  1 _merge_dirty_layer
+F 466.0.0 1711 1
+S 462.0.0 1701 1
+# synopsysserver(1):      1146  1 _merge_dirty_layer
+F 458.0.0 1691 0
+S 468.0.0 1715 0
+# synopsysserver(0):       434  1 _create_q
+F 462.0.0 1701 1
+S 460.0.0 1695 1
+# synopsysserver(1):       434  1 _create_q
+F 468.0.0 1715 0
+S 452.0.0 1671 0
+# synopsysserver(0):      1145  1 _merge_dirty_layer
+F 460.0.0 1695 1
+S 1551.0.0 5224 1
+# synopsysserver(1):      1826  1 _rectangles_q
+F 452.0.0 1671 0
+S 259.0.0 1001 0
+# synopsysserver(0):       750  1 _grid_check_hierarchy
+F 1551.0.0 5224 1
+S 1555.0.0 5238 1
+# synopsysserver(1):      1280  1 _copy
+F 1555.0.0 5238 1
+S 1554.0.0 5235 1
+# synopsysserver(1):      1278  1 _copy
+F 1554.0.0 5235 1
+S 1552.0.0 5230 1
+# synopsysserver(1):      1278  1 _copy
+F 259.0.0 1001 0
+S 1587.0.0 5335 0
+# synopsysserver(0):      3492  1 _covered_by_q
+F 1552.0.0 5230 1
+S 1565.0.0 5264 1
+# synopsysserver(1):      1087  1 _boolean_or
+F 1565.0.0 5264 1
+S 1557.0.0 5243 1
+# synopsysserver(1):      1140  1 _boolean_or_list
+F 1557.0.0 5243 1
+S 1553.0.0 5233 1
+# synopsysserver(1):       350  1 _create_q
+F 1587.0.0 5335 0
+S 1285.0.0 4420 0
+# synopsysserver(0):      6198  1 _external_q
+F 1553.0.0 5233 1
+S 1558.0.0 5246 1
+# synopsysserver(1):       305  1 _create_q
+F 1285.0.0 4420 0
+S 1570.0.0 5281 0
+# synopsysserver(0):      6284  1 _external_q
+F 1558.0.0 5246 1
+S 1567.0.0 5269 1
+# synopsysserver(1):      7075  1 _external_q
+F 1570.0.0 5281 0
+S 1562.0.0 5256 0
+# synopsysserver(0):      3127  1 _center_to_center_q
+F 1567.0.0 5269 1
+S 454.0.0 1675 1
+# synopsysserver(1):       434  1 _create_q
+F 1562.0.0 5256 0
+S 1428.0.0 4851 0
+# synopsysserver(0):      3510  1 _covered_by_q
+F 1428.0.0 4851 0
+S 381.0.0 1460 0
+# synopsysserver(0):       538  1 _create_q
+F 454.0.0 1675 1
+S 324.0.0 1223 1
+# synopsysserver(1):      3569  1 _optimize_unmerged_layer_dp
+F 324.0.0 1223 1
+S 895.0.0 3099 1
+# synopsysserver(1):      5170  1 _internal_q
+F 381.0.0 1460 0
+S 467.0.0 1713 0
+# synopsysserver(0):       315  1 _create_q
+F 895.0.0 3099 1
+S 459.0.0 1693 1
+# synopsysserver(1):       315  1 _create_q
+F 467.0.0 1713 0
+S 463.0.0 1703 0
+# synopsysserver(0):       315  1 _create_q
+F 459.0.0 1693 1
+S 453.0.0 1673 1
+# synopsysserver(1):       315  1 _create_q
+F 463.0.0 1703 0
+S 469.0.0 1717 0
+# synopsysserver(0):      1361  1 _boolean_not_q
+F 453.0.0 1673 1
+S 1379.0.0 4705 1
+# synopsysserver(1):      1761  1 _boolean_not_q
+F 1379.0.0 4705 1
+S 461.0.0 1697 1
+# synopsysserver(1):      1360  1 _boolean_not_q
+F 469.0.0 1717 0
+S 306.0.0 1155 0
+# synopsysserver(0):      3557  1 _optimize_unmerged_layer_dp
+F 306.0.0 1155 0
+S 948.0.0 3288 0
+# synopsysserver(0):       435  1 _create_q
+F 948.0.0 3288 0
+S 1277.0.0 4394 0
+# synopsysserver(0):      6148  1 _external_q
+F 461.0.0 1697 1
+S 455.0.0 1677 1
+# synopsysserver(1):      1362  1 _boolean_not_q
+F 1277.0.0 4394 0
+S 475.0.0 1738 0
+# synopsysserver(0):      2870  1 _explode_rotation
+F 475.0.0 1738 0
+S 1279.0.0 4404 0
+# synopsysserver(0):      2262  1 _tag_violation
+F 1279.0.0 4404 0
+S 704.0.0 2454 0
+# synopsysserver(0):      1198  1 _tag_violation
+F 704.0.0 2454 0
+S 698.0.0 2438 0
+# synopsysserver(0):      1185  1 _tag_violation
+F 698.0.0 2438 0
+S 654.0.0 2301 0
+# synopsysserver(0):      2791  1 _tag_violation
+F 654.0.0 2301 0
+S 650.0.0 2287 0
+# synopsysserver(0):      2785  1 _tag_violation
+F 650.0.0 2287 0
+S 634.0.0 2233 0
+# synopsysserver(0):      1037  1 _tag_violation
+F 634.0.0 2233 0
+S 632.0.0 2228 0
+# synopsysserver(0):      2987  1 _tag_violation
+F 632.0.0 2228 0
+S 630.0.0 2223 0
+# synopsysserver(0):      1363  1 _tag_violation
+F 455.0.0 1677 1
+S 279.0.0 1056 1
+# synopsysserver(1):      3553  1 _optimize_unmerged_layer_dp
+F 630.0.0 2223 0
+S 610.0.0 2154 0
+# synopsysserver(0):      5526  1 _internal_q
+F 279.0.0 1056 1
+S 622.0.0 2198 1
+# synopsysserver(1):      2380  1 _tag_violation
+F 610.0.0 2154 0
+S 1296.0.0 4455 0
+# synopsysserver(0):      1614  1 _tag_violation
+F 1296.0.0 4455 0
+S 1294.0.0 4450 0
+# synopsysserver(0):      1611  1 _tag_violation
+F 1294.0.0 4450 0
+S 1292.0.0 4445 0
+# synopsysserver(0):      2597  1 _tag_violation
+F 1292.0.0 4445 0
+S 506.0.0 1830 0
+# synopsysserver(0):      2797  1 _tag_violation
+F 506.0.0 1830 0
+S 504.0.0 1825 0
+# synopsysserver(0):      2791  1 _tag_violation
+F 504.0.0 1825 0
+S 502.0.0 1820 0
+# synopsysserver(0):      2796  1 _tag_violation
+F 502.0.0 1820 0
+S 500.0.0 1815 0
+# synopsysserver(0):      2797  1 _tag_violation
+F 500.0.0 1815 0
+S 419.0.0 1560 0
+# synopsysserver(0):      1037  1 _tag_violation
+F 419.0.0 1560 0
+S 417.0.0 1555 0
+# synopsysserver(0):      2987  1 _tag_violation
+F 417.0.0 1555 0
+S 349.0.0 1328 0
+# synopsysserver(0):      3557  1 _optimize_unmerged_layer_dp
+F 622.0.0 2198 1
+S 897.0.0 3113 1
+# synopsysserver(1):      5170  1 _internal_q
+F 897.0.0 3113 1
+S 549.0.0 1969 1
+# synopsysserver(1):      7217  1 _external_q
+F 549.0.0 1969 1
+S 379.0.0 1454 1
+# synopsysserver(1):      3581  1 _optimize_unmerged_layer_dp
+F 349.0.0 1328 0
+S 328.0.0 1239 0
+# synopsysserver(0):      3553  1 _optimize_unmerged_layer_dp
+F 328.0.0 1239 0
+S 657.0.0 2308 0
+# synopsysserver(0):      5166  1 _internal_q
+F 379.0.0 1454 1
+S 1399.0.0 4762 1
+# synopsysserver(1):      1140  1 _boolean_or_list
+F 1399.0.0 4762 1
+S 1400.0.0 4765 1
+# synopsysserver(1):       305  1 _create_q
+F 1400.0.0 4765 1
+S 421.0.0 1567 1
+# synopsysserver(1):      2076  1 _edge_size_q
+F 657.0.0 2308 0
+S 1401.0.0 4767 0
+# synopsysserver(0):      1956  1 _boolean_not_q
+F 1401.0.0 4767 0
+S 476.0.0 1741 0
+# synopsysserver(0):       391  1 _create_q
+F 476.0.0 1741 0
+S 1512.0.0 5105 0
+# synopsysserver(0):      1826  1 _rectangles_q
+F 1512.0.0 5105 0
+S 1516.0.0 5119 0
+# synopsysserver(0):      1280  1 _copy
+F 1516.0.0 5119 0
+S 1515.0.0 5116 0
+# synopsysserver(0):      1278  1 _copy
+F 1515.0.0 5116 0
+S 1513.0.0 5111 0
+# synopsysserver(0):      1278  1 _copy
+F 1513.0.0 5111 0
+S 1526.0.0 5145 0
+# synopsysserver(0):      1087  1 _boolean_or
+F 1526.0.0 5145 0
+S 1518.0.0 5124 0
+# synopsysserver(0):      1140  1 _boolean_or_list
+F 1518.0.0 5124 0
+S 1514.0.0 5114 0
+# synopsysserver(0):       350  1 _create_q
+F 1514.0.0 5114 0
+S 1519.0.0 5127 0
+# synopsysserver(0):       305  1 _create_q
+F 1519.0.0 5127 0
+S 1528.0.0 5150 0
+# synopsysserver(0):      7075  1 _external_q
+F 1528.0.0 5150 0
+S 1523.0.0 5137 0
+# synopsysserver(0):      3127  1 _center_to_center_q
+F 1523.0.0 5137 0
+S 1545.0.0 5208 0
+# synopsysserver(0):      3492  1 _covered_by_q
+F 1545.0.0 5208 0
+S 940.0.0 3259 0
+# synopsysserver(0):      5198  1 _internal_q
+F 940.0.0 3259 0
+S 1520.0.0 5129 0
+# synopsysserver(0):      1956  1 _boolean_not_q
+F 1520.0.0 5129 0
+S 1531.0.0 5162 0
+# synopsysserver(0):      6284  1 _external_q
+F 421.0.0 1567 1
+S 668.0.0 2345 1
+# synopsysserver(1):      1146  1 _merge_dirty_layer
+F 1531.0.0 5162 0
+S 658.0.0 2315 0
+# synopsysserver(0):      1145  1 _merge_dirty_layer
+F 668.0.0 2345 1
+S 464.0.0 1705 1
+# synopsysserver(1):       434  1 _create_q
+F 658.0.0 2315 0
+S 670.0.0 2349 0
+# synopsysserver(0):       434  1 _create_q
+F 670.0.0 2349 0
+S 669.0.0 2347 0
+# synopsysserver(0):       364  1 _create_q
+F 669.0.0 2347 0
+S 659.0.0 2317 0
+# synopsysserver(0):       320  1 _create_q
+F 659.0.0 2317 0
+S 660.0.0 2319 0
+# synopsysserver(0):       434  1 _create_q
+F 660.0.0 2319 0
+S 671.0.0 2351 0
+# synopsysserver(0):      1363  1 _boolean_not_q
+F 671.0.0 2351 0
+S 661.0.0 2321 0
+# synopsysserver(0):      1362  1 _boolean_not_q
+F 661.0.0 2321 0
+S 686.0.0 2399 0
+# synopsysserver(0):      2873  1 _explode_rotation
+F 686.0.0 2399 0
+S 676.0.0 2365 0
+# synopsysserver(0):      2872  1 _explode_rotation
+F 676.0.0 2365 0
+S 687.0.0 2402 0
+# synopsysserver(0):       391  1 _create_q
+F 687.0.0 2402 0
+S 677.0.0 2368 0
+# synopsysserver(0):       391  1 _create_q
+F 677.0.0 2368 0
+S 688.0.0 2404 0
+# synopsysserver(0):      6390  1 _external_q
+F 464.0.0 1705 1
+S 678.0.0 2370 1
+# synopsysserver(1):      6389  1 _external_q
+F 688.0.0 2404 0
+S 465.0.0 1707 0
+# synopsysserver(0):      1363  1 _boolean_not_q
+F 678.0.0 2370 1
+S 690.0.0 2414 1
+# synopsysserver(1):      2413  1 _tag_violation
+F 690.0.0 2414 1
+S 942.0.0 3268 1
+# synopsysserver(1):       430  1 _create_q
+F 942.0.0 3268 1
+S 941.0.0 3266 1
+# synopsysserver(1):       434  1 _create_q
+F 941.0.0 3266 1
+S 313.0.0 1176 1
+# synopsysserver(1):      3565  1 _optimize_unmerged_layer_dp
+F 465.0.0 1707 0
+S 300.0.0 1129 0
+# synopsysserver(0):      3565  1 _optimize_unmerged_layer_dp
+F 313.0.0 1176 1
+S 943.0.0 3270 1
+# synopsysserver(1):      1354  1 _boolean_not_q
+F 943.0.0 3270 1
+S 363.0.0 1386 1
+# synopsysserver(1):      3565  1 _optimize_unmerged_layer_dp
+F 300.0.0 1129 0
+S 973.0.0 3362 0
+# synopsysserver(0):      7254  1 _external_q
+F 363.0.0 1386 1
+S 986.0.0 3406 1
+# synopsysserver(1):      6451  1 _external_q
+F 973.0.0 3362 0
+S 1385.0.0 4722 0
+# synopsysserver(0):      1218  1 _tag_violation
+F 986.0.0 3406 1
+S 975.0.0 3372 1
+# synopsysserver(1):      2788  1 _tag_violation
+F 975.0.0 3372 1
+S 1287.0.0 4430 1
+# synopsysserver(1):      2294  1 _tag_violation
+F 1385.0.0 4722 0
+S 1283.0.0 4416 0
+# synopsysserver(0):      1303  1 _tag_violation
+F 1283.0.0 4416 0
+S 1559.0.0 5248 0
+# synopsysserver(0):      1956  1 _boolean_not_q
+F 1287.0.0 4430 1
+S 1116.0.0 3858 1
+# synopsysserver(1):       385  1 _create_q
+F 1116.0.0 3858 1
+S 490.0.0 1789 1
+# synopsysserver(1):      1736  1 _area_q
+F 1559.0.0 5248 0
+S 1481.0.0 5010 0
+# synopsysserver(0):      1956  1 _boolean_not_q
+F 1481.0.0 5010 0
+S 596.0.0 2118 0
+# synopsysserver(0):      2561  1 _level_one_q
+F 490.0.0 1789 1
+S 364.0.0 1391 1
+# synopsysserver(1):      3569  1 _optimize_unmerged_layer_dp
+F 364.0.0 1391 1
+S 293.0.0 1108 1
+# synopsysserver(1):      3557  1 _optimize_unmerged_layer_dp
+F 596.0.0 2118 0
+S 1186.0.0 4101 0
+# synopsysserver(0):       473  1 _create_q
+F 293.0.0 1108 1
+S 493.0.0 1796 1
+# synopsysserver(1):      2561  1 _level_one_q
+F 1186.0.0 4101 0
+S 410.0.0 1528 0
+# synopsysserver(0):      6183  1 _external_q
+F 493.0.0 1796 1
+S 358.0.0 1365 1
+# synopsysserver(1):      3553  1 _optimize_unmerged_layer_dp
+F 358.0.0 1365 1
+S 1297.0.0 4457 1
+# synopsysserver(1):      1826  1 _rectangles_q
+F 1297.0.0 4457 1
+S 1301.0.0 4471 1
+# synopsysserver(1):      1280  1 _copy
+F 1301.0.0 4471 1
+S 1300.0.0 4468 1
+# synopsysserver(1):      1278  1 _copy
+F 410.0.0 1528 0
+S 1298.0.0 4463 0
+# synopsysserver(0):      1278  1 _copy
+F 1300.0.0 4468 1
+S 412.0.0 1538 1
+# synopsysserver(1):      2285  1 _tag_violation
+F 1298.0.0 4463 0
+S 1311.0.0 4497 0
+# synopsysserver(0):      1087  1 _boolean_or
+F 1311.0.0 4497 0
+S 1163.0.0 4010 0
+# synopsysserver(0):      2788  1 _tag_violation
+F 1163.0.0 4010 0
+S 1111.0.0 3841 0
+# synopsysserver(0):      2285  1 _tag_violation
+F 1111.0.0 3841 0
+S 1108.0.0 3829 0
+# synopsysserver(0):      1269  1 _tag_violation
+F 1108.0.0 3829 0
+S 288.0.0 1087 0
+# synopsysserver(0):      3569  1 _optimize_unmerged_layer_dp
+F 288.0.0 1087 0
+S 403.0.0 1506 0
+# synopsysserver(0):      5526  1 _internal_q
+F 412.0.0 1538 1
+S 680.0.0 2380 1
+# synopsysserver(1):      2412  1 _tag_violation
+F 680.0.0 2380 1
+S 480.0.0 1755 1
+# synopsysserver(1):      2873  1 _explode_rotation
+F 480.0.0 1755 1
+S 1327.0.0 4552 1
+# synopsysserver(1):      2747  1 _tag_violation
+F 1327.0.0 4552 1
+S 514.0.0 1854 1
+# synopsysserver(1):      6183  1 _external_q
+F 403.0.0 1506 0
+S 1368.0.0 4672 0
+# synopsysserver(0):      1637  1 _boolean_and_q
+F 514.0.0 1854 1
+S 1378.0.0 4703 1
+# synopsysserver(1):      2753  1 _tag_violation
+F 1368.0.0 4672 0
+S 663.0.0 2328 0
+# synopsysserver(0):      5164  1 _internal_q
+F 1378.0.0 4703 1
+S 318.0.0 1197 1
+# synopsysserver(1):      3553  1 _optimize_unmerged_layer_dp
+F 318.0.0 1197 1
+S 393.0.0 1484 1
+# synopsysserver(1):       568  1 _create_q
+F 663.0.0 2328 0
+S 639.0.0 2247 0
+# synopsysserver(0):       469  1 _create_q
+F 393.0.0 1484 1
+S 492.0.0 1794 1
+# synopsysserver(1):      1185  1 _tag_violation
+F 639.0.0 2247 0
+S 1015.0.0 3512 0
+# synopsysserver(0):      6188  1 _external_q
+F 492.0.0 1794 1
+S 1584.0.0 5327 1
+# synopsysserver(1):      3492  1 _covered_by_q
+F 1584.0.0 5327 1
+S 1578.0.0 5311 1
+# synopsysserver(1):      1771  1 _boolean_not_q
+F 1015.0.0 3512 0
+S 520.0.0 1878 0
+# synopsysserver(0):      2183  1 _vertex_q
+F 1578.0.0 5311 1
+S 640.0.0 2249 1
+# synopsysserver(1):      7214  1 _external_q
+F 640.0.0 2249 1
+S 1017.0.0 3522 1
+# synopsysserver(1):      2285  1 _tag_violation
+F 520.0.0 1878 0
+S 642.0.0 2259 0
+# synopsysserver(0):      2790  1 _tag_violation
+F 1017.0.0 3522 1
+S 1185.0.0 4099 1
+# synopsysserver(1):       464  1 _create_q
+F 1185.0.0 4099 1
+S 522.0.0 1885 1
+# synopsysserver(1):       453  1 _create_q
+F 642.0.0 2259 0
+S 521.0.0 1883 0
+# synopsysserver(0):       453  1 _create_q
+F 522.0.0 1885 1
+S 1573.0.0 5293 1
+# synopsysserver(1):      1647  1 _boolean_and_q
+F 1573.0.0 5293 1
+S 664.0.0 2335 1
+# synopsysserver(1):      1143  1 _merge_dirty_layer
+F 664.0.0 2335 1
+S 1574.0.0 5297 1
+# synopsysserver(1):       463  1 _create_q
+F 521.0.0 1883 0
+S 1407.0.0 4783 0
+# synopsysserver(0):      1087  1 _boolean_or
+F 1574.0.0 5297 1
+S 1319.0.0 4526 1
+# synopsysserver(1):      1637  1 _boolean_and_q
+F 1407.0.0 4783 0
+S 1575.0.0 5299 0
+# synopsysserver(0):      6786  1 _enclose_q
+F 1575.0.0 5299 0
+S 666.0.0 2339 0
+# synopsysserver(0):       434  1 _create_q
+F 666.0.0 2339 0
+S 665.0.0 2337 0
+# synopsysserver(0):       440  1 _create_q
+F 665.0.0 2337 0
+S 1299.0.0 4466 0
+# synopsysserver(0):       431  1 _create_q
+F 1299.0.0 4466 0
+S 667.0.0 2341 0
+# synopsysserver(0):      1360  1 _boolean_not_q
+F 667.0.0 2341 0
+S 1308.0.0 4489 0
+# synopsysserver(0):      3130  1 _center_to_center_q
+F 1308.0.0 4489 0
+S 681.0.0 2382 0
+# synopsysserver(0):      2870  1 _explode_rotation
+F 681.0.0 2382 0
+S 1310.0.0 4495 0
+# synopsysserver(0):      1608  1 _tag_violation
+F 1319.0.0 4526 1
+S 682.0.0 2385 1
+# synopsysserver(1):       391  1 _create_q
+F 682.0.0 2385 1
+S 1320.0.0 4530 1
+# synopsysserver(1):       463  1 _create_q
+F 1310.0.0 4495 0
+S 1412.0.0 4800 0
+# synopsysserver(0):      6284  1 _external_q
+F 1412.0.0 4800 0
+S 1409.0.0 4788 0
+# synopsysserver(0):      7075  1 _external_q
+F 1409.0.0 4788 0
+S 523.0.0 1887 0
+# synopsysserver(0):      2235  1 _interacting_edge_q
+F 1320.0.0 4530 1
+S 1222.0.0 4216 1
+# synopsysserver(1):      5198  1 _internal_q
+F 1222.0.0 4216 1
+S 1321.0.0 4532 1
+# synopsysserver(1):      6786  1 _enclose_q
+F 1321.0.0 4532 1
+S 1548.0.0 5216 1
+# synopsysserver(1):      3492  1 _covered_by_q
+F 1548.0.0 5216 1
+S 1542.0.0 5200 1
+# synopsysserver(1):      1771  1 _boolean_not_q
+F 1542.0.0 5200 1
+S 1534.0.0 5174 1
+# synopsysserver(1):      1647  1 _boolean_and_q
+F 523.0.0 1887 0
+S 1117.0.0 3860 0
+# synopsysserver(0):      2204  1 _length_edge_q
+F 1534.0.0 5174 1
+S 616.0.0 2174 1
+# synopsysserver(1):      1088  1 _tag_violation
+F 1117.0.0 3860 0
+S 405.0.0 1515 0
+# synopsysserver(0):      2700  1 _tag_violation
+F 616.0.0 2174 1
+S 672.0.0 2355 1
+# synopsysserver(1):      1144  1 _merge_dirty_layer
+F 672.0.0 2355 1
+S 1012.0.0 3504 1
+# synopsysserver(1):      2321  1 _find_wide_q
+F 405.0.0 1515 0
+S 993.0.0 3446 0
+# synopsysserver(0):      5170  1 _internal_q
+F 1012.0.0 3504 1
+S 673.0.0 2357 1
+# synopsysserver(1):       440  1 _create_q
+F 673.0.0 2357 1
+S 1018.0.0 3524 1
+# synopsysserver(1):      2187  1 _vertex_q
+F 993.0.0 3446 0
+S 1014.0.0 3510 0
+# synopsysserver(0):      1269  1 _tag_violation
+F 1018.0.0 3524 1
+S 996.0.0 3457 1
+# synopsysserver(1):      1398  1 _boolean_not_q
+F 996.0.0 3457 1
+S 1030.0.0 3563 1
+# synopsysserver(1):      6248  1 _external_q
+F 1030.0.0 3563 1
+S 1019.0.0 3529 1
+# synopsysserver(1):       453  1 _create_q
+F 1019.0.0 3529 1
+S 314.0.0 1181 1
+# synopsysserver(1):      3569  1 _optimize_unmerged_layer_dp
+F 1014.0.0 3510 0
+S 1376.0.0 4698 0
+# synopsysserver(0):      2747  1 _tag_violation
+F 314.0.0 1181 1
+S 674.0.0 2359 1
+# synopsysserver(1):       434  1 _create_q
+F 1376.0.0 4698 0
+S 1032.0.0 3573 0
+# synopsysserver(0):      2292  1 _tag_violation
+F 1032.0.0 3573 0
+S 1539.0.0 5192 0
+# synopsysserver(0):      1771  1 _boolean_not_q
+F 674.0.0 2359 1
+S 1414.0.0 4810 1
+# synopsysserver(1):      2305  1 _tag_violation
+F 1414.0.0 4810 1
+S 1411.0.0 4798 1
+# synopsysserver(1):      2715  1 _tag_violation
+F 1411.0.0 4798 1
+S 1406.0.0 4781 1
+# synopsysserver(1):      1607  1 _tag_violation
+F 1539.0.0 5192 0
+S 1403.0.0 4773 0
+# synopsysserver(0):      1105  1 _tag_violation
+F 1403.0.0 4773 0
+S 992.0.0 3439 0
+# synopsysserver(0):      5170  1 _internal_q
+F 1406.0.0 4781 1
+S 991.0.0 3432 1
+# synopsysserver(1):      5170  1 _internal_q
+F 992.0.0 3439 0
+S 333.0.0 1260 0
+# synopsysserver(0):      3565  1 _optimize_unmerged_layer_dp
+F 991.0.0 3432 1
+S 388.0.0 1474 1
+# synopsysserver(1):       463  1 _create_q
+F 388.0.0 1474 1
+S 990.0.0 3425 1
+# synopsysserver(1):      5170  1 _internal_q
+F 333.0.0 1260 0
+S 1290.0.0 4440 0
+# synopsysserver(0):      2637  1 _tag_violation
+F 990.0.0 3425 1
+S 1434.0.0 4867 1
+# synopsysserver(1):      1826  1 _rectangles_q
+F 1434.0.0 4867 1
+S 1438.0.0 4881 1
+# synopsysserver(1):      1280  1 _copy
+F 1438.0.0 4881 1
+S 1437.0.0 4878 1
+# synopsysserver(1):      1278  1 _copy
+F 1437.0.0 4878 1
+S 1435.0.0 4873 1
+# synopsysserver(1):      1278  1 _copy
+F 1435.0.0 4873 1
+S 1448.0.0 4907 1
+# synopsysserver(1):      1087  1 _boolean_or
+F 1448.0.0 4907 1
+S 353.0.0 1344 1
+# synopsysserver(1):      3565  1 _optimize_unmerged_layer_dp
+F 1290.0.0 4440 0
+S 593.0.0 2111 0
+# synopsysserver(0):      1736  1 _area_q
+F 593.0.0 2111 0
+S 477.0.0 1743 0
+# synopsysserver(0):      6391  1 _external_q
+F 353.0.0 1344 1
+S 1483.0.0 5016 1
+# synopsysserver(1):      1105  1 _tag_violation
+F 1483.0.0 5016 1
+S 989.0.0 3418 1
+# synopsysserver(1):      5170  1 _internal_q
+F 989.0.0 3418 1
+S 1589.0.0 5341 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 1589.0.0 5341 1
+S 1586.0.0 5333 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 1586.0.0 5333 1
+S 1583.0.0 5325 1
+# synopsysserver(1):      1074  1 _tag_violation
+F 1583.0.0 5325 1
+S 1580.0.0 5317 1
+# synopsysserver(1):      1074  1 _tag_violation
+F 1580.0.0 5317 1
+S 1577.0.0 5309 1
+# synopsysserver(1):      2741  1 _tag_violation
+F 1577.0.0 5309 1
+S 1572.0.0 5291 1
+# synopsysserver(1):      2305  1 _tag_violation
+F 1572.0.0 5291 1
+S 1569.0.0 5279 1
+# synopsysserver(1):      2715  1 _tag_violation
+F 1569.0.0 5279 1
+S 644.0.0 2263 1
+# synopsysserver(1):      7213  1 _external_q
+F 477.0.0 1743 0
+S 1439.0.0 4884 0
+# synopsysserver(0):       417  1 _create_q
+F 1439.0.0 4884 0
+S 1449.0.0 4910 0
+# synopsysserver(0):       305  1 _create_q
+F 1449.0.0 4910 0
+S 949.0.0 3290 0
+# synopsysserver(0):       429  1 _create_q
+F 949.0.0 3290 0
+S 479.0.0 1753 0
+# synopsysserver(0):      2410  1 _tag_violation
+F 644.0.0 2263 1
+S 1224.0.0 4225 1
+# synopsysserver(1):       430  1 _create_q
+F 1224.0.0 4225 1
+S 1303.0.0 4476 1
+# synopsysserver(1):      1140  1 _boolean_or_list
+F 1303.0.0 4476 1
+S 1424.0.0 4841 1
+# synopsysserver(1):      1218  1 _tag_violation
+F 1424.0.0 4841 1
+S 329.0.0 1244 1
+# synopsysserver(1):      3557  1 _optimize_unmerged_layer_dp
+F 479.0.0 1753 0
+S 292.0.0 1103 0
+# synopsysserver(0):      3553  1 _optimize_unmerged_layer_dp
+F 329.0.0 1244 1
+S 389.0.0 1476 1
+# synopsysserver(1):       533  1 _create_q
+F 389.0.0 1476 1
+S 1126.0.0 3892 1
+# synopsysserver(1):      2292  1 _tag_violation
+F 1126.0.0 3892 1
+S 1331.0.0 4562 1
+# synopsysserver(1):      1815  1 _boolean_not_q
+F 292.0.0 1103 0
+S 1470.0.0 4978 0
+# synopsysserver(0):      3491  1 _covered_by_q
+F 1470.0.0 4978 0
+S 547.0.0 1965 0
+# synopsysserver(0):      2785  1 _tag_violation
+F 1331.0.0 4562 1
+S 749.0.0 2613 1
+# synopsysserver(1):      2133  1 _find_wide_q
+F 749.0.0 2613 1
+S 824.0.0 2867 1
+# synopsysserver(1):      1648  1 _copy
+F 824.0.0 2867 1
+S 750.0.0 2617 1
+# synopsysserver(1):      1264  1 _copy
+F 750.0.0 2617 1
+S 1221.0.0 4213 1
+# synopsysserver(1):      1067  1 _copy
+F 1221.0.0 4213 1
+S 1127.0.0 3894 1
+# synopsysserver(1):      1067  1 _copy
+F 1127.0.0 3894 1
+S 1033.0.0 3575 1
+# synopsysserver(1):      1067  1 _copy
+F 1033.0.0 3575 1
+S 939.0.0 3256 1
+# synopsysserver(1):      1067  1 _copy
+F 547.0.0 1965 0
+S 845.0.0 2937 0
+# synopsysserver(0):      1067  1 _copy
+F 939.0.0 3256 1
+S 1039.0.0 3595 1
+# synopsysserver(1):      7269  1 _external_q
+F 845.0.0 2937 0
+S 945.0.0 3276 0
+# synopsysserver(0):      7269  1 _external_q
+F 1039.0.0 3595 1
+S 851.0.0 2957 1
+# synopsysserver(1):      7268  1 _external_q
+F 945.0.0 3276 0
+S 1041.0.0 3605 0
+# synopsysserver(0):      2789  1 _tag_violation
+F 851.0.0 2957 1
+S 947.0.0 3286 1
+# synopsysserver(1):      2789  1 _tag_violation
+F 1041.0.0 3605 0
+S 1251.0.0 4305 0
+# synopsysserver(0):      7310  1 _external_q
+F 947.0.0 3286 1
+S 1243.0.0 4281 1
+# synopsysserver(1):      7298  1 _external_q
+F 1243.0.0 4281 1
+S 853.0.0 2967 1
+# synopsysserver(1):      2789  1 _tag_violation
+F 1251.0.0 4305 0
+S 1245.0.0 4291 0
+# synopsysserver(0):      2822  1 _tag_violation
+F 853.0.0 2967 1
+S 1235.0.0 4257 1
+# synopsysserver(1):      7284  1 _external_q
+F 1245.0.0 4291 0
+S 1227.0.0 4233 0
+# synopsysserver(0):      7269  1 _external_q
+F 1227.0.0 4233 0
+S 1302.0.0 4474 0
+# synopsysserver(0):       417  1 _create_q
+F 1235.0.0 4257 1
+S 1229.0.0 4243 1
+# synopsysserver(1):      2789  1 _tag_violation
+F 1302.0.0 4474 0
+S 1312.0.0 4500 0
+# synopsysserver(0):       305  1 _create_q
+F 1312.0.0 4500 0
+S 1343.0.0 4595 0
+# synopsysserver(0):      3530  1 _covered_by_q
+F 1229.0.0 4243 1
+S 1340.0.0 4587 1
+# synopsysserver(1):      3530  1 _covered_by_q
+F 1343.0.0 4595 0
+S 1316.0.0 4514 0
+# synopsysserver(0):      6281  1 _external_q
+F 1340.0.0 4587 1
+S 1345.0.0 4601 1
+# synopsysserver(1):      2096  1 _tag_violation
+F 1316.0.0 4514 0
+S 1342.0.0 4593 0
+# synopsysserver(0):      2096  1 _tag_violation
+F 1342.0.0 4593 0
+F 1345.0.0 4601 1
+S 1313.0.0 4502 0
+# synopsysserver(0):      7075  1 _external_q
+S 1237.0.0 4267 1
+# synopsysserver(1):      2806  1 _tag_violation
+F 1237.0.0 4267 1
+S 1253.0.0 4315 1
+# synopsysserver(1):      2836  1 _tag_violation
+F 1253.0.0 4315 1
+S 1133.0.0 3914 1
+# synopsysserver(1):      7269  1 _external_q
+F 1133.0.0 3914 1
+S 595.0.0 2116 1
+# synopsysserver(1):      1185  1 _tag_violation
+F 1313.0.0 4502 0
+S 1135.0.0 3924 0
+# synopsysserver(0):      2789  1 _tag_violation
+F 595.0.0 2116 1
+S 1472.0.0 4984 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 1135.0.0 3924 0
+S 1464.0.0 4962 0
+# synopsysserver(0):      1770  1 _boolean_not_q
+F 1472.0.0 4984 1
+S 846.0.0 2940 1
+# synopsysserver(1):      5197  1 _internal_q
+F 1464.0.0 4962 0
+S 607.0.0 2147 0
+# synopsysserver(0):      2791  1 _tag_violation
+F 607.0.0 2147 0
+S 1315.0.0 4512 0
+# synopsysserver(0):      2715  1 _tag_violation
+F 846.0.0 2940 1
+S 1466.0.0 4968 1
+# synopsysserver(1):      1074  1 _tag_violation
+F 1466.0.0 4968 1
+S 830.0.0 2886 1
+# synopsysserver(1):      2186  1 _vertex_q
+F 830.0.0 2886 1
+S 848.0.0 2949 1
+# synopsysserver(1):       430  1 _create_q
+F 1315.0.0 4512 0
+S 847.0.0 2947 0
+# synopsysserver(0):       384  1 _create_q
+F 848.0.0 2949 1
+S 1318.0.0 4524 1
+# synopsysserver(1):      2304  1 _tag_violation
+F 847.0.0 2947 0
+S 831.0.0 2891 0
+# synopsysserver(0):       308  1 _create_q
+F 831.0.0 2891 0
+S 539.0.0 1937 0
+# synopsysserver(0):      2790  1 _tag_violation
+F 1318.0.0 4524 1
+S 832.0.0 2893 1
+# synopsysserver(1):       453  1 _create_q
+F 832.0.0 2893 1
+S 849.0.0 2951 1
+# synopsysserver(1):      1354  1 _boolean_not_q
+F 849.0.0 2951 1
+S 833.0.0 2895 1
+# synopsysserver(1):      2234  1 _interacting_edge_q
+F 539.0.0 1937 0
+S 827.0.0 2874 0
+# synopsysserver(0):      6187  1 _external_q
+F 833.0.0 2895 1
+S 879.0.0 3043 1
+# synopsysserver(1):      7254  1 _external_q
+F 827.0.0 2874 0
+S 834.0.0 2901 0
+# synopsysserver(0):       385  1 _create_q
+F 879.0.0 3043 1
+S 829.0.0 2884 1
+# synopsysserver(1):      2285  1 _tag_violation
+F 834.0.0 2901 0
+S 881.0.0 3053 0
+# synopsysserver(0):      2788  1 _tag_violation
+F 829.0.0 2884 1
+S 1329.0.0 4557 1
+# synopsysserver(1):      2753  1 _tag_violation
+F 881.0.0 3053 0
+S 803.0.0 2795 0
+# synopsysserver(0):      5169  1 _internal_q
+F 1329.0.0 4557 1
+S 603.0.0 2137 1
+# synopsysserver(1):      2796  1 _tag_violation
+F 603.0.0 2137 1
+S 524.0.0 1893 1
+# synopsysserver(1):       385  1 _create_q
+F 524.0.0 1893 1
+S 1092.0.0 3782 1
+# synopsysserver(1):       473  1 _create_q
+F 1092.0.0 3782 1
+S 525.0.0 1895 1
+# synopsysserver(1):      2207  1 _length_edge_q
+F 803.0.0 2795 0
+S 802.0.0 2788 0
+# synopsysserver(0):      5169  1 _internal_q
+F 802.0.0 2788 0
+S 1561.0.0 5254 0
+# synopsysserver(0):      1105  1 _tag_violation
+F 525.0.0 1895 1
+S 1440.0.0 4886 1
+# synopsysserver(1):      1140  1 _boolean_or_list
+F 1440.0.0 4886 1
+S 612.0.0 2163 1
+# synopsysserver(1):      2700  1 _tag_violation
+F 1561.0.0 5254 0
+S 527.0.0 1901 0
+# synopsysserver(0):      1363  1 _tag_violation
+F 612.0.0 2163 1
+S 413.0.0 1540 1
+# synopsysserver(1):      6284  1 _external_q
+F 527.0.0 1901 0
+S 1506.0.0 5089 0
+# synopsysserver(0):      3491  1 _covered_by_q
+F 1506.0.0 5089 0
+S 507.0.0 1832 0
+# synopsysserver(0):      5526  1 _internal_q
+F 413.0.0 1540 1
+S 1508.0.0 5095 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 507.0.0 1832 0
+S 415.0.0 1550 0
+# synopsysserver(0):      2380  1 _tag_violation
+F 1508.0.0 5095 1
+S 1441.0.0 4889 1
+# synopsysserver(1):       428  1 _create_q
+F 415.0.0 1550 0
+S 1093.0.0 3784 0
+# synopsysserver(0):      1413  1 _boolean_not_q
+F 1441.0.0 4889 1
+S 1509.0.0 5097 1
+# synopsysserver(1):      3492  1 _covered_by_q
+F 1093.0.0 3784 0
+S 1442.0.0 4891 0
+# synopsysserver(0):      1956  1 _boolean_not_q
+F 1509.0.0 5097 1
+S 1096.0.0 3792 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 1096.0.0 3792 1
+S 1511.0.0 5103 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 1442.0.0 4891 0
+S 1099.0.0 3800 0
+# synopsysserver(0):      1413  1 _boolean_not_q
+F 1099.0.0 3800 0
+S 509.0.0 1841 0
+# synopsysserver(0):      2700  1 _tag_violation
+F 1511.0.0 5103 1
+S 646.0.0 2273 1
+# synopsysserver(1):      2790  1 _tag_violation
+F 509.0.0 1841 0
+S 1453.0.0 4924 0
+# synopsysserver(0):      6284  1 _external_q
+F 1453.0.0 4924 0
+S 605.0.0 2142 0
+# synopsysserver(0):      2796  1 _tag_violation
+F 646.0.0 2273 1
+S 513.0.0 1852 1
+# synopsysserver(1):      1088  1 _tag_violation
+F 605.0.0 2142 0
+S 675.0.0 2361 0
+# synopsysserver(0):      1361  1 _boolean_not_q
+F 513.0.0 1852 1
+S 999.0.0 3465 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 999.0.0 3465 1
+S 531.0.0 1911 1
+# synopsysserver(1):      1037  1 _tag_violation
+F 531.0.0 1911 1
+S 1323.0.0 4542 1
+# synopsysserver(1):      2741  1 _tag_violation
+F 675.0.0 2361 0
+S 551.0.0 1979 0
+# synopsysserver(0):      2791  1 _tag_violation
+F 551.0.0 1979 0
+S 485.0.0 1772 0
+# synopsysserver(0):      2871  1 _explode_rotation
+F 485.0.0 1772 0
+S 1535.0.0 5178 0
+# synopsysserver(0):       463  1 _create_q
+F 1535.0.0 5178 0
+S 486.0.0 1775 0
+# synopsysserver(0):       391  1 _create_q
+F 486.0.0 1775 0
+S 1536.0.0 5180 0
+# synopsysserver(0):      6786  1 _enclose_q
+F 1323.0.0 4542 1
+S 988.0.0 3416 1
+# synopsysserver(1):      2385  1 _tag_violation
+F 1536.0.0 5180 0
+S 406.0.0 1517 0
+# synopsysserver(0):      2409  1 _find_wide_q
+F 988.0.0 3416 1
+S 1430.0.0 4857 1
+# synopsysserver(1):      2096  1 _tag_violation
+F 1430.0.0 4857 1
+S 805.0.0 2809 1
+# synopsysserver(1):      5169  1 _internal_q
+F 805.0.0 2809 1
+S 597.0.0 2122 1
+# synopsysserver(1):      1608  1 _select_donut_hole
+F 597.0.0 2122 1
+S 842.0.0 2925 1
+# synopsysserver(1):      6248  1 _external_q
+F 406.0.0 1517 0
+S 432.0.0 1600 0
+# synopsysserver(0):      1257  1 _copy
+F 842.0.0 2925 1
+S 431.0.0 1597 1
+# synopsysserver(1):      1263  1 _copy
+F 432.0.0 1600 0
+S 430.0.0 1594 0
+# synopsysserver(0):      1260  1 _copy
+F 431.0.0 1597 1
+S 429.0.0 1591 1
+# synopsysserver(1):      1263  1 _copy
+F 430.0.0 1594 0
+S 407.0.0 1521 0
+# synopsysserver(0):      1650  1 _copy
+F 429.0.0 1591 1
+S 437.0.0 1617 1
+# synopsysserver(1):       467  1 _create_q
+F 407.0.0 1521 0
+S 446.0.0 1647 0
+# synopsysserver(0):      7217  1 _external_q
+F 446.0.0 1647 0
+S 442.0.0 1633 0
+# synopsysserver(0):      7181  1 _external_q
+F 442.0.0 1633 0
+S 826.0.0 2872 0
+# synopsysserver(0):      1086  1 _tag_violation
+F 437.0.0 1617 1
+S 543.0.0 1951 1
+# synopsysserver(1):      2790  1 _tag_violation
+F 826.0.0 2872 0
+S 1564.0.0 5262 0
+# synopsysserver(0):      1607  1 _tag_violation
+F 1564.0.0 5262 0
+S 804.0.0 2802 0
+# synopsysserver(0):      5169  1 _internal_q
+F 804.0.0 2802 0
+S 319.0.0 1202 0
+# synopsysserver(0):      3557  1 _optimize_unmerged_layer_dp
+F 543.0.0 1951 1
+S 1002.0.0 3473 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 319.0.0 1202 0
+S 835.0.0 2903 0
+# synopsysserver(0):      2204  1 _length_edge_q
+F 1002.0.0 3473 1
+S 1436.0.0 4876 1
+# synopsysserver(1):       431  1 _create_q
+F 1436.0.0 4876 1
+S 1005.0.0 3481 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 835.0.0 2903 0
+S 1450.0.0 4912 0
+# synopsysserver(0):      7075  1 _external_q
+F 1005.0.0 3481 1
+S 1445.0.0 4899 1
+# synopsysserver(1):      3127  1 _center_to_center_q
+F 1445.0.0 4899 1
+S 1444.0.0 4897 1
+# synopsysserver(1):      1105  1 _tag_violation
+F 1450.0.0 4912 0
+S 1304.0.0 4479 0
+# synopsysserver(0):       428  1 _create_q
+F 1304.0.0 4479 0
+S 1381.0.0 4711 0
+# synopsysserver(0):      1218  1 _tag_violation
+F 1444.0.0 4897 1
+S 1119.0.0 3866 1
+# synopsysserver(1):      1362  1 _tag_violation
+F 1381.0.0 4711 0
+S 609.0.0 2152 0
+# synopsysserver(0):      2797  1 _tag_violation
+F 609.0.0 2152 0
+S 387.0.0 1472 0
+# synopsysserver(0):       534  1 _create_q
+F 387.0.0 1472 0
+S 1271.0.0 4375 0
+# synopsysserver(0):      5490  1 _internal_q
+F 1119.0.0 3866 1
+S 1494.0.0 5053 1
+# synopsysserver(1):      2305  1 _tag_violation
+F 1271.0.0 4375 0
+S 734.0.0 2562 0
+# synopsysserver(0):      2187  1 _vertex_q
+F 734.0.0 2562 0
+S 1273.0.0 4384 0
+# synopsysserver(0):      2676  1 _tag_violation
+F 1273.0.0 4384 0
+S 1042.0.0 3607 0
+# synopsysserver(0):       363  1 _create_q
+F 1494.0.0 5053 1
+S 448.0.0 1657 1
+# synopsysserver(1):      2791  1 _tag_violation
+F 448.0.0 1657 1
+S 433.0.0 1603 1
+# synopsysserver(1):       469  1 _create_q
+F 1042.0.0 3607 0
+S 1006.0.0 3485 0
+# synopsysserver(0):       333  1 _create_q
+F 1006.0.0 3485 0
+S 1346.0.0 4603 0
+# synopsysserver(0):      1826  1 _rectangles_q
+F 1346.0.0 4603 0
+S 1350.0.0 4617 0
+# synopsysserver(0):      1280  1 _copy
+F 1350.0.0 4617 0
+S 1349.0.0 4614 0
+# synopsysserver(0):      1278  1 _copy
+F 1349.0.0 4614 0
+S 1347.0.0 4609 0
+# synopsysserver(0):      1278  1 _copy
+F 433.0.0 1603 1
+S 1360.0.0 4643 1
+# synopsysserver(1):      1087  1 _boolean_or
+F 1347.0.0 4609 0
+S 434.0.0 1605 0
+# synopsysserver(0):      7214  1 _external_q
+F 1360.0.0 4643 1
+S 1421.0.0 4833 1
+# synopsysserver(1):      2747  1 _tag_violation
+F 1421.0.0 4833 1
+S 1352.0.0 4622 1
+# synopsysserver(1):      1140  1 _boolean_or_list
+F 1352.0.0 4622 1
+S 1348.0.0 4612 1
+# synopsysserver(1):       350  1 _create_q
+F 1348.0.0 4612 1
+S 1353.0.0 4625 1
+# synopsysserver(1):       305  1 _create_q
+F 1353.0.0 4625 1
+S 1362.0.0 4648 1
+# synopsysserver(1):      7075  1 _external_q
+F 1362.0.0 4648 1
+S 1020.0.0 3531 1
+# synopsysserver(1):       453  1 _create_q
+F 1020.0.0 3531 1
+S 1390.0.0 4735 1
+# synopsysserver(1):      3530  1 _covered_by_q
+F 1390.0.0 4735 1
+S 1333.0.0 4568 1
+# synopsysserver(1):      1218  1 _tag_violation
+F 434.0.0 1605 0
+S 1456.0.0 4936 0
+# synopsysserver(0):      1646  1 _boolean_and_q
+F 1456.0.0 4936 0
+S 1325.0.0 4547 0
+# synopsysserver(0):      2747  1 _tag_violation
+F 1325.0.0 4547 0
+S 436.0.0 1615 0
+# synopsysserver(0):      2790  1 _tag_violation
+F 436.0.0 1615 0
+S 1021.0.0 3533 0
+# synopsysserver(0):      2234  1 _interacting_edge_q
+F 1333.0.0 4568 1
+S 1354.0.0 4627 1
+# synopsysserver(1):      1956  1 _boolean_not_q
+F 1021.0.0 3533 0
+S 1461.0.0 4954 0
+# synopsysserver(0):      1771  1 _boolean_not_q
+F 1354.0.0 4627 1
+S 1022.0.0 3539 1
+# synopsysserver(1):       385  1 _create_q
+F 1022.0.0 3539 1
+S 1356.0.0 4633 1
+# synopsysserver(1):      1105  1 _tag_violation
+F 1461.0.0 4954 0
+S 1023.0.0 3541 0
+# synopsysserver(0):      2204  1 _length_edge_q
+F 1023.0.0 3541 0
+S 1463.0.0 4960 0
+# synopsysserver(0):      1074  1 _tag_violation
+F 1356.0.0 4633 1
+S 1455.0.0 4934 1
+# synopsysserver(1):      2305  1 _tag_violation
+F 1463.0.0 4960 0
+S 552.0.0 1981 0
+# synopsysserver(0):      3002  1 _explode_rotation
+F 1455.0.0 4934 1
+S 708.0.0 2477 1
+# synopsysserver(1):      5170  1 _internal_q
+F 552.0.0 1981 0
+S 1365.0.0 4660 0
+# synopsysserver(0):      6281  1 _external_q
+F 1365.0.0 4660 0
+S 343.0.0 1302 0
+# synopsysserver(0):      3565  1 _optimize_unmerged_layer_dp
+F 708.0.0 2477 1
+S 1374.0.0 4693 1
+# synopsysserver(1):      2747  1 _tag_violation
+F 343.0.0 1302 0
+S 1083.0.0 3737 0
+# synopsysserver(0):      5170  1 _internal_q
+F 1374.0.0 4693 1
+S 705.0.0 2456 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1083.0.0 3737 0
+S 1550.0.0 5222 0
+# synopsysserver(0):      1958  1 _tag_violation
+F 1550.0.0 5222 0
+S 1547.0.0 5214 0
+# synopsysserver(0):      1958  1 _tag_violation
+F 1547.0.0 5214 0
+S 1544.0.0 5206 0
+# synopsysserver(0):      1074  1 _tag_violation
+F 1544.0.0 5206 0
+S 1541.0.0 5198 0
+# synopsysserver(0):      1074  1 _tag_violation
+F 1541.0.0 5198 0
+S 1538.0.0 5190 0
+# synopsysserver(0):      2741  1 _tag_violation
+F 705.0.0 2456 1
+S 1491.0.0 5041 1
+# synopsysserver(1):      2715  1 _tag_violation
+F 1538.0.0 5190 0
+S 1367.0.0 4670 0
+# synopsysserver(0):      2304  1 _tag_violation
+F 1491.0.0 5041 1
+S 1187.0.0 4103 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 1367.0.0 4670 0
+S 494.0.0 1800 0
+# synopsysserver(0):      1608  1 _select_donut_hole
+F 1187.0.0 4103 1
+S 1530.0.0 5160 1
+# synopsysserver(1):      2715  1 _tag_violation
+F 1530.0.0 5160 1
+S 438.0.0 1619 1
+# synopsysserver(1):      7213  1 _external_q
+F 494.0.0 1800 0
+S 1387.0.0 4727 0
+# synopsysserver(0):      3530  1 _covered_by_q
+F 1387.0.0 4727 0
+S 495.0.0 1803 0
+# synopsysserver(0):       391  1 _create_q
+F 495.0.0 1803 0
+S 1389.0.0 4733 0
+# synopsysserver(0):      2096  1 _tag_violation
+F 1389.0.0 4733 0
+S 808.0.0 2820 0
+# synopsysserver(0):      1398  1 _boolean_not_q
+F 808.0.0 2820 0
+S 444.0.0 1643 0
+# synopsysserver(0):      2785  1 _tag_violation
+F 444.0.0 1643 0
+S 1415.0.0 4812 0
+# synopsysserver(0):      1642  1 _boolean_and_q
+F 438.0.0 1619 1
+S 1452.0.0 4922 1
+# synopsysserver(1):      2715  1 _tag_violation
+F 1452.0.0 4922 1
+S 1223.0.0 4223 1
+# synopsysserver(1):       434  1 _create_q
+F 1415.0.0 4812 0
+S 1505.0.0 5087 0
+# synopsysserver(0):      1074  1 _tag_violation
+F 1223.0.0 4223 1
+S 898.0.0 3120 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1505.0.0 5087 0
+S 844.0.0 2935 0
+# synopsysserver(0):      2292  1 _tag_violation
+F 844.0.0 2935 0
+S 1486.0.0 5024 0
+# synopsysserver(0):      1607  1 _tag_violation
+F 1486.0.0 5024 0
+S 1495.0.0 5055 0
+# synopsysserver(0):      1646  1 _boolean_and_q
+F 898.0.0 3120 1
+S 709.0.0 2484 1
+# synopsysserver(1):      5170  1 _internal_q
+F 1495.0.0 5055 0
+S 905.0.0 3146 0
+# synopsysserver(0):      1413  1 _boolean_not_q
+F 905.0.0 3146 0
+S 1496.0.0 5059 0
+# synopsysserver(0):       463  1 _create_q
+F 1496.0.0 5059 0
+S 908.0.0 3154 0
+# synopsysserver(0):      1413  1 _boolean_not_q
+F 908.0.0 3154 0
+S 1497.0.0 5061 0
+# synopsysserver(0):      6786  1 _enclose_q
+F 709.0.0 2484 1
+S 911.0.0 3162 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 1497.0.0 5061 0
+S 710.0.0 2491 0
+# synopsysserver(0):       449  1 _create_q
+F 911.0.0 3162 1
+S 913.0.0 3168 1
+# synopsysserver(1):       333  1 _create_q
+F 710.0.0 2491 0
+S 912.0.0 3166 0
+# synopsysserver(0):       473  1 _create_q
+F 913.0.0 3168 1
+S 1357.0.0 4635 1
+# synopsysserver(1):      3130  1 _center_to_center_q
+F 912.0.0 3166 0
+S 619.0.0 2186 0
+# synopsysserver(0):      2285  1 _tag_violation
+F 1357.0.0 4635 1
+S 914.0.0 3170 1
+# synopsysserver(1):      1471  1 _boolean_not_q
+F 914.0.0 3170 1
+S 746.0.0 2601 1
+# synopsysserver(1):      6248  1 _external_q
+F 746.0.0 2601 1
+S 983.0.0 3394 1
+# synopsysserver(1):      7289  1 _external_q
+F 983.0.0 3394 1
+S 748.0.0 2611 1
+# synopsysserver(1):      2292  1 _tag_violation
+F 748.0.0 2611 1
+S 1359.0.0 4641 1
+# synopsysserver(1):      1608  1 _tag_violation
+F 1359.0.0 4641 1
+S 1100.0.0 3804 1
+# synopsysserver(1):       473  1 _create_q
+F 1100.0.0 3804 1
+S 932.0.0 3230 1
+# synopsysserver(1):       419  1 _create_q
+F 932.0.0 3230 1
+S 1102.0.0 3808 1
+# synopsysserver(1):      1471  1 _boolean_not_q
+F 1102.0.0 3808 1
+S 985.0.0 3404 1
+# synopsysserver(1):      2804  1 _tag_violation
+F 985.0.0 3404 1
+S 933.0.0 3232 1
+# synopsysserver(1):      6254  1 _external_q
+F 619.0.0 2186 0
+S 915.0.0 3174 0
+# synopsysserver(0):      5623  1 _internal_q
+F 933.0.0 3232 1
+S 1120.0.0 3868 1
+# synopsysserver(1):       419  1 _create_q
+F 915.0.0 3174 0
+S 935.0.0 3242 0
+# synopsysserver(0):      2301  1 _tag_violation
+F 1120.0.0 3868 1
+S 917.0.0 3183 1
+# synopsysserver(1):      2714  1 _tag_violation
+F 935.0.0 3242 0
+S 1103.0.0 3812 0
+# synopsysserver(0):      5623  1 _internal_q
+F 917.0.0 3183 1
+S 1138.0.0 3930 1
+# synopsysserver(1):      1451  1 _boolean_not_q
+F 1103.0.0 3812 0
+S 1364.0.0 4658 0
+# synopsysserver(0):      2715  1 _tag_violation
+F 1138.0.0 3930 1
+S 1105.0.0 3821 1
+# synopsysserver(1):      2714  1 _tag_violation
+F 1364.0.0 4658 0
+S 736.0.0 2569 0
+# synopsysserver(0):       453  1 _create_q
+F 736.0.0 2569 0
+S 1467.0.0 4970 0
+# synopsysserver(0):      3492  1 _covered_by_q
+F 1467.0.0 4970 0
+S 1392.0.0 4741 0
+# synopsysserver(0):      2096  1 _tag_violation
+F 1105.0.0 3821 1
+S 1525.0.0 5143 1
+# synopsysserver(1):      1607  1 _tag_violation
+F 1392.0.0 4741 0
+F 1525.0.0 5143 1
+S 1425.0.0 4843 0
+# synopsysserver(0):      1791  1 _boolean_not_q
+S 1431.0.0 4859 1
+# synopsysserver(1):      3512  1 _covered_by_q
+F 1431.0.0 4859 1
+S 757.0.0 2639 1
+# synopsysserver(1):      7269  1 _external_q
+F 757.0.0 2639 1
+S 1433.0.0 4865 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 1425.0.0 4843 0
+S 759.0.0 2649 0
+# synopsysserver(0):      2789  1 _tag_violation
+F 1433.0.0 4865 1
+S 707.0.0 2470 1
+# synopsysserver(1):      5170  1 _internal_q
+F 759.0.0 2649 0
+S 496.0.0 1805 0
+# synopsysserver(0):      1766  1 _area_q
+F 496.0.0 1805 0
+S 1025.0.0 3547 0
+# synopsysserver(0):      1362  1 _tag_violation
+F 707.0.0 2470 1
+S 706.0.0 2463 1
+# synopsysserver(1):      5170  1 _internal_q
+F 706.0.0 2463 1
+S 1190.0.0 4111 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 1190.0.0 4111 1
+S 487.0.0 1777 1
+# synopsysserver(1):      6392  1 _external_q
+F 1025.0.0 3547 0
+S 837.0.0 2909 0
+# synopsysserver(0):      1362  1 _tag_violation
+F 487.0.0 1777 1
+S 1457.0.0 4940 1
+# synopsysserver(1):       463  1 _create_q
+F 1457.0.0 4940 1
+S 950.0.0 3292 1
+# synopsysserver(1):      1451  1 _boolean_not_q
+F 837.0.0 2909 0
+S 1499.0.0 5071 0
+# synopsysserver(0):      2741  1 _tag_violation
+F 950.0.0 3292 1
+S 1174.0.0 4044 1
+# synopsysserver(1):      6451  1 _external_q
+F 1174.0.0 4044 1
+S 953.0.0 3300 1
+# synopsysserver(1):      7284  1 _external_q
+F 953.0.0 3300 1
+S 1416.0.0 4816 1
+# synopsysserver(1):       463  1 _create_q
+F 1416.0.0 4816 1
+S 1500.0.0 5073 1
+# synopsysserver(1):      1770  1 _boolean_not_q
+F 1500.0.0 5073 1
+S 1043.0.0 3609 1
+# synopsysserver(1):       314  1 _create_q
+F 1043.0.0 3609 1
+S 1007.0.0 3487 1
+# synopsysserver(1):       333  1 _create_q
+F 1007.0.0 3487 1
+S 1044.0.0 3611 1
+# synopsysserver(1):      1451  1 _boolean_not_q
+F 1044.0.0 3611 1
+S 1008.0.0 3489 1
+# synopsysserver(1):      1471  1 _boolean_not_q
+F 1499.0.0 5071 0
+S 481.0.0 1758 0
+# synopsysserver(0):       391  1 _create_q
+F 1008.0.0 3489 1
+S 1047.0.0 3619 1
+# synopsysserver(1):      7284  1 _external_q
+F 1047.0.0 3619 1
+S 1009.0.0 3493 1
+# synopsysserver(1):      5623  1 _internal_q
+F 481.0.0 1758 0
+S 1171.0.0 4032 0
+# synopsysserver(0):      7289  1 _external_q
+F 1171.0.0 4032 0
+S 517.0.0 1866 0
+# synopsysserver(0):      6284  1 _external_q
+F 1009.0.0 3493 1
+S 516.0.0 1864 1
+# synopsysserver(1):      2285  1 _tag_violation
+F 517.0.0 1866 0
+S 1141.0.0 3938 0
+# synopsysserver(0):      7284  1 _external_q
+F 1141.0.0 3938 0
+S 752.0.0 2622 0
+# synopsysserver(0):      5198  1 _internal_q
+F 516.0.0 1864 1
+S 735.0.0 2567 1
+# synopsysserver(1):       420  1 _create_q
+F 735.0.0 2567 1
+S 711.0.0 2493 1
+# synopsysserver(1):       333  1 _create_q
+F 711.0.0 2493 1
+S 760.0.0 2651 1
+# synopsysserver(1):       305  1 _create_q
+F 760.0.0 2651 1
+S 737.0.0 2571 1
+# synopsysserver(1):      2234  1 _interacting_edge_q
+F 752.0.0 2622 0
+S 712.0.0 2495 0
+# synopsysserver(0):      1398  1 _boolean_not_q
+F 737.0.0 2571 1
+S 754.0.0 2631 1
+# synopsysserver(1):       430  1 _create_q
+F 754.0.0 2631 1
+S 753.0.0 2629 1
+# synopsysserver(1):       434  1 _create_q
+F 712.0.0 2495 0
+S 801.0.0 2781 0
+# synopsysserver(0):      5169  1 _internal_q
+F 753.0.0 2629 1
+S 683.0.0 2387 1
+# synopsysserver(1):      6391  1 _external_q
+F 683.0.0 2387 1
+S 892.0.0 3087 1
+# synopsysserver(1):      6451  1 _external_q
+F 801.0.0 2781 0
+S 685.0.0 2397 0
+# synopsysserver(0):      2410  1 _tag_violation
+F 892.0.0 3087 1
+S 855.0.0 2971 1
+# synopsysserver(1):       429  1 _create_q
+F 855.0.0 2971 1
+S 854.0.0 2969 1
+# synopsysserver(1):       435  1 _create_q
+F 854.0.0 2969 1
+S 498.0.0 1810 1
+# synopsysserver(1):      1198  1 _tag_violation
+F 685.0.0 2397 0
+S 489.0.0 1787 0
+# synopsysserver(0):      2411  1 _tag_violation
+F 489.0.0 1787 0
+S 958.0.0 3316 0
+# synopsysserver(0):      1468  1 _boolean_not_q
+F 958.0.0 3316 0
+S 1034.0.0 3578 0
+# synopsysserver(0):      5198  1 _internal_q
+F 498.0.0 1810 1
+S 1193.0.0 4119 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 1193.0.0 4119 1
+S 966.0.0 3340 1
+# synopsysserver(1):      1482  1 _boolean_not_q
+F 966.0.0 3340 1
+S 1194.0.0 4123 1
+# synopsysserver(1):       473  1 _create_q
+F 1034.0.0 3578 0
+S 969.0.0 3348 0
+# synopsysserver(0):      7310  1 _external_q
+F 1194.0.0 4123 1
+S 1035.0.0 3585 1
+# synopsysserver(1):       434  1 _create_q
+F 1035.0.0 3585 1
+S 1458.0.0 4942 1
+# synopsysserver(1):      6786  1 _enclose_q
+F 969.0.0 3348 0
+S 961.0.0 3324 0
+# synopsysserver(0):      7298  1 _external_q
+F 961.0.0 3324 0
+S 971.0.0 3358 0
+# synopsysserver(0):      2836  1 _tag_violation
+F 1458.0.0 4942 1
+S 963.0.0 3334 1
+# synopsysserver(1):      2822  1 _tag_violation
+F 963.0.0 3334 1
+S 955.0.0 3310 1
+# synopsysserver(1):      2806  1 _tag_violation
+F 971.0.0 3358 0
+S 409.0.0 1526 0
+# synopsysserver(0):      1088  1 _tag_violation
+F 955.0.0 3310 1
+S 529.0.0 1906 1
+# synopsysserver(1):      2987  1 _tag_violation
+F 409.0.0 1526 0
+S 1369.0.0 4676 0
+# synopsysserver(0):       463  1 _create_q
+F 529.0.0 1906 1
+S 811.0.0 2828 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 811.0.0 2828 1
+S 1502.0.0 5079 1
+# synopsysserver(1):      1074  1 _tag_violation
+F 1502.0.0 5079 1
+S 440.0.0 1629 1
+# synopsysserver(1):      2790  1 _tag_violation
+F 1369.0.0 4676 0
+S 1011.0.0 3502 0
+# synopsysserver(0):      2714  1 _tag_violation
+F 440.0.0 1629 1
+S 1121.0.0 3870 1
+# synopsysserver(1):      6254  1 _external_q
+F 1121.0.0 3870 1
+S 1447.0.0 4905 1
+# synopsysserver(1):      1607  1 _tag_violation
+F 1011.0.0 3502 0
+S 519.0.0 1876 0
+# synopsysserver(0):      2380  1 _tag_violation
+F 1447.0.0 4905 1
+S 1143.0.0 3948 1
+# synopsysserver(1):      2806  1 _tag_violation
+F 519.0.0 1876 0
+S 1146.0.0 3954 0
+# synopsysserver(0):      1468  1 _boolean_not_q
+F 1146.0.0 3954 0
+S 1469.0.0 4976 0
+# synopsysserver(0):      1958  1 _tag_violation
+F 1143.0.0 3948 1
+S 1522.0.0 5135 1
+# synopsysserver(1):      1105  1 _tag_violation
+F 1469.0.0 4976 0
+S 470.0.0 1721 0
+# synopsysserver(0):      2872  1 _explode_rotation
+F 1522.0.0 5135 1
+S 1335.0.0 4573 1
+# synopsysserver(1):      1815  1 _boolean_not_q
+F 470.0.0 1721 0
+S 1149.0.0 3962 0
+# synopsysserver(0):      7298  1 _external_q
+F 1149.0.0 3962 0
+S 691.0.0 2416 0
+# synopsysserver(0):      2871  1 _explode_rotation
+F 691.0.0 2416 0
+S 396.0.0 1490 0
+# synopsysserver(0):       463  1 _create_q
+F 396.0.0 1490 0
+S 471.0.0 1724 0
+# synopsysserver(0):       391  1 _create_q
+F 1335.0.0 4573 1
+S 1620.0.0 5438 1
+# synopsysserver(1):      1771  1 _boolean_not_q
+F 1620.0.0 5438 1
+S 1337.0.0 4579 1
+# synopsysserver(1):      1218  1 _tag_violation
+F 471.0.0 1724 0
+S 1622.0.0 5444 0
+# synopsysserver(0):      1074  1 _tag_violation
+F 1622.0.0 5444 0
+S 1617.0.0 5430 0
+# synopsysserver(0):      1771  1 _boolean_not_q
+F 1617.0.0 5430 0
+S 692.0.0 2419 0
+# synopsysserver(0):       391  1 _create_q
+F 692.0.0 2419 0
+S 1614.0.0 5418 0
+# synopsysserver(0):      6786  1 _enclose_q
+F 1614.0.0 5418 0
+S 553.0.0 1984 0
+# synopsysserver(0):       406  1 _create_q
+F 553.0.0 1984 0
+S 1616.0.0 5428 0
+# synopsysserver(0):      2741  1 _tag_violation
+F 1616.0.0 5428 0
+S 1590.0.0 5343 0
+# synopsysserver(0):      1826  1 _rectangles_q
+F 1337.0.0 4579 1
+S 1196.0.0 4127 1
+# synopsysserver(1):      1471  1 _boolean_not_q
+F 1590.0.0 5343 0
+S 1594.0.0 5357 0
+# synopsysserver(0):      1280  1 _copy
+F 1196.0.0 4127 1
+S 1593.0.0 5354 1
+# synopsysserver(1):      1278  1 _copy
+F 1594.0.0 5357 0
+S 1591.0.0 5349 0
+# synopsysserver(0):      1278  1 _copy
+F 1593.0.0 5354 1
+S 1626.0.0 5454 1
+# synopsysserver(1):      3492  1 _covered_by_q
+F 1591.0.0 5349 0
+S 1604.0.0 5383 0
+# synopsysserver(0):      1087  1 _boolean_or
+F 1626.0.0 5454 1
+S 1596.0.0 5362 1
+# synopsysserver(1):      1140  1 _boolean_or_list
+F 1604.0.0 5383 0
+S 1214.0.0 4187 0
+# synopsysserver(0):       419  1 _create_q
+F 1596.0.0 5362 1
+S 1197.0.0 4131 1
+# synopsysserver(1):      5623  1 _internal_q
+F 1214.0.0 4187 0
+S 1623.0.0 5446 0
+# synopsysserver(0):      3492  1 _covered_by_q
+F 1197.0.0 4131 1
+S 1215.0.0 4189 1
+# synopsysserver(1):      6254  1 _external_q
+F 1623.0.0 5446 0
+S 1199.0.0 4140 0
+# synopsysserver(0):      2714  1 _tag_violation
+F 1215.0.0 4189 1
+S 1625.0.0 5452 1
+# synopsysserver(1):      1958  1 _tag_violation
+F 1625.0.0 5452 1
+S 554.0.0 1986 1
+# synopsysserver(1):      5166  1 _internal_q
+F 1199.0.0 4140 0
+S 420.0.0 1562 0
+# synopsysserver(0):      2173  1 _vertex_q
+F 554.0.0 1986 1
+S 1305.0.0 4481 1
+# synopsysserver(1):      1956  1 _boolean_not_q
+F 420.0.0 1562 0
+S 565.0.0 2023 0
+# synopsysserver(0):      1146  1 _merge_dirty_layer
+F 1305.0.0 4481 1
+S 423.0.0 1573 1
+# synopsysserver(1):       490  1 _create_q
+F 565.0.0 2023 0
+S 1307.0.0 4487 0
+# synopsysserver(0):      1105  1 _tag_violation
+F 1307.0.0 4487 0
+S 555.0.0 1993 0
+# synopsysserver(0):      1145  1 _merge_dirty_layer
+F 423.0.0 1573 1
+S 482.0.0 1760 1
+# synopsysserver(1):      6390  1 _external_q
+F 555.0.0 1993 0
+S 422.0.0 1571 0
+# synopsysserver(0):       490  1 _create_q
+F 482.0.0 1760 1
+S 731.0.0 2550 1
+# synopsysserver(1):      6188  1 _external_q
+F 731.0.0 2550 1
+S 1427.0.0 4849 1
+# synopsysserver(1):      1074  1 _tag_violation
+F 1427.0.0 4849 1
+S 1533.0.0 5172 1
+# synopsysserver(1):      2305  1 _tag_violation
+F 1533.0.0 5172 1
+S 1123.0.0 3880 1
+# synopsysserver(1):      2301  1 _tag_violation
+F 1123.0.0 3880 1
+S 472.0.0 1726 1
+# synopsysserver(1):      6389  1 _external_q
+F 472.0.0 1726 1
+S 738.0.0 2577 1
+# synopsysserver(1):       385  1 _create_q
+F 738.0.0 2577 1
+S 474.0.0 1736 1
+# synopsysserver(1):      2412  1 _tag_violation
+F 474.0.0 1736 1
+S 599.0.0 2127 1
+# synopsysserver(1):      1766  1 _area_q
+F 599.0.0 2127 1
+S 1601.0.0 5375 1
+# synopsysserver(1):      3127  1 _center_to_center_q
+F 1601.0.0 5375 1
+S 560.0.0 2006 1
+# synopsysserver(1):      5164  1 _internal_q
+F 560.0.0 2006 1
+S 1603.0.0 5381 1
+# synopsysserver(1):      1607  1 _tag_violation
+F 422.0.0 1571 0
+S 569.0.0 2033 0
+# synopsysserver(0):      1144  1 _merge_dirty_layer
+F 1603.0.0 5381 1
+S 561.0.0 2013 1
+# synopsysserver(1):      1143  1 _merge_dirty_layer
+F 569.0.0 2033 0
+S 1619.0.0 5436 0
+# synopsysserver(0):      1074  1 _tag_violation
+F 1619.0.0 5436 0
+S 1036.0.0 3587 0
+# synopsysserver(0):       430  1 _create_q
+F 1036.0.0 3587 0
+S 1151.0.0 3972 0
+# synopsysserver(0):      2822  1 _tag_violation
+F 1151.0.0 3972 0
+S 1628.0.0 5460 0
+# synopsysserver(0):      1958  1 _tag_violation
+F 1628.0.0 5460 0
+S 1417.0.0 4818 0
+# synopsysserver(0):      6786  1 _enclose_q
+F 561.0.0 2013 1
+S 601.0.0 2132 1
+# synopsysserver(1):      1198  1 _tag_violation
+F 601.0.0 2132 1
+S 1166.0.0 4016 1
+# synopsysserver(1):      7293  1 _external_q
+F 1166.0.0 4016 1
+S 563.0.0 2017 1
+# synopsysserver(1):       434  1 _create_q
+F 1417.0.0 4818 0
+S 1168.0.0 4026 0
+# synopsysserver(0):      2820  1 _tag_violation
+F 563.0.0 2017 1
+S 566.0.0 2025 1
+# synopsysserver(1):       444  1 _create_q
+F 1168.0.0 4026 0
+S 567.0.0 2027 0
+# synopsysserver(0):       434  1 _create_q
+F 566.0.0 2025 1
+S 562.0.0 2015 1
+# synopsysserver(1):       320  1 _create_q
+F 562.0.0 2015 1
+S 570.0.0 2035 1
+# synopsysserver(1):       320  1 _create_q
+F 570.0.0 2035 1
+S 556.0.0 1995 1
+# synopsysserver(1):       320  1 _create_q
+F 567.0.0 2027 0
+S 564.0.0 2019 0
+# synopsysserver(0):      1360  1 _boolean_not_q
+F 556.0.0 1995 1
+S 739.0.0 2579 1
+# synopsysserver(1):      2204  1 _length_edge_q
+F 739.0.0 2579 1
+S 568.0.0 2029 1
+# synopsysserver(1):      1363  1 _boolean_not_q
+F 564.0.0 2019 0
+S 741.0.0 2585 0
+# synopsysserver(0):      1362  1 _tag_violation
+F 568.0.0 2029 1
+S 578.0.0 2060 1
+# synopsysserver(1):      2870  1 _explode_rotation
+F 578.0.0 2060 1
+S 583.0.0 2077 1
+# synopsysserver(1):      2871  1 _explode_rotation
+F 583.0.0 2077 1
+S 579.0.0 2063 1
+# synopsysserver(1):       391  1 _create_q
+F 579.0.0 2063 1
+S 584.0.0 2080 1
+# synopsysserver(1):       391  1 _create_q
+F 741.0.0 2585 0
+S 733.0.0 2560 0
+# synopsysserver(0):      2285  1 _tag_violation
+F 584.0.0 2080 1
+S 580.0.0 2065 1
+# synopsysserver(1):      6391  1 _external_q
+F 580.0.0 2065 1
+S 585.0.0 2082 1
+# synopsysserver(1):      6384  1 _external_q
+F 585.0.0 2082 1
+S 582.0.0 2075 1
+# synopsysserver(1):      2410  1 _tag_violation
+F 582.0.0 2075 1
+S 1217.0.0 4199 1
+# synopsysserver(1):      2301  1 _tag_violation
+F 1217.0.0 4199 1
+S 1605.0.0 5386 1
+# synopsysserver(1):       346  1 _create_q
+F 1605.0.0 5386 1
+S 1597.0.0 5365 1
+# synopsysserver(1):       305  1 _create_q
+F 1597.0.0 5365 1
+S 1609.0.0 5400 1
+# synopsysserver(1):      6284  1 _external_q
+F 733.0.0 2560 0
+S 1606.0.0 5388 0
+# synopsysserver(0):      7075  1 _external_q
+F 1609.0.0 5400 1
+S 1598.0.0 5367 1
+# synopsysserver(1):      1956  1 _boolean_not_q
+F 1606.0.0 5388 0
+S 1611.0.0 5410 0
+# synopsysserver(0):      2305  1 _tag_violation
+F 1598.0.0 5367 1
+S 1608.0.0 5398 1
+# synopsysserver(1):      2715  1 _tag_violation
+F 1611.0.0 5410 0
+S 587.0.0 2092 0
+# synopsysserver(0):      2411  1 _tag_violation
+F 1608.0.0 5398 1
+S 557.0.0 1997 1
+# synopsysserver(1):       434  1 _create_q
+F 587.0.0 2092 0
+S 1225.0.0 4227 0
+# synopsysserver(0):      1354  1 _boolean_not_q
+F 1225.0.0 4227 0
+S 1600.0.0 5373 0
+# synopsysserver(0):      1105  1 _tag_violation
+F 1600.0.0 5373 0
+S 894.0.0 3097 0
+# synopsysserver(0):      2385  1 _tag_violation
+F 894.0.0 3097 0
+S 755.0.0 2633 0
+# synopsysserver(0):      1354  1 _boolean_not_q
+F 557.0.0 1997 1
+S 1265.0.0 4351 1
+# synopsysserver(1):      7289  1 _external_q
+F 755.0.0 2633 0
+S 558.0.0 1999 0
+# synopsysserver(0):      1362  1 _boolean_not_q
+F 1265.0.0 4351 1
+S 785.0.0 2725 1
+# synopsysserver(1):      7254  1 _external_q
+F 785.0.0 2725 1
+S 1267.0.0 4361 1
+# synopsysserver(1):      2804  1 _tag_violation
+F 1267.0.0 4361 1
+S 571.0.0 2037 1
+# synopsysserver(1):       434  1 _create_q
+F 558.0.0 1999 0
+S 787.0.0 2735 0
+# synopsysserver(0):      2788  1 _tag_violation
+F 787.0.0 2735 0
+S 798.0.0 2769 0
+# synopsysserver(0):      6451  1 _external_q
+F 798.0.0 2769 0
+S 573.0.0 2043 0
+# synopsysserver(0):      2872  1 _explode_rotation
+F 573.0.0 2043 0
+S 800.0.0 2779 0
+# synopsysserver(0):      2385  1 _tag_violation
+F 571.0.0 2037 1
+S 574.0.0 2046 1
+# synopsysserver(1):       391  1 _create_q
+F 800.0.0 2779 0
+S 1154.0.0 3978 0
+# synopsysserver(0):      1482  1 _boolean_not_q
+F 1154.0.0 3978 0
+S 572.0.0 2039 0
+# synopsysserver(0):      1361  1 _boolean_not_q
+F 574.0.0 2046 1
+S 1157.0.0 3986 1
+# synopsysserver(1):      7310  1 _external_q
+F 1157.0.0 3986 1
+S 575.0.0 2048 1
+# synopsysserver(1):      6389  1 _external_q
+F 575.0.0 2048 1
+S 1159.0.0 3996 1
+# synopsysserver(1):      2836  1 _tag_violation
+F 572.0.0 2039 0
+S 577.0.0 2058 0
+# synopsysserver(0):      2412  1 _tag_violation
+F 1159.0.0 3996 1
+S 1260.0.0 4335 1
+# synopsysserver(1):      7293  1 _external_q
+F 577.0.0 2058 0
+S 1255.0.0 4319 0
+# synopsysserver(0):      7254  1 _external_q
+F 1260.0.0 4335 1
+S 588.0.0 2094 1
+# synopsysserver(1):      2871  1 _explode_rotation
+F 1255.0.0 4319 0
+S 1262.0.0 4345 0
+# synopsysserver(0):      2820  1 _tag_violation
+F 588.0.0 2094 1
+S 1257.0.0 4329 1
+# synopsysserver(1):      2788  1 _tag_violation
+F 1257.0.0 4329 1
+S 1370.0.0 4678 1
+# synopsysserver(1):      6786  1 _enclose_q
+F 1262.0.0 4345 0
+S 484.0.0 1770 0
+# synopsysserver(0):      2413  1 _tag_violation
+F 484.0.0 1770 0
+S 1026.0.0 3549 0
+# synopsysserver(0):       419  1 _create_q
+F 1026.0.0 3549 0
+S 589.0.0 2097 0
+# synopsysserver(0):       391  1 _create_q
+F 589.0.0 2097 0
+S 1027.0.0 3551 0
+# synopsysserver(0):      6254  1 _external_q
+F 1027.0.0 3551 0
+S 590.0.0 2099 0
+# synopsysserver(0):      6392  1 _external_q
+F 1370.0.0 4678 1
+S 1029.0.0 3561 1
+# synopsysserver(1):      2301  1 _tag_violation
+F 590.0.0 2099 0
+S 1372.0.0 4688 0
+# synopsysserver(0):      2741  1 _tag_violation
+F 1372.0.0 4688 0
+F 1029.0.0 3561 1
+S 1268.0.0 4363 0
+# synopsysserver(0):      6451  1 _external_q
+S 1173.0.0 4042 1
+# synopsysserver(1):      2804  1 _tag_violation
+F 1173.0.0 4042 1
+S 856.0.0 2973 1
+# synopsysserver(1):      1451  1 _boolean_not_q
+F 1268.0.0 4363 0
+S 1270.0.0 4373 0
+# synopsysserver(0):      2385  1 _tag_violation
+F 856.0.0 2973 1
+S 864.0.0 2997 1
+# synopsysserver(1):      1468  1 _boolean_not_q
+F 864.0.0 2997 1
+S 592.0.0 2109 1
+# synopsysserver(1):      2411  1 _tag_violation
+F 1270.0.0 4373 0
+S 1176.0.0 4054 0
+# synopsysserver(0):      2385  1 _tag_violation
+F 592.0.0 2109 1
+S 1460.0.0 4952 1
+# synopsysserver(1):      2741  1 _tag_violation
+F 1176.0.0 4054 0
+S 424.0.0 1575 0
+# synopsysserver(0):      2237  1 _interacting_edge_q
+F 1460.0.0 4952 1
+S 1037.0.0 3589 1
+# synopsysserver(1):      1354  1 _boolean_not_q
+F 1037.0.0 3589 1
+S 1077.0.0 3713 1
+# synopsysserver(1):      7289  1 _external_q
+F 1077.0.0 3713 1
+S 1079.0.0 3723 1
+# synopsysserver(1):      2804  1 _tag_violation
+F 1079.0.0 3723 1
+S 1067.0.0 3681 1
+# synopsysserver(1):      7254  1 _external_q
+F 1067.0.0 3681 1
+S 1069.0.0 3691 1
+# synopsysserver(1):      2788  1 _tag_violation
+F 1069.0.0 3691 1
+S 1080.0.0 3725 1
+# synopsysserver(1):      6451  1 _external_q
+F 1080.0.0 3725 1
+S 1082.0.0 3735 1
+# synopsysserver(1):      2385  1 _tag_violation
+F 1082.0.0 3735 1
+S 715.0.0 2503 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 715.0.0 2503 1
+S 717.0.0 2509 1
+# synopsysserver(1):       473  1 _create_q
+F 717.0.0 2509 1
+S 716.0.0 2507 1
+# synopsysserver(1):       464  1 _create_q
+F 716.0.0 2507 1
+S 718.0.0 2511 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 718.0.0 2511 1
+S 721.0.0 2519 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 721.0.0 2519 1
+S 722.0.0 2523 1
+# synopsysserver(1):       473  1 _create_q
+F 722.0.0 2523 1
+S 978.0.0 3378 1
+# synopsysserver(1):      7293  1 _external_q
+F 978.0.0 3378 1
+S 980.0.0 3388 1
+# synopsysserver(1):      2820  1 _tag_violation
+F 980.0.0 3388 1
+S 728.0.0 2542 1
+# synopsysserver(1):      2321  1 _find_wide_q
+F 728.0.0 2542 1
+S 730.0.0 2548 1
+# synopsysserver(1):      1269  1 _tag_violation
+F 730.0.0 2548 1
+S 1419.0.0 4828 1
+# synopsysserver(1):      2741  1 _tag_violation
+F 1419.0.0 4828 1
+S 814.0.0 2836 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 814.0.0 2836 1
+S 817.0.0 2844 1
+# synopsysserver(1):      1413  1 _boolean_not_q
+F 817.0.0 2844 1
+S 819.0.0 2850 1
+# synopsysserver(1):       333  1 _create_q
+F 819.0.0 2850 1
+S 818.0.0 2848 1
+# synopsysserver(1):       473  1 _create_q
+F 818.0.0 2848 1
+S 820.0.0 2852 1
+# synopsysserver(1):      1471  1 _boolean_not_q
+F 820.0.0 2852 1
+S 889.0.0 3075 1
+# synopsysserver(1):      7289  1 _external_q
+F 889.0.0 3075 1
+S 891.0.0 3085 1
+# synopsysserver(1):      2804  1 _tag_violation
+F 891.0.0 3085 1
+S 838.0.0 2911 1
+# synopsysserver(1):       419  1 _create_q
+F 838.0.0 2911 1
+S 839.0.0 2913 1
+# synopsysserver(1):      6254  1 _external_q
+F 839.0.0 2913 1
+S 841.0.0 2923 1
+# synopsysserver(1):      2301  1 _tag_violation
+F 841.0.0 2923 1
+S 821.0.0 2856 1
+# synopsysserver(1):      5623  1 _internal_q
+F 821.0.0 2856 1
+S 823.0.0 2865 1
+# synopsysserver(1):      2714  1 _tag_violation
+F 823.0.0 2865 1
+S 1052.0.0 3635 1
+# synopsysserver(1):      1468  1 _boolean_not_q
+F 1052.0.0 3635 1
+S 1072.0.0 3697 1
+# synopsysserver(1):      7293  1 _external_q
+F 424.0.0 1575 0
+S 425.0.0 1581 0
+# synopsysserver(0):       387  1 _create_q
+F 1072.0.0 3697 1
+S 1074.0.0 3707 1
+# synopsysserver(1):      2820  1 _tag_violation
+F 425.0.0 1581 0
+S 426.0.0 1583 0
+# synopsysserver(0):      2154  1 _length_edge_q
+F 426.0.0 1583 0
+S 428.0.0 1589 0
+# synopsysserver(0):      1309  1 _tag_violation
+F 1074.0.0 3707 1
+S 1060.0.0 3659 1
+# synopsysserver(1):      1482  1 _boolean_not_q
+F 1060.0.0 3659 1
+S 1063.0.0 3667 1
+# synopsysserver(1):      7310  1 _external_q
+F 1063.0.0 3667 1
+S 1065.0.0 3677 1
+# synopsysserver(1):      2836  1 _tag_violation
+F 428.0.0 1589 0
+S 1055.0.0 3643 0
+# synopsysserver(0):      7298  1 _external_q
+F 1055.0.0 3643 0
+S 1057.0.0 3653 0
+# synopsysserver(0):      2822  1 _tag_violation
+F 1065.0.0 3677 1
+S 1049.0.0 3629 1
+# synopsysserver(1):      2806  1 _tag_violation
+F 1057.0.0 3653 0
+S 693.0.0 2421 0
+# synopsysserver(0):      6392  1 _external_q
+F 1049.0.0 3629 1
+S 859.0.0 2981 1
+# synopsysserver(1):      7284  1 _external_q
+F 859.0.0 2981 1
+S 861.0.0 2991 1
+# synopsysserver(1):      2806  1 _tag_violation
+F 693.0.0 2421 0
+S 695.0.0 2431 0
+# synopsysserver(0):      2411  1 _tag_violation
+F 861.0.0 2991 1
+S 867.0.0 3005 1
+# synopsysserver(1):      7298  1 _external_q
+F 695.0.0 2431 0
+S 872.0.0 3021 0
+# synopsysserver(0):      1482  1 _boolean_not_q
+F 867.0.0 3005 1
+S 869.0.0 3015 1
+# synopsysserver(1):      2822  1 _tag_violation
+F 872.0.0 3021 0
+S 875.0.0 3029 0
+# synopsysserver(0):      7310  1 _external_q
+F 875.0.0 3029 0
+S 877.0.0 3039 0
+# synopsysserver(0):      2836  1 _tag_violation
+F 869.0.0 3015 1
+S 884.0.0 3059 1
+# synopsysserver(1):      7293  1 _external_q
+F 877.0.0 3039 0
+S 761.0.0 2653 0
+# synopsysserver(0):       363  1 _create_q
+F 761.0.0 2653 0
+S 723.0.0 2525 0
+# synopsysserver(0):       333  1 _create_q
+F 884.0.0 3059 1
+S 886.0.0 3069 1
+# synopsysserver(1):      2820  1 _tag_violation
+F 723.0.0 2525 0
+S 724.0.0 2527 0
+# synopsysserver(0):      1471  1 _boolean_not_q
+F 724.0.0 2527 0
+S 795.0.0 2757 0
+# synopsysserver(0):      7289  1 _external_q
+F 886.0.0 3069 1
+S 742.0.0 2587 1
+# synopsysserver(1):       419  1 _create_q
+F 742.0.0 2587 1
+S 743.0.0 2589 1
+# synopsysserver(1):      6254  1 _external_q
+F 795.0.0 2757 0
+S 797.0.0 2767 0
+# synopsysserver(0):      2804  1 _tag_violation
+F 743.0.0 2589 1
+S 745.0.0 2599 1
+# synopsysserver(1):      2301  1 _tag_violation
+F 797.0.0 2767 0
+S 725.0.0 2531 0
+# synopsysserver(0):      5623  1 _internal_q
+F 725.0.0 2531 0
+S 727.0.0 2540 0
+# synopsysserver(0):      2714  1 _tag_violation
+F 745.0.0 2599 1
+S 762.0.0 2655 1
+# synopsysserver(1):      1451  1 _boolean_not_q
+F 762.0.0 2655 1
+S 770.0.0 2679 1
+# synopsysserver(1):      1468  1 _boolean_not_q
+F 770.0.0 2679 1
+S 790.0.0 2741 1
+# synopsysserver(1):      7293  1 _external_q
+F 790.0.0 2741 1
+S 792.0.0 2751 1
+# synopsysserver(1):      2820  1 _tag_violation
+F 792.0.0 2751 1
+S 773.0.0 2687 1
+# synopsysserver(1):      7298  1 _external_q
+F 773.0.0 2687 1
+S 775.0.0 2697 1
+# synopsysserver(1):      2822  1 _tag_violation
+F 727.0.0 2540 0
+S 777.0.0 2701 0
+# synopsysserver(0):       431  1 _create_q
+F 777.0.0 2701 0
+S 776.0.0 2699 0
+# synopsysserver(0):       436  1 _create_q
+F 776.0.0 2699 0
+S 778.0.0 2703 0
+# synopsysserver(0):      1482  1 _boolean_not_q
+F 778.0.0 2703 0
+S 781.0.0 2711 0
+# synopsysserver(0):      7310  1 _external_q
+F 775.0.0 2697 1
+S 765.0.0 2663 1
+# synopsysserver(1):      7284  1 _external_q
+F 781.0.0 2711 0
+S 783.0.0 2721 0
+# synopsysserver(0):      2836  1 _tag_violation
+F 765.0.0 2663 1
+S 767.0.0 2673 1
+# synopsysserver(1):      2806  1 _tag_violation
+F 767.0.0 2673 1
+F 783.0.0 2721 0
+F 0 0 1
+S 1630.0.0 5463 0
+# synopsysserver(0):       372  1 _accumulate_results
+F 1630.0.0 5463 0
+}

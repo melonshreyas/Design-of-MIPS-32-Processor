@@ -1,0 +1,30 @@
+/* =================================================== */
+/*   Environment setup for signoff_create_metal_fill   */
+/* =================================================== */
+
+#define SNPSINDESIGN 
+#define USE_ICC2 
+#define METAL_FILL_INSTALL_ICV_RH </home/synopsys/installs/icvalidator/P-2019.06-3/include/icv.rh>
+#define METAL_FILL_USER_RUNSET </home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/saed14nm_1p9m_mfill_rules.rs>
+#define METAL_FILL_OUTLIB "indesign_icv_tmp.nlib"
+#define METAL_FILL_OUTLIB_PATH "/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run"
+#define METAL_FILL_OUTLIB_MODE OVERWRITE
+#define METAL_FILL_TOP_BLOCK "29th_MAY_ROUTE_DONE"
+#define METAL_FILL_TOP_BLOCK_FILLCELL "29th_MAY_ROUTE_DONE$design.FILL"
+#define METAL_FILL_FLATTEN false
+#define METAL_FILL_LAYER_NUMBERS {21,23,25,27,29,31,22,24,26,28,30}
+#define CUT_METAL_LAYER_NUMBERS {}
+#define FREEZE_VIA_LAYER_NUMBERS {}
+#define METAL_FILL_LAYNUM_TO_INDEX_MAP {{21,2},{23,3},{25,4},{27,5},{29,6},{31,7}}
+#define VIA_FILL_LAYNUM_TO_INDEX_MAP {{22,2},{24,3},{26,4},{28,5},{30,6}}
+#define METAL_FILL_LAYNAME_TO_INDEX_MAP {{"M2",2},{"M3",3},{"M4",4},{"M5",5},{"M6",6},{"M7",7}}
+#define METAL_FILL_OUTLIB_BLOCK "indesign_icv_tmp"
+#define METAL_FILL_OUTLIB_CELL "design"
+#define METAL_FILL_OUTLIB_CELL_LABEL ""
+#define METAL_FILL_OUTLIB_CELL_PREFIX "design_"
+#define METAL_FILL_OUTLIB_APPLY_PREFIX {LOWER_CELLS}
+#define NDM_OPTIONS_SEARCH_PATH "/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2  ."
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW,FRAME_VIEW}, cells={"*","!"+get_top_cell()} }
+#define ALL_METAL_FILL_LAYER_NUMBERS {21,23,25,27,29,31,22,24,26,28,30}
+#define METAL_FILL_RUNSET2LIBRARY_LAYER_MAP_COMPLETE {}

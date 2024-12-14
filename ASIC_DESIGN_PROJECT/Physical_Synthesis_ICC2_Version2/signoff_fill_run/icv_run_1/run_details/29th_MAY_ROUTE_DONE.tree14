@@ -1,0 +1,2502 @@
+*** 29th_MAY_ROUTE_DONE		Mon May 30 12:20:15 2022
+
+AFTER VCELL Pairing
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "29th_MAY_ROUTE_DONE".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=              2
+	Unique cells		=             51
+	Hierarchical placements	=            793
+	Total design placements	=            793
+	Exploded references		=              9
+	Exploded placements		=             21
+	Total data count	=          60697
+	SREF placements		=            793
+	AREFS				=              0
+	AREF placements			=              0
+	DATA 			=          33861
+	TEXT				=             40
+	Top Cell Area		=         598.18
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		TOP 20 CELLS WITH LOWEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAEDLVT14_FILL2          13      13       0       0       5    USED
+ SAEDLVT14_FILL3          15      15       0       0      12    USED
+ SAEDHVT14_INV_0P5        17      17       0       0      32    USED
+ SAEDRVT14_BUF_S_0P5      19      19       0       0       6    USED
+ SAEDRVT14_ND2_CDC_0P5      19      19       0       0      26    USED
+ SAEDRVT14_BUF_1          19      19       0       0      26    USED
+ SAEDHVT14_BUF_S_0P5      20      20       0       0       4    USED
+ SAEDHVT14_BUF_U_0P5      20      20       0       0       2    USED
+ SAEDHVT14_NR2_MM_0P5      20      20       0       0      25    USED
+ SAEDHVT14_BUF_UCDC_0P5      20      20       0       0       3    USED
+ SAEDLVT14_BUF_2          21      21       0       0      12    USED
+ SAEDRVT14_DEL_R2V2_1      21      21       0       0       8    USED
+ SAEDHVT14_AN2_MM_0P5      21      21       0       0      33    USED
+ SAEDRVT14_BUF_S_2        21      21       0       0       3    USED
+ SAEDHVT14_DEL_R2V2_1      22      22       0       0       7    USED
+ SAEDRVT14_DEL_R2V3_1      23      23       0       0      31    USED
+ SAEDHVT14_OR2_0P5        23      23       0       0       8    USED
+ SAEDHVT14_DEL_R2V3_1      24      24       0       0      70    USED
+ SAEDHVT14_AOI21_0P5      24      24       0       0       2    USED
+ SAEDRVT14_CAPBIN13       24      24       0       0       1    USED
+
+
+		TOP 20 CELLS WITH HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ 29th_MAY_ROUTE_DONE   32908   32116     792      40       1    USED
+ VCELLA10                134     134       0       0      11    USED
+ VCELLR7                  96      96       0       0       8    USED
+ VCELLA9                  91      91       0       0      18    USED
+ VCELLA11                 72      72       0       0      12    USED
+ SAEDHVT14_FDP_V2LP_0P5      67      67       0       0      56    USED
+ VCELLR8                  56      56       0       0       9    USED
+ VCELLA6                  48      48       0       0      41    USED
+ VCELLR1                  48      48       0       0       1    USED
+ SAEDHVT14_LDPQ_U_0P5      45      45       0       0      41    USED
+ SAEDHVT14_AO32_4         44      44       0       0       3    USED
+ SAEDRVT14_AO32_4         43      43       0       0       3    USED
+ SAEDHVT14_AO32_2         42      42       0       0       5    USED
+ SAEDHVT14_AO32_1         40      40       0       0      10    USED
+ SAEDRVT14_AO32_1         39      39       0       0      59    USED
+ SAEDHVT14_OA221_U_0P5      37      37       0       0       9    USED
+ SAEDHVT14_OR4_1          35      35       0       0       9    USED
+ SAEDHVT14_AO22_0P5       33      33       0       0       8    USED
+ SAEDHVT14_AOI22_0P5      33      33       0       0      45    USED
+ SAEDHVT14_NR3B_U_0P5      32      32       0       0       3    USED
+
+
+		TOP 20 CELLS WITH LOWEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ 29th_MAY_ROUTE_DONE       1   32116     792      40   32908    USED
+ VCELLR1                   1      48       0       0      48    USED
+ SAEDRVT14_CAPBIN13        1      24       0       0      24    USED
+ SAEDHVT14_BUF_U_0P5       2      20       0       0      20    USED
+ SAEDHVT14_AOI21_0P5       2      24       0       0      24    USED
+ SAEDHVT14_OR3_0P5         2      26       0       0      26    USED
+ SAEDHVT14_EO2_V1_0P75       3      30       0       0      30    USED
+ SAEDRVT14_AO32_4          3      43       0       0      43    USED
+ SAEDHVT14_OAI21_0P5       3      24       0       0      24    USED
+ SAEDHVT14_BUF_UCDC_0P5       3      20       0       0      20    USED
+ SAEDHVT14_AO32_4          3      44       0       0      44    USED
+ SAEDHVT14_NR3B_U_0P5       3      32       0       0      32    USED
+ SAEDRVT14_BUF_S_2         3      21       0       0      21    USED
+ SAEDHVT14_OR2_MM_0P5       4      27       0       0      27    USED
+ SAEDHVT14_BUF_S_0P5       4      20       0       0      20    USED
+ SAEDHVT14_AO32_2          5      42       0       0      42    USED
+ SAEDLVT14_FILL2           5      13       0       0      13    USED
+ SAEDRVT14_BUF_S_0P5       6      19       0       0      19    USED
+ SAEDHVT14_DEL_R2V2_1       7      22       0       0      22    USED
+ SAEDRVT14_DEL_R2V2_1       8      21       0       0      21    USED
+
+
+		TOP 20 CELLS WITH HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAEDHVT14_DEL_R2V3_1            70      24       0       0      24    USED
+ SAEDRVT14_AO32_1                59      39       0       0      39    USED
+ SAEDHVT14_FDP_V2LP_0P5          56      67       0       0      67    USED
+ SAEDHVT14_AOI22_0P5             45      33       0       0      33    USED
+ VCELLA6                         41      48       0       0      48    USED
+ SAEDHVT14_LDPQ_U_0P5            41      45       0       0      45    USED
+ SAEDHVT14_AN2_MM_0P5            33      21       0       0      21    USED
+ SAEDHVT14_INV_0P5               32      17       0       0      17    USED
+ SAEDRVT14_DEL_R2V3_1            31      23       0       0      23    USED
+ SAEDHVT14_DEL_R2V3_2            28      26       0       0      26    USED
+ SAEDHVT14_OA21B_1               26      29       0       0      29    USED
+ SAEDRVT14_ND2_CDC_0P5           26      19       0       0      19    USED
+ SAEDRVT14_BUF_1                 26      19       0       0      19    USED
+ SAEDHVT14_NR2_MM_0P5            25      20       0       0      20    USED
+ VCELLR5                         19      30       0       0      30    USED
+ VCELLA9                         18      91       0       0      91    USED
+ SAEDHVT14_AN3_0P5               13      31       0       0      31    USED
+ SAEDLVT14_BUF_2                 12      21       0       0      21    USED
+ VCELLA11                        12      72       0       0      72    USED
+ SAEDLVT14_FILL3                 12      15       0       0      15    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "29th_MAY_ROUTE_DONE".
+
+
+							    TOTAL SREF AREF ROTR
+ 29th_MAY_ROUTE_DONE                          Level=0  Count=   1    1    0    0
+  SAEDHVT14_AN2_MM_0P5                        Level=1  Count=  33   33    0   23
+  SAEDHVT14_AN3_0P5                           Level=1  Count=  13   13    0   10
+  SAEDHVT14_AN4_0P75                          Level=1  Count=  10   10    0    5
+  SAEDHVT14_AO22_0P5                          Level=1  Count=   8    8    0    6
+  SAEDHVT14_AO32_1                            Level=1  Count=  10   10    0    5
+  SAEDHVT14_AO32_2                            Level=1  Count=   5    5    0    5
+  SAEDHVT14_AO32_4                            Level=1  Count=   3    3    0    2
+  SAEDHVT14_AOI21_0P5                         Level=1  Count=   2    2    0    1
+  SAEDHVT14_AOI22_0P5                         Level=1  Count=  45   45    0   28
+  SAEDHVT14_BUF_S_0P5                         Level=1  Count=   4    4    0    2
+  SAEDHVT14_BUF_UCDC_0P5                      Level=1  Count=   3    3    0    3
+  SAEDHVT14_BUF_U_0P5                         Level=1  Count=   2    2    0    0
+  SAEDHVT14_DEL_R2V2_1                        Level=1  Count=   7    7    0    3
+  SAEDHVT14_DEL_R2V3_1                        Level=1  Count=  70   70    0   32
+  SAEDHVT14_DEL_R2V3_2                        Level=1  Count=  28   28    0   11
+  SAEDHVT14_EO2_V1_0P75                       Level=1  Count=   3    3    0    2
+  SAEDHVT14_FDP_V2LP_0P5                      Level=1  Count=  56   56    0   31
+  SAEDHVT14_INV_0P5                           Level=1  Count=  32   32    0   25
+  SAEDHVT14_LDPQ_U_0P5                        Level=1  Count=  41   41    0   24
+  SAEDHVT14_MUX2_U_0P5                        Level=1  Count=   8    8    0    4
+  SAEDHVT14_MUXI2_U_0P5                       Level=1  Count=   9    9    0    7
+  SAEDHVT14_NR2_MM_0P5                        Level=1  Count=  25   25    0   16
+  SAEDHVT14_NR3B_U_0P5                        Level=1  Count=   3    3    0    2
+  SAEDHVT14_OA21B_1                           Level=1  Count=  26   26    0   23
+  SAEDHVT14_OA221_U_0P5                       Level=1  Count=   9    9    0    8
+  SAEDHVT14_OAI21_0P5                         Level=1  Count=   3    3    0    2
+  SAEDHVT14_OR2_0P5                           Level=1  Count=   8    8    0    4
+  SAEDHVT14_OR2_MM_0P5                        Level=1  Count=   4    4    0    2
+  SAEDHVT14_OR3_0P5                           Level=1  Count=   2    2    0    1
+  SAEDHVT14_OR4_1                             Level=1  Count=   9    9    0    5
+  SAEDLVT14_BUF_2                             Level=1  Count=  12   12    0    5
+  SAEDLVT14_FILL2                             Level=1  Count=   5    5    0    3
+  SAEDLVT14_FILL3                             Level=1  Count=  12   12    0    6
+  SAEDRVT14_AO32_1                            Level=1  Count=  59   59    0   43
+  SAEDRVT14_AO32_4                            Level=1  Count=   3    3    0    2
+  SAEDRVT14_BUF_1                             Level=1  Count=  26   26    0   18
+  SAEDRVT14_BUF_S_0P5                         Level=1  Count=   6    6    0    4
+  SAEDRVT14_BUF_S_2                           Level=1  Count=   3    3    0    0
+  SAEDRVT14_CAPBIN13                          Level=1  Count=   1    1    0    0
+  SAEDRVT14_DEL_R2V2_1                        Level=1  Count=   8    8    0    5
+  SAEDRVT14_DEL_R2V3_1                        Level=1  Count=  31   31    0   14
+  SAEDRVT14_ND2_CDC_0P5                       Level=1  Count=  26   26    0   19
+  VCELLA10                                    Level=1  Count=  11   11    0    7
+  VCELLA11                                    Level=1  Count=  12   12    0    7
+  VCELLA6                                     Level=1  Count=  41   41    0   20
+  VCELLA9                                     Level=1  Count=  18   18    0    7
+  VCELLR1                                     Level=1  Count=   1    1    0    0
+  VCELLR5                                     Level=1  Count=  19   19    0    6
+  VCELLR7                                     Level=1  Count=   8    8    0    0
+  VCELLR8                                     Level=1  Count=   9    9    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = 29th_MAY_ROUTE_DONE
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (0.000, 0.000) (24.718, 24.200)
+	Cell Area			=         598.18
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=            792	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=          32116
+	TEXT				=             40
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   smf_chip_boundary 1       0       
+   metal_layer 8768    0       
+   macro_metal_blkg 8768    0       
+   metal_layer 7167    0       
+   macro_metal_blkg 7167    0       
+   metal_layer 2050    0       
+   macro_metal_blkg 2050    0       
+   metal_layer 1046    0       
+   macro_metal_blkg 1046    0       
+   metal_layer 715     0       
+   macro_metal_blkg 715     0       
+   metal_layer 559     0       
+   macro_metal_blkg 559     0       
+   via_layer  2701    0       
+   via_layer  774     0       
+   via_layer  377     0       
+   via_layer  265     0       
+   via_layer  194     0       
+   NWELL      174     0       
+   DIFF       227     0       
+   DDMY       227     0       
+   PO         1148    0       
+   M1         3176    0       
+   M1DMY      3176    0       
+   VIA1       2241    0       
+   M2         8768    0       
+   VIA2       2701    0       
+   M2DMY      8768    0       
+   M3         7167    0       
+   M3DMY      7167    0       
+   VIA3       774     0       
+   M4         2050    0       
+   M4_text    0       22      
+   M4DMY      2050    0       
+   VIA4       377     0       
+   M5         1046    0       
+   VIA5       265     0       
+   M6         715     0       
+   M6DMY      715     0       
+   VIA6       194     0       
+   M7         559     0       
+   M7DMY      559     0       
+   VIA7       171     0       
+   M8         239     0       
+   M8_text    0       18      
+   M8DMY      239     0       
+   VIA8       41      0       
+   M9         68      0       
+   M9DMY      68      0       
+   HVTIMP     10      0       
+   LVTIMP     4       0       
+
+CELL = SAEDHVT14_NR2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.412, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             25
+	Flat Placements			=             25
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         6       0       
+   M1         10      0       
+   M1DMY      10      0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_ND2_CDC_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.412, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         6       0       
+   M1         10      0       
+   M1DMY      10      0       
+
+CELL = SAEDHVT14_AN3_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.634, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=             13
+	Flat Placements			=             13
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             31
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 5       0       
+   macro_metal_blkg 5       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         9       0       
+   M1         10      0       
+   M1DMY      10      0       
+   VIA1       3       0       
+   M2         5       0       
+   M2DMY      5       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_INV_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.048) (0.338, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             32
+	Flat Placements			=             32
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             17
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         5       0       
+   M1         8       0       
+   M1DMY      8       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_LDPQ_U_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.078, 0.647)
+	Cell Area			=           0.82
+	Hierarchical Placements		=             41
+	Flat Placements			=             41
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             45
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 3       0       
+   macro_metal_blkg 3       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         15      0       
+   M1         16      0       
+   M1DMY      16      0       
+   VIA1       7       0       
+   M2         3       0       
+   M2DMY      3       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_FDP_V2LP_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.046) (1.596, 0.647)
+	Cell Area			=           1.18
+	Hierarchical Placements		=             56
+	Flat Placements			=             56
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             67
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 4       0       
+   macro_metal_blkg 4       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         22      0       
+   M1         23      0       
+   M1DMY      23      0       
+   VIA1       14      0       
+   M2         4       0       
+   M2DMY      4       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AN2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.560, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=             33
+	Flat Placements			=             33
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AN4_0P75
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.043, -0.047) (0.708, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=             10
+	Flat Placements			=             10
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         10      0       
+   M1         12      0       
+   M1DMY      12      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_NR3B_U_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.930, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             32
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         13      0       
+   M1         15      0       
+   M1DMY      15      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OAI21_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.486, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         13      0       
+   M1DMY      13      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OR4_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.708, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             35
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 6       0       
+   macro_metal_blkg 6       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         10      0       
+   M1         11      0       
+   M1DMY      11      0       
+   VIA1       4       0       
+   M2         6       0       
+   M2DMY      6       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AOI21_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.486, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         13      0       
+   M1DMY      13      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AO22_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.930, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         13      0       
+   M1         16      0       
+   M1DMY      16      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OR3_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.634, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         9       0       
+   M1         13      0       
+   M1DMY      13      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AOI22_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.856, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=             45
+	Flat Placements			=             45
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         12      0       
+   M1         17      0       
+   M1DMY      17      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OA21B_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.634, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             29
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 3       0       
+   macro_metal_blkg 3       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         9       0       
+   M1         10      0       
+   M1DMY      10      0       
+   VIA1       3       0       
+   M2         3       0       
+   M2DMY      3       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_BUF_UCDC_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.486, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OR2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.048) (0.560, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             27
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 4       0       
+   macro_metal_blkg 4       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         9       0       
+   M1DMY      9       0       
+   VIA1       2       0       
+   M2         4       0       
+   M2DMY      4       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OR2_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.560, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             23
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         11      0       
+   M1DMY      11      0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_BUF_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.022, -0.047) (0.469, 0.647)
+	Cell Area			=           0.42
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+
+CELL = SAEDHVT14_MUX2_U_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.786, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             27
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         12      0       
+   M1DMY      12      0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_EO2_V1_0P75
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.782, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             30
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         13      0       
+   M1DMY      13      0       
+   VIA1       2       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_BUF_S_2
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.560, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         10      0       
+   M1DMY      10      0       
+
+CELL = SAEDHVT14_MUXI2_U_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.046, -0.047) (0.708, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 3       0       
+   macro_metal_blkg 3       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         10      0       
+   M1         9       0       
+   M1DMY      9       0       
+   VIA1       2       0       
+   M2         3       0       
+   M2DMY      3       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_OA221_U_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.856, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             37
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 2       0       
+   macro_metal_blkg 2       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         12      0       
+   M1         17      0       
+   M1DMY      17      0       
+   VIA1       2       0       
+   M2         2       0       
+   M2DMY      2       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AO32_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.782, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=             10
+	Flat Placements			=             10
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             40
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 7       0       
+   macro_metal_blkg 7       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         14      0       
+   M1DMY      14      0       
+   VIA1       4       0       
+   M2         7       0       
+   M2DMY      7       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_AO32_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.782, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=             59
+	Flat Placements			=             59
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             39
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 7       0       
+   macro_metal_blkg 7       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         14      0       
+   M1DMY      14      0       
+   VIA1       4       0       
+   M2         7       0       
+   M2DMY      7       0       
+
+CELL = SAEDRVT14_AO32_4
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.226, 0.647)
+	Cell Area			=           0.92
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             43
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 3       0       
+   macro_metal_blkg 3       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         17      0       
+   M1         18      0       
+   M1DMY      18      0       
+   VIA1       2       0       
+   M2         3       0       
+   M2DMY      3       0       
+
+CELL = SAEDHVT14_AO32_4
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.226, 0.647)
+	Cell Area			=           0.92
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             44
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 3       0       
+   macro_metal_blkg 3       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         17      0       
+   M1         18      0       
+   M1DMY      18      0       
+   VIA1       2       0       
+   M2         3       0       
+   M2DMY      3       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_AO32_2
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.856, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              5
+	Flat Placements			=              5
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             42
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 7       0       
+   macro_metal_blkg 7       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         12      0       
+   M1         15      0       
+   M1DMY      15      0       
+   VIA1       4       0       
+   M2         7       0       
+   M2DMY      7       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_DEL_R2V3_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.708, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=             31
+	Flat Placements			=             31
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             23
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         10      0       
+   M1         10      0       
+   M1DMY      10      0       
+
+CELL = SAEDHVT14_DEL_R2V3_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.708, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=             70
+	Flat Placements			=             70
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         10      0       
+   M1         10      0       
+   M1DMY      10      0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_BUF_S_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.486, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              6
+	Flat Placements			=              6
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+
+CELL = SAEDHVT14_DEL_R2V3_2
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.856, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=             28
+	Flat Placements			=             28
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         12      0       
+   M1         10      0       
+   M1DMY      10      0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_CAPBIN13
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.152, 0.647)
+	Cell Area			=           0.87
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         17      0       
+   M1         4       0       
+   M1DMY      4       0       
+
+CELL = SAEDHVT14_BUF_S_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.486, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_DEL_R2V2_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.634, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         9       0       
+   M1         9       0       
+   M1DMY      9       0       
+
+CELL = SAEDHVT14_DEL_R2V2_1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.634, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              7
+	Flat Placements			=              7
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             22
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         9       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_BUF_U_0P5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.486, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDLVT14_BUF_2
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.560, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=             12
+	Flat Placements			=             12
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         9       0       
+   M1DMY      9       0       
+   LVTIMP     1       0       
+
+CELL = SAEDLVT14_FILL3
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.412, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             12
+	Flat Placements			=             12
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             15
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         6       0       
+   M1         5       0       
+   M1DMY      5       0       
+   LVTIMP     1       0       
+
+CELL = SAEDLVT14_FILL2
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.338, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              5
+	Flat Placements			=              5
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             13
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         5       0       
+   M1         4       0       
+   M1DMY      4       0       
+   LVTIMP     1       0       
+
+CELL = VCELLR1
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.152, 1.247)
+	Cell Area			=           1.55
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              2
+	DATA				=             48
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      2       0       
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         34      0       
+   M1         8       0       
+   M1DMY      8       0       
+
+CELL = VCELLR5
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.782, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=             19
+	Flat Placements			=             19
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              2
+	DATA				=             30
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      2       0       
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         12      0       
+   M1         10      0       
+   M1DMY      10      0       
+   LVTIMP     2       0       
+
+CELL = VCELLA6
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.374, 0.647)
+	Cell Area			=           0.98
+	Hierarchical Placements		=             41
+	Flat Placements			=             41
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              2
+	DATA				=             48
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      2       0       
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         20      0       
+   M1         20      0       
+   M1DMY      20      0       
+   HVTIMP     2       0       
+
+CELL = VCELLR7
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (1.152, 2.447)
+	Cell Area			=           2.98
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              4
+	DATA				=             96
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      4       0       
+   DIFF       8       0       
+   DDMY       8       0       
+   PO         68      0       
+   M1         16      0       
+   M1DMY      16      0       
+
+CELL = VCELLR8
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.635, 2.447)
+	Cell Area			=           1.69
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              4
+	DATA				=             56
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         36      0       
+   M1         16      0       
+   M1DMY      16      0       
+
+CELL = VCELLA9
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (2.262, 0.647)
+	Cell Area			=           1.60
+	Hierarchical Placements		=             18
+	Flat Placements			=             18
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              2
+	Exploded placements		=              2
+	DATA				=             91
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 4       0       
+   macro_metal_blkg 4       0       
+   NWELL      2       0       
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         32      0       
+   M1         33      0       
+   M1DMY      33      0       
+   VIA1       14      0       
+   M2         4       0       
+   M2DMY      4       0       
+   HVTIMP     2       0       
+
+CELL = VCELLA10
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.046) (3.150, 0.647)
+	Cell Area			=           2.21
+	Hierarchical Placements		=             11
+	Flat Placements			=             11
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              2
+	DATA				=            134
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 8       0       
+   macro_metal_blkg 8       0       
+   NWELL      2       0       
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         44      0       
+   M1         46      0       
+   M1DMY      46      0       
+   VIA1       28      0       
+   M2         8       0       
+   M2DMY      8       0       
+   HVTIMP     2       0       
+
+CELL = VCELLA11
+	Cell Status			= USED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-1.374, -0.047) (0.708, 0.647)
+	Cell Area			=           1.44
+	Hierarchical Placements		=             12
+	Flat Placements			=             12
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              3
+	DATA				=             72
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      3       0       
+   DIFF       6       0       
+   DDMY       6       0       
+   PO         30      0       
+   M1         30      0       
+   M1DMY      30      0       
+   HVTIMP     3       0       
+
+CELL = SAEDHVT14_ND3B_0P75
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 4       0       
+   macro_metal_blkg 4       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         13      0       
+   M1         9       0       
+   M1DMY      9       0       
+   VIA1       3       0       
+   M2         4       0       
+   M2DMY      4       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_INV_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             16
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         5       0       
+   M1         8       0       
+   M1DMY      8       0       
+
+CELL = SAEDRVT14_INV_S_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.078, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             16
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         5       0       
+   M1         8       0       
+   M1DMY      8       0       
+
+CELL = SAEDLVT14_INV_20
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (1.776, 0.647)
+	Cell Area			=           1.29
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             58
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 2       0       
+   macro_metal_blkg 2       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         24      0       
+   M1         15      0       
+   M1DMY      15      0       
+   VIA1       13      0       
+   M2         2       0       
+   M2DMY      2       0       
+   LVTIMP     1       0       
+
+CELL = SAEDRVT14_NR2_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.424, 0.647)
+	Cell Area			=           0.35
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         6       0       
+   M1         10      0       
+   M1DMY      10      0       
+
+CELL = SAEDHVT14_NR3_8
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.776, 0.647)
+	Cell Area			=           1.28
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             65
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 2       0       
+   macro_metal_blkg 2       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         24      0       
+   M1         22      0       
+   M1DMY      22      0       
+   VIA1       13      0       
+   M2         2       0       
+   M2DMY      2       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_ND2B_U_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_MUX2_ECO_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.554, 0.647)
+	Cell Area			=           1.13
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             76
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 9       0       
+   macro_metal_blkg 9       0       
+   NWELL      1       0       
+   DIFF       12      0       
+   DDMY       12      0       
+   PO         21      0       
+   M1         20      0       
+   M1DMY      20      0       
+   VIA1       12      0       
+   M2         9       0       
+   M2DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_MUX2_ECO_2
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.777, 0.647)
+	Cell Area			=           1.28
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             81
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 8       0       
+   macro_metal_blkg 8       0       
+   NWELL      1       0       
+   DIFF       14      0       
+   DDMY       14      0       
+   PO         24      0       
+   M1         20      0       
+   M1DMY      20      0       
+   VIA1       13      0       
+   M2         8       0       
+   M2DMY      8       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_ND2_MM_16
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (3.182, 0.647)
+	Cell Area			=           2.26
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             81
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 5       0       
+   macro_metal_blkg 5       0       
+   NWELL      1       0       
+   DIFF       3       0       
+   DDMY       3       0       
+   PO         43      0       
+   M1         5       0       
+   M1DMY      5       0       
+   VIA1       24      0       
+   M2         5       0       
+   M2DMY      5       0       
+
+CELL = SAEDHVT14_NR2_ECO_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.110, 0.647)
+	Cell Area			=           0.82
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             41
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       8       0       
+   DDMY       8       0       
+   PO         15      0       
+   M1         14      0       
+   M1DMY      14      0       
+   VIA1       2       0       
+   HVTIMP     1       0       
+
+CELL = SAEDLVT14_NR2_MM_16
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (2.664, 0.647)
+	Cell Area			=           1.90
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             82
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 5       0       
+   macro_metal_blkg 5       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         36      0       
+   M1         14      0       
+   M1DMY      14      0       
+   VIA1       23      0       
+   M2         5       0       
+   M2DMY      5       0       
+   LVTIMP     1       0       
+
+CELL = SAEDHVT14_OAI22_4
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.554, 0.647)
+	Cell Area			=           1.13
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             41
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 3       0       
+   macro_metal_blkg 3       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         21      0       
+   M1         9       0       
+   M1DMY      9       0       
+   VIA1       4       0       
+   M2         3       0       
+   M2DMY      3       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_MUX2_MM_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.818, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         14      0       
+   M1DMY      14      0       
+
+CELL = SAEDRVT14_AN2_MM_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         8       0       
+   M1         9       0       
+   M1DMY      9       0       
+
+CELL = SAEDHVT14_OR2_MM_16
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (2.146, 0.647)
+	Cell Area			=           1.54
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             73
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 6       0       
+   macro_metal_blkg 6       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         29      0       
+   M1         16      0       
+   M1DMY      16      0       
+   VIA1       18      0       
+   M2         6       0       
+   M2DMY      6       0       
+   HVTIMP     1       0       
+
+CELL = SAEDHVT14_MUX2_4
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.702, 0.647)
+	Cell Area			=           1.23
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             59
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 5       0       
+   macro_metal_blkg 5       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         23      0       
+   M1         16      0       
+   M1DMY      16      0       
+   VIA1       11      0       
+   M2         5       0       
+   M2DMY      5       0       
+   HVTIMP     1       0       
+
+CELL = SAEDLVT14_BUF_S_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+   LVTIMP     1       0       
+
+CELL = SAEDRVT14_EO2_V1_0P75
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             29
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         13      0       
+   M1DMY      13      0       
+   VIA1       2       0       
+
+CELL = SAEDRVT14_BUF_S_6
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             32
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 1       0       
+   macro_metal_blkg 1       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         12      0       
+   M1         11      0       
+   M1DMY      11      0       
+   VIA1       5       0       
+   M2         1       0       
+   M2DMY      1       0       
+
+CELL = SAEDRVT14_FDP_V2_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.046) (1.628, 0.647)
+	Cell Area			=           1.18
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             66
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 4       0       
+   macro_metal_blkg 4       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         22      0       
+   M1         23      0       
+   M1DMY      23      0       
+   VIA1       14      0       
+   M2         4       0       
+   M2DMY      4       0       
+
+CELL = SAEDRVT14_AO32_U_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.834, 0.647)
+	Cell Area			=           0.63
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             39
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   metal_layer 7       0       
+   macro_metal_blkg 7       0       
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         11      0       
+   M1         14      0       
+   M1DMY      14      0       
+   VIA1       4       0       
+   M2         7       0       
+   M2DMY      7       0       
+
+CELL = SAEDLVT14_DEL_R2V3_2
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         12      0       
+   M1         10      0       
+   M1DMY      10      0       
+   LVTIMP     1       0       
+
+CELL = SAEDHVT14_BUF_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.080, -0.047) (0.525, 0.647)
+	Cell Area			=           0.42
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         7       0       
+   M1         9       0       
+   M1DMY      9       0       
+   HVTIMP     1       0       
+
+CELL = SAEDRVT14_CAPT2
+	Cell Status			= AUTO_EXPLODED (POST-VCELL DATA LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             11
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       1       0       
+   DDMY       1       0       
+   PO         5       0       
+   M1         4       0       
+   M1DMY      4       0       
+
+CELL = SAEDRVT14_CAPB2
+	Cell Status			= AUTO_EXPLODED (POST-VCELL DATA LIMIT)
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             11
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      1       0       
+   DIFF       1       0       
+   DDMY       1       0       
+   PO         5       0       
+   M1         4       0       
+   M1DMY      4       0       
+
+CELL = SAEDRVT14_CAPBTAP6
+	Cell Status			= NOT PLACED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.635, 0.647)
+	Cell Area			=           0.47
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             14
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFF       1       0       
+   DDMY       1       0       
+   PO         9       0       
+   M1         4       0       
+   M1DMY      4       0       
+
+CELL = VCELLR2
+	Cell Status			= NOT PLACED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.647) (1.152, 0.647)
+	Cell Area			=           1.55
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              2
+	Exploded placements		=              2
+	DATA				=             48
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELL      2       0       
+   DIFF       4       0       
+   DDMY       4       0       
+   PO         34      0       
+   M1         8       0       
+   M1DMY      8       0       
+
+CELL = VCELLR4
+	Cell Status			= NOT PLACED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.647) (0.635, 0.647)
+	Cell Area			=           0.88
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              2
+	Exploded placements		=              2
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         18      0       
+   M1         8       0       
+   M1DMY      8       0       
+
+CELL = VCELLR3
+	Cell Status			= NOT PLACED
+	NDM Library			= MAINLIB
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.635, 1.247)
+	Cell Area			=           0.88
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              1
+	Exploded placements		=              2
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFF       2       0       
+   DDMY       2       0       
+   PO         18      0       
+   M1         8       0       
+   M1DMY      8       0       

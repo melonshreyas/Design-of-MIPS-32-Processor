@@ -1,0 +1,188 @@
+enclose() at saed14nm_1p9m_drc_rules.rs:769: Command replaced with an internal function.
+enclose(pad, mrdl, distance < 1, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "PAD.E.1 Minimum enclosure by MRDL 2um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:782: Command replaced with an internal function.
+external2(padmet, mtout, distance < 2, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "PAD.S.2 PAD metal minimum space to unrelated MRDL must be 2um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1096: Command replaced with an internal function.
+external2(m1_not_int_m1_3, m1_3_not_int_m1, distance < 0.033, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "M1.S.2.1: Minimum spacing of m1 and m1_3 must be 0.033 "
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+copy() at saed14nm_1p9m_drc_rules.rs:1103: Command replaced with an internal function.
+copy(m1_or_m1_3)
+  Comment: "M1.I.1: M1 and M1_3 must not interact"
+  Function: copy
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1236: Command replaced with an internal function.
+external2(m1_3_w_0058, m1, distance < 0.035, extension = NONE, projection_length > 0.07, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M1_3.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.07 must be 0.06"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1241: Command replaced with an internal function.
+external2(m1_3_w_006, m1, distance < 0.036, extension = NONE, projection_length > 0.07, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M1_3.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.07 must be 0.065"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1246: Command replaced with an internal function.
+external2(m1_3_w_15, m1, distance < 0.37, extension = NONE, projection_length > 0, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M1_3.S.4: Minimum spacing if metal width of one of lines > 1.5 and  their parallel run length > 0 must be 0.55"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1251: Command replaced with an internal function.
+external2(m1_3_w_0185, m1, distance < 0.038, extension = NONE, projection_length > 0.25, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M1_3.S.5: Minimum spacing if metal width of one of lines > 0.185 and  their parallel run length > 0.25 must be 0.085"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1327: Command replaced with an internal function.
+external2(m2_not_int_m2_3, m2_3_not_int_m2, distance < 0.033, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "M2.S.2.1: Minimum spacing of m2 and m2_3 must be 0.033 "
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+copy() at saed14nm_1p9m_drc_rules.rs:1334: Command replaced with an internal function.
+copy(m2_or_m2_3)
+  Comment: "M2.I.1: M2 and M2_3 must not interact"
+  Function: copy
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1442: Command replaced with an internal function.
+external2(m2_3_w_0058, m2, distance < 0.06, extension = NONE, projection_length > 0.07, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M2_3.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.07 must be 0.06"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1447: Command replaced with an internal function.
+external2(m2_3_w_006, m2, distance < 0.065, extension = NONE, projection_length > 0.07, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M2_3.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.07 must be 0.065"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1452: Command replaced with an internal function.
+external2(m2_3_w_15, m2, distance < 0.55, extension = NONE, projection_length > 0, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M2_3.S.4: Minimum spacing if metal width of one of lines > 1.5 and  their parallel run length > 0 must be 0.55"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1457: Command replaced with an internal function.
+external2(m2_3_w_0185, m2, distance < 0.085, extension = NONE, projection_length > 0.25, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M2_3.S.5: Minimum spacing if metal width of one of lines > 0.185 and  their parallel run length > 0.25 must be 0.085"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed14nm_1p9m_drc_rules.rs:1537: Command replaced with an internal function.
+external2(m3_not_int_m3_3, m3_3_not_int_m3, distance < 0.033, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "M3.S.2.1: Minimum spacing of m3 and m3_3 must be 0.033 "
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+copy() at saed14nm_1p9m_drc_rules.rs:1544: Command replaced with an internal function.
+copy(m3_or_m3_3)
+  Comment: "M3.I.1: M3 and M3_3 must not interact"
+  Function: copy
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2521: Command replaced with an internal function.
+enclose(via0, m1, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = INSIDE)
+  Comment: "VIA0.E.1: Minimum VIA0 enclosure by M1 must be 0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at saed14nm_1p9m_drc_rules.rs:2554: Command replaced with an internal function.
+not(m1_w_01, ((interacting(m1_w_01, via0bar, count >= 1)) or (interacting(m1_w_01, r2_v, count >= 1)) or (interacting(cpo_w_01, r3_v, count >= 1))))
+  Comment: "VIA0.R.1: When M1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn)"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at saed14nm_1p9m_drc_rules.rs:2555: Command replaced with an internal function.
+not(m1_w_01, ((interacting(m1_w_01, via0bar, count >= 1)) or (interacting(m1_w_01, r2_v, count >= 1)) or (interacting(ctm1_w_01, r3_v, count >= 1))))
+  Comment: "VIA0.R.1: When M1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn)"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2598: Command replaced with an internal function.
+enclose(via1, m1_3 and m2, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA1.E.1.1: Minimum VIA1 enclosure by M1_3 and M2 must be  0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2606: Command replaced with an internal function.
+enclose(via1, m1 and m2_3, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA1.E.1: Minimum VIA1 enclosure by M1 and M2_3 must be  0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2613: Command replaced with an internal function.
+enclose(via1, m1_3 and m2_3, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA1.E.1: Minimum VIA1 enclosure by M1_3 and M2_3 must be  0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2734: Command replaced with an internal function.
+enclose(via2, m2 and m3_3, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA2.E.1: Minimum VIA2 enclosure by M2 and M3_3 must be  0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2741: Command replaced with an internal function.
+enclose(via2, m2_3 and m3, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA2.E.1: Minimum VIA2 enclosure by M2_3 and M3 must be  0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2748: Command replaced with an internal function.
+enclose(via2, m2_3 and m3_3, distance < 0.002, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA2.E.1: Minimum VIA2 enclosure by M2_3 and M3_3 must be  0.002"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose() at saed14nm_1p9m_drc_rules.rs:2868: Command replaced with an internal function.
+enclose(via3, m3_3 and m4, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "VIA3.E.1: Minimum VIA3 enclosure by M3_3 and M4 must be  0.005"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+Completing error storage...
+  Overall error storage time: User=0.14 Sys=0.06 Mem=0.001 GB
+
+Generating 29th_MAY_ROUTE_DONE.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.04 Sys=0.00 Mem=0.001 GB
+

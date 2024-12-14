@@ -1,0 +1,2012 @@
+*** 29th_MAY_ROUTE_DONE		Mon May 30 12:01:38 2022
+
+POST_TREE
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+Top Cell Area             The area of the top cell in square microns.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "29th_MAY_ROUTE_DONE".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=              2
+	Unique cells		=             43
+	Hierarchical placements	=           1042
+	Total design placements	=           1042
+	Exploded references	=             23
+	Exploded placements	=             23
+	Total data count	=          59117
+	SREF placements		=           1042
+	AREFS			=              0
+	AREF placements		=              0
+	DATA 			=          31090
+	TEXT			=             40
+	Top Cell Area		=         598.18
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		TOP 20 CELLS WITH LOWEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAEDRVT14_CAPB2          11      11       0       0      74    USED
+ SAEDRVT14_CAPT2          11      11       0       0      76    USED
+ SAEDRVT14_CAPBTAP6       14      14       0       0      36    USED
+ SAEDHVT14_INV_0P5        17      17       0       0      32    USED
+ SAEDRVT14_ND2_CDC_0P5      19      19       0       0      26    USED
+ SAEDRVT14_BUF_1          19      19       0       0      26    USED
+ SAEDRVT14_BUF_S_0P5      19      19       0       0       6    USED
+ SAEDHVT14_NR2_MM_0P5      20      20       0       0      25    USED
+ SAEDHVT14_BUF_UCDC_0P5      20      20       0       0       4    USED
+ SAEDHVT14_BUF_S_0P5      20      20       0       0       4    USED
+ SAEDHVT14_BUF_U_0P5      20      20       0       0       2    USED
+ SAEDRVT14_BUF_S_2        21      21       0       0       3    USED
+ SAEDRVT14_DEL_R2V2_1      21      21       0       0       8    USED
+ SAEDHVT14_AN2_MM_0P5      21      21       0       0      33    USED
+ SAEDHVT14_DEL_R2V2_1      22      22       0       0       7    USED
+ SAEDRVT14_DEL_R2V3_1      23      23       0       0      31    USED
+ SAEDHVT14_OR2_0P5        23      23       0       0       8    USED
+ SAEDHVT14_OAI21_0P5      24      24       0       0       3    USED
+ SAEDHVT14_AOI21_0P5      24      24       0       0       2    USED
+ SAEDHVT14_DEL_R2V3_1      24      24       0       0     206    USED
+
+
+		TOP 20 CELLS WITH HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ 29th_MAY_ROUTE_DONE   30974   29933    1041      40       1    USED
+ SAEDHVT14_FDP_V2LP_0P5      67      67       0       0      96    USED
+ SAEDHVT14_LDPQ_U_0P5      45      45       0       0      41    USED
+ SAEDHVT14_AO32_4         44      44       0       0       3    USED
+ SAEDRVT14_AO32_4         43      43       0       0       3    USED
+ SAEDHVT14_AO32_2         42      42       0       0       5    USED
+ SAEDHVT14_AO32_1         40      40       0       0      10    USED
+ SAEDRVT14_AO32_1         39      39       0       0      59    USED
+ SAEDHVT14_OA221_U_0P5      37      37       0       0       9    USED
+ SAEDHVT14_OR4_1          35      35       0       0       9    USED
+ SAEDHVT14_AO22_0P5       33      33       0       0       8    USED
+ SAEDHVT14_AOI22_0P5      33      33       0       0      45    USED
+ SAEDHVT14_NR3B_U_0P5      32      32       0       0       3    USED
+ SAEDHVT14_AN3_0P5        31      31       0       0      13    USED
+ SAEDHVT14_EO2_V1_0P75      30      30       0       0       3    USED
+ SAEDHVT14_OA21B_1        29      29       0       0      26    USED
+ SAEDHVT14_MUXI2_U_0P5      28      28       0       0       9    USED
+ SAEDHVT14_MUX2_U_0P5      27      27       0       0       8    USED
+ SAEDHVT14_OR2_MM_0P5      27      27       0       0       4    USED
+ SAEDHVT14_AN4_0P75       26      26       0       0      10    USED
+
+
+		TOP 20 CELLS WITH LOWEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ 29th_MAY_ROUTE_DONE       1   29933    1041      40   30974    USED
+ SAEDHVT14_OR3_0P5         2      26       0       0      26    USED
+ SAEDHVT14_AOI21_0P5       2      24       0       0      24    USED
+ SAEDHVT14_BUF_U_0P5       2      20       0       0      20    USED
+ SAEDHVT14_AO32_4          3      44       0       0      44    USED
+ SAEDRVT14_AO32_4          3      43       0       0      43    USED
+ SAEDHVT14_OAI21_0P5       3      24       0       0      24    USED
+ SAEDHVT14_NR3B_U_0P5       3      32       0       0      32    USED
+ SAEDHVT14_EO2_V1_0P75       3      30       0       0      30    USED
+ SAEDRVT14_BUF_S_2         3      21       0       0      21    USED
+ SAEDHVT14_OR2_MM_0P5       4      27       0       0      27    USED
+ SAEDHVT14_BUF_S_0P5       4      20       0       0      20    USED
+ SAEDHVT14_BUF_UCDC_0P5       4      20       0       0      20    USED
+ SAEDHVT14_AO32_2          5      42       0       0      42    USED
+ SAEDRVT14_BUF_S_0P5       6      19       0       0      19    USED
+ SAEDHVT14_DEL_R2V2_1       7      22       0       0      22    USED
+ SAEDHVT14_OR2_0P5         8      23       0       0      23    USED
+ SAEDHVT14_MUX2_U_0P5       8      27       0       0      27    USED
+ SAEDHVT14_AO22_0P5        8      33       0       0      33    USED
+ SAEDRVT14_DEL_R2V2_1       8      21       0       0      21    USED
+
+
+		TOP 20 CELLS WITH HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAEDHVT14_DEL_R2V3_1           206      24       0       0      24    USED
+ SAEDHVT14_FDP_V2LP_0P5          96      67       0       0      67    USED
+ SAEDRVT14_CAPT2                 76      11       0       0      11    USED
+ SAEDRVT14_CAPB2                 74      11       0       0      11    USED
+ SAEDRVT14_AO32_1                59      39       0       0      39    USED
+ SAEDHVT14_AOI22_0P5             45      33       0       0      33    USED
+ SAEDHVT14_LDPQ_U_0P5            41      45       0       0      45    USED
+ SAEDRVT14_CAPBTAP6              36      14       0       0      14    USED
+ SAEDRVT14_CAPBIN13              35      24       0       0      24    USED
+ SAEDHVT14_AN2_MM_0P5            33      21       0       0      21    USED
+ SAEDHVT14_INV_0P5               32      17       0       0      17    USED
+ SAEDRVT14_DEL_R2V3_1            31      23       0       0      23    USED
+ SAEDHVT14_DEL_R2V3_2            28      26       0       0      26    USED
+ SAEDRVT14_ND2_CDC_0P5           26      19       0       0      19    USED
+ SAEDRVT14_BUF_1                 26      19       0       0      19    USED
+ SAEDHVT14_OA21B_1               26      29       0       0      29    USED
+ SAEDHVT14_NR2_MM_0P5            25      20       0       0      20    USED
+ SAEDHVT14_AN3_0P5               13      31       0       0      31    USED
+ SAEDHVT14_AO32_1                10      40       0       0      40    USED
+ SAEDHVT14_AN4_0P75              10      26       0       0      26    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "29th_MAY_ROUTE_DONE".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+29th_MAY_ROUTE_DONE			      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+ SAEDHVT14_AN2_MM_0P5			      Level=1  Count=     33      33       0   10    0    5    0    9    0    9    0
+ SAEDHVT14_AN3_0P5			      Level=1  Count=     13      13       0    3    0    1    0    5    0    4    0
+ SAEDHVT14_AN4_0P75			      Level=1  Count=     10      10       0    5    0    2    0    2    0    1    0
+ SAEDHVT14_AO22_0P5			      Level=1  Count=      8       8       0    2    0    3    0    3    0    0    0
+ SAEDHVT14_AO32_1			      Level=1  Count=     10      10       0    5    0    2    0    1    0    2    0
+ SAEDHVT14_AO32_2			      Level=1  Count=      5       5       0    0    0    4    0    0    0    1    0
+ SAEDHVT14_AO32_4			      Level=1  Count=      3       3       0    1    0    0    0    1    0    1    0
+ SAEDHVT14_AOI21_0P5			      Level=1  Count=      2       2       0    1    0    0    0    1    0    0    0
+ SAEDHVT14_AOI22_0P5			      Level=1  Count=     45      45       0   17    0   12    0    8    0    8    0
+ SAEDHVT14_BUF_S_0P5			      Level=1  Count=      4       4       0    2    0    0    0    2    0    0    0
+ SAEDHVT14_BUF_UCDC_0P5			      Level=1  Count=      4       4       0    1    0    1    0    0    0    2    0
+ SAEDHVT14_BUF_U_0P5			      Level=1  Count=      2       2       0    2    0    0    0    0    0    0    0
+ SAEDHVT14_DEL_R2V2_1			      Level=1  Count=      7       7       0    4    0    0    0    3    0    0    0
+ SAEDHVT14_DEL_R2V3_1			      Level=1  Count=    206     206       0  106    0    0    0  100    0    0    0
+ SAEDHVT14_DEL_R2V3_2			      Level=1  Count=     28      28       0   17    0    0    0   11    0    0    0
+ SAEDHVT14_EO2_V1_0P75			      Level=1  Count=      3       3       0    1    0    1    0    0    0    1    0
+ SAEDHVT14_FDP_V2LP_0P5			      Level=1  Count=     96      96       0   44    0    0    0   52    0    0    0
+ SAEDHVT14_INV_0P5			      Level=1  Count=     32      32       0    8    0    1    0   11    0   12    0
+ SAEDHVT14_LDPQ_U_0P5			      Level=1  Count=     41      41       0   18    0    5    0   15    0    3    0
+ SAEDHVT14_MUX2_U_0P5			      Level=1  Count=      8       8       0    5    0    1    0    2    0    0    0
+ SAEDHVT14_MUXI2_U_0P5			      Level=1  Count=      9       9       0    2    0    3    0    1    0    3    0
+ SAEDHVT14_NR2_MM_0P5			      Level=1  Count=     25      25       0    9    0    6    0    5    0    5    0
+ SAEDHVT14_NR3B_U_0P5			      Level=1  Count=      3       3       0    1    0    0    0    0    0    2    0
+ SAEDHVT14_OA21B_1			      Level=1  Count=     26      26       0    3    0    8    0    6    0    9    0
+ SAEDHVT14_OA221_U_0P5			      Level=1  Count=      9       9       0    1    0    2    0    1    0    5    0
+ SAEDHVT14_OAI21_0P5			      Level=1  Count=      3       3       0    1    0    1    0    1    0    0    0
+ SAEDHVT14_OR2_0P5			      Level=1  Count=      8       8       0    4    0    0    0    3    0    1    0
+ SAEDHVT14_OR2_MM_0P5			      Level=1  Count=      4       4       0    2    0    1    0    0    0    1    0
+ SAEDHVT14_OR3_0P5			      Level=1  Count=      2       2       0    1    0    0    0    1    0    0    0
+ SAEDHVT14_OR4_1			      Level=1  Count=      9       9       0    4    0    1    0    1    0    3    0
+ SAEDRVT14_AO32_1			      Level=1  Count=     59      59       0   16    0   17    0   12    0   14    0
+ SAEDRVT14_AO32_4			      Level=1  Count=      3       3       0    1    0    2    0    0    0    0    0
+ SAEDRVT14_BUF_1			      Level=1  Count=     26      26       0    7    0    1    0   17    0    1    0
+ SAEDRVT14_BUF_S_0P5			      Level=1  Count=      6       6       0    2    0    0    0    4    0    0    0
+ SAEDRVT14_BUF_S_2			      Level=1  Count=      3       3       0    3    0    0    0    0    0    0    0
+ SAEDRVT14_CAPB2			      Level=1  Count=     74      74       0    0    0    0    0   74    0    0    0
+ SAEDRVT14_CAPBIN13			      Level=1  Count=     35      35       0   18    0    0    0   17    0    0    0
+ SAEDRVT14_CAPBTAP6			      Level=1  Count=     36      36       0   18    0    0    0   18    0    0    0
+ SAEDRVT14_CAPT2			      Level=1  Count=     76      76       0    0    0    0    0   76    0    0    0
+ SAEDRVT14_DEL_R2V2_1			      Level=1  Count=      8       8       0    3    0    0    0    5    0    0    0
+ SAEDRVT14_DEL_R2V3_1			      Level=1  Count=     31      31       0   17    0    0    0   14    0    0    0
+ SAEDRVT14_ND2_CDC_0P5			      Level=1  Count=     26      26       0    8    0    6    0    5    0    7    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = 29th_MAY_ROUTE_DONE
+	Cell Status			= USED
+	NDM Library			= lib
+	NDM Cell Name			= 29th_MAY_ROUTE_DONE
+	NDM Cell Extents (LL,UR)	= (0.000, 0.000) (24.718, 24.200)
+	Cell Area			=         598.18
+	Hierarchical Placements		=              1
+	Flat Placements			=              1
+	SREFS				=           1041	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=             23
+	Exploded placements		=             23
+	DATA				=          29933
+	TEXT				=             40
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     23      0       
+   DIFFi      75      0       
+   POi        391     0       
+   M1i        2561    0       
+   VIA1i      2218    0       
+   M2i        8755    0       
+   VIA2i      2615    0       
+   M3i        6994    0       
+   VIA3i      784     0       
+   M4i        2026    0       
+   M4i_text   0       22      
+   VIA4i      348     0       
+   M5i        971     0       
+   VIA5i      250     0       
+   M6i        673     0       
+   VIA6i      183     0       
+   M7i        534     0       
+   VIA7i      171     0       
+   M8i        239     0       
+   M8i_text   0       18      
+   VIA8i      41      0       
+   M9i        68      0       
+   HVTIMPi    10      0       
+   LVTIMPi    3       0       
+
+CELL = SAEDHVT14_NR2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.444, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             25
+	Flat Placements			=             25
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        6       0       
+   M1i        10      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_ND2_CDC_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_ND2_CDC_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.444, 0.647)
+	Cell Area			=           0.36
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        6       0       
+   M1i        10      0       
+
+CELL = SAEDHVT14_AN3_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AN3_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=             13
+	Flat Placements			=             13
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             31
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        9       0       
+   M1i        10      0       
+   VIA1i      3       0       
+   M2i        5       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_INV_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_INV_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             32
+	Flat Placements			=             32
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             17
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        5       0       
+   M1i        8       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_LDPQ_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_LDPQ_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.110, 0.647)
+	Cell Area			=           0.82
+	Hierarchical Placements		=             41
+	Flat Placements			=             41
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             45
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        15      0       
+   M1i        16      0       
+   VIA1i      7       0       
+   M2i        3       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_FDP_V2LP_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_FDP_V2LP_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.046) (1.628, 0.647)
+	Cell Area			=           1.18
+	Hierarchical Placements		=             96
+	Flat Placements			=             96
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             67
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        22      0       
+   M1i        23      0       
+   VIA1i      14      0       
+   M2i        4       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AN2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AN2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=             33
+	Flat Placements			=             33
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        8       0       
+   M1i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AN4_0P75
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AN4_0P75
+	NDM Cell Extents (LL,UR)	= (-0.075, -0.047) (0.740, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=             10
+	Flat Placements			=             10
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        10      0       
+   M1i        12      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_NR3B_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR3B_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             32
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        13      0       
+   M1i        15      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OAI21_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OAI21_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        13      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OR4_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR4_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.740, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             35
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        10      0       
+   M1i        11      0       
+   VIA1i      4       0       
+   M2i        6       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AOI21_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AOI21_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        13      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AO22_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO22_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        13      0       
+   M1i        16      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OR3_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR3_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        9       0       
+   M1i        13      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AOI22_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AOI22_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=             45
+	Flat Placements			=             45
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        12      0       
+   M1i        17      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OA21B_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OA21B_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             29
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        9       0       
+   M1i        10      0       
+   VIA1i      3       0       
+   M2i        3       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_BUF_UCDC_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_UCDC_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OR2_MM_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             27
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        8       0       
+   M1i        9       0       
+   VIA1i      2       0       
+   M2i        4       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OR2_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR2_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             23
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        8       0       
+   M1i        11      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_BUF_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_1
+	NDM Cell Extents (LL,UR)	= (-0.080, -0.047) (0.525, 0.647)
+	Cell Area			=           0.42
+	Hierarchical Placements		=             26
+	Flat Placements			=             26
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        9       0       
+
+CELL = SAEDHVT14_MUX2_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.818, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             27
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        12      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_EO2_V1_0P75
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_EO2_V1_0P75
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             30
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        13      0       
+   VIA1i      2       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_BUF_S_2
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_S_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        8       0       
+   M1i        10      0       
+
+CELL = SAEDHVT14_MUXI2_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUXI2_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.078, -0.047) (0.740, 0.647)
+	Cell Area			=           0.57
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        10      0       
+   M1i        9       0       
+   VIA1i      2       0       
+   M2i        3       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_OA221_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OA221_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              9
+	Flat Placements			=              9
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             37
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        12      0       
+   M1i        17      0       
+   VIA1i      2       0       
+   M2i        2       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AO32_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO32_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=             10
+	Flat Placements			=             10
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             40
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        14      0       
+   VIA1i      4       0       
+   M2i        7       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_AO32_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AO32_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=             59
+	Flat Placements			=             59
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             39
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        14      0       
+   VIA1i      4       0       
+   M2i        7       0       
+
+CELL = SAEDRVT14_AO32_4
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AO32_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.258, 0.647)
+	Cell Area			=           0.92
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             43
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        17      0       
+   M1i        18      0       
+   VIA1i      2       0       
+   M2i        3       0       
+
+CELL = SAEDHVT14_AO32_4
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO32_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.258, 0.647)
+	Cell Area			=           0.92
+	Hierarchical Placements		=              3
+	Flat Placements			=              3
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             44
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        17      0       
+   M1i        18      0       
+   VIA1i      2       0       
+   M2i        3       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_AO32_2
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_AO32_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              5
+	Flat Placements			=              5
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             42
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        12      0       
+   M1i        15      0       
+   VIA1i      4       0       
+   M2i        7       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_DEL_R2V3_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_DEL_R2V3_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.740, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=             31
+	Flat Placements			=             31
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             23
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        10      0       
+   M1i        10      0       
+
+CELL = SAEDHVT14_DEL_R2V3_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_DEL_R2V3_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.740, 0.647)
+	Cell Area			=           0.56
+	Hierarchical Placements		=            206
+	Flat Placements			=            206
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        10      0       
+   M1i        10      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_BUF_S_0P5
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_S_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              6
+	Flat Placements			=              6
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        9       0       
+
+CELL = SAEDHVT14_DEL_R2V3_2
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_DEL_R2V3_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=             28
+	Flat Placements			=             28
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        12      0       
+   M1i        10      0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_CAPT2
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPT2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             76
+	Flat Placements			=             76
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             11
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      1       0       
+   POi        5       0       
+   M1i        4       0       
+
+CELL = SAEDRVT14_CAPBTAP6
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPBTAP6
+	NDM Cell Extents (LL,UR)	= (-0.042, -0.047) (0.635, 0.647)
+	Cell Area			=           0.47
+	Hierarchical Placements		=             36
+	Flat Placements			=             36
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             14
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFFi      1       0       
+   POi        9       0       
+   M1i        4       0       
+
+CELL = SAEDRVT14_CAPB2
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPB2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=             74
+	Flat Placements			=             74
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             11
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      1       0       
+   POi        5       0       
+   M1i        4       0       
+
+CELL = SAEDRVT14_CAPBIN13
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_CAPBIN13
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.184, 0.647)
+	Cell Area			=           0.87
+	Hierarchical Placements		=             35
+	Flat Placements			=             35
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             24
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        17      0       
+   M1i        4       0       
+
+CELL = SAEDHVT14_BUF_S_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_S_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              4
+	Flat Placements			=              4
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_DEL_R2V2_1
+	Cell Status			= USED
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_DEL_R2V2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              8
+	Flat Placements			=              8
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        9       0       
+   M1i        9       0       
+
+CELL = SAEDHVT14_DEL_R2V2_1
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_DEL_R2V2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.666, 0.647)
+	Cell Area			=           0.51
+	Hierarchical Placements		=              7
+	Flat Placements			=              7
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             22
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        9       0       
+   M1i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_BUF_U_0P5
+	Cell Status			= USED
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.518, 0.647)
+	Cell Area			=           0.41
+	Hierarchical Placements		=              2
+	Flat Placements			=              2
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_ND3B_0P75
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_ND3B_0P75
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.962, 0.647)
+	Cell Area			=           0.72
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             33
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        13      0       
+   M1i        9       0       
+   VIA1i      3       0       
+   M2i        4       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_INV_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_INV_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             16
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        5       0       
+   M1i        8       0       
+
+CELL = SAEDRVT14_INV_S_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_INV_S_0P5
+	NDM Cell Extents (LL,UR)	= (-0.078, -0.048) (0.370, 0.647)
+	Cell Area			=           0.31
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             16
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        5       0       
+   M1i        8       0       
+
+CELL = SAEDLVT14_INV_20
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_INV_20
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.048) (1.776, 0.647)
+	Cell Area			=           1.29
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             58
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        24      0       
+   M1i        15      0       
+   VIA1i      13      0       
+   M2i        2       0       
+   LVTIMPi    1       0       
+
+CELL = SAEDRVT14_NR2_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_NR2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.424, 0.647)
+	Cell Area			=           0.35
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             19
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        6       0       
+   M1i        10      0       
+
+CELL = SAEDHVT14_NR3_8
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR3_8
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.776, 0.647)
+	Cell Area			=           1.28
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             65
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        24      0       
+   M1i        22      0       
+   VIA1i      13      0       
+   M2i        2       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_ND2B_U_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_ND2B_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             21
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        8       0       
+   M1i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_MUX2_ECO_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_ECO_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.554, 0.647)
+	Cell Area			=           1.13
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             76
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      12      0       
+   POi        21      0       
+   M1i        20      0       
+   VIA1i      12      0       
+   M2i        9       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_MUX2_ECO_2
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_ECO_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.777, 0.647)
+	Cell Area			=           1.28
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             81
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      14      0       
+   POi        24      0       
+   M1i        20      0       
+   VIA1i      13      0       
+   M2i        8       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_ND2_MM_16
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_ND2_MM_16
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (3.182, 0.647)
+	Cell Area			=           2.26
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             81
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      3       0       
+   POi        43      0       
+   M1i        5       0       
+   VIA1i      24      0       
+   M2i        5       0       
+
+CELL = SAEDHVT14_NR2_ECO_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_NR2_ECO_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.110, 0.647)
+	Cell Area			=           0.82
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             41
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      8       0       
+   POi        15      0       
+   M1i        14      0       
+   VIA1i      2       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDLVT14_NR2_MM_16
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_NR2_MM_16
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (2.664, 0.647)
+	Cell Area			=           1.90
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             82
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        36      0       
+   M1i        14      0       
+   VIA1i      23      0       
+   M2i        5       0       
+   LVTIMPi    1       0       
+
+CELL = SAEDHVT14_OAI22_4
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OAI22_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.554, 0.647)
+	Cell Area			=           1.13
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             41
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        21      0       
+   M1i        9       0       
+   VIA1i      4       0       
+   M2i        3       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_MUX2_MM_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_MUX2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.818, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             28
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        14      0       
+
+CELL = SAEDRVT14_AN2_MM_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AN2_MM_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.592, 0.647)
+	Cell Area			=           0.46
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        8       0       
+   M1i        9       0       
+
+CELL = SAEDHVT14_OR2_MM_16
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_OR2_MM_16
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (2.146, 0.647)
+	Cell Area			=           1.54
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             73
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        29      0       
+   M1i        16      0       
+   VIA1i      18      0       
+   M2i        6       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDHVT14_MUX2_4
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_MUX2_4
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (1.702, 0.647)
+	Cell Area			=           1.23
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             59
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        23      0       
+   M1i        16      0       
+   VIA1i      11      0       
+   M2i        5       0       
+   HVTIMPi    1       0       
+
+CELL = SAEDRVT14_EO2_V1_0P75
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_EO2_V1_0P75
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.814, 0.647)
+	Cell Area			=           0.62
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             29
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        13      0       
+   VIA1i      2       0       
+
+CELL = SAEDRVT14_BUF_S_6
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_BUF_S_6
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             32
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        12      0       
+   M1i        11      0       
+   VIA1i      5       0       
+   M2i        1       0       
+
+CELL = SAEDRVT14_FDP_V2_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_FDP_V2_1
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.046) (1.628, 0.647)
+	Cell Area			=           1.18
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             66
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        22      0       
+   M1i        23      0       
+   VIA1i      14      0       
+   M2i        4       0       
+
+CELL = SAEDRVT14_AO32_U_0P5
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14rvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDRVT14_AO32_U_0P5
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.834, 0.647)
+	Cell Area			=           0.63
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             39
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        11      0       
+   M1i        14      0       
+   VIA1i      4       0       
+   M2i        7       0       
+
+CELL = SAEDLVT14_DEL_R2V3_2
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14lvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDLVT14_DEL_R2V3_2
+	NDM Cell Extents (LL,UR)	= (-0.074, -0.047) (0.888, 0.647)
+	Cell Area			=           0.67
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             26
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        12      0       
+   M1i        10      0       
+   LVTIMPi    1       0       
+
+CELL = SAEDHVT14_BUF_1
+	Cell Status			= AUTO_EXPLODED (PLACEMENT LIMIT)
+	NDM Library			= saed14hvt_tt0p8v125c.ndm
+	NDM Cell Name			= SAEDHVT14_BUF_1
+	NDM Cell Extents (LL,UR)	= (-0.080, -0.047) (0.525, 0.647)
+	Cell Area			=           0.42
+	Hierarchical Placements		=              0
+	Flat Placements			=              0
+	SREFS				=              0	
+	AREFS				=              0	
+	AREF placements			=              0
+	Exploded references		=              0
+	Exploded placements		=              0
+	DATA				=             20
+	TEXT				=              0
+	Via				=              0
+	Upright/Side			=            0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   POi        7       0       
+   M1i        9       0       
+   HVTIMPi    1       0       

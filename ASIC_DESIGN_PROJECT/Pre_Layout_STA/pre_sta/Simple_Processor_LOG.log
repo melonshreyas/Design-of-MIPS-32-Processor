@@ -1,0 +1,151 @@
+Information: current_design won't return any data before link (DES-071)
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Pre_Layout_STA/pre_sta/Simple_Processor_mvt_netlist.v'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Linking design simple_processor_Top...
+Information: Removing 78 unneeded designs..... (LNK-034)
+Information: 895 (97.07%) library cells are unused in library saed14hvt_tt0p8v125c..... (LNK-045)
+Information: 920 (99.78%) library cells are unused in library saed14lvt_tt0p8v125c..... (LNK-045)
+Information: 922 (100.00%) library cells are unused in library saed14rvt_tt0p8v125c..... (LNK-045)
+Information: total 2737 library cells are unused (LNK-046)
+Design 'simple_processor_Top' was successfully linked.
+Information: There are 633 leaf cells, ports, hiers and 1376 nets in the design (LNK-047)
+Information: Issuing set_operating_conditions for setting analysis mode on_chip_variation. (PTE-037)
+set_operating_conditions -analysis_type on_chip_variation  -library [get_libs {saed14hvt_tt0p8v125c.db:saed14hvt_tt0p8v125c}] 
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Checking 'no_input_delay'.
+Information: Checking 'no_driving_cell'.
+Information: Checking 'unconstrained_endpoints'.
+Warning: There are 51 endpoints which are not constrained for maximum delay.
+
+Information: Checking 'unexpandable_clocks'.
+Information: Checking 'latch_fanout'.
+Information: Checking 'no_clock'.
+Warning: There are 41 register clock pins with no clock.
+
+Information: Checking 'partial_input_delay'.
+Information: Checking 'generic'.
+Information: Checking 'loops'.
+Information: Checking 'generated_clocks'.
+Information: Checking 'pulse_clock_non_pulse_clock_merge'.
+Information: Checking 'pll_configuration'.
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : simple_processor_Top
+Version: O-2018.06-SP4
+Date   : Mon May  2 10:04:25 2022
+****************************************
+
+
+  Startpoint: Resetn (input port clocked by clock)
+  Endpoint: G2_Datapath/g2/Z_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  input external delay                                    1.00       3.00 r
+  Resetn (in)                                             0.00       3.00 r
+  G2_Datapath/U4/X (SAEDHVT14_BUF_U_0P5)                  0.05       3.05 r
+  G2_Datapath/g2/U11/X (SAEDHVT14_OA221_U_0P5)            0.05       3.10 r
+  G2_Datapath/g2/Z_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)      0.01       3.10 r
+  data arrival time                                                  3.10
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             2.00      12.00
+  clock reconvergence pessimism                           0.00      12.00
+  clock uncertainty                                      -0.15      11.85
+  G2_Datapath/g2/Z_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)               11.85 r
+  library setup time                                     -0.00      11.85
+  data required time                                                11.85
+  ------------------------------------------------------------------------------
+  data required time                                                11.85
+  data arrival time                                                 -3.10
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.75
+
+
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : simple_processor_Top
+Version: O-2018.06-SP4
+Date   : Mon May  2 10:04:25 2022
+****************************************
+
+
+  Startpoint: G2_Datapath/Reg4/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg4/dout_reg_0_
+               (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  G2_Datapath/Reg4/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.00       2.00 r
+  G2_Datapath/Reg4/dout_reg_0_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.05       2.05 f
+  G2_Datapath/Reg4/U9/X (SAEDHVT14_AO32_U_0P5)            0.02       2.07 f
+  G2_Datapath/Reg4/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                          0.01       2.07 f
+  data arrival time                                                  2.07
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             2.00       2.00
+  clock reconvergence pessimism                           0.00       2.00
+  clock uncertainty                                       0.15       2.15
+  G2_Datapath/Reg4/dout_reg_0_/CK (SAEDHVT14_FDP_V2LP_0P5)           2.15 r
+  library hold time                                       0.02       2.17
+  data required time                                                 2.17
+  ------------------------------------------------------------------------------
+  data required time                                                 2.17
+  data arrival time                                                 -2.07
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+****************************************
+Report : analysis_coverage
+Design : simple_processor_Top
+Version: O-2018.06-SP4
+Date   : Mon May  2 10:04:25 2022
+****************************************
+
+Type of Check         Total              Met         Violated         Untested
+--------------------------------------------------------------------------------
+setup                   138        97 ( 70%)         0 (  0%)        41 ( 30%)
+hold                    138         0 (  0%)        97 ( 70%)        41 ( 30%)
+min_pulse_width         705       582 ( 83%)         0 (  0%)       123 ( 17%)
+out_setup                10         0 (  0%)         0 (  0%)        10 (100%)
+out_hold                 10         0 (  0%)         0 (  0%)        10 (100%)
+--------------------------------------------------------------------------------
+All Checks             1001       679 ( 68%)        97 ( 10%)       225 ( 22%)
+
+Information: Defining new variable 'INPUTPORTS'. (CMD-041)
+Information: Defining new variable 'PERIOD'. (CMD-041)
+Information: Defining new variable 'DESIGN_REF_PATH'. (CMD-041)
+Information: Defining new variable 'INPUT_DELAY'. (CMD-041)
+Information: Defining new variable 'TARGET_LIBRARY_FILES'. (CMD-041)
+Information: Defining new variable 'OUTPUT_DELAY'. (CMD-041)
+Information: Defining new variable 'CLOCK_LATENCY'. (CMD-041)
+Information: Defining new variable 'UNCERTAINTY'. (CMD-041)
+Information: Defining new variable 'BUFFER'. (CMD-041)
+Information: Defining new variable 'MAX_TRANSITION'. (CMD-04

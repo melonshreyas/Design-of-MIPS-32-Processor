@@ -1,0 +1,1477 @@
+[H[2J
+Information: current_design won't return any data before link (DES-071)
+Loading verilog file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db'
+Loading db file '/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db'
+Linking design alu...
+Removed 129 unconnected cells and blackboxes.
+Information: Removing 17 unneeded designs..... (LNK-034)
+Information: 900 (97.61%) library cells are unused in library saed14hvt_tt0p8v125c..... (LNK-045)
+Information: 920 (99.78%) library cells are unused in library saed14lvt_tt0p8v125c..... (LNK-045)
+Information: 919 (99.67%) library cells are unused in library saed14rvt_tt0p8v125c..... (LNK-045)
+Information: total 2739 library cells are unused (LNK-046)
+Design 'alu' was successfully linked.
+Information: There are 271 leaf cells, ports, hiers and 500 nets in the design (LNK-047)
+
+Reading SDC version 2.1...
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+Information: At least 2 MB of free disk space in pt_tmp_dir will be required to restore this session.  (SR-044)
+1
+Information: Defining new variable 'input_sdc'. (CMD-041)
+Information: Defining new variable 'DESIGN_REF_PATH'. (CMD-041)
+Information: Defining new variable 'my_design'. (CMD-041)
+Information: Defining new variable 'input_spef'. (CMD-041)
+Information: Defining new variable 'input_verilog'. (CMD-041)
+Information: Defining new variable 'std_cell_delay_corner'. (CMD-041)
+1
+Loading verilog file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v'
+Warning: Design 'alu' (file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/alu_routed.v') is already registered. Remove the design before rereading. (DBR-003)
+Error: Design is already linked. (DES-067)
+
+Reading SDC version 2.1...
+Warning: Converting clock object 'clock' from ideal to propagated. (UITE-315)
+Information: Invalidating logical update. (PTE-139)
+Warning: Converting a propagated clock 'clock' to an ideal clock. (UITE-305)
+Information: Derived library resistance unit is 999.999939 Kohm (Time unit is 1 ns, and Capacitance unit is 0.001000 pF). (DES-028)
+Error: Parasitics of nets are double annotated (for example, net f[7], ground cap at terminal f[7]). Ignoring invalid double-annotated parasitics. (PARA-114)
+
+****************************************
+Report : read_parasitics /home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/starrc/alu.cbest.spef
+	-keep_capacitive_coupling
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:08:12 2022
+****************************************
+
+        1 error(s)
+        Format is SPEF
+        Annotated nets                   :            0
+        Annotated capacitances           :            0
+        Annotated resistances            :            0
+        Annotated coupling capacitances  :            0
+        Annotated PI models              :            0
+        Annotated Elmore delays          :            0
+
+Information: Invalidating logical update. (PTE-139)
+Information: Abandoning fast timing updates. Forced full update. (PTE-018)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Information: Cleaning and overwriting all data in the existing directory '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/db/alu.session'. (SR-002)
+Information: At least 2 MB of free disk space in pt_tmp_dir will be required to restore this session.  (SR-044)
+1
+1
+****************************************
+Report : analysis_coverage
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:08:38 2022
+****************************************
+
+Type of Check         Total              Met         Violated         Untested
+--------------------------------------------------------------------------------
+setup                    64        64 (100%)         0 (  0%)         0 (  0%)
+hold                     64        18 ( 28%)        46 ( 72%)         0 (  0%)
+recovery                 52        52 (100%)         0 (  0%)         0 (  0%)
+removal                  52        52 (100%)         0 (  0%)         0 (  0%)
+min_pulse_width         518       276 ( 53%)         0 (  0%)       242 ( 47%)
+out_setup                14        14 (100%)         0 (  0%)         0 (  0%)
+out_hold                 14        14 (100%)         0 (  0%)         0 (  0%)
+--------------------------------------------------------------------------------
+All Checks              778       490 ( 63%)        46 (  6%)       242 ( 31%)
+
+1
+****************************************
+Report : qor
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:08:45 2022
+****************************************
+
+  Timing Path Group 'CLOCK' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                           15
+  Critical Path Length:                    1.68
+  Critical Path Slack:                     9.44
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'INPUTS' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                            2
+  Critical Path Length:                    2.33
+  Critical Path Slack:                     8.79
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'OUTPUTS' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                           14
+  Critical Path Length:                    1.80
+  Critical Path Slack:                     8.33
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'CLOCK' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            1
+  Critical Path Length:                    1.32
+  Critical Path Slack:                    -0.10
+  Total Negative Slack:                   -2.65
+  No. of Violating Paths:                    28
+  ---------------------------------------------
+
+  Timing Path Group 'INPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            0
+  Critical Path Length:                    1.78
+  Critical Path Slack:                     0.34
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'OUTPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            1
+  Critical Path Length:                    1.35
+  Critical Path Slack:                     0.41
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Cell Count
+  ---------------------------------------------
+  Hierarchical Cell Count:                   17
+  Hierarchical Port Count:                  254
+  Leaf Cell Count:                          217
+  ---------------------------------------------
+
+
+  Area
+  ---------------------------------------------
+  Net Interconnect area:                  63.79
+  Total cell area:                       101.45
+  Design Area:                           165.24
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:              765
+  Total DRC Cost:                          0.00
+  ---------------------------------------------
+
+1
+Information: Setting timing_save_pin_arrival_and_required to TRUE and updating timing. (PTE-076)
+Information: It is recommended that the variable timing_save_pin_arrival_and_required be set before the initial timing update for optimal performance of this command. (PTE-077)
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:13:46 2022 ]...
+Information: Detected 0 max transition violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:13:46 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:13:46 2022 ]...
+Information: Detected 0 max capacitance violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                1 seconds ]
+Information: Completed at [ Wed May 25 18:13:47 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:13:47 2022 ]...
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDLVT14_BUF_8        0.62
+SAEDLVT14_BUF_6        0.49
+SAEDLVT14_BUF_4        0.40
+SAEDLVT14_BUF_2        0.31
+
+Information: Detected 0 max transition violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+         No buffer           
+--------------------------------------------------------
+       0 TOTAL                                      0.00
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:13:47 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:13:47 2022 ]...
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDLVT14_BUF_8        0.62
+SAEDLVT14_BUF_6        0.49
+SAEDLVT14_BUF_4        0.40
+SAEDLVT14_BUF_2        0.31
+
+Information: Detected 0 max capacitance violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+         No buffer           
+--------------------------------------------------------
+       0 TOTAL                                      0.00
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:13:47 2022 ]
+
+0
+Information: Starting pre-processing at [ Wed May 25 18:13:48 2022 ]...
+Information: 0 violating endpoints located... (PTECO-022)
+Information: 0 cells have been down-sized.
+Information: Starting updating timing at [ Wed May 25 18:13:48 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:13:48 2022 ]...
+Information: Analyzing timing improvement...
+Information: Tuning changes...
+Information: Starting updating timing at [ Wed May 25 18:13:48 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:13:48 2022 ]...
+
+Information: Starting timing fix iteration 1 at [ Wed May 25 18:13:48 2022 ]...
+Information: 0 violating endpoints located... (PTECO-022)
+Information: 0 endpoints are being considered for fixing... (PTECO-027)
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The timing violation fixing process is complete.
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Fixing Summary:
+--------------------------------------------------------
+Total violating endpoints found                        0
+Total violating endpoints fixed                        0
+Total violating endpoints remaining                    0
+Total percentage of violations fixed                 0.0%
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:13:48 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:14:08 2022 ]...
+Information: Detected 0 max transition violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:14:08 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:14:14 2022 ]...
+Information: Detected 0 max capacitance violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:14:14 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:14:21 2022 ]...
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDLVT14_BUF_8        0.62
+SAEDLVT14_BUF_6        0.49
+SAEDLVT14_BUF_4        0.40
+SAEDLVT14_BUF_2        0.31
+
+Information: Detected 0 max transition violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+         No buffer           
+--------------------------------------------------------
+       0 TOTAL                                      0.00
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:14:21 2022 ]
+
+0
+Information: Starting DRC fix iteration 1 at [ Wed May 25 18:14:27 2022 ]...
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDLVT14_BUF_8        0.62
+SAEDLVT14_BUF_6        0.49
+SAEDLVT14_BUF_4        0.40
+SAEDLVT14_BUF_2        0.31
+
+Information: Detected 0 max capacitance violations.
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The DRC violation fixing process is complete.
+
+
+Unfixable violations:
+  A - There are available lib cells outside area limit
+  C - The violation is in clock network
+  I - Buffer insertion with given lib cells cannot fix the violation
+  P - Driver cell of the violation is a port
+  Q - Driver cell of the violation is a sequential cell
+  S - Cell sizing with alternative lib cells cannot fix the violation
+  T - Timing margin is too tight to fix the violation
+  V - Driver cell of the violation is dont_touched
+  U - UPF restricts fixing the violation
+
+  Violation                                                   Reasons
+  ---------------------------------------------------------------------
+  None
+
+Remaining Violations:
+Violation Type                                     Count
+--------------------------------------------------------
+Total remaining violations                             0
+Unfixable violations                                   0
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+         No buffer           
+--------------------------------------------------------
+       0 TOTAL                                      0.00
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:14:27 2022 ]
+
+0
+Information: Starting pre-processing at [ Wed May 25 18:14:33 2022 ]...
+Information: 0 violating endpoints located... (PTECO-022)
+Information: 0 cells have been down-sized.
+Information: Starting updating timing at [ Wed May 25 18:14:33 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:33 2022 ]...
+Information: Analyzing timing improvement...
+Information: Tuning changes...
+Information: Starting updating timing at [ Wed May 25 18:14:33 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:33 2022 ]...
+
+Information: Starting timing fix iteration 1 at [ Wed May 25 18:14:33 2022 ]...
+Information: 0 violating endpoints located... (PTECO-022)
+Information: 0 endpoints are being considered for fixing... (PTECO-027)
+Information: Fixing violations...
+Information: No more fixes are available.
+Information: The timing violation fixing process is complete.
+
+Final ECO Summary:
+--------------------------------------------------------
+Total number of commands                               0
+Total area increased                                0.00
+
+Fixing Summary:
+--------------------------------------------------------
+Total violating endpoints found                        0
+Total violating endpoints fixed                        0
+Total violating endpoints remaining                    0
+Total percentage of violations fixed                 0.0%
+
+Information: Elapsed time [                0 seconds ]
+Information: Completed at [ Wed May 25 18:14:33 2022 ]
+
+0
+Information: Starting timing fix iteration 1 at [ Wed May 25 18:14:43 2022 ]...
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+
+Available buffers:
+Lib_cell               Area
+--------------------------------------------------------
+SAEDHVT14_BUF_8        0.62
+SAEDHVT14_BUF_6        0.49
+SAEDHVT14_BUF_4        0.40
+SAEDHVT14_BUF_2        0.31
+
+Information: 28 violating endpoints located... (PTECO-022)
+Information: 28 endpoints are being considered for fixing... (PTECO-027)
+Information: Fixing violations...
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Starting updating timing at [ Wed May 25 18:14:44 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:44 2022 ]...
+Information: Analyzing timing improvement...
+Information: Tuning changes...
+Information: Starting updating timing at [ Wed May 25 18:14:44 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:44 2022 ]...
+Information: 1 cells have been resized.
+Information: 19 buffers have been inserted.
+
+Information: Starting timing fix iteration 2 at [ Wed May 25 18:14:44 2022 ]...
+Information: 28 violating endpoints located... (PTECO-022)
+Information: 28 endpoints are being considered for fixing... (PTECO-027)
+Information: Fixing violations...
+Information: Loading library 'saed14hvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14lvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Loading library 'saed14rvt_tt0p8v125c' data due to accessing lib cells not linked in the current design. (LNK-041)
+Information: Starting updating timing at [ Wed May 25 18:14:45 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:45 2022 ]...
+Information: Analyzing timing improvement...
+Information: Tuning changes...
+Information: Starting updating timing at [ Wed May 25 18:14:45 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:45 2022 ]...
+Information: 19 cells have been resized.
+Information: 15 buffers have been inserted.
+
+Information: Starting timing fix iteration 3 at [ Wed May 25 18:14:45 2022 ]...
+Information: 28 violating endpoints located... (PTECO-022)
+Information: 28 endpoints are being considered for fixing... (PTECO-027)
+Information: Fixing violations...
+Information: Starting updating timing at [ Wed May 25 18:14:45 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:45 2022 ]...
+Information: Analyzing timing improvement...
+Information: Tuning changes...
+Information: Starting updating timing at [ Wed May 25 18:14:46 2022 ]...
+Information: Finished updating timing at [ Wed May 25 18:14:46 2022 ]...
+Information: 16 cells have been resized.
+Information: 19 buffers have been inserted.
+
+Information: Starting timing fix iteration 4 at [ Wed May 25 18:14:46 2022 ]...
+Information: Quality of results may not improve in following iterations...
+Information: No more fixes are available.
+Information: The timing violation fixing process is complete.
+
+Inserted buffers:
+   Count Lib_cell               Area          Total_area
+--------------------------------------------------------
+       1 SAEDHVT14_BUF_2        0.31                0.31
+      52 SAEDHVT14_BUF_8        0.62               32.32
+--------------------------------------------------------
+      53 TOTAL                                     32.63
+
+Final ECO Summary:
+--------------------------------------------------------
+Number of size_cell commands                          36
+Number of insert_buffer commands                      53
+Total number of commands                              89
+Area increased by cell sizing                      -4.13
+Area increased by buffer insertion                 32.63
+Total area increased                               28.50
+
+Fixing Summary:
+--------------------------------------------------------
+Total violating endpoints found                       28
+Total violating endpoints fixed                        0
+Total violating endpoints remaining                   28
+Total percentage of violations fixed                 0.0%
+
+Information: Elapsed time [                3 seconds ]
+Information: Completed at [ Wed May 25 18:14:46 2022 ]
+
+1
+****************************************
+Report : analysis_coverage
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:17:45 2022
+****************************************
+
+Type of Check         Total              Met         Violated         Untested
+--------------------------------------------------------------------------------
+setup                    64        64 (100%)         0 (  0%)         0 (  0%)
+hold                     64        18 ( 28%)        46 ( 72%)         0 (  0%)
+recovery                 52        52 (100%)         0 (  0%)         0 (  0%)
+removal                  52        52 (100%)         0 (  0%)         0 (  0%)
+min_pulse_width         518       276 ( 53%)         0 (  0%)       242 ( 47%)
+out_setup                14        14 (100%)         0 (  0%)         0 (  0%)
+out_hold                 14        14 (100%)         0 (  0%)         0 (  0%)
+--------------------------------------------------------------------------------
+All Checks              778       490 ( 63%)        46 (  6%)       242 ( 31%)
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:18:02 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: v (output port clocked by clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 f
+  ab/m1/U2/X (SAEDHVT14_INV_0P5)                          0.03 &     1.36 r
+  ab/m1/U10/X (SAEDHVT14_MUXI2_U_0P5)                     0.02 &     1.38 f
+  ab/U6/X (SAEDHVT14_AN2_MM_0P5)                          0.02 &     1.40 f
+  ab/U7/X (SAEDHVT14_ND2_CDC_0P5)                         0.01 &     1.41 r
+  ab/U20/X (SAEDHVT14_OA21_1)                             0.02 &     1.43 r
+  ab/f1/U1/CO (SAEDHVT14_ADDF_V1_1)                       0.02 &     1.45 r
+  ab/f2/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.47 r
+  ab/f3/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.50 r
+  ab/f4/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.53 r
+  ab/f5/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.55 r
+  ab/f6/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.04 &     1.59 r
+  ab/f7/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.09 &     1.68 r
+  ab/U5/X (SAEDHVT14_EO2_V1_0P75)                         0.12 &     1.81 f
+  v (out)                                                 0.00 &     1.81 f
+  data arrival time                                                  1.81
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             1.28      11.28
+  clock reconvergence pessimism                           0.00      11.28
+  clock uncertainty                                      -0.15      11.13
+  output external delay                                  -1.00      10.13
+  data required time                                                10.13
+  ------------------------------------------------------------------------------
+  data required time                                                10.13
+  data arrival time                                                 -1.81
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.32
+
+
+1
+Error: ambiguous command 'size' matched 2 commands:
+	(size_cell, sizeof_collection) (CMD-006)
+Error: Required argument 'lib_cell' was not found (CMD-007)
+Usage:
+ insert_buffer        # Insert a buffer at pin(s)
+   [-libraries lib_spec]  (Resolve lib_cell from these libraries only)
+   [-inverter_pair]       (Insert a pair of inverting lib_cell)
+   [-new_net_names new_net_names]
+                          (Names given to the new nets created by insert_buffer)
+   [-new_cell_names new_cell_names]
+                          (Names given to the new cells created by insert_buffer)
+   [-all_mim_instances]   (Insert at all MIM instances.)
+   pin_or_port_list       (List of pins or ports to buffer)
+   lib_cell               (Library cell to use as buffer)
+
+Error: unknown command 'get_flat_pins' (CMD-005)
+Error: unknown command 'get_flat_pins' (CMD-005)
+Error: unknown command 'get_flat' (CMD-005)
+Warning: Nothing implicitly matched '--help' (SEL-003)
+Error: Nothing matched for object_list (SEL-005)
+****************************************
+Report : timing
+	collection of 0 path(s)
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:20:42 2022
+****************************************
+
+0
+Usage:
+ report_timing        # Report timing paths
+   [-to to_list]          (To pins, ports, nets, or clocks)
+   [-rise_to rise_to_list]
+                          (Rising to pins, ports, nets, or clocks)
+   [-fall_to fall_to_list]
+                          (Falling to pins, ports, nets, or clocks)
+   [-from from_list]      (From pins, ports, nets, or clocks)
+   [-rise_from rise_from_list]
+                          (Rising from pins, ports, nets, or clocks)
+   [-fall_from fall_from_list]
+                          (Falling from pins, ports, nets, or clocks)
+   [-through through_list]
+                          (Through pins, ports, nets, or cells)
+   [-rise_through rise_through_list]
+                          (Rising through pins, ports, nets, or cells)
+   [-fall_through fall_through_list]
+                          (Falling through pins, ports, nets, or cells)
+   [-exclude exclude_list]
+                          (Exclude pins, ports, nets or cells)
+   [-rise_exclude rise_exclude_list]
+                          (Exclude rising of pins, ports, nets or cells)
+   [-fall_exclude fall_exclude_list]
+                          (Exclude falling of pins, ports, nets or cells)
+   [-delay_type delay_type]
+                          (Type of path delay: 
+                           Values: max, min, min_max, max_rise, 
+                           max_fall, min_rise, min_fall)
+   [-nworst paths_per_endpoint]
+                          (List N worst paths to endpoint: 
+                           Value >= 1)
+   [-max_paths count]     (Maximum number of paths per path group to output: 
+                           Value >= 1)
+   [-group group_name]    (Limit report to paths in these groups)
+   [-unique_pins]         (Find paths through unique pins)
+   [-slack_greater_than slack_limit]
+                          (Display paths with slack greater than this)
+   [-slack_lesser_than slack_limit]
+                          (Display paths with slack less than this)
+   [-ignore_register_feedback feedback_slack_cutoff]
+                          (Ignore feedback loops to registers)
+   [-include_hierarchical_pins]
+                          (Create timing point for each hierarchical pin in path)
+   [-trace_latch_borrow]  (Trace timing paths through borrowing latches)
+   [-trace_latch_forward] (Trace timing paths beyond latch loop breakers)
+   [-pba_mode effort]     (Path-based analysis mode (default is none):
+                           Values: none, path, exhaustive)
+   [-start_end_type from_to_type]
+                          (Subset of paths to return: 
+                           Values: reg_to_reg, reg_to_out, in_to_reg, 
+                           in_to_out)
+   [-normalized_slack]    (Sort by normalized slack)
+   [-start_end_pair]      (List worst path per start-endpoint pair)
+   [-cover_design]        (List worst path through every violating pin)
+   [-cover_through through_list]
+                          (Through pins, ports, nets, or cells)
+   [-dont_merge_duplicates]
+                          (Do not merge paths that appear in more than one scenario)
+   [-tag_paths_filtered_by_pba tag name]
+                          (Tag GBA paths filtered out in PBA analysis)
+   [-pre_commands pre_command string]
+                          (Pre merged reporting commands to be executed at slave(s))
+   [-post_commands post command string]
+                          (Post merged reporting commands to be executed at slave(s))
+   [-path_type format]    (Format for path report: 
+                           Values: full, full_clock, short, end, 
+                           summary, full_clock_expanded)
+   [-input_pins]          (Show input pins in path)
+   [-nets]                (List net names)
+   [-nosplit]             (Do not split lines when columns overflow)
+   [-transition_time]     (Display transition time for each pin)
+   [-capacitance]         (Display total capacitance for each net)
+   [-report_ignored_register_feedback]
+                          (Report ignored feedback loops to registers)
+   [-significant_digits digits]
+                          (Number of digits to display: 
+                           Range: 0 to 13)
+   [-crosstalk_delta]     (Show crosstalk effects)
+   [-derate]              (Show derate factors)
+   [-variation]           (Report variation-aware info)
+   [-exceptions exception_type]
+                          (Scope of timing exceptions reporting: 
+                           Values: dominant, overridden, all)
+   [-voltage]             (Report pin voltages)
+   [-sort_by <slack|group>]
+                          (sort_by)
+   [-supply_net_group]    (Show supply net group names for path elements)
+   [-physical]            (Show pin XY locations)
+   [path_collection]      (a collection of timing paths)
+
+Error: value not specified for option '-nworst' (CMD-008)
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-input_pins
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:21:33 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: v (output port clocked by clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 f
+  ab/m1/U2/A (SAEDHVT14_INV_0P5)                          0.00 &     1.32 f
+  ab/m1/U2/X (SAEDHVT14_INV_0P5)                          0.03 &     1.36 r
+  ab/m1/U10/D0 (SAEDHVT14_MUXI2_U_0P5)                    0.00 &     1.36 r
+  ab/m1/U10/X (SAEDHVT14_MUXI2_U_0P5)                     0.02 &     1.38 f
+  ab/U6/A1 (SAEDHVT14_AN2_MM_0P5)                         0.00 &     1.38 f
+  ab/U6/X (SAEDHVT14_AN2_MM_0P5)                          0.02 &     1.40 f
+  ab/U7/A1 (SAEDHVT14_ND2_CDC_0P5)                        0.00 &     1.40 f
+  ab/U7/X (SAEDHVT14_ND2_CDC_0P5)                         0.01 &     1.41 r
+  ab/U20/B (SAEDHVT14_OA21_1)                             0.00 &     1.41 r
+  ab/U20/X (SAEDHVT14_OA21_1)                             0.02 &     1.43 r
+  ab/f1/U1/A (SAEDHVT14_ADDF_V1_1)                        0.00 &     1.43 r
+  ab/f1/U1/CO (SAEDHVT14_ADDF_V1_1)                       0.02 &     1.45 r
+  ab/f2/U1/CI (SAEDHVT14_ADDF_V1_0P5)                     0.00 &     1.45 r
+  ab/f2/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.47 r
+  ab/f3/U1/CI (SAEDHVT14_ADDF_V1_0P5)                     0.00 &     1.47 r
+  ab/f3/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.50 r
+  ab/f4/U1/CI (SAEDHVT14_ADDF_V1_0P5)                     0.00 &     1.50 r
+  ab/f4/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.53 r
+  ab/f5/U1/CI (SAEDHVT14_ADDF_V1_0P5)                     0.00 &     1.53 r
+  ab/f5/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.55 r
+  ab/f6/U1/CI (SAEDHVT14_ADDF_V1_0P5)                     0.00 &     1.55 r
+  ab/f6/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.04 &     1.59 r
+  ab/f7/U1/CI (SAEDHVT14_ADDF_V1_0P5)                     0.00 &     1.59 r
+  ab/f7/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.09 &     1.68 r
+  ab/U5/A2 (SAEDHVT14_EO2_V1_0P75)                        0.00 &     1.68 r
+  ab/U5/X (SAEDHVT14_EO2_V1_0P75)                         0.12 &     1.81 f
+  v (out)                                                 0.00 &     1.81 f
+  data arrival time                                                  1.81
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             1.28      11.28
+  clock reconvergence pessimism                           0.00      11.28
+  clock uncertainty                                      -0.15      11.13
+  output external delay                                  -1.00      10.13
+  data required time                                                10.13
+  ------------------------------------------------------------------------------
+  data required time                                                10.13
+  data arrival time                                                 -1.81
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.32
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-nets
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:22:01 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: v (output port clocked by clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                      Fanout       Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 f
+  s_r[3] (net)                                 23 
+  ab/m1/U2/X (SAEDHVT14_INV_0P5)                          0.03 &     1.36 r
+  ab/m1/n2 (net)                                8 
+  ab/m1/U10/X (SAEDHVT14_MUXI2_U_0P5)                     0.02 &     1.38 f
+  ab/m1/y[0] (net)                              3 
+  ab/U6/X (SAEDHVT14_AN2_MM_0P5)                          0.02 &     1.40 f
+  ab/n8 (net)                                   3 
+  ab/U7/X (SAEDHVT14_ND2_CDC_0P5)                         0.01 &     1.41 r
+  ab/n7 (net)                                   2 
+  ab/U20/X (SAEDHVT14_OA21_1)                             0.02 &     1.43 r
+  ab/sum1[1] (net)                              2 
+  ab/f1/U1/CO (SAEDHVT14_ADDF_V1_1)                       0.02 &     1.45 r
+  ab/f1/cout (net)                              1 
+  ab/f2/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.47 r
+  ab/f2/cout (net)                              1 
+  ab/f3/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.50 r
+  ab/f3/cout (net)                              1 
+  ab/f4/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.53 r
+  ab/f4/cout (net)                              1 
+  ab/f5/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.55 r
+  ab/f5/cout (net)                              1 
+  ab/f6/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.04 &     1.59 r
+  ab/f6/cout (net)                              2 
+  ab/f7/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.09 &     1.68 r
+  ab/f7/cout (net)                              2 
+  ab/U5/X (SAEDHVT14_EO2_V1_0P75)                         0.12 &     1.81 f
+  ab/v (net)                                    1 
+  v (out)                                                 0.00 &     1.81 f
+  v (net)                                       1 
+  data arrival time                                                  1.81
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             1.28      11.28
+  clock reconvergence pessimism                           0.00      11.28
+  clock uncertainty                                      -0.15      11.13
+  output external delay                                  -1.00      10.13
+  data required time                                                10.13
+  ------------------------------------------------------------------------------
+  data required time                                                10.13
+  data arrival time                                                 -1.81
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.32
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-slack_lesser_than 0.00
+	-max_paths 46
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:22:28 2022
+****************************************
+
+No paths with slack less than 0.00.
+
+1
+Error: value not specified for option '-max_paths' (CMD-008)
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:22:36 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: v (output port clocked by clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 f
+  ab/m1/U2/X (SAEDHVT14_INV_0P5)                          0.03 &     1.36 r
+  ab/m1/U10/X (SAEDHVT14_MUXI2_U_0P5)                     0.02 &     1.38 f
+  ab/U6/X (SAEDHVT14_AN2_MM_0P5)                          0.02 &     1.40 f
+  ab/U7/X (SAEDHVT14_ND2_CDC_0P5)                         0.01 &     1.41 r
+  ab/U20/X (SAEDHVT14_OA21_1)                             0.02 &     1.43 r
+  ab/f1/U1/CO (SAEDHVT14_ADDF_V1_1)                       0.02 &     1.45 r
+  ab/f2/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.47 r
+  ab/f3/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.50 r
+  ab/f4/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.53 r
+  ab/f5/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.55 r
+  ab/f6/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.04 &     1.59 r
+  ab/f7/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.09 &     1.68 r
+  ab/U5/X (SAEDHVT14_EO2_V1_0P75)                         0.12 &     1.81 f
+  v (out)                                                 0.00 &     1.81 f
+  data arrival time                                                  1.81
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             1.28      11.28
+  clock reconvergence pessimism                           0.00      11.28
+  clock uncertainty                                      -0.15      11.13
+  output external delay                                  -1.00      10.13
+  data required time                                                10.13
+  ------------------------------------------------------------------------------
+  data required time                                                10.13
+  data arrival time                                                 -1.81
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.32
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-slack_lesser_than 0.00
+	-max_paths 5
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:22:47 2022
+****************************************
+
+No paths with slack less than 0.00.
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-slack_lesser_than 0.00
+	-max_paths 2
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:22:54 2022
+****************************************
+
+No paths with slack less than 0.00.
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:23:39 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: v (output port clocked by clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 f
+  ab/m1/U2/X (SAEDHVT14_INV_0P5)                          0.03 &     1.36 r
+  ab/m1/U10/X (SAEDHVT14_MUXI2_U_0P5)                     0.02 &     1.38 f
+  ab/U6/X (SAEDHVT14_AN2_MM_0P5)                          0.02 &     1.40 f
+  ab/U7/X (SAEDHVT14_ND2_CDC_0P5)                         0.01 &     1.41 r
+  ab/U20/X (SAEDHVT14_OA21_1)                             0.02 &     1.43 r
+  ab/f1/U1/CO (SAEDHVT14_ADDF_V1_1)                       0.02 &     1.45 r
+  ab/f2/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.47 r
+  ab/f3/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.50 r
+  ab/f4/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.53 r
+  ab/f5/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.03 &     1.55 r
+  ab/f6/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.04 &     1.59 r
+  ab/f7/U1/CO (SAEDHVT14_ADDF_V1_0P5)                     0.09 &     1.68 r
+  ab/U5/X (SAEDHVT14_EO2_V1_0P75)                         0.12 &     1.81 f
+  v (out)                                                 0.00 &     1.81 f
+  data arrival time                                                  1.81
+
+  clock clock (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             1.28      11.28
+  clock reconvergence pessimism                           0.00      11.28
+  clock uncertainty                                      -0.15      11.13
+  output external delay                                  -1.00      10.13
+  data required time                                                10.13
+  ------------------------------------------------------------------------------
+  data required time                                                10.13
+  data arrival time                                                 -1.81
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        8.32
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:23:42 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: sb/sh_reg_6_
+               (rising edge-triggered flip-flop clocked by clock)
+  Last common pin: clk
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 r
+  sb/sh_reg_6_/SE (SAEDHVT14_FSDPRBQ_V2LP_0P5)            0.00 &     1.32 r
+  data arrival time                                                  1.32
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  clock reconvergence pessimism                           0.00       1.28
+  clock uncertainty                                       0.15       1.43
+  sb/sh_reg_6_/CK (SAEDHVT14_FSDPRBQ_V2LP_0P5)                       1.43 r
+  library hold time                                      -0.01       1.42
+  data required time                                                 1.42
+  ------------------------------------------------------------------------------
+  data required time                                                 1.42
+  data arrival time                                                 -1.32
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+1
+Error: extra positional option 'saed14hvt_ttop8v125c/SAEDHVT14_BUF_2' (CMD-012)
+Error: extra positional option 'saed14hvt_ttop8v125c/SAEDHVT14_BUF_2' (CMD-012)
+Warning: Nothing implicitly matched 'saed14hvt_ttop8v125c/SAEDHVT14_BUF_2' (SEL-003)
+Error: No changes made. (NED-040)
+Information: Invalidating logical update. (PTE-139)
+Information: Invalidating logical update. (PTE-139)
+Information: Inserted 'U54' at 'sb/sh_reg_6_/SE' with 'saed14hvt_tt0p8v125c/SAEDHVT14_BUF_2'. (NED-046)
+{"sb/U54"}
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : alu
+Version: P-2019.03-SP4
+Date   : Wed May 25 18:26:18 2022
+****************************************
+
+
+  Startpoint: s_r_reg_3_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: sb/sh_reg_3_
+               (rising edge-triggered flip-flop clocked by clock)
+  Last common pin: clk
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  s_r_reg_3_/CK (SAEDLVT14_FDPRBQ_V2_1)                   0.00       1.28 r
+  s_r_reg_3_/Q (SAEDLVT14_FDPRBQ_V2_1)                    0.04 &     1.32 r
+  sb/sh_reg_3_/SE (SAEDHVT14_FSDPRBQ_V2LP_0P5)            0.00 &     1.32 r
+  data arrival time                                                  1.32
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        1.28       1.28
+  clock reconvergence pessimism                           0.00       1.28
+  clock uncertainty                                       0.15       1.43
+  sb/sh_reg_3_/CK (SAEDHVT14_FSDPRBQ_V2LP_0P5)                       1.43 r
+  library hold time                                      -0.01       1.42
+  data required time                                                 1.42
+  ------------------------------------------------------------------------------
+  data required time                                                 1.42
+  data arrival time                                                 -1.32
+  ------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.10
+
+
+1
+Information: Writing change list file '/home/userdata/21mvd0086/ASIC_LAB/Physical_Synthesis_ICC2/icc2_db/post_sta/timing_eco_1.tcl'.
+1
+Maximum memory usage for this session: 1356.39 MB
+CPU usage for this session: 10 seconds 
+Elapsed time for this session: 1246 seconds
+Diagnostics summary: 15 errors, 13 warnings, 350 informationals
+
+Thank you for using pt_shell!

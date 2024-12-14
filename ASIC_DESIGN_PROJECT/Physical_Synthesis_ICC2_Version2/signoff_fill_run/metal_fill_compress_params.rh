@@ -1,0 +1,22 @@
+//LDT 21 0
+smf_layer_compress_info.push_back({layer_num = {21,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 23 0
+smf_layer_compress_info.push_back({layer_num = {23,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 25 0
+smf_layer_compress_info.push_back({layer_num = {25,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 27 0
+smf_layer_compress_info.push_back({layer_num = {27,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 29 0
+smf_layer_compress_info.push_back({layer_num = {29,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 31 0
+smf_layer_compress_info.push_back({layer_num = {31,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 22 0
+smf_layer_compress_info.push_back({layer_num = {22,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 24 0
+smf_layer_compress_info.push_back({layer_num = {24,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 26 0
+smf_layer_compress_info.push_back({layer_num = {26,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 28 0
+smf_layer_compress_info.push_back({layer_num = {28,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 30 0
+smf_layer_compress_info.push_back({layer_num = {30,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});

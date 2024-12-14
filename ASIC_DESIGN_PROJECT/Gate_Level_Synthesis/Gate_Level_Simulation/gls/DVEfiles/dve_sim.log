@@ -1,0 +1,50 @@
+09:15:57    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe gls -V -pid 11218 -toolin /tmp/vcs_20220520034554_11217_21mvd0086..stdin -toolout /tmp/vcs_20220520034554_11217_21mvd0086..stdout  
+09:15:57    17 -->                                                                 [tcl] set ucliGUI::state
+09:15:57    18 -->                                                                     [tcl] gui_update_simulator_buttons
+09:15:58    19 -->                                                                         [tcl] set ucliGUI::state
+09:15:58    20 -->                                                                             [tcl] ucliCore::getToolPID
+09:15:58    21 -->                                                                                 [tcl] synopsys::env hasTB
+09:15:58    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+09:15:58    23 -->                                                                                         [tcl] synUtils::setDVEInitPhase 1
+09:15:58    24 -->                                                                                             [tcl] gui_get_env SIMSETUP::SIMVPD
+09:15:58    25 --> ...  [tcl] synopsys::dump -type VPD -file /home/userdata/21mvd0086/Simple_Processor_Working/Gate_Level_Synthesis/Gate_Level_Simulation/gls/inter.vpd -locking
+09:15:58    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+09:15:58    27 --> ...          [tcl] set ::dve_fid VPD0
+09:15:58    28 --> ...              [tcl] synUtils::setDVEInitPhase 0
+09:15:58    29 --> ...                  [tcl] ucliCore::getToolPID
+09:15:58    30 --> ...                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp3JCS3z
+09:15:58    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.21mvd0086.11218}
+09:15:59    32 --> ...                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.21mvd0086.11218}
+09:15:59    33 --> ...                                  [tcl] dveMisc::vbusExpand SAEDHVT14_FSDN_V2_0P5_func
+09:15:59    34 --> ...                                      [tcl] config endofsim noexit
+09:15:59    35 --> ...                                          [tcl] config onfail enable all
+09:15:59    36 --> ...                                              [tcl] config syscaddplainmembers
+09:15:59    37 --> ...                                                  [tcl] config syscaddsourcenames
+09:15:59    38 --> ...                                                      [tcl] config syscaddstructtypes
+09:15:59    39 --> ...                                                          [tcl] synopsys::listing -disable
+09:16:06    40 --> ...                                                              [tcl] dveMisc::vbusExpand simple_processor_testbench_mv_op.T3
+09:16:14    41 --> ...                                                                  [tcl] synopsys::dump -add {simple_processor_testbench_mv_op.T3} -scope "." -depth 1 -fid VPD0
+09:16:16    42 --> ...                                                                      [tcl] dveMisc::vbusExpand simple_processor_testbench_mv_op.T3.G2_Datapath
+09:16:26    43 --> ...                                                                          [tcl] synopsys::dump -add {simple_processor_testbench_mv_op.T3.G2_Datapath.A_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.G simple_processor_testbench_mv_op.T3.G2_Datapath.R0_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R1_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R2_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R3_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R4_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R5_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R6_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R7_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.Sum } -aggregates  -fid VPD0
+09:16:31    44 --> ...                                                                              [tcl] synopsys::run
+09:16:31    45 --> ...                                                                                  [tcl] set ucliGUI::state
+09:16:31    46 --> ...                                                                                      [tcl] gui_update_simulator_buttons
+09:16:31    47 --> ...                                                                                          [tcl] set ucliGUI::state
+09:16:32    48 --> ...                                                                                              [tcl] gui_update_simulator_buttons
+09:16:32    49 --> ...                                                                                                  [tcl] set ucliGUI::state
+09:16:32    50 --> ...  [tcl] set ucliGUI::state
+09:16:32    51 --> ...      [tcl] catch {senv activeDomain} dveMisc::result 
+09:16:32    52 --> ...          [tcl] set dveMisc::result
+09:16:32    53 --> ...              [tcl] gui_update_simulator_buttons
+09:16:32    54 --> ...                  [tcl] dveMisc::vbusExpand simple_processor_testbench_mv_op
+09:22:54    55 --> ...                      [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+09:22:54    56 --> ...                          [tcl] synopsys::finish
+09:22:54    57 --> ...                              [tcl] set ucliGUI::state
+09:22:54    58 --> ...                                  [tcl] gui_update_simulator_buttons
+09:22:54    59 --> ...                                      [tcl] set ucliGUI::state
+09:22:54    60 --> ...                                          [tcl] catch {senv activeDomain} dveMisc::result 
+09:22:54    61 --> ...                                              [tcl] set dveMisc::result
+09:22:54    62 --> ...                                                  [tcl] gui_update_simulator_buttons
+09:22:54    63 --> ...                                                      [tcl] catch {senv activeDomain} dveMisc::result 
+09:22:54    64 --> ...                                                          [tcl] set dveMisc::result
+09:22:54    65 --> ...                                                              [tcl] ucli_exit

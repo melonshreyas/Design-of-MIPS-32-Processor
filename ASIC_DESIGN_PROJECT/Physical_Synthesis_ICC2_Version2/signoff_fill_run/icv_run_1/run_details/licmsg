@@ -1,0 +1,15 @@
+05/30/2022 12:20:13 (DP)  Using license file: 27020@synopsysserver
+05/30/2022 12:20:13 (DP)  
+05/30/2022 12:20:13 (DP)  Obtained 1 total ICValidator-Manager licenses.
+05/30/2022 12:20:13 (DP)  This will allow up to 4 engine processes to run.
+
+05/30/2022 12:20:14 (DLM) Requesting (ICValidator2-GeometryEngine/2019.06)
+05/30/2022 12:20:14 (DLM)   ICValidator2-GeometryEngine license obtained.
+05/30/2022 12:20:14 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2019.06)
+05/30/2022 12:20:14 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2019.06)
+05/30/2022 12:20:15 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2019.06)
+05/30/2022 12:20:15 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2019.06)
+05/30/2022 12:20:17 (DP)  Releasing all DP licenses
+05/30/2022 12:20:18 (DLM) Releasing (ICValidator2-GeometryEngine/2019.06)
+05/30/2022 12:20:18 (DLM)   ICValidator2-GeometryEngine/2019.06 released.
+05/30/2022 12:20:18 (DLM) License manager shutting down.

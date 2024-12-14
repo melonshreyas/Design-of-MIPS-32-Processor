@@ -1,0 +1,1568 @@
+# 
+# IC Compiler II write_def
+# Release      : P-2019.03-SP4
+# User Name    : jgd
+# Date         : Tue Mar 22 16:25:00 2022
+# 
+VERSION 5.7 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN simple_processor_Top ;
+UNITS DISTANCE MICRONS 1000 ;
+PROPERTYDEFINITIONS
+COMPONENTPIN ACCESS_DIRECTION STRING ;
+END PROPERTYDEFINITIONS
+DIEAREA ( 0 0 ) ( 0 31400 ) ( 31396 31400 ) ( 31396 0 ) ;
+COMPONENTS 188 ;
+ - ab/m1/U1 SAEDRVT14_BUF_U_0P5 + UNPLACED ;
+ - ab/m1/U2 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/m1/U3 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U4 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U5 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U6 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U7 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U8 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U9 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/m1/U10 SAEDRVT14_MUXI2_U_0P5 + UNPLACED ;
+ - ab/h1/U1 SAEDRVT14_AN2_MM_0P5 + UNPLACED ;
+ - ab/h1/U2 SAEDRVT14_OA21B_1 + UNPLACED ;
+ - ab/f1/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/f2/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/f3/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/f4/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/f5/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/f6/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/f7/U1 SAEDRVT14_ADDF_V1_0P5 + UNPLACED ;
+ - ab/m2/U1 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U2 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U3 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U4 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U5 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U6 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U7 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/m2/U8 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - ab/cb/U1 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U2 SAEDRVT14_AN2_MM_0P5 + UNPLACED ;
+ - ab/cb/U3 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U4 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/cb/U5 SAEDRVT14_ND2B_U_0P5 + UNPLACED ;
+ - ab/cb/U6 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U7 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U8 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U9 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/cb/U10 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/cb/U11 SAEDRVT14_ND2B_U_0P5 + UNPLACED ;
+ - ab/cb/U12 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U13 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U14 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U15 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U16 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U17 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/cb/U18 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U19 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U20 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/cb/U21 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/cb/U22 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U23 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U24 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/cb/U25 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U26 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/cb/U27 SAEDRVT14_OR4_1 + UNPLACED ;
+ - ab/cb/U28 SAEDRVT14_OR4_1 + UNPLACED ;
+ - ab/cb/U29 SAEDRVT14_NR4_0P75 + UNPLACED ;
+ - ab/cb/U30 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/cb/U31 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/cb/U32 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/cb/U33 SAEDRVT14_OAI22_0P5 + UNPLACED ;
+ - ab/cb/U34 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/cb/U35 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/cb/U36 SAEDRVT14_AN2_MM_0P5 + UNPLACED ;
+ - ab/cb/U37 SAEDRVT14_OAI22_0P5 + UNPLACED ;
+ - ab/cb/U38 SAEDRVT14_AO221_0P5 + UNPLACED ;
+ - ab/cb/U39 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/cb/U40 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/cb/U41 SAEDRVT14_OR2_MM_0P5 + UNPLACED ;
+ - ab/cb/U42 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/cb/U43 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/cb/U44 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/cb/U45 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/cb/U46 SAEDRVT14_AN2_MM_0P5 + UNPLACED ;
+ - ab/cb/U47 SAEDRVT14_OAI22_0P5 + UNPLACED ;
+ - ab/cb/U48 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - ab/U1 SAEDRVT14_TIE0_V1_2 + UNPLACED ;
+ - ab/U2 SAEDRVT14_OR4_1 + UNPLACED ;
+ - ab/U3 SAEDRVT14_OR4_1 + UNPLACED ;
+ - ab/U4 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/U5 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - ab/U6 SAEDRVT14_AN2_MM_0P5 + UNPLACED ;
+ - ab/U7 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/U8 SAEDRVT14_OA21_1 + UNPLACED ;
+ - ab/U9 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/U10 SAEDRVT14_AN4_0P5 + UNPLACED ;
+ - ab/U11 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/U12 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/U13 SAEDRVT14_OA21_1 + UNPLACED ;
+ - ab/U14 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/U15 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/U16 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/U17 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - ab/U18 SAEDRVT14_OA21_1 + UNPLACED ;
+ - ab/U19 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - ab/U20 SAEDRVT14_NR2_1 + UNPLACED ;
+ - ab/U21 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - ab/U22 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - ab/U23 SAEDRVT14_OA21B_1 + UNPLACED ;
+ - lb/U1 SAEDRVT14_ND2_CDC_0P5 + UNPLACED ;
+ - lb/U2 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - lb/U3 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U4 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U5 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U6 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U7 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U8 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U9 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U10 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U11 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U12 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U13 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U14 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U15 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U16 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U17 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U18 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U19 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U20 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U21 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U22 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U23 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U24 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U25 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U26 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U27 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U28 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U29 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U30 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U31 SAEDRVT14_AOI21_0P75 + UNPLACED ;
+ - lb/U32 SAEDRVT14_EO2_V1_0P75 + UNPLACED ;
+ - lb/U33 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - lb/U34 SAEDRVT14_OAI21_0P5 + UNPLACED ;
+ - sb/sh_reg_6_ SAEDRVT14_FSDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_5_ SAEDRVT14_FSDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_4_ SAEDRVT14_FSDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_3_ SAEDRVT14_FSDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_2_ SAEDRVT14_FSDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_1_ SAEDRVT14_FSDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_7_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/sh_reg_0_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - sb/U3 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - sb/U4 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - sb/U5 SAEDRVT14_AO32_U_0P5 + UNPLACED ;
+ - sb/U6 SAEDRVT14_AO32_U_0P5 + UNPLACED ;
+ - mc1/U1 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U2 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U3 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U4 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U5 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U6 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U7 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc1/U8 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U1 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U2 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U3 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U4 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U5 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U6 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U7 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - mc2/U8 SAEDRVT14_MUX2_U_0P5 + UNPLACED ;
+ - rb/out_reg_4_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_7_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_6_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_5_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_3_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_2_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_1_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - rb/out_reg_0_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - U9 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - U10 SAEDRVT14_INV_0P5 + UNPLACED ;
+ - a_r_reg_3_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_7_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_6_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_5_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_4_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_3_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_2_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_1_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - b_r_reg_0_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - s_r_reg_3_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - s_r_reg_2_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_7_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_6_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_5_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_4_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_2_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_0_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+ - a_r_reg_1_ SAEDRVT14_FDPRBQ_V2LP_0P5 + UNPLACED ;
+END COMPONENTS
+PINS 36 ;
+ - f[7] + NET f[7] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 29284 0 ) N ;
+ - f[6] + NET f[6] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 25880 0 ) N ;
+ - f[5] + NET f[5] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 22476 0 ) N ;
+ - f[4] + NET f[4] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 19072 0 ) N ;
+ - f[3] + NET f[3] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 15668 0 ) N ;
+ - f[2] + NET f[2] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 12264 0 ) N ;
+ - f[1] + NET f[1] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 8860 0 ) N ;
+ - f[0] + NET f[0] + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 5456 0 ) N ;
+ - z + NET z + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 2052 0 ) N ;
+ - c + NET c + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 28927 ) N ;
+ - v + NET v + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 25523 ) N ;
+ - agtb + NET agtb + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 22119 ) N ;
+ - altb + NET altb + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 18715 ) N ;
+ - aeqb + NET aeqb + DIRECTION OUTPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 15311 ) N ;
+ - a[7] + NET a[7] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 11907 ) N ;
+ - a[6] + NET a[6] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 8503 ) N ;
+ - a[5] + NET a[5] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 5099 ) N ;
+ - a[4] + NET a[4] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 29925 1695 ) N ;
+ - a[3] + NET a[3] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 29284 31133 ) N ;
+ - a[2] + NET a[2] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 25880 31133 ) N ;
+ - a[1] + NET a[1] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 22476 31133 ) N ;
+ - a[0] + NET a[0] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 19072 31133 ) N ;
+ - b[7] + NET b[7] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 15668 31133 ) N ;
+ - b[6] + NET b[6] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 12264 31133 ) N ;
+ - b[5] + NET b[5] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 8860 31133 ) N ;
+ - b[4] + NET b[4] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 5456 31133 ) N ;
+ - b[3] + NET b[3] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M4 ( 0 0 ) ( 60 267 )
+   + FIXED ( 2052 31133 ) N ;
+ - b[2] + NET b[2] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 28927 ) N ;
+ - b[1] + NET b[1] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 25523 ) N ;
+ - b[0] + NET b[0] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 22119 ) N ;
+ - s[3] + NET s[3] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 18715 ) N ;
+ - s[2] + NET s[2] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 15311 ) N ;
+ - s[1] + NET s[1] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 11907 ) N ;
+ - s[0] + NET s[0] + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 8503 ) N ;
+ - clk + NET clk + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 5099 ) N ;
+ - rst + NET rst + DIRECTION INPUT + USE SIGNAL
+   + LAYER M3 ( 0 0 ) ( 1471 34 )
+   + FIXED ( 0 1695 ) N ;
+END PINS
+PINPROPERTIES 36 ;
+ - PIN f[7]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[6]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[5]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[4]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[3]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[2]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[1]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN f[0]
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN z
+   + PROPERTY ACCESS_DIRECTION "0 bottom" ;
+ - PIN c
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN v
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN agtb
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN altb
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN aeqb
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN a[7]
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN a[6]
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN a[5]
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN a[4]
+   + PROPERTY ACCESS_DIRECTION "0 right" ;
+ - PIN a[3]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN a[2]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN a[1]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN a[0]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN b[7]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN b[6]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN b[5]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN b[4]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN b[3]
+   + PROPERTY ACCESS_DIRECTION "0 top" ;
+ - PIN b[2]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN b[1]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN b[0]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN s[3]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN s[2]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN s[1]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN s[0]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN clk
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN rst
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+END PINPROPERTIES
+NETS 217 ;
+ - f[7]
+   ( PIN f[7] )
+   ( rb/out_reg_7_ Q )
+   + USE SIGNAL ;
+ - f[6]
+   ( PIN f[6] )
+   ( rb/out_reg_6_ Q )
+   + USE SIGNAL ;
+ - f[5]
+   ( PIN f[5] )
+   ( rb/out_reg_5_ Q )
+   + USE SIGNAL ;
+ - f[4]
+   ( PIN f[4] )
+   ( rb/out_reg_4_ Q )
+   + USE SIGNAL ;
+ - f[3]
+   ( PIN f[3] )
+   ( rb/out_reg_3_ Q )
+   + USE SIGNAL ;
+ - f[2]
+   ( PIN f[2] )
+   ( rb/out_reg_2_ Q )
+   + USE SIGNAL ;
+ - f[1]
+   ( PIN f[1] )
+   ( rb/out_reg_1_ Q )
+   + USE SIGNAL ;
+ - f[0]
+   ( PIN f[0] )
+   ( rb/out_reg_0_ Q )
+   + USE SIGNAL ;
+ - z
+   ( PIN z )
+   ( ab/U4 X )
+   + USE SIGNAL ;
+ - c
+   ( PIN c )
+   ( ab/f7/U1 CO )
+   ( ab/U5 A2 )
+   + USE SIGNAL ;
+ - v
+   ( PIN v )
+   ( ab/U5 X )
+   + USE SIGNAL ;
+ - agtb
+   ( PIN agtb )
+   ( ab/cb/U38 X )
+   + USE SIGNAL ;
+ - altb
+   ( PIN altb )
+   ( ab/cb/U48 X )
+   + USE SIGNAL ;
+ - aeqb
+   ( PIN aeqb )
+   ( ab/cb/U29 X )
+   + USE SIGNAL ;
+ - a[7]
+   ( PIN a[7] )
+   ( a_r_reg_7_ D )
+   + USE SIGNAL ;
+ - a[6]
+   ( PIN a[6] )
+   ( a_r_reg_6_ D )
+   + USE SIGNAL ;
+ - a[5]
+   ( PIN a[5] )
+   ( a_r_reg_5_ D )
+   + USE SIGNAL ;
+ - a[4]
+   ( PIN a[4] )
+   ( a_r_reg_4_ D )
+   + USE SIGNAL ;
+ - a[3]
+   ( PIN a[3] )
+   ( a_r_reg_3_ D )
+   + USE SIGNAL ;
+ - a[2]
+   ( PIN a[2] )
+   ( a_r_reg_2_ D )
+   + USE SIGNAL ;
+ - a[1]
+   ( PIN a[1] )
+   ( a_r_reg_1_ D )
+   + USE SIGNAL ;
+ - a[0]
+   ( PIN a[0] )
+   ( a_r_reg_0_ D )
+   + USE SIGNAL ;
+ - b[7]
+   ( PIN b[7] )
+   ( b_r_reg_7_ D )
+   + USE SIGNAL ;
+ - b[6]
+   ( PIN b[6] )
+   ( b_r_reg_6_ D )
+   + USE SIGNAL ;
+ - b[5]
+   ( PIN b[5] )
+   ( b_r_reg_5_ D )
+   + USE SIGNAL ;
+ - b[4]
+   ( PIN b[4] )
+   ( b_r_reg_4_ D )
+   + USE SIGNAL ;
+ - b[3]
+   ( PIN b[3] )
+   ( b_r_reg_3_ D )
+   + USE SIGNAL ;
+ - b[2]
+   ( PIN b[2] )
+   ( b_r_reg_2_ D )
+   + USE SIGNAL ;
+ - b[1]
+   ( PIN b[1] )
+   ( b_r_reg_1_ D )
+   + USE SIGNAL ;
+ - b[0]
+   ( PIN b[0] )
+   ( b_r_reg_0_ D )
+   + USE SIGNAL ;
+ - s[3]
+   ( PIN s[3] )
+   ( s_r_reg_3_ D )
+   + USE SIGNAL ;
+ - s[2]
+   ( PIN s[2] )
+   ( s_r_reg_2_ D )
+   + USE SIGNAL ;
+ - s[1]
+   ( PIN s[1] )
+   ( mc1/U8 S )
+   ( mc1/U7 S )
+   ( mc1/U6 S )
+   ( mc1/U5 S )
+   ( mc1/U4 S )
+   ( mc1/U3 S )
+   ( mc1/U2 S )
+   ( mc1/U1 S )
+   + USE SIGNAL ;
+ - s[0]
+   ( PIN s[0] )
+   ( mc2/U8 S )
+   ( mc2/U7 S )
+   ( mc2/U6 S )
+   ( mc2/U5 S )
+   ( mc2/U4 S )
+   ( mc2/U3 S )
+   ( mc2/U2 S )
+   ( mc2/U1 S )
+   + USE SIGNAL ;
+ - clk
+   ( PIN clk )
+   ( a_r_reg_1_ CK )
+   ( a_r_reg_0_ CK )
+   ( a_r_reg_2_ CK )
+   ( a_r_reg_4_ CK )
+   ( a_r_reg_5_ CK )
+   ( a_r_reg_6_ CK )
+   ( a_r_reg_7_ CK )
+   ( s_r_reg_2_ CK )
+   ( s_r_reg_3_ CK )
+   ( b_r_reg_0_ CK )
+   ( b_r_reg_1_ CK )
+   ( b_r_reg_2_ CK )
+   ( b_r_reg_3_ CK )
+   ( b_r_reg_4_ CK )
+   ( b_r_reg_5_ CK )
+   ( b_r_reg_6_ CK )
+   ( b_r_reg_7_ CK )
+   ( a_r_reg_3_ CK )
+   ( rb/out_reg_0_ CK )
+   ( rb/out_reg_1_ CK )
+   ( rb/out_reg_2_ CK )
+   ( rb/out_reg_3_ CK )
+   ( rb/out_reg_5_ CK )
+   ( rb/out_reg_6_ CK )
+   ( rb/out_reg_7_ CK )
+   ( rb/out_reg_4_ CK )
+   ( sb/sh_reg_0_ CK )
+   ( sb/sh_reg_7_ CK )
+   ( sb/sh_reg_1_ CK )
+   ( sb/sh_reg_2_ CK )
+   ( sb/sh_reg_3_ CK )
+   ( sb/sh_reg_4_ CK )
+   ( sb/sh_reg_5_ CK )
+   ( sb/sh_reg_6_ CK )
+   + USE SIGNAL ;
+ - rst
+   ( PIN rst )
+   ( U10 A )
+   ( U9 A )
+   + USE SIGNAL ;
+ - n7
+   ( U9 X )
+   ( a_r_reg_2_ RD )
+   ( a_r_reg_6_ RD )
+   ( s_r_reg_3_ RD )
+   ( b_r_reg_2_ RD )
+   ( b_r_reg_3_ RD )
+   ( b_r_reg_4_ RD )
+   ( b_r_reg_7_ RD )
+   ( a_r_reg_3_ RD )
+   ( sb/sh_reg_0_ RD )
+   ( sb/sh_reg_7_ RD )
+   ( sb/sh_reg_1_ RD )
+   ( sb/sh_reg_2_ RD )
+   ( sb/sh_reg_3_ RD )
+   ( sb/sh_reg_4_ RD )
+   ( sb/sh_reg_5_ RD )
+   ( sb/sh_reg_6_ RD )
+   + USE SIGNAL ;
+ - n8
+   ( U10 X )
+   ( a_r_reg_1_ RD )
+   ( a_r_reg_0_ RD )
+   ( a_r_reg_4_ RD )
+   ( a_r_reg_5_ RD )
+   ( a_r_reg_7_ RD )
+   ( s_r_reg_2_ RD )
+   ( b_r_reg_0_ RD )
+   ( b_r_reg_1_ RD )
+   ( b_r_reg_5_ RD )
+   ( b_r_reg_6_ RD )
+   ( rb/out_reg_0_ RD )
+   ( rb/out_reg_1_ RD )
+   ( rb/out_reg_2_ RD )
+   ( rb/out_reg_3_ RD )
+   ( rb/out_reg_5_ RD )
+   ( rb/out_reg_6_ RD )
+   ( rb/out_reg_7_ RD )
+   ( rb/out_reg_4_ RD )
+   + USE SIGNAL ;
+ - a_r[7]
+   ( a_r_reg_7_ Q )
+   ( sb/U5 A1 )
+   ( sb/sh_reg_6_ D )
+   ( lb/U9 A2 )
+   ( lb/U7 A1 )
+   ( ab/cb/U18 A )
+   ( ab/f7/U1 B )
+   + USE SIGNAL ;
+ - a_r[6]
+   ( a_r_reg_6_ Q )
+   ( sb/U6 B2 )
+   ( sb/sh_reg_5_ D )
+   ( lb/U25 A2 )
+   ( lb/U23 A1 )
+   ( ab/cb/U25 A2 )
+   ( ab/cb/U20 A1 )
+   ( ab/f6/U1 B )
+   + USE SIGNAL ;
+ - a_r[5]
+   ( a_r_reg_5_ Q )
+   ( sb/sh_reg_4_ D )
+   ( sb/sh_reg_6_ SI )
+   ( lb/U17 A2 )
+   ( lb/U15 A1 )
+   ( ab/cb/U9 A1 )
+   ( ab/cb/U2 A2 )
+   ( ab/f5/U1 B )
+   + USE SIGNAL ;
+ - a_r[4]
+   ( a_r_reg_4_ Q )
+   ( sb/sh_reg_3_ D )
+   ( sb/sh_reg_5_ SI )
+   ( lb/U5 A2 )
+   ( lb/U3 A1 )
+   ( ab/cb/U11 A )
+   ( ab/cb/U5 B )
+   ( ab/f4/U1 B )
+   + USE SIGNAL ;
+ - a_r[3]
+   ( a_r_reg_3_ Q )
+   ( sb/sh_reg_2_ D )
+   ( sb/sh_reg_4_ SI )
+   ( lb/U13 A2 )
+   ( lb/U11 A1 )
+   ( ab/cb/U15 A )
+   ( ab/f3/U1 B )
+   + USE SIGNAL ;
+ - a_r[2]
+   ( a_r_reg_2_ Q )
+   ( sb/sh_reg_1_ D )
+   ( sb/sh_reg_3_ SI )
+   ( lb/U21 A2 )
+   ( lb/U19 A1 )
+   ( ab/cb/U41 A1 )
+   ( ab/cb/U23 A2 )
+   ( ab/cb/U17 A1 )
+   ( ab/f2/U1 B )
+   + USE SIGNAL ;
+ - a_r[1]
+   ( a_r_reg_1_ Q )
+   ( sb/U5 B2 )
+   ( sb/sh_reg_2_ SI )
+   ( lb/U29 A2 )
+   ( lb/U27 A1 )
+   ( ab/cb/U3 A )
+   ( ab/f1/U1 B )
+   + USE SIGNAL ;
+ - a_r[0]
+   ( a_r_reg_0_ Q )
+   ( sb/U6 A1 )
+   ( sb/sh_reg_1_ SI )
+   ( lb/U33 A2 )
+   ( lb/U31 A1 )
+   ( ab/cb/U6 A )
+   ( ab/h1/U2 A2 )
+   ( ab/h1/U1 A2 )
+   + USE SIGNAL ;
+ - b_r[7]
+   ( b_r_reg_7_ Q )
+   ( lb/U10 A1 )
+   ( lb/U9 A1 )
+   ( lb/U7 A2 )
+   ( ab/cb/U47 A2 )
+   ( ab/cb/U37 B1 )
+   ( ab/cb/U36 A2 )
+   ( ab/cb/U26 A1 )
+   ( ab/cb/U21 A1 )
+   ( ab/m1/U10 S )
+   + USE SIGNAL ;
+ - b_r[6]
+   ( b_r_reg_6_ Q )
+   ( lb/U26 A1 )
+   ( lb/U25 A1 )
+   ( lb/U23 A2 )
+   ( ab/cb/U19 A )
+   ( ab/m1/U9 S )
+   + USE SIGNAL ;
+ - b_r[5]
+   ( b_r_reg_5_ Q )
+   ( lb/U18 A1 )
+   ( lb/U17 A1 )
+   ( lb/U15 A2 )
+   ( ab/cb/U1 A )
+   ( ab/m1/U8 S )
+   + USE SIGNAL ;
+ - b_r[4]
+   ( b_r_reg_4_ Q )
+   ( lb/U6 A1 )
+   ( lb/U5 A1 )
+   ( lb/U3 A2 )
+   ( ab/cb/U11 B )
+   ( ab/cb/U5 A )
+   ( ab/m1/U7 S )
+   + USE SIGNAL ;
+ - b_r[3]
+   ( b_r_reg_3_ Q )
+   ( lb/U14 A1 )
+   ( lb/U13 A1 )
+   ( lb/U11 A2 )
+   ( ab/cb/U30 A1 )
+   ( ab/cb/U24 A1 )
+   ( ab/cb/U16 A2 )
+   ( ab/m1/U6 S )
+   + USE SIGNAL ;
+ - b_r[2]
+   ( b_r_reg_2_ Q )
+   ( lb/U22 A1 )
+   ( lb/U21 A1 )
+   ( lb/U19 A2 )
+   ( ab/cb/U14 A )
+   ( ab/m1/U5 S )
+   + USE SIGNAL ;
+ - b_r[1]
+   ( b_r_reg_1_ Q )
+   ( lb/U30 A1 )
+   ( lb/U29 A1 )
+   ( lb/U27 A2 )
+   ( ab/cb/U12 A2 )
+   ( ab/cb/U4 A1 )
+   ( ab/m1/U4 S )
+   + USE SIGNAL ;
+ - b_r[0]
+   ( b_r_reg_0_ Q )
+   ( lb/U34 A1 )
+   ( lb/U33 A1 )
+   ( lb/U31 A2 )
+   ( ab/cb/U10 A1 )
+   ( ab/cb/U7 A1 )
+   ( ab/m1/U3 S )
+   + USE SIGNAL ;
+ - s_r[3]
+   ( s_r_reg_3_ Q )
+   ( sb/U6 B1 )
+   ( sb/U5 A2 )
+   ( sb/U4 A )
+   ( sb/sh_reg_1_ SE )
+   ( sb/sh_reg_2_ SE )
+   ( sb/sh_reg_3_ SE )
+   ( sb/sh_reg_4_ SE )
+   ( sb/sh_reg_5_ SE )
+   ( sb/sh_reg_6_ SE )
+   ( lb/U2 A )
+   ( lb/U1 A2 )
+   ( ab/U23 A2 )
+   ( ab/U10 A2 )
+   ( ab/U6 A2 )
+   ( ab/m1/U1 A )
+   + USE SIGNAL ;
+ - s_r[2]
+   ( s_r_reg_2_ Q )
+   ( sb/U3 A )
+   ( lb/U31 B )
+   ( lb/U27 B )
+   ( lb/U23 B )
+   ( lb/U19 B )
+   ( lb/U15 B )
+   ( lb/U11 B )
+   ( lb/U7 B )
+   ( lb/U3 B )
+   ( lb/U1 A1 )
+   ( ab/m2/U8 S )
+   ( ab/m2/U7 S )
+   ( ab/m2/U6 S )
+   ( ab/m2/U5 S )
+   ( ab/m2/U4 S )
+   ( ab/m2/U3 S )
+   ( ab/m2/U2 S )
+   ( ab/m2/U1 S )
+   + USE SIGNAL ;
+ - a_out[7]
+   ( ab/m2/U8 X )
+   ( mc2/U8 D0 )
+   + USE SIGNAL ;
+ - a_out[6]
+   ( ab/m2/U7 X )
+   ( mc2/U7 D0 )
+   + USE SIGNAL ;
+ - a_out[5]
+   ( ab/m2/U6 X )
+   ( mc2/U6 D0 )
+   + USE SIGNAL ;
+ - a_out[4]
+   ( ab/m2/U5 X )
+   ( mc2/U5 D0 )
+   + USE SIGNAL ;
+ - a_out[3]
+   ( ab/m2/U4 X )
+   ( mc2/U4 D0 )
+   + USE SIGNAL ;
+ - a_out[2]
+   ( ab/m2/U3 X )
+   ( mc2/U3 D0 )
+   + USE SIGNAL ;
+ - a_out[1]
+   ( ab/m2/U2 X )
+   ( mc2/U2 D0 )
+   + USE SIGNAL ;
+ - a_out[0]
+   ( ab/m2/U1 X )
+   ( mc2/U1 D0 )
+   + USE SIGNAL ;
+ - l_out[7]
+   ( lb/U10 X )
+   ( mc1/U8 D0 )
+   + USE SIGNAL ;
+ - l_out[6]
+   ( lb/U26 X )
+   ( mc1/U7 D0 )
+   + USE SIGNAL ;
+ - l_out[5]
+   ( lb/U18 X )
+   ( mc1/U6 D0 )
+   + USE SIGNAL ;
+ - l_out[4]
+   ( lb/U6 X )
+   ( mc1/U5 D0 )
+   + USE SIGNAL ;
+ - l_out[3]
+   ( lb/U14 X )
+   ( mc1/U4 D0 )
+   + USE SIGNAL ;
+ - l_out[2]
+   ( lb/U22 X )
+   ( mc1/U3 D0 )
+   + USE SIGNAL ;
+ - l_out[1]
+   ( lb/U30 X )
+   ( mc1/U2 D0 )
+   + USE SIGNAL ;
+ - l_out[0]
+   ( lb/U34 X )
+   ( mc1/U1 D0 )
+   + USE SIGNAL ;
+ - s_out[7]
+   ( sb/sh_reg_7_ Q )
+   ( mc1/U8 D1 )
+   + USE SIGNAL ;
+ - s_out[6]
+   ( sb/sh_reg_6_ Q )
+   ( mc1/U7 D1 )
+   + USE SIGNAL ;
+ - s_out[5]
+   ( sb/sh_reg_5_ Q )
+   ( mc1/U6 D1 )
+   + USE SIGNAL ;
+ - s_out[4]
+   ( sb/sh_reg_4_ Q )
+   ( mc1/U5 D1 )
+   + USE SIGNAL ;
+ - s_out[3]
+   ( sb/sh_reg_3_ Q )
+   ( mc1/U4 D1 )
+   + USE SIGNAL ;
+ - s_out[2]
+   ( sb/sh_reg_2_ Q )
+   ( mc1/U3 D1 )
+   + USE SIGNAL ;
+ - s_out[1]
+   ( sb/sh_reg_1_ Q )
+   ( mc1/U2 D1 )
+   + USE SIGNAL ;
+ - s_out[0]
+   ( sb/sh_reg_0_ Q )
+   ( mc1/U1 D1 )
+   + USE SIGNAL ;
+ - c1_out[7]
+   ( mc1/U8 X )
+   ( mc2/U8 D1 )
+   + USE SIGNAL ;
+ - c1_out[6]
+   ( mc1/U7 X )
+   ( mc2/U7 D1 )
+   + USE SIGNAL ;
+ - c1_out[5]
+   ( mc1/U6 X )
+   ( mc2/U6 D1 )
+   + USE SIGNAL ;
+ - c1_out[4]
+   ( mc1/U5 X )
+   ( mc2/U5 D1 )
+   + USE SIGNAL ;
+ - c1_out[3]
+   ( mc1/U4 X )
+   ( mc2/U4 D1 )
+   + USE SIGNAL ;
+ - c1_out[2]
+   ( mc1/U3 X )
+   ( mc2/U3 D1 )
+   + USE SIGNAL ;
+ - c1_out[1]
+   ( mc1/U2 X )
+   ( mc2/U2 D1 )
+   + USE SIGNAL ;
+ - c1_out[0]
+   ( mc1/U1 X )
+   ( mc2/U1 D1 )
+   + USE SIGNAL ;
+ - c2_out[7]
+   ( mc2/U8 X )
+   ( rb/out_reg_7_ D )
+   + USE SIGNAL ;
+ - c2_out[6]
+   ( mc2/U7 X )
+   ( rb/out_reg_6_ D )
+   + USE SIGNAL ;
+ - c2_out[5]
+   ( mc2/U6 X )
+   ( rb/out_reg_5_ D )
+   + USE SIGNAL ;
+ - c2_out[4]
+   ( mc2/U5 X )
+   ( rb/out_reg_4_ D )
+   + USE SIGNAL ;
+ - c2_out[3]
+   ( mc2/U4 X )
+   ( rb/out_reg_3_ D )
+   + USE SIGNAL ;
+ - c2_out[2]
+   ( mc2/U3 X )
+   ( rb/out_reg_2_ D )
+   + USE SIGNAL ;
+ - c2_out[1]
+   ( mc2/U2 X )
+   ( rb/out_reg_1_ D )
+   + USE SIGNAL ;
+ - c2_out[0]
+   ( mc2/U1 X )
+   ( rb/out_reg_0_ D )
+   + USE SIGNAL ;
+ - ab/n1
+   ( ab/U1 X )
+   + USE SIGNAL ;
+ - ab/n2
+   ( ab/U3 X )
+   ( ab/U4 A2 )
+   + USE SIGNAL ;
+ - ab/n3
+   ( ab/U2 X )
+   ( ab/U4 A1 )
+   + USE SIGNAL ;
+ - ab/n4
+   ( ab/U9 X )
+   ( ab/U11 A2 )
+   + USE SIGNAL ;
+ - ab/n5
+   ( ab/U7 X )
+   ( ab/U11 A1 )
+   ( ab/U8 B )
+   + USE SIGNAL ;
+ - ab/n6
+   ( ab/U10 X )
+   ( ab/U13 A1 )
+   ( ab/U12 A1 )
+   ( ab/U11 B )
+   + USE SIGNAL ;
+ - ab/n7
+   ( ab/U14 X )
+   ( ab/U16 A2 )
+   ( ab/U15 A2 )
+   + USE SIGNAL ;
+ - ab/n8
+   ( ab/U12 X )
+   ( ab/U16 A1 )
+   ( ab/U15 A1 )
+   ( ab/U13 B )
+   + USE SIGNAL ;
+ - ab/n9
+   ( ab/U15 X )
+   ( ab/U18 A1 )
+   ( ab/U17 A1 )
+   ( ab/U16 B )
+   + USE SIGNAL ;
+ - ab/n10
+   ( ab/U19 X )
+   ( ab/U21 A2 )
+   ( ab/U20 A2 )
+   + USE SIGNAL ;
+ - ab/n11
+   ( ab/U17 X )
+   ( ab/U21 A1 )
+   ( ab/U20 A1 )
+   ( ab/U18 B )
+   + USE SIGNAL ;
+ - ab/n12
+   ( ab/U20 X )
+   ( ab/U22 A1 )
+   ( ab/U21 B )
+   + USE SIGNAL ;
+ - ab/n13
+   ( ab/U6 X )
+   ( ab/U23 B )
+   ( ab/U8 A1 )
+   ( ab/U7 A1 )
+   + USE SIGNAL ;
+ - ab/m1out[7]
+   ( ab/m1/U10 X )
+   ( ab/U22 A2 )
+   + USE SIGNAL ;
+ - ab/m1out[6]
+   ( ab/m1/U9 X )
+   ( ab/U19 A )
+   + USE SIGNAL ;
+ - ab/m1out[5]
+   ( ab/m1/U8 X )
+   ( ab/U18 A2 )
+   ( ab/U17 A2 )
+   + USE SIGNAL ;
+ - ab/m1out[4]
+   ( ab/m1/U7 X )
+   ( ab/U14 A )
+   + USE SIGNAL ;
+ - ab/m1out[3]
+   ( ab/m1/U6 X )
+   ( ab/U13 A2 )
+   ( ab/U12 A2 )
+   + USE SIGNAL ;
+ - ab/m1out[2]
+   ( ab/m1/U5 X )
+   ( ab/U10 A4 )
+   ( ab/U9 A )
+   + USE SIGNAL ;
+ - ab/m1out[1]
+   ( ab/m1/U4 X )
+   ( ab/U10 A3 )
+   ( ab/U8 A2 )
+   ( ab/U7 A2 )
+   + USE SIGNAL ;
+ - ab/m1out[0]
+   ( ab/m1/U3 X )
+   ( ab/U23 A1 )
+   ( ab/U10 A1 )
+   ( ab/U6 A1 )
+   + USE SIGNAL ;
+ - ab/sum1[7]
+   ( ab/U22 X )
+   ( ab/m2/U8 D1 )
+   ( ab/f7/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[6]
+   ( ab/U21 X )
+   ( ab/m2/U7 D1 )
+   ( ab/f6/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[5]
+   ( ab/U18 X )
+   ( ab/m2/U6 D1 )
+   ( ab/f5/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[4]
+   ( ab/U16 X )
+   ( ab/m2/U5 D1 )
+   ( ab/f4/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[3]
+   ( ab/U13 X )
+   ( ab/m2/U4 D1 )
+   ( ab/f3/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[2]
+   ( ab/U11 X )
+   ( ab/m2/U3 D1 )
+   ( ab/f2/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[1]
+   ( ab/U8 X )
+   ( ab/m2/U2 D1 )
+   ( ab/f1/U1 A )
+   + USE SIGNAL ;
+ - ab/sum1[0]
+   ( ab/U23 X )
+   ( ab/m2/U1 D1 )
+   ( ab/h1/U2 A1 )
+   ( ab/h1/U1 A1 )
+   + USE SIGNAL ;
+ - ab/sum[7]
+   ( ab/f7/U1 S )
+   ( ab/U3 A1 )
+   ( ab/m2/U8 D0 )
+   + USE SIGNAL ;
+ - ab/sum[6]
+   ( ab/f6/U1 S )
+   ( ab/U3 A2 )
+   ( ab/m2/U7 D0 )
+   + USE SIGNAL ;
+ - ab/sum[5]
+   ( ab/f5/U1 S )
+   ( ab/U3 A3 )
+   ( ab/m2/U6 D0 )
+   + USE SIGNAL ;
+ - ab/sum[4]
+   ( ab/f4/U1 S )
+   ( ab/U3 A4 )
+   ( ab/m2/U5 D0 )
+   + USE SIGNAL ;
+ - ab/sum[3]
+   ( ab/f3/U1 S )
+   ( ab/U2 A1 )
+   ( ab/m2/U4 D0 )
+   + USE SIGNAL ;
+ - ab/sum[2]
+   ( ab/f2/U1 S )
+   ( ab/U2 A2 )
+   ( ab/m2/U3 D0 )
+   + USE SIGNAL ;
+ - ab/sum[1]
+   ( ab/f1/U1 S )
+   ( ab/U2 A3 )
+   ( ab/m2/U2 D0 )
+   + USE SIGNAL ;
+ - ab/sum[0]
+   ( ab/h1/U2 X )
+   ( ab/U2 A4 )
+   ( ab/m2/U1 D0 )
+   + USE SIGNAL ;
+ - ab/cp[7]
+   ( ab/f6/U1 CO )
+   ( ab/U5 A1 )
+   ( ab/f7/U1 CI )
+   + USE SIGNAL ;
+ - ab/cp[6]
+   ( ab/f5/U1 CO )
+   ( ab/f6/U1 CI )
+   + USE SIGNAL ;
+ - ab/cp[5]
+   ( ab/f4/U1 CO )
+   ( ab/f5/U1 CI )
+   + USE SIGNAL ;
+ - ab/cp[4]
+   ( ab/f3/U1 CO )
+   ( ab/f4/U1 CI )
+   + USE SIGNAL ;
+ - ab/cp[3]
+   ( ab/f2/U1 CO )
+   ( ab/f3/U1 CI )
+   + USE SIGNAL ;
+ - ab/cp[2]
+   ( ab/f1/U1 CO )
+   ( ab/f2/U1 CI )
+   + USE SIGNAL ;
+ - ab/cp[1]
+   ( ab/h1/U1 X )
+   ( ab/h1/U2 B )
+   ( ab/f1/U1 CI )
+   + USE SIGNAL ;
+ - ab/m1/n1
+   ( ab/m1/U1 X )
+   ( ab/m1/U10 D1 )
+   ( ab/m1/U9 D1 )
+   ( ab/m1/U8 D1 )
+   ( ab/m1/U7 D1 )
+   ( ab/m1/U6 D1 )
+   ( ab/m1/U5 D1 )
+   ( ab/m1/U4 D1 )
+   ( ab/m1/U3 D1 )
+   ( ab/m1/U2 A )
+   + USE SIGNAL ;
+ - ab/m1/n2
+   ( ab/m1/U2 X )
+   ( ab/m1/U10 D0 )
+   ( ab/m1/U9 D0 )
+   ( ab/m1/U8 D0 )
+   ( ab/m1/U7 D0 )
+   ( ab/m1/U6 D0 )
+   ( ab/m1/U5 D0 )
+   ( ab/m1/U4 D0 )
+   ( ab/m1/U3 D0 )
+   + USE SIGNAL ;
+ - ab/cb/n1
+   ( ab/cb/U1 X )
+   ( ab/cb/U9 A2 )
+   ( ab/cb/U2 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n2
+   ( ab/cb/U6 X )
+   ( ab/cb/U10 A2 )
+   ( ab/cb/U7 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n3
+   ( ab/cb/U3 X )
+   ( ab/cb/U12 A1 )
+   ( ab/cb/U4 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n4
+   ( ab/cb/U19 X )
+   ( ab/cb/U25 A1 )
+   ( ab/cb/U20 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n5
+   ( ab/cb/U24 X )
+   ( ab/cb/U27 A3 )
+   + USE SIGNAL ;
+ - ab/cb/n6
+   ( ab/cb/U22 X )
+   ( ab/cb/U27 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n7
+   ( ab/cb/U27 X )
+   ( ab/cb/U28 A4 )
+   + USE SIGNAL ;
+ - ab/cb/n8
+   ( ab/cb/U13 X )
+   ( ab/cb/U28 A3 )
+   + USE SIGNAL ;
+ - ab/cb/n9
+   ( ab/cb/U28 X )
+   ( ab/cb/U29 A4 )
+   + USE SIGNAL ;
+ - ab/cb/n10
+   ( ab/cb/U8 X )
+   ( ab/cb/U29 A3 )
+   + USE SIGNAL ;
+ - ab/cb/n11
+   ( ab/cb/U15 X )
+   ( ab/cb/U30 A2 )
+   ( ab/cb/U24 A2 )
+   ( ab/cb/U16 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n12
+   ( ab/cb/U16 X )
+   ( ab/cb/U31 A )
+   ( ab/cb/U17 B )
+   + USE SIGNAL ;
+ - ab/cb/n13
+   ( ab/cb/U10 X )
+   ( ab/cb/U32 A1 )
+   ( ab/cb/U28 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n14
+   ( ab/cb/U17 X )
+   ( ab/cb/U33 B2 )
+   ( ab/cb/U27 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n15
+   ( ab/cb/U32 X )
+   ( ab/cb/U33 B1 )
+   + USE SIGNAL ;
+ - ab/cb/n16
+   ( ab/cb/U33 X )
+   ( ab/cb/U34 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n17
+   ( ab/cb/U34 X )
+   ( ab/cb/U35 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n18
+   ( ab/cb/U25 X )
+   ( ab/cb/U37 A2 )
+   ( ab/cb/U26 B )
+   + USE SIGNAL ;
+ - ab/cb/n19
+   ( ab/cb/U36 X )
+   ( ab/cb/U37 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n20
+   ( ab/cb/U37 X )
+   ( ab/cb/U38 C )
+   + USE SIGNAL ;
+ - ab/cb/n21
+   ( ab/cb/U35 X )
+   ( ab/cb/U38 B2 )
+   + USE SIGNAL ;
+ - ab/cb/n22
+   ( ab/cb/U21 X )
+   ( ab/cb/U38 B1 )
+   ( ab/cb/U38 A1 )
+   ( ab/cb/U22 A )
+   + USE SIGNAL ;
+ - ab/cb/n23
+   ( ab/cb/U12 X )
+   ( ab/cb/U39 B )
+   ( ab/cb/U32 A2 )
+   ( ab/cb/U13 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n24
+   ( ab/cb/U7 X )
+   ( ab/cb/U39 A2 )
+   ( ab/cb/U8 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n25
+   ( ab/cb/U4 X )
+   ( ab/cb/U39 A1 )
+   ( ab/cb/U32 B )
+   ( ab/cb/U29 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n26
+   ( ab/cb/U23 X )
+   ( ab/cb/U40 A2 )
+   ( ab/cb/U33 A2 )
+   ( ab/cb/U24 B )
+   + USE SIGNAL ;
+ - ab/cb/n27
+   ( ab/cb/U39 X )
+   ( ab/cb/U40 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n28
+   ( ab/cb/U14 X )
+   ( ab/cb/U41 A2 )
+   ( ab/cb/U23 A1 )
+   ( ab/cb/U17 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n29
+   ( ab/cb/U30 X )
+   ( ab/cb/U42 B )
+   ( ab/cb/U34 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n30
+   ( ab/cb/U41 X )
+   ( ab/cb/U42 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n31
+   ( ab/cb/U40 X )
+   ( ab/cb/U42 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n32
+   ( ab/cb/U5 X )
+   ( ab/cb/U43 B )
+   ( ab/cb/U35 A1 )
+   ( ab/cb/U8 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n33
+   ( ab/cb/U42 X )
+   ( ab/cb/U43 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n34
+   ( ab/cb/U31 X )
+   ( ab/cb/U43 A1 )
+   ( ab/cb/U33 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n35
+   ( ab/cb/U2 X )
+   ( ab/cb/U44 B )
+   ( ab/cb/U38 A2 )
+   ( ab/cb/U29 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n36
+   ( ab/cb/U11 X )
+   ( ab/cb/U44 A2 )
+   ( ab/cb/U34 B )
+   ( ab/cb/U13 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n37
+   ( ab/cb/U43 X )
+   ( ab/cb/U44 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n38
+   ( ab/cb/U9 X )
+   ( ab/cb/U45 A2 )
+   ( ab/cb/U35 B )
+   ( ab/cb/U28 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n39
+   ( ab/cb/U44 X )
+   ( ab/cb/U45 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n40
+   ( ab/cb/U18 X )
+   ( ab/cb/U47 B2 )
+   ( ab/cb/U46 A2 )
+   ( ab/cb/U37 B2 )
+   ( ab/cb/U36 A1 )
+   ( ab/cb/U26 A2 )
+   ( ab/cb/U21 A2 )
+   + USE SIGNAL ;
+ - ab/cb/n41
+   ( ab/cb/U20 X )
+   ( ab/cb/U47 B1 )
+   ( ab/cb/U46 A1 )
+   ( ab/cb/U21 B )
+   + USE SIGNAL ;
+ - ab/cb/n42
+   ( ab/cb/U46 X )
+   ( ab/cb/U47 A1 )
+   + USE SIGNAL ;
+ - ab/cb/n43
+   ( ab/cb/U47 X )
+   ( ab/cb/U48 B )
+   + USE SIGNAL ;
+ - ab/cb/n44
+   ( ab/cb/U26 X )
+   ( ab/cb/U48 A2 )
+   ( ab/cb/U27 A4 )
+   + USE SIGNAL ;
+ - ab/cb/n45
+   ( ab/cb/U45 X )
+   ( ab/cb/U48 A1 )
+   + USE SIGNAL ;
+ - lb/n1
+   ( lb/U3 X )
+   ( lb/U4 A2 )
+   + USE SIGNAL ;
+ - lb/n2
+   ( lb/U4 X )
+   ( lb/U5 B )
+   + USE SIGNAL ;
+ - lb/n3
+   ( lb/U5 X )
+   ( lb/U6 B )
+   + USE SIGNAL ;
+ - lb/n4
+   ( lb/U7 X )
+   ( lb/U8 A2 )
+   + USE SIGNAL ;
+ - lb/n5
+   ( lb/U8 X )
+   ( lb/U9 B )
+   + USE SIGNAL ;
+ - lb/n6
+   ( lb/U9 X )
+   ( lb/U10 B )
+   + USE SIGNAL ;
+ - lb/n7
+   ( lb/U11 X )
+   ( lb/U12 A2 )
+   + USE SIGNAL ;
+ - lb/n8
+   ( lb/U12 X )
+   ( lb/U13 B )
+   + USE SIGNAL ;
+ - lb/n9
+   ( lb/U13 X )
+   ( lb/U14 B )
+   + USE SIGNAL ;
+ - lb/n10
+   ( lb/U15 X )
+   ( lb/U16 A2 )
+   + USE SIGNAL ;
+ - lb/n11
+   ( lb/U16 X )
+   ( lb/U17 B )
+   + USE SIGNAL ;
+ - lb/n12
+   ( lb/U17 X )
+   ( lb/U18 B )
+   + USE SIGNAL ;
+ - lb/n13
+   ( lb/U19 X )
+   ( lb/U20 A2 )
+   + USE SIGNAL ;
+ - lb/n14
+   ( lb/U20 X )
+   ( lb/U21 B )
+   + USE SIGNAL ;
+ - lb/n15
+   ( lb/U21 X )
+   ( lb/U22 B )
+   + USE SIGNAL ;
+ - lb/n16
+   ( lb/U23 X )
+   ( lb/U24 A2 )
+   + USE SIGNAL ;
+ - lb/n17
+   ( lb/U24 X )
+   ( lb/U25 B )
+   + USE SIGNAL ;
+ - lb/n18
+   ( lb/U25 X )
+   ( lb/U26 B )
+   + USE SIGNAL ;
+ - lb/n19
+   ( lb/U27 X )
+   ( lb/U28 A2 )
+   + USE SIGNAL ;
+ - lb/n20
+   ( lb/U28 X )
+   ( lb/U29 B )
+   + USE SIGNAL ;
+ - lb/n21
+   ( lb/U29 X )
+   ( lb/U30 B )
+   + USE SIGNAL ;
+ - lb/n22
+   ( lb/U31 X )
+   ( lb/U32 A2 )
+   + USE SIGNAL ;
+ - lb/n23
+   ( lb/U2 X )
+   ( lb/U32 A1 )
+   ( lb/U28 A1 )
+   ( lb/U24 A1 )
+   ( lb/U20 A1 )
+   ( lb/U16 A1 )
+   ( lb/U12 A1 )
+   ( lb/U8 A1 )
+   ( lb/U4 A1 )
+   + USE SIGNAL ;
+ - lb/n24
+   ( lb/U32 X )
+   ( lb/U33 B )
+   + USE SIGNAL ;
+ - lb/n25
+   ( lb/U33 X )
+   ( lb/U34 B )
+   + USE SIGNAL ;
+ - lb/n26
+   ( lb/U1 X )
+   ( lb/U34 A2 )
+   ( lb/U30 A2 )
+   ( lb/U26 A2 )
+   ( lb/U22 A2 )
+   ( lb/U18 A2 )
+   ( lb/U14 A2 )
+   ( lb/U10 A2 )
+   ( lb/U6 A2 )
+   + USE SIGNAL ;
+ - sb/N12
+   ( sb/U5 X )
+   ( sb/sh_reg_0_ D )
+   + USE SIGNAL ;
+ - sb/N19
+   ( sb/U6 X )
+   ( sb/sh_reg_7_ D )
+   + USE SIGNAL ;
+ - sb/n1
+   ( sb/U3 X )
+   ( sb/U6 A3 )
+   ( sb/U5 A3 )
+   + USE SIGNAL ;
+ - sb/n2
+   ( sb/U4 X )
+   ( sb/U6 A2 )
+   ( sb/U5 B1 )
+   + USE SIGNAL ;
+END NETS
+END DESIGN

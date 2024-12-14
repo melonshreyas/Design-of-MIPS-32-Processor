@@ -1,0 +1,1585 @@
+#
+# runset is /home/synopsys/installs/icc2/P-2019.03-SP4/etc/pxl/signoff_metal_fill.rs
+#
+runset_csum = 10882
+num_hosts = 2
+events {
+S 221.0.0 876 0
+# synopsysserver(0):      1204  1 _prescan_library
+F 221.0.0 876 0
+S 223.0.0 883 0
+# synopsysserver(0):      1250  1 _scan_hierarchy
+F 223.0.0 883 0
+S 225.0.0 887 1
+# synopsysserver(1):     10916  1 _read_library_segment
+F 225.0.0 887 1
+S 227.0.0 895 0
+# synopsysserver(0):      7444  1 _create_hierarchy_tree
+F 227.0.0 895 0
+S 242.0.0 940 0
+# synopsysserver(0):      1769  1 _optimize_hierarchy_tree
+S 241.0.0 936 1
+# synopsysserver(1):      1163  1 _generate_sibling_refref
+F 241.0.0 936 1
+S 246.0.0 954 1
+# synopsysserver(1):      4181  1 _create_layer_dp
+F 242.0.0 940 0
+S 243.0.0 947 0
+# synopsysserver(0):      1397  1 _hierarchy_cleanup
+F 246.0.0 954 1
+S 249.0.0 971 1
+# synopsysserver(1):      4181  1 _create_layer_dp
+F 249.0.0 971 1
+S 252.0.0 982 1
+# synopsysserver(1):      4181  1 _create_layer_dp
+F 252.0.0 982 1
+S 255.0.0 993 1
+# synopsysserver(1):      4181  1 _create_layer_dp
+F 255.0.0 993 1
+S 258.0.0 1004 1
+# synopsysserver(1):      4181  1 _create_layer_dp
+F 258.0.0 1004 1
+S 261.0.0 1015 1
+# synopsysserver(1):      4181  1 _create_layer_dp
+F 261.0.0 1015 1
+S 264.0.0 1026 1
+# synopsysserver(1):      4006  1 _create_layer_dp
+F 243.0.0 947 0
+F 264.0.0 1026 1
+S 244.0.0 950 1
+# synopsysserver(1):      1416  1 _update_and_pushdown_refref
+F 244.0.0 950 1
+S 292.0.0 1122 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 292.0.0 1122 1
+S 340.0.0 1298 1
+# synopsysserver(1):      4006  1 _create_layer_dp
+F 340.0.0 1298 1
+S 336.0.0 1282 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 336.0.0 1282 1
+S 331.0.0 1265 1
+# synopsysserver(1):      4006  1 _create_layer_dp
+F 331.0.0 1265 1
+S 328.0.0 1254 1
+# synopsysserver(1):      4022  1 _create_layer_dp
+F 328.0.0 1254 1
+S 324.0.0 1238 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 324.0.0 1238 1
+S 319.0.0 1221 1
+# synopsysserver(1):      4006  1 _create_layer_dp
+F 319.0.0 1221 1
+S 316.0.0 1210 1
+# synopsysserver(1):      4022  1 _create_layer_dp
+F 316.0.0 1210 1
+S 311.0.0 1193 1
+# synopsysserver(1):      4006  1 _create_layer_dp
+F 311.0.0 1193 1
+S 308.0.0 1182 1
+# synopsysserver(1):      4022  1 _create_layer_dp
+F 308.0.0 1182 1
+S 304.0.0 1166 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 304.0.0 1166 1
+S 299.0.0 1149 1
+# synopsysserver(1):      4006  1 _create_layer_dp
+F 299.0.0 1149 1
+S 296.0.0 1138 1
+# synopsysserver(1):      4022  1 _create_layer_dp
+S 286.0.0 1104 0
+# synopsysserver(0):      4006  1 _create_layer_dp
+F 296.0.0 1138 1
+S 282.0.0 1088 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 282.0.0 1088 1
+S 279.0.0 1077 1
+# synopsysserver(1):      4022  1 _create_layer_dp
+F 286.0.0 1104 0
+S 273.0.0 1059 0
+# synopsysserver(0):      4006  1 _create_layer_dp
+F 279.0.0 1077 1
+S 269.0.0 1043 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 269.0.0 1043 1
+S 344.0.0 1314 1
+# synopsysserver(1):      4087  1 _create_layer_dp
+F 273.0.0 1059 0
+S 250.0.0 976 0
+# synopsysserver(0):      4000  1 _optimize_layer_dp
+F 344.0.0 1314 1
+S 287.0.0 1109 1
+# synopsysserver(1):      3861  1 _optimize_layer_dp
+F 250.0.0 976 0
+S 320.0.0 1226 0
+# synopsysserver(0):      3861  1 _optimize_layer_dp
+F 287.0.0 1109 1
+S 247.0.0 965 1
+# synopsysserver(1):      4000  1 _optimize_layer_dp
+F 320.0.0 1226 0
+S 280.0.0 1082 0
+# synopsysserver(0):      3869  1 _optimize_layer_dp
+F 280.0.0 1082 0
+S 337.0.0 1287 0
+# synopsysserver(0):      3930  1 _optimize_layer_dp
+F 337.0.0 1287 0
+F 247.0.0 965 1
+S 300.0.0 1154 0
+# synopsysserver(0):      3861  1 _optimize_layer_dp
+S 270.0.0 1048 1
+# synopsysserver(1):      3930  1 _optimize_layer_dp
+F 270.0.0 1048 1
+S 274.0.0 1064 1
+# synopsysserver(1):      3861  1 _optimize_layer_dp
+F 300.0.0 1154 0
+S 283.0.0 1093 0
+# synopsysserver(0):      3930  1 _optimize_layer_dp
+F 274.0.0 1064 1
+S 297.0.0 1143 1
+# synopsysserver(1):      3869  1 _optimize_layer_dp
+F 297.0.0 1143 1
+S 305.0.0 1171 1
+# synopsysserver(1):      3930  1 _optimize_layer_dp
+F 305.0.0 1171 1
+S 293.0.0 1127 1
+# synopsysserver(1):      3930  1 _optimize_layer_dp
+F 283.0.0 1093 0
+S 345.0.0 1319 0
+# synopsysserver(0):      3930  1 _optimize_layer_dp
+F 345.0.0 1319 0
+S 309.0.0 1187 0
+# synopsysserver(0):      3869  1 _optimize_layer_dp
+F 293.0.0 1127 1
+S 312.0.0 1198 1
+# synopsysserver(1):      3861  1 _optimize_layer_dp
+F 309.0.0 1187 0
+S 317.0.0 1215 0
+# synopsysserver(0):      3869  1 _optimize_layer_dp
+F 312.0.0 1198 1
+S 329.0.0 1259 1
+# synopsysserver(1):      3869  1 _optimize_layer_dp
+F 317.0.0 1215 0
+S 332.0.0 1270 0
+# synopsysserver(0):      3861  1 _optimize_layer_dp
+F 329.0.0 1259 1
+S 325.0.0 1243 1
+# synopsysserver(1):      3930  1 _optimize_layer_dp
+F 332.0.0 1270 0
+S 341.0.0 1303 0
+# synopsysserver(0):      3861  1 _optimize_layer_dp
+F 325.0.0 1243 1
+S 265.0.0 1031 1
+# synopsysserver(1):      3861  1 _optimize_layer_dp
+F 341.0.0 1303 0
+S 262.0.0 1020 0
+# synopsysserver(0):      4000  1 _optimize_layer_dp
+F 262.0.0 1020 0
+S 259.0.0 1009 0
+# synopsysserver(0):      4000  1 _optimize_layer_dp
+F 265.0.0 1031 1
+S 256.0.0 998 1
+# synopsysserver(1):      4000  1 _optimize_layer_dp
+F 259.0.0 1009 0
+S 253.0.0 987 0
+# synopsysserver(0):      4000  1 _optimize_layer_dp
+F 256.0.0 998 1
+S 348.0.0 1330 1
+# synopsysserver(1):      1154  1 _copy
+F 348.0.0 1330 1
+S 689.0.0 2322 1
+# synopsysserver(1):      1053  1 _copy
+F 689.0.0 2322 1
+S 349.0.0 1333 1
+# synopsysserver(1):       882  1 _layer_extent
+F 253.0.0 987 0
+S 710.0.0 2385 0
+# synopsysserver(0):      1000  1 _boolean_or
+F 349.0.0 1333 1
+S 381.0.0 1431 1
+# synopsysserver(1):       855  1 _layer_extent
+F 381.0.0 1431 1
+S 382.0.0 1434 1
+# synopsysserver(1):      2425  1 _copy
+F 710.0.0 2385 0
+S 333.0.0 1275 0
+# synopsysserver(0):      3946  1 _optimize_unmerged_layer_dp
+F 382.0.0 1434 1
+S 825.0.0 2797 1
+# synopsysserver(1):      1923  1 _flatten
+F 825.0.0 2797 1
+S 838.0.0 2836 1
+# synopsysserver(1):      1830  1 _polygons
+F 838.0.0 2836 1
+S 275.0.0 1069 1
+# synopsysserver(1):      3946  1 _optimize_unmerged_layer_dp
+F 333.0.0 1275 0
+S 887.0.0 3014 0
+# synopsysserver(0):      5844  1 _drc_features_q
+F 275.0.0 1069 1
+S 690.0.0 2325 1
+# synopsysserver(1):      1013  1 _boolean_or
+F 690.0.0 2325 1
+S 881.0.0 2993 1
+# synopsysserver(1):      5844  1 _drc_features_q
+F 887.0.0 3014 0
+S 874.0.0 2969 0
+# synopsysserver(0):      5844  1 _drc_features_q
+F 874.0.0 2969 0
+S 867.0.0 2945 0
+# synopsysserver(0):      5843  1 _drc_features_q
+F 867.0.0 2945 0
+S 860.0.0 2921 0
+# synopsysserver(0):      5842  1 _drc_features_q
+F 881.0.0 2993 1
+S 856.0.0 2906 1
+# synopsysserver(1):      5842  1 _drc_features_q
+F 856.0.0 2906 1
+S 891.0.0 3028 1
+# synopsysserver(1):      1459  1 _copy
+F 891.0.0 3028 1
+S 711.0.0 2388 1
+# synopsysserver(1):       878  1 _layer_extent
+F 860.0.0 2921 0
+S 898.0.0 3052 0
+# synopsysserver(0):      1459  1 _copy
+F 711.0.0 2388 1
+S 852.0.0 2891 1
+# synopsysserver(1):      5842  1 _drc_features_q
+F 898.0.0 3052 0
+S 844.0.0 2861 0
+# synopsysserver(0):      5842  1 _drc_features_q
+F 852.0.0 2891 1
+S 885.0.0 3007 1
+# synopsysserver(1):      1459  1 _copy
+F 844.0.0 2861 0
+S 871.0.0 2959 0
+# synopsysserver(0):      1459  1 _copy
+F 885.0.0 3007 1
+S 462.0.0 1681 1
+# synopsysserver(1):       394  1 _create_q
+F 871.0.0 2959 0
+S 404.0.0 1501 0
+# synopsysserver(0):       855  1 _layer_extent
+F 462.0.0 1681 1
+S 427.0.0 1571 1
+# synopsysserver(1):       855  1 _layer_extent
+F 404.0.0 1501 0
+S 405.0.0 1504 0
+# synopsysserver(0):      2425  1 _copy
+F 427.0.0 1571 1
+S 702.0.0 2361 1
+# synopsysserver(1):      1074  1 _copy
+F 405.0.0 1504 0
+S 428.0.0 1574 0
+# synopsysserver(0):      2425  1 _copy
+F 702.0.0 2361 1
+S 837.0.0 2833 1
+# synopsysserver(1):      1926  1 _flatten
+F 428.0.0 1574 0
+S 342.0.0 1308 0
+# synopsysserver(0):      3946  1 _optimize_unmerged_layer_dp
+F 837.0.0 2833 1
+S 830.0.0 2812 1
+# synopsysserver(1):      1925  1 _flatten
+F 830.0.0 2812 1
+S 301.0.0 1159 1
+# synopsysserver(1):      3946  1 _optimize_unmerged_layer_dp
+F 342.0.0 1308 0
+S 696.0.0 2343 0
+# synopsysserver(0):      1087  1 _boolean_or_list
+F 301.0.0 1159 1
+S 271.0.0 1053 1
+# synopsysserver(1):      4021  1 _optimize_unmerged_layer_dp
+F 271.0.0 1053 1
+S 833.0.0 2821 1
+# synopsysserver(1):      1923  1 _flatten
+F 833.0.0 2821 1
+S 485.0.0 1751 1
+# synopsysserver(1):       394  1 _create_q
+F 485.0.0 1751 1
+S 890.0.0 3025 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 696.0.0 2343 0
+S 486.0.0 1753 0
+# synopsysserver(0):      1755  1 _oversize_q
+F 890.0.0 3025 1
+S 707.0.0 2376 1
+# synopsysserver(1):      1000  1 _boolean_or
+F 486.0.0 1753 0
+S 313.0.0 1203 0
+# synopsysserver(0):      3946  1 _optimize_unmerged_layer_dp
+F 707.0.0 2376 1
+S 321.0.0 1231 1
+# synopsysserver(1):      3946  1 _optimize_unmerged_layer_dp
+F 313.0.0 1203 0
+S 708.0.0 2379 0
+# synopsysserver(0):       878  1 _layer_extent
+F 321.0.0 1231 1
+S 430.0.0 1585 1
+# synopsysserver(1):      2219  1 _merge_dirty_layer
+F 430.0.0 1585 1
+S 407.0.0 1515 1
+# synopsysserver(1):      2219  1 _merge_dirty_layer
+F 708.0.0 2379 0
+S 450.0.0 1647 0
+# synopsysserver(0):      2219  1 _merge_dirty_layer
+F 407.0.0 1515 1
+S 752.0.0 2522 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 450.0.0 1647 0
+S 409.0.0 1519 0
+# synopsysserver(0):      2343  1 _boolean_or_list
+F 752.0.0 2522 1
+S 470.0.0 1703 1
+# synopsysserver(1):       855  1 _layer_extent
+F 409.0.0 1519 0
+S 452.0.0 1651 0
+# synopsysserver(0):      2343  1 _boolean_or_list
+F 470.0.0 1703 1
+S 471.0.0 1706 1
+# synopsysserver(1):      2425  1 _copy
+F 452.0.0 1651 0
+S 413.0.0 1530 0
+# synopsysserver(0):      2398  1 _boolean_not
+F 471.0.0 1706 1
+S 750.0.0 2516 1
+# synopsysserver(1):      2413  1 _boolean_not
+F 413.0.0 1530 0
+S 432.0.0 1589 0
+# synopsysserver(0):      2343  1 _boolean_or_list
+F 750.0.0 2516 1
+S 453.0.0 1654 1
+# synopsysserver(1):      2405  1 _boolean_not
+F 432.0.0 1589 0
+S 436.0.0 1600 0
+# synopsysserver(0):      2347  1 _boolean_not
+F 453.0.0 1654 1
+S 433.0.0 1592 1
+# synopsysserver(1):      2356  1 _boolean_not
+F 436.0.0 1600 0
+S 437.0.0 1603 0
+# synopsysserver(0):      2283  1 _remove_overlap
+F 433.0.0 1592 1
+S 414.0.0 1533 1
+# synopsysserver(1):      2283  1 _remove_overlap
+F 437.0.0 1603 0
+S 410.0.0 1522 0
+# synopsysserver(0):      2405  1 _boolean_not
+F 414.0.0 1533 1
+S 894.0.0 3038 1
+# synopsysserver(1):      5844  1 _drc_features_q
+F 410.0.0 1522 0
+S 834.0.0 2824 0
+# synopsysserver(0):      1926  1 _flatten
+F 834.0.0 2824 0
+S 411.0.0 1525 0
+# synopsysserver(0):      2281  1 _remove_overlap
+F 411.0.0 1525 0
+S 892.0.0 3031 0
+# synopsysserver(0):      1315  1 _boolean_or
+F 894.0.0 3038 1
+S 361.0.0 1374 1
+# synopsysserver(1):      2219  1 _merge_dirty_layer
+F 361.0.0 1374 1
+S 699.0.0 2352 1
+# synopsysserver(1):      1000  1 _boolean_or
+F 892.0.0 3031 0
+S 693.0.0 2334 0
+# synopsysserver(0):      1087  1 _boolean_or_list
+F 699.0.0 2352 1
+S 306.0.0 1176 1
+# synopsysserver(1):      4021  1 _optimize_unmerged_layer_dp
+F 306.0.0 1176 1
+S 700.0.0 2355 1
+# synopsysserver(1):       878  1 _layer_extent
+F 693.0.0 2334 0
+S 741.0.0 2486 0
+# synopsysserver(0):      2365  1 _boolean_or_list
+F 700.0.0 2355 1
+S 442.0.0 1619 1
+# synopsysserver(1):       394  1 _create_q
+F 741.0.0 2486 0
+S 694.0.0 2337 0
+# synopsysserver(0):       878  1 _layer_extent
+F 442.0.0 1619 1
+S 744.0.0 2495 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 694.0.0 2337 0
+S 742.0.0 2489 0
+# synopsysserver(0):      2414  1 _boolean_not
+F 744.0.0 2495 1
+S 827.0.0 2803 1
+# synopsysserver(1):      1925  1 _flatten
+F 742.0.0 2489 0
+S 831.0.0 2815 0
+# synopsysserver(0):      1923  1 _flatten
+F 827.0.0 2803 1
+S 840.0.0 2844 1
+# synopsysserver(1):      5842  1 _drc_features_q
+F 831.0.0 2815 0
+S 899.0.0 3055 0
+# synopsysserver(0):      1315  1 _boolean_or
+F 899.0.0 3055 0
+S 495.0.0 1778 0
+# synopsysserver(0):      2259  1 _merge_dirty_layer
+F 495.0.0 1778 0
+S 463.0.0 1683 0
+# synopsysserver(0):      1755  1 _oversize_q
+F 463.0.0 1683 0
+S 823.0.0 2791 0
+# synopsysserver(0):      1924  1 _flatten
+F 840.0.0 2844 1
+S 864.0.0 2935 1
+# synopsysserver(1):      1457  1 _copy
+F 864.0.0 2935 1
+S 496.0.0 1780 1
+# synopsysserver(1):      2445  1 _boolean_not
+F 496.0.0 1780 1
+S 883.0.0 3001 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 883.0.0 3001 1
+S 697.0.0 2346 1
+# synopsysserver(1):       878  1 _layer_extent
+F 697.0.0 2346 1
+S 373.0.0 1409 1
+# synopsysserver(1):       394  1 _create_q
+F 823.0.0 2791 0
+S 346.0.0 1324 0
+# synopsysserver(0):      4021  1 _optimize_unmerged_layer_dp
+F 346.0.0 1324 0
+S 416.0.0 1538 0
+# synopsysserver(0):     12861  1 _density_m
+F 373.0.0 1409 1
+S 751.0.0 2519 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 751.0.0 2519 1
+S 434.0.0 1595 1
+# synopsysserver(1):      2301  1 _remove_overlap
+F 434.0.0 1595 1
+S 836.0.0 2830 1
+# synopsysserver(1):      1923  1 _flatten
+F 836.0.0 2830 1
+S 374.0.0 1411 1
+# synopsysserver(1):      1755  1 _oversize_q
+F 416.0.0 1538 0
+S 897.0.0 3049 0
+# synopsysserver(0):      1315  1 _boolean_or
+F 897.0.0 3049 0
+S 745.0.0 2498 0
+# synopsysserver(0):      2291  1 _remove_overlap
+F 745.0.0 2498 0
+S 691.0.0 2328 0
+# synopsysserver(0):       878  1 _layer_extent
+F 691.0.0 2328 0
+S 848.0.0 2876 0
+# synopsysserver(0):      5842  1 _drc_features_q
+F 848.0.0 2876 0
+S 878.0.0 2983 0
+# synopsysserver(0):      1459  1 _copy
+F 878.0.0 2983 0
+S 417.0.0 1544 0
+# synopsysserver(0):      1792  1 _copy_density_viol
+F 417.0.0 1544 0
+S 704.0.0 2367 0
+# synopsysserver(0):      1000  1 _boolean_or
+F 374.0.0 1411 1
+S 826.0.0 2800 1
+# synopsysserver(1):      1926  1 _flatten
+F 704.0.0 2367 0
+S 266.0.0 1036 0
+# synopsysserver(0):      3946  1 _optimize_unmerged_layer_dp
+F 826.0.0 2800 1
+S 705.0.0 2370 1
+# synopsysserver(1):       878  1 _layer_extent
+F 705.0.0 2370 1
+S 743.0.0 2492 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 743.0.0 2492 1
+S 872.0.0 2962 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 266.0.0 1036 0
+S 351.0.0 1338 0
+# synopsysserver(0):      2560  1 _copy
+F 872.0.0 2962 1
+S 802.0.0 2703 1
+# synopsysserver(1):      6500  1 _density_m
+F 351.0.0 1338 0
+S 443.0.0 1621 0
+# synopsysserver(0):      1755  1 _oversize_q
+F 443.0.0 1621 0
+S 714.0.0 2398 0
+# synopsysserver(0):      2365  1 _boolean_or_list
+F 714.0.0 2398 0
+S 355.0.0 1350 0
+# synopsysserver(0):      2350  1 _remove_overlap
+F 355.0.0 1350 0
+S 354.0.0 1347 0
+# synopsysserver(0):      2470  1 _boolean_not
+F 354.0.0 1347 0
+S 352.0.0 1341 0
+# synopsysserver(0):      2476  1 _boolean_not
+F 352.0.0 1341 0
+S 715.0.0 2401 0
+# synopsysserver(0):      2414  1 _boolean_not
+F 802.0.0 2703 1
+S 396.0.0 1479 1
+# synopsysserver(1):       394  1 _create_q
+F 715.0.0 2401 0
+S 747.0.0 2503 0
+# synopsysserver(0):      6476  1 _density_m
+F 396.0.0 1479 1
+S 716.0.0 2404 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 747.0.0 2503 0
+S 822.0.0 2788 0
+# synopsysserver(0):      1921  1 _flatten
+F 716.0.0 2404 1
+S 829.0.0 2809 1
+# synopsysserver(1):      1926  1 _flatten
+F 822.0.0 2788 0
+S 718.0.0 2410 0
+# synopsysserver(0):      2291  1 _remove_overlap
+F 829.0.0 2809 1
+S 863.0.0 2932 1
+# synopsysserver(1):      1313  1 _boolean_or
+F 718.0.0 2410 0
+S 828.0.0 2806 0
+# synopsysserver(0):      1923  1 _flatten
+F 863.0.0 2932 1
+S 454.0.0 1657 1
+# synopsysserver(1):      2281  1 _remove_overlap
+F 828.0.0 2806 0
+S 879.0.0 2986 0
+# synopsysserver(0):      1315  1 _boolean_or
+F 454.0.0 1657 1
+S 835.0.0 2827 1
+# synopsysserver(1):      1925  1 _flatten
+F 879.0.0 2986 0
+S 776.0.0 2600 0
+# synopsysserver(0):      2365  1 _boolean_or_list
+F 835.0.0 2827 1
+S 877.0.0 2980 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 776.0.0 2600 0
+S 896.0.0 3046 0
+# synopsysserver(0):      1315  1 _boolean_or
+F 877.0.0 2980 1
+S 497.0.0 1783 1
+# synopsysserver(1):      2321  1 _remove_overlap
+F 896.0.0 3046 0
+S 338.0.0 1292 0
+# synopsysserver(0):      4021  1 _optimize_unmerged_layer_dp
+F 497.0.0 1783 1
+S 499.0.0 1789 1
+# synopsysserver(1):      2323  1 _remove_overlap
+F 499.0.0 1789 1
+S 876.0.0 2977 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 876.0.0 2977 1
+S 493.0.0 1773 1
+# synopsysserver(1):       855  1 _layer_extent
+F 493.0.0 1773 1
+S 780.0.0 2612 1
+# synopsysserver(1):      2291  1 _remove_overlap
+F 780.0.0 2612 1
+S 779.0.0 2609 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 779.0.0 2609 1
+S 777.0.0 2603 1
+# synopsysserver(1):      2414  1 _boolean_not
+F 777.0.0 2603 1
+S 498.0.0 1786 1
+# synopsysserver(1):      2443  1 _boolean_not
+F 498.0.0 1786 1
+S 778.0.0 2606 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 338.0.0 1292 0
+S 501.0.0 1794 0
+# synopsysserver(0):      6380  1 _density_m
+F 778.0.0 2606 1
+S 767.0.0 2571 1
+# synopsysserver(1):      2365  1 _boolean_or_list
+F 767.0.0 2571 1
+S 814.0.0 2763 1
+# synopsysserver(1):      6500  1 _density_m
+F 501.0.0 1794 0
+S 782.0.0 2617 0
+# synopsysserver(0):      6476  1 _density_m
+F 814.0.0 2763 1
+S 717.0.0 2407 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 717.0.0 2407 1
+S 771.0.0 2583 1
+# synopsysserver(1):      2291  1 _remove_overlap
+F 771.0.0 2583 1
+S 770.0.0 2580 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 770.0.0 2580 1
+S 768.0.0 2574 1
+# synopsysserver(1):      2414  1 _boolean_not
+F 782.0.0 2617 0
+S 870.0.0 2956 0
+# synopsysserver(0):      1315  1 _boolean_or
+F 768.0.0 2574 1
+S 793.0.0 2657 1
+# synopsysserver(1):      6500  1 _density_m
+F 870.0.0 2956 0
+S 720.0.0 2415 0
+# synopsysserver(0):      6475  1 _density_m
+F 793.0.0 2657 1
+S 884.0.0 3004 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 884.0.0 3004 1
+S 457.0.0 1665 1
+# synopsysserver(1):      2283  1 _remove_overlap
+F 720.0.0 2415 0
+S 447.0.0 1633 0
+# synopsysserver(0):       855  1 _layer_extent
+F 457.0.0 1665 1
+S 284.0.0 1098 1
+# synopsysserver(1):      4021  1 _optimize_unmerged_layer_dp
+F 447.0.0 1633 0
+S 448.0.0 1636 0
+# synopsysserver(0):      2425  1 _copy
+F 448.0.0 1636 0
+S 326.0.0 1248 0
+# synopsysserver(0):      4021  1 _optimize_unmerged_layer_dp
+F 284.0.0 1098 1
+S 456.0.0 1662 1
+# synopsysserver(1):      2398  1 _boolean_not
+F 326.0.0 1248 0
+S 723.0.0 2428 0
+# synopsysserver(0):      2365  1 _boolean_or_list
+F 456.0.0 1662 1
+S 758.0.0 2542 1
+# synopsysserver(1):      2365  1 _boolean_or_list
+F 723.0.0 2428 0
+S 459.0.0 1670 0
+# synopsysserver(0):     12871  1 _density_m
+F 758.0.0 2542 1
+S 727.0.0 2440 1
+# synopsysserver(1):      2291  1 _remove_overlap
+F 727.0.0 2440 1
+S 726.0.0 2437 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 726.0.0 2437 1
+S 724.0.0 2431 1
+# synopsysserver(1):      2414  1 _boolean_not
+F 724.0.0 2431 1
+S 762.0.0 2554 1
+# synopsysserver(1):      2291  1 _remove_overlap
+F 762.0.0 2554 1
+S 761.0.0 2551 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 761.0.0 2551 1
+S 759.0.0 2545 1
+# synopsysserver(1):      2414  1 _boolean_not
+F 759.0.0 2545 1
+S 725.0.0 2434 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 459.0.0 1670 0
+S 760.0.0 2548 0
+# synopsysserver(0):      2289  1 _remove_overlap
+F 760.0.0 2548 0
+S 461.0.0 1679 0
+# synopsysserver(0):      1267  1 _merge_dirty_layer
+F 725.0.0 2434 1
+S 808.0.0 2733 1
+# synopsysserver(1):      6500  1 _density_m
+F 461.0.0 1679 0
+S 796.0.0 2673 0
+# synopsysserver(0):      6500  1 _density_m
+F 808.0.0 2733 1
+S 729.0.0 2445 1
+# synopsysserver(1):      6476  1 _density_m
+F 796.0.0 2673 0
+S 460.0.0 1676 0
+# synopsysserver(0):      1792  1 _copy_density_viol
+F 460.0.0 1676 0
+S 439.0.0 1608 0
+# synopsysserver(0):     12861  1 _density_m
+F 729.0.0 2445 1
+S 473.0.0 1717 1
+# synopsysserver(1):      2219  1 _merge_dirty_layer
+F 473.0.0 1717 1
+S 465.0.0 1689 1
+# synopsysserver(1):       455  1 _create_q
+F 465.0.0 1689 1
+S 464.0.0 1687 1
+# synopsysserver(1):       446  1 _create_q
+F 464.0.0 1687 1
+S 466.0.0 1691 1
+# synopsysserver(1):      1309  1 _boolean_not_q
+F 439.0.0 1608 0
+S 475.0.0 1721 0
+# synopsysserver(0):      2343  1 _boolean_or_list
+F 475.0.0 1721 0
+S 441.0.0 1617 0
+# synopsysserver(0):      1267  1 _merge_dirty_layer
+F 466.0.0 1691 1
+S 480.0.0 1735 1
+# synopsysserver(1):      2283  1 _remove_overlap
+F 441.0.0 1617 0
+S 468.0.0 1697 0
+# synopsysserver(0):       465  1 _create_q
+F 480.0.0 1735 1
+S 467.0.0 1695 1
+# synopsysserver(1):       465  1 _create_q
+F 468.0.0 1697 0
+S 440.0.0 1614 0
+# synopsysserver(0):      1792  1 _copy_density_viol
+F 467.0.0 1695 1
+S 445.0.0 1627 1
+# synopsysserver(1):       467  1 _create_q
+F 440.0.0 1614 0
+S 444.0.0 1625 0
+# synopsysserver(0):       467  1 _create_q
+F 445.0.0 1627 1
+S 479.0.0 1732 1
+# synopsysserver(1):      2398  1 _boolean_not
+F 444.0.0 1625 0
+S 469.0.0 1699 0
+# synopsysserver(0):      1399  1 _boolean_not_q
+F 479.0.0 1732 1
+S 764.0.0 2559 1
+# synopsysserver(1):      6476  1 _density_m
+F 469.0.0 1699 0
+S 629.0.0 2154 0
+# synopsysserver(0):      2816  1 _level_one_q
+F 764.0.0 2559 1
+S 753.0.0 2525 1
+# synopsysserver(1):      2291  1 _remove_overlap
+F 753.0.0 2525 1
+S 805.0.0 2718 1
+# synopsysserver(1):      6500  1 _density_m
+F 629.0.0 2154 0
+S 630.0.0 2158 0
+# synopsysserver(0):      2102  1 _explode_rotation
+F 630.0.0 2158 0
+S 632.0.0 2163 0
+# synopsysserver(0):     29053  2 _fill_pattern
+F 805.0.0 2718 1
+S 755.0.0 2530 1
+# synopsysserver(1):      6476  1 _density_m
+F 755.0.0 2530 1
+S 294.0.0 1132 1
+# synopsysserver(1):      4021  1 _optimize_unmerged_layer_dp
+F 294.0.0 1132 1
+S 397.0.0 1481 1
+# synopsysserver(1):      1755  1 _oversize_q
+F 397.0.0 1481 1
+S 353.0.0 1344 1
+# synopsysserver(1):      2348  1 _remove_overlap
+F 632.0.0 2163 0
+S 633.0.0 2167 0
+# synopsysserver(0):       225  1 _append_ref_interaction
+F 633.0.0 2167 0
+S 634.0.0 2169 0
+# synopsysserver(0):       433  1 _create_q
+F 353.0.0 1344 1
+S 357.0.0 1355 1
+# synopsysserver(1):      6507  1 _density_m
+F 357.0.0 1355 1
+S 769.0.0 2577 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 769.0.0 2577 1
+S 811.0.0 2748 1
+# synopsysserver(1):      6500  1 _density_m
+F 811.0.0 2748 1
+S 773.0.0 2588 1
+# synopsysserver(1):      6476  1 _density_m
+F 634.0.0 2169 0
+S 635.0.0 2171 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 773.0.0 2588 1
+S 363.0.0 1378 1
+# synopsysserver(1):      2343  1 _boolean_or_list
+F 363.0.0 1378 1
+S 368.0.0 1392 1
+# synopsysserver(1):      2283  1 _remove_overlap
+F 368.0.0 1392 1
+S 364.0.0 1381 1
+# synopsysserver(1):      2405  1 _boolean_not
+F 364.0.0 1381 1
+S 365.0.0 1384 1
+# synopsysserver(1):      2281  1 _remove_overlap
+F 365.0.0 1384 1
+S 865.0.0 2938 1
+# synopsysserver(1):      1313  1 _boolean_or
+F 865.0.0 2938 1
+S 418.0.0 1547 1
+# synopsysserver(1):      1267  1 _merge_dirty_layer
+F 418.0.0 1547 1
+S 422.0.0 1557 1
+# synopsysserver(1):       455  1 _create_q
+F 422.0.0 1557 1
+S 421.0.0 1555 1
+# synopsysserver(1):       446  1 _create_q
+F 421.0.0 1555 1
+S 423.0.0 1559 1
+# synopsysserver(1):      1309  1 _boolean_not_q
+F 635.0.0 2171 0
+S 637.0.0 2177 0
+# synopsysserver(0):       492  1 _create_q
+F 637.0.0 2177 0
+S 636.0.0 2175 0
+# synopsysserver(0):       492  1 _create_q
+F 423.0.0 1559 1
+S 288.0.0 1114 1
+# synopsysserver(1):      3946  1 _optimize_unmerged_layer_dp
+F 288.0.0 1114 1
+S 732.0.0 2457 1
+# synopsysserver(1):      2365  1 _boolean_or_list
+F 636.0.0 2175 0
+S 638.0.0 2179 0
+# synopsysserver(0):      1445  1 _boolean_not_q
+F 732.0.0 2457 1
+S 736.0.0 2469 1
+# synopsysserver(1):      2291  1 _remove_overlap
+F 736.0.0 2469 1
+S 735.0.0 2466 1
+# synopsysserver(1):      2412  1 _boolean_not
+F 735.0.0 2466 1
+S 733.0.0 2460 1
+# synopsysserver(1):      2414  1 _boolean_not
+F 733.0.0 2460 1
+S 734.0.0 2463 1
+# synopsysserver(1):      2289  1 _remove_overlap
+F 734.0.0 2463 1
+S 799.0.0 2688 1
+# synopsysserver(1):      6500  1 _density_m
+F 638.0.0 2179 0
+S 641.0.0 2187 0
+# synopsysserver(0):      2833  1 _level_one_q
+F 641.0.0 2187 0
+S 642.0.0 2191 0
+# synopsysserver(0):      2104  1 _explode_rotation
+F 642.0.0 2191 0
+S 644.0.0 2196 0
+# synopsysserver(0):     29057  2 _fill_pattern
+F 799.0.0 2688 1
+S 738.0.0 2474 1
+# synopsysserver(1):      6476  1 _density_m
+F 738.0.0 2474 1
+S 384.0.0 1445 1
+# synopsysserver(1):      2219  1 _merge_dirty_layer
+F 384.0.0 1445 1
+S 386.0.0 1449 1
+# synopsysserver(1):      2343  1 _boolean_or_list
+F 386.0.0 1449 1
+S 391.0.0 1463 1
+# synopsysserver(1):      2283  1 _remove_overlap
+F 391.0.0 1463 1
+S 390.0.0 1460 1
+# synopsysserver(1):      2398  1 _boolean_not
+F 390.0.0 1460 1
+S 387.0.0 1452 1
+# synopsysserver(1):      2405  1 _boolean_not
+F 387.0.0 1452 1
+S 388.0.0 1455 1
+# synopsysserver(1):      2281  1 _remove_overlap
+F 644.0.0 2196 0
+S 645.0.0 2200 0
+# synopsysserver(0):       236  1 _append_ref_interaction
+F 645.0.0 2200 0
+S 647.0.0 2204 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 647.0.0 2204 0
+S 648.0.0 2208 0
+# synopsysserver(0):       498  1 _create_q
+F 648.0.0 2208 0
+S 650.0.0 2212 0
+# synopsysserver(0):      1459  1 _boolean_not_q
+F 388.0.0 1455 1
+S 393.0.0 1468 1
+# synopsysserver(1):     12861  1 _density_m
+F 650.0.0 2212 0
+S 653.0.0 2220 0
+# synopsysserver(0):      2839  1 _level_one_q
+F 653.0.0 2220 0
+S 654.0.0 2224 0
+# synopsysserver(0):      2106  1 _explode_rotation
+F 654.0.0 2224 0
+S 656.0.0 2229 0
+# synopsysserver(0):     29055  2 _fill_pattern
+F 656.0.0 2229 0
+S 657.0.0 2233 0
+# synopsysserver(0):      1188  1 _boolean_or_list
+F 657.0.0 2233 0
+S 820.0.0 2782 0
+# synopsysserver(0):      1932  1 _flatten
+F 393.0.0 1468 1
+S 395.0.0 1477 1
+# synopsysserver(1):      1267  1 _merge_dirty_layer
+F 395.0.0 1477 1
+S 399.0.0 1487 1
+# synopsysserver(1):       455  1 _create_q
+F 399.0.0 1487 1
+S 398.0.0 1485 1
+# synopsysserver(1):       446  1 _create_q
+F 398.0.0 1485 1
+S 400.0.0 1489 1
+# synopsysserver(1):      1309  1 _boolean_not_q
+F 400.0.0 1489 1
+S 402.0.0 1495 1
+# synopsysserver(1):       465  1 _create_q
+F 402.0.0 1495 1
+S 401.0.0 1493 1
+# synopsysserver(1):       465  1 _create_q
+F 401.0.0 1493 1
+S 403.0.0 1497 1
+# synopsysserver(1):      1399  1 _boolean_not_q
+F 820.0.0 2782 0
+S 858.0.0 2914 0
+# synopsysserver(0):      1313  1 _boolean_or
+F 858.0.0 2914 0
+S 904.0.0 3070 0
+# synopsysserver(0):      1560  1 _boolean_or_list
+F 403.0.0 1497 1
+S 536.0.0 1896 1
+# synopsysserver(1):      2816  1 _level_one_q
+F 536.0.0 1896 1
+S 537.0.0 1900 1
+# synopsysserver(1):      2102  1 _explode_rotation
+F 537.0.0 1900 1
+S 539.0.0 1905 1
+# synopsysserver(1):     29052  2 _fill_pattern
+F 904.0.0 3070 0
+S 394.0.0 1474 0
+# synopsysserver(0):      1792  1 _copy_density_viol
+F 394.0.0 1474 0
+S 824.0.0 2794 0
+# synopsysserver(0):      1924  1 _flatten
+F 824.0.0 2794 0
+S 869.0.0 2953 0
+# synopsysserver(0):      1314  1 _boolean_or
+F 869.0.0 2953 0
+S 419.0.0 1549 0
+# synopsysserver(0):       394  1 _create_q
+F 419.0.0 1549 0
+S 420.0.0 1551 0
+# synopsysserver(0):      1755  1 _oversize_q
+F 420.0.0 1551 0
+S 425.0.0 1565 0
+# synopsysserver(0):       465  1 _create_q
+F 425.0.0 1565 0
+S 424.0.0 1563 0
+# synopsysserver(0):       465  1 _create_q
+F 424.0.0 1563 0
+S 426.0.0 1567 0
+# synopsysserver(0):      1399  1 _boolean_not_q
+F 426.0.0 1567 0
+S 567.0.0 1982 0
+# synopsysserver(0):      2816  1 _level_one_q
+F 567.0.0 1982 0
+S 568.0.0 1986 0
+# synopsysserver(0):      2102  1 _explode_rotation
+F 539.0.0 1905 1
+S 540.0.0 1909 1
+# synopsysserver(1):       225  1 _append_ref_interaction
+F 568.0.0 1986 0
+S 570.0.0 1991 0
+# synopsysserver(0):     29052  2 _fill_pattern
+F 540.0.0 1909 1
+S 541.0.0 1911 1
+# synopsysserver(1):       433  1 _create_q
+F 541.0.0 1911 1
+S 542.0.0 1913 1
+# synopsysserver(1):      1807  1 _oversize_q
+F 542.0.0 1913 1
+S 544.0.0 1919 1
+# synopsysserver(1):       492  1 _create_q
+F 544.0.0 1919 1
+S 543.0.0 1917 1
+# synopsysserver(1):       492  1 _create_q
+F 570.0.0 1991 0
+S 571.0.0 1995 0
+# synopsysserver(0):       225  1 _append_ref_interaction
+F 571.0.0 1995 0
+S 572.0.0 1997 0
+# synopsysserver(0):       433  1 _create_q
+F 543.0.0 1917 1
+S 545.0.0 1921 1
+# synopsysserver(1):      1445  1 _boolean_not_q
+F 545.0.0 1921 1
+S 548.0.0 1929 1
+# synopsysserver(1):      2833  1 _level_one_q
+F 548.0.0 1929 1
+S 549.0.0 1933 1
+# synopsysserver(1):      2104  1 _explode_rotation
+F 549.0.0 1933 1
+S 551.0.0 1938 1
+# synopsysserver(1):     29056  2 _fill_pattern
+F 572.0.0 1997 0
+S 573.0.0 1999 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 551.0.0 1938 1
+S 552.0.0 1942 1
+# synopsysserver(1):       236  1 _append_ref_interaction
+F 552.0.0 1942 1
+S 554.0.0 1946 1
+# synopsysserver(1):      1807  1 _oversize_q
+F 554.0.0 1946 1
+S 555.0.0 1950 1
+# synopsysserver(1):       498  1 _create_q
+F 555.0.0 1950 1
+S 557.0.0 1954 1
+# synopsysserver(1):      1459  1 _boolean_not_q
+F 557.0.0 1954 1
+S 560.0.0 1962 1
+# synopsysserver(1):      2839  1 _level_one_q
+F 560.0.0 1962 1
+S 561.0.0 1966 1
+# synopsysserver(1):      2106  1 _explode_rotation
+F 561.0.0 1966 1
+S 563.0.0 1971 1
+# synopsysserver(1):     29054  2 _fill_pattern
+F 573.0.0 1999 0
+S 575.0.0 2005 0
+# synopsysserver(0):       492  1 _create_q
+F 575.0.0 2005 0
+S 574.0.0 2003 0
+# synopsysserver(0):       492  1 _create_q
+F 563.0.0 1971 1
+S 564.0.0 1975 1
+# synopsysserver(1):      1188  1 _boolean_or_list
+F 564.0.0 1975 1
+S 817.0.0 2773 1
+# synopsysserver(1):      1932  1 _flatten
+F 574.0.0 2003 0
+S 576.0.0 2007 0
+# synopsysserver(0):      1445  1 _boolean_not_q
+F 817.0.0 2773 1
+S 846.0.0 2869 1
+# synopsysserver(1):      1313  1 _boolean_or
+F 846.0.0 2869 1
+S 901.0.0 3061 1
+# synopsysserver(1):      1560  1 _boolean_or_list
+F 576.0.0 2007 0
+S 579.0.0 2015 0
+# synopsysserver(0):      2833  1 _level_one_q
+F 579.0.0 2015 0
+S 580.0.0 2019 0
+# synopsysserver(0):      2104  1 _explode_rotation
+F 580.0.0 2019 0
+S 582.0.0 2024 0
+# synopsysserver(0):     29056  2 _fill_pattern
+F 901.0.0 3061 1
+S 832.0.0 2818 1
+# synopsysserver(1):      1925  1 _flatten
+F 832.0.0 2818 1
+S 889.0.0 3022 1
+# synopsysserver(1):      1315  1 _boolean_or
+F 889.0.0 3022 1
+S 476.0.0 1724 1
+# synopsysserver(1):      2405  1 _boolean_not
+F 476.0.0 1724 1
+S 477.0.0 1727 1
+# synopsysserver(1):      2281  1 _remove_overlap
+F 582.0.0 2024 0
+S 583.0.0 2028 0
+# synopsysserver(0):       236  1 _append_ref_interaction
+F 477.0.0 1727 1
+S 482.0.0 1740 1
+# synopsysserver(1):     12881  1 _density_m
+F 583.0.0 2028 0
+S 585.0.0 2032 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 585.0.0 2032 0
+S 586.0.0 2036 0
+# synopsysserver(0):       498  1 _create_q
+F 586.0.0 2036 0
+S 588.0.0 2040 0
+# synopsysserver(0):      1459  1 _boolean_not_q
+F 588.0.0 2040 0
+S 591.0.0 2048 0
+# synopsysserver(0):      2839  1 _level_one_q
+F 591.0.0 2048 0
+S 592.0.0 2052 0
+# synopsysserver(0):      2106  1 _explode_rotation
+F 592.0.0 2052 0
+S 594.0.0 2057 0
+# synopsysserver(0):     29054  2 _fill_pattern
+F 482.0.0 1740 1
+S 484.0.0 1749 1
+# synopsysserver(1):      1267  1 _merge_dirty_layer
+F 484.0.0 1749 1
+S 488.0.0 1759 1
+# synopsysserver(1):       455  1 _create_q
+F 488.0.0 1759 1
+S 487.0.0 1757 1
+# synopsysserver(1):       446  1 _create_q
+F 487.0.0 1757 1
+S 489.0.0 1761 1
+# synopsysserver(1):      1309  1 _boolean_not_q
+F 489.0.0 1761 1
+S 491.0.0 1767 1
+# synopsysserver(1):       465  1 _create_q
+F 491.0.0 1767 1
+S 490.0.0 1765 1
+# synopsysserver(1):       465  1 _create_q
+F 594.0.0 2057 0
+S 595.0.0 2061 0
+# synopsysserver(0):      1188  1 _boolean_or_list
+F 490.0.0 1765 1
+S 492.0.0 1769 1
+# synopsysserver(1):      1399  1 _boolean_not_q
+F 595.0.0 2061 0
+S 818.0.0 2776 0
+# synopsysserver(0):      1932  1 _flatten
+F 492.0.0 1769 1
+S 660.0.0 2240 1
+# synopsysserver(1):      2816  1 _level_one_q
+F 660.0.0 2240 1
+S 661.0.0 2244 1
+# synopsysserver(1):      2102  1 _explode_rotation
+F 661.0.0 2244 1
+S 663.0.0 2249 1
+# synopsysserver(1):     29053  2 _fill_pattern
+F 818.0.0 2776 0
+S 850.0.0 2884 0
+# synopsysserver(0):      1313  1 _boolean_or
+F 850.0.0 2884 0
+S 902.0.0 3064 0
+# synopsysserver(0):      1560  1 _boolean_or_list
+F 902.0.0 3064 0
+S 483.0.0 1746 0
+# synopsysserver(0):      1792  1 _copy_density_viol
+F 483.0.0 1746 0
+S 446.0.0 1629 0
+# synopsysserver(0):      1401  1 _boolean_not_q
+F 663.0.0 2249 1
+S 664.0.0 2253 1
+# synopsysserver(1):       225  1 _append_ref_interaction
+F 446.0.0 1629 0
+S 598.0.0 2068 0
+# synopsysserver(0):      2816  1 _level_one_q
+F 664.0.0 2253 1
+S 665.0.0 2255 1
+# synopsysserver(1):       433  1 _create_q
+F 598.0.0 2068 0
+S 599.0.0 2072 0
+# synopsysserver(0):      2102  1 _explode_rotation
+F 599.0.0 2072 0
+S 601.0.0 2077 0
+# synopsysserver(0):     29052  2 _fill_pattern
+F 665.0.0 2255 1
+S 666.0.0 2257 1
+# synopsysserver(1):      1807  1 _oversize_q
+F 601.0.0 2077 0
+S 602.0.0 2081 0
+# synopsysserver(0):       225  1 _append_ref_interaction
+F 666.0.0 2257 1
+S 668.0.0 2263 1
+# synopsysserver(1):       492  1 _create_q
+F 602.0.0 2081 0
+S 603.0.0 2083 0
+# synopsysserver(0):       433  1 _create_q
+F 668.0.0 2263 1
+S 667.0.0 2261 1
+# synopsysserver(1):       492  1 _create_q
+F 667.0.0 2261 1
+S 669.0.0 2265 1
+# synopsysserver(1):      1445  1 _boolean_not_q
+F 669.0.0 2265 1
+S 672.0.0 2273 1
+# synopsysserver(1):      2833  1 _level_one_q
+F 603.0.0 2083 0
+S 604.0.0 2085 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 672.0.0 2273 1
+S 673.0.0 2277 1
+# synopsysserver(1):      2104  1 _explode_rotation
+F 673.0.0 2277 1
+S 675.0.0 2282 1
+# synopsysserver(1):     29057  2 _fill_pattern
+F 675.0.0 2282 1
+S 676.0.0 2286 1
+# synopsysserver(1):       236  1 _append_ref_interaction
+F 676.0.0 2286 1
+S 678.0.0 2290 1
+# synopsysserver(1):      1807  1 _oversize_q
+F 678.0.0 2290 1
+S 679.0.0 2294 1
+# synopsysserver(1):       498  1 _create_q
+F 679.0.0 2294 1
+S 681.0.0 2298 1
+# synopsysserver(1):      1459  1 _boolean_not_q
+F 681.0.0 2298 1
+S 684.0.0 2306 1
+# synopsysserver(1):      2839  1 _level_one_q
+F 684.0.0 2306 1
+S 685.0.0 2310 1
+# synopsysserver(1):      2106  1 _explode_rotation
+F 685.0.0 2310 1
+S 687.0.0 2315 1
+# synopsysserver(1):     29055  2 _fill_pattern
+F 604.0.0 2085 0
+S 606.0.0 2091 0
+# synopsysserver(0):       492  1 _create_q
+F 606.0.0 2091 0
+S 605.0.0 2089 0
+# synopsysserver(0):       492  1 _create_q
+F 687.0.0 2315 1
+S 688.0.0 2319 1
+# synopsysserver(1):      1188  1 _boolean_or_list
+F 688.0.0 2319 1
+S 821.0.0 2785 1
+# synopsysserver(1):      1932  1 _flatten
+F 605.0.0 2089 0
+S 607.0.0 2093 0
+# synopsysserver(0):      1445  1 _boolean_not_q
+F 607.0.0 2093 0
+S 610.0.0 2101 0
+# synopsysserver(0):      2833  1 _level_one_q
+F 610.0.0 2101 0
+S 611.0.0 2105 0
+# synopsysserver(0):      2104  1 _explode_rotation
+F 611.0.0 2105 0
+S 613.0.0 2110 0
+# synopsysserver(0):     29057  2 _fill_pattern
+F 821.0.0 2785 1
+S 862.0.0 2929 1
+# synopsysserver(1):      1313  1 _boolean_or
+F 862.0.0 2929 1
+S 905.0.0 3073 1
+# synopsysserver(1):      1560  1 _boolean_or_list
+F 613.0.0 2110 0
+S 614.0.0 2114 0
+# synopsysserver(0):       236  1 _append_ref_interaction
+F 614.0.0 2114 0
+S 616.0.0 2118 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 616.0.0 2118 0
+S 617.0.0 2122 0
+# synopsysserver(0):       498  1 _create_q
+F 905.0.0 3073 1
+S 358.0.0 1360 1
+# synopsysserver(1):       855  1 _layer_extent
+F 617.0.0 2122 0
+S 619.0.0 2126 0
+# synopsysserver(0):      1459  1 _boolean_not_q
+F 619.0.0 2126 0
+S 622.0.0 2134 0
+# synopsysserver(0):      2839  1 _level_one_q
+F 358.0.0 1360 1
+S 359.0.0 1363 1
+# synopsysserver(1):      2425  1 _copy
+F 622.0.0 2134 0
+S 623.0.0 2138 0
+# synopsysserver(0):      2106  1 _explode_rotation
+F 359.0.0 1363 1
+S 367.0.0 1389 1
+# synopsysserver(1):      2398  1 _boolean_not
+F 623.0.0 2138 0
+S 625.0.0 2143 0
+# synopsysserver(0):     29055  2 _fill_pattern
+F 367.0.0 1389 1
+S 370.0.0 1397 1
+# synopsysserver(1):     12861  1 _density_m
+F 370.0.0 1397 1
+S 372.0.0 1407 1
+# synopsysserver(1):      1267  1 _merge_dirty_layer
+F 372.0.0 1407 1
+S 376.0.0 1417 1
+# synopsysserver(1):       455  1 _create_q
+F 376.0.0 1417 1
+S 375.0.0 1415 1
+# synopsysserver(1):       446  1 _create_q
+F 625.0.0 2143 0
+S 626.0.0 2147 0
+# synopsysserver(0):      1188  1 _boolean_or_list
+F 626.0.0 2147 0
+S 819.0.0 2779 0
+# synopsysserver(0):      1932  1 _flatten
+F 375.0.0 1415 1
+S 377.0.0 1419 1
+# synopsysserver(1):      1309  1 _boolean_not_q
+F 819.0.0 2779 0
+S 854.0.0 2899 0
+# synopsysserver(0):      1313  1 _boolean_or
+F 854.0.0 2899 0
+S 903.0.0 3067 0
+# synopsysserver(0):      1519  1 _boolean_or_list
+F 377.0.0 1419 1
+S 379.0.0 1425 1
+# synopsysserver(1):       465  1 _create_q
+F 379.0.0 1425 1
+S 378.0.0 1423 1
+# synopsysserver(1):       465  1 _create_q
+F 903.0.0 3067 0
+S 371.0.0 1404 0
+# synopsysserver(0):      1792  1 _copy_density_viol
+F 371.0.0 1404 0
+F 0 0 0
+F 378.0.0 1423 1
+S 380.0.0 1427 0
+# synopsysserver(0):      1399  1 _boolean_not_q
+F 0 0 1
+F 380.0.0 1427 0
+S 504.0.0 1803 0
+# synopsysserver(0):      2816  1 _level_one_q
+F 504.0.0 1803 0
+S 505.0.0 1807 0
+# synopsysserver(0):      2102  1 _explode_rotation
+F 505.0.0 1807 0
+S 507.0.0 1812 0
+# synopsysserver(0):     29049  2 _fill_pattern
+F 507.0.0 1812 0
+S 508.0.0 1819 0
+# synopsysserver(0):       225  1 _append_ref_interaction
+F 508.0.0 1819 0
+S 509.0.0 1821 0
+# synopsysserver(0):       433  1 _create_q
+F 509.0.0 1821 0
+S 510.0.0 1823 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 510.0.0 1823 0
+S 512.0.0 1829 0
+# synopsysserver(0):       492  1 _create_q
+S 511.0.0 1827 1
+# synopsysserver(1):       492  1 _create_q
+F 512.0.0 1829 0
+F 0 0 0
+F 511.0.0 1827 1
+S 513.0.0 1831 0
+# synopsysserver(0):      1445  1 _boolean_not_q
+F 0 0 1
+F 513.0.0 1831 0
+S 516.0.0 1839 0
+# synopsysserver(0):      2833  1 _level_one_q
+F 516.0.0 1839 0
+S 517.0.0 1843 0
+# synopsysserver(0):      2104  1 _explode_rotation
+F 517.0.0 1843 0
+S 519.0.0 1848 0
+# synopsysserver(0):     29056  2 _fill_pattern
+F 519.0.0 1848 0
+S 520.0.0 1853 0
+# synopsysserver(0):       236  1 _append_ref_interaction
+F 520.0.0 1853 0
+S 522.0.0 1857 0
+# synopsysserver(0):      1807  1 _oversize_q
+F 522.0.0 1857 0
+S 523.0.0 1861 0
+# synopsysserver(0):       498  1 _create_q
+F 523.0.0 1861 0
+S 525.0.0 1865 0
+# synopsysserver(0):      1459  1 _boolean_not_q
+F 525.0.0 1865 0
+S 528.0.0 1873 0
+# synopsysserver(0):      2839  1 _level_one_q
+F 528.0.0 1873 0
+S 529.0.0 1877 0
+# synopsysserver(0):      2106  1 _explode_rotation
+F 529.0.0 1877 0
+S 531.0.0 1882 0
+# synopsysserver(0):     29054  2 _fill_pattern
+F 531.0.0 1882 0
+S 532.0.0 1887 0
+# synopsysserver(0):       236  1 _append_ref_interaction
+S 910.0.0 3089 1
+# synopsysserver(1):       168  1 _merge_hierarchies
+F 532.0.0 1887 0
+S 533.0.0 1889 0
+# synopsysserver(0):      1188  1 _boolean_or_list
+F 533.0.0 1889 0
+S 816.0.0 2770 0
+# synopsysserver(0):      1932  1 _flatten
+F 816.0.0 2770 0
+S 842.0.0 2854 0
+# synopsysserver(0):      1313  1 _boolean_or
+F 842.0.0 2854 0
+S 900.0.0 3058 0
+# synopsysserver(0):      1560  1 _boolean_or_list
+F 910.0.0 3089 1
+S 911.0.0 3091 1
+# synopsysserver(1):       220  1 _append_ref_interaction
+F 911.0.0 3091 1
+S 921.0.0 3120 1
+# synopsysserver(1):       168  1 _merge_hierarchies
+F 921.0.0 3120 1
+S 922.0.0 3122 1
+# synopsysserver(1):       220  1 _append_ref_interaction
+F 922.0.0 3122 1
+S 932.0.0 3151 1
+# synopsysserver(1):       168  1 _merge_hierarchies
+F 900.0.0 3058 0
+S 907.0.0 3078 0
+# synopsysserver(0):       463  1 _create_q
+F 907.0.0 3078 0
+S 906.0.0 3076 0
+# synopsysserver(0):       508  1 _create_q
+F 906.0.0 3076 0
+S 908.0.0 3080 0
+# synopsysserver(0):      3722  1 _select_q
+F 932.0.0 3151 1
+S 933.0.0 3153 1
+# synopsysserver(1):       220  1 _append_ref_interaction
+F 933.0.0 3153 1
+S 943.0.0 3182 1
+# synopsysserver(1):       168  1 _merge_hierarchies
+F 908.0.0 3080 0
+S 913.0.0 3095 0
+# synopsysserver(0):       217  1 _reform_group
+F 913.0.0 3095 0
+S 934.0.0 3155 0
+# synopsysserver(0):       222  1 _reform_group
+F 934.0.0 3155 0
+S 940.0.0 3171 0
+# synopsysserver(0):       453  1 _create_q
+F 940.0.0 3171 0
+S 939.0.0 3169 0
+# synopsysserver(0):       493  1 _create_q
+F 939.0.0 3169 0
+S 941.0.0 3173 0
+# synopsysserver(0):      3713  1 _select_q
+F 943.0.0 3182 1
+S 944.0.0 3184 1
+# synopsysserver(1):       220  1 _append_ref_interaction
+F 944.0.0 3184 1
+S 954.0.0 3213 1
+# synopsysserver(1):       168  1 _merge_hierarchies
+F 941.0.0 3173 0
+S 946.0.0 3188 0
+# synopsysserver(0):       217  1 _reform_group
+F 946.0.0 3188 0
+S 945.0.0 3186 0
+# synopsysserver(0):       222  1 _reform_group
+F 945.0.0 3186 0
+S 950.0.0 3200 0
+# synopsysserver(0):       493  1 _create_q
+F 950.0.0 3200 0
+S 948.0.0 3192 0
+# synopsysserver(0):       371  1 _create_q
+F 948.0.0 3192 0
+S 951.0.0 3202 0
+# synopsysserver(0):       320  1 _create_q
+F 951.0.0 3202 0
+S 952.0.0 3204 0
+# synopsysserver(0):      3713  1 _select_q
+F 954.0.0 3213 1
+S 955.0.0 3215 1
+# synopsysserver(1):       220  1 _append_ref_interaction
+F 955.0.0 3215 1
+S 973.0.0 3263 1
+# synopsysserver(1):      1630  1 _find_ndm_output_resolution
+F 952.0.0 3204 0
+S 957.0.0 3219 0
+# synopsysserver(0):       217  1 _reform_group
+F 957.0.0 3219 0
+S 967.0.0 3243 0
+# synopsysserver(0):       213  1 _reform_group
+F 967.0.0 3243 0
+S 966.0.0 3241 0
+# synopsysserver(0):       213  1 _reform_group
+F 966.0.0 3241 0
+S 965.0.0 3239 0
+# synopsysserver(0):       213  1 _reform_group
+F 965.0.0 3239 0
+S 964.0.0 3237 0
+# synopsysserver(0):       213  1 _reform_group
+F 964.0.0 3237 0
+S 963.0.0 3235 0
+# synopsysserver(0):       213  1 _reform_group
+F 963.0.0 3235 0
+S 962.0.0 3233 0
+# synopsysserver(0):       213  1 _reform_group
+F 962.0.0 3233 0
+S 956.0.0 3217 0
+# synopsysserver(0):       222  1 _reform_group
+F 956.0.0 3217 0
+S 959.0.0 3223 0
+# synopsysserver(0):       451  1 _create_q
+F 959.0.0 3223 0
+S 958.0.0 3221 0
+# synopsysserver(0):       491  1 _create_q
+F 958.0.0 3221 0
+S 960.0.0 3225 0
+# synopsysserver(0):      3711  1 _select_q
+F 973.0.0 3263 1
+S 947.0.0 3190 1
+# synopsysserver(1):       491  1 _create_q
+F 960.0.0 3225 0
+S 923.0.0 3124 0
+# synopsysserver(0):       222  1 _reform_group
+F 947.0.0 3190 1
+S 949.0.0 3194 1
+# synopsysserver(1):      3711  1 _select_q
+F 923.0.0 3124 0
+S 929.0.0 3140 0
+# synopsysserver(0):       453  1 _create_q
+F 929.0.0 3140 0
+S 928.0.0 3138 0
+# synopsysserver(0):       493  1 _create_q
+F 928.0.0 3138 0
+S 930.0.0 3142 0
+# synopsysserver(0):      3713  1 _select_q
+F 949.0.0 3194 1
+S 971.0.0 3251 1
+# synopsysserver(1):       212  1 _reform_group
+F 930.0.0 3142 0
+S 935.0.0 3157 0
+# synopsysserver(0):       217  1 _reform_group
+F 935.0.0 3157 0
+S 937.0.0 3161 0
+# synopsysserver(0):       451  1 _create_q
+F 971.0.0 3251 1
+S 936.0.0 3159 1
+# synopsysserver(1):       491  1 _create_q
+F 937.0.0 3161 0
+S 912.0.0 3093 0
+# synopsysserver(0):       222  1 _reform_group
+F 936.0.0 3159 1
+S 938.0.0 3163 1
+# synopsysserver(1):      3711  1 _select_q
+F 912.0.0 3093 0
+S 917.0.0 3107 0
+# synopsysserver(0):       493  1 _create_q
+F 917.0.0 3107 0
+S 915.0.0 3099 0
+# synopsysserver(0):       371  1 _create_q
+F 915.0.0 3099 0
+S 918.0.0 3109 0
+# synopsysserver(0):       320  1 _create_q
+F 918.0.0 3109 0
+S 919.0.0 3111 0
+# synopsysserver(0):      3713  1 _select_q
+F 919.0.0 3111 0
+S 924.0.0 3126 0
+# synopsysserver(0):       217  1 _reform_group
+F 938.0.0 3163 1
+S 970.0.0 3249 1
+# synopsysserver(1):       212  1 _reform_group
+F 924.0.0 3126 0
+S 926.0.0 3130 0
+# synopsysserver(0):       451  1 _create_q
+F 926.0.0 3130 0
+S 925.0.0 3128 0
+# synopsysserver(0):       491  1 _create_q
+F 925.0.0 3128 0
+S 927.0.0 3132 0
+# synopsysserver(0):      3711  1 _select_q
+F 970.0.0 3249 1
+S 914.0.0 3097 1
+# synopsysserver(1):       491  1 _create_q
+F 914.0.0 3097 1
+S 916.0.0 3101 1
+# synopsysserver(1):      3710  1 _select_q
+F 927.0.0 3132 0
+S 969.0.0 3247 0
+# synopsysserver(0):       212  1 _reform_group
+F 916.0.0 3101 1
+S 968.0.0 3245 1
+# synopsysserver(1):       212  1 _reform_group
+F 969.0.0 3247 0
+F 0 0 0
+F 968.0.0 3245 1
+S 975.0.0 3267 0
+# synopsysserver(0):      9982  1 _write_ndm
+F 0 0 1
+F 975.0.0 3267 0
+S 977.0.0 3270 0
+# synopsysserver(0):       372  1 _accumulate_results
+F 977.0.0 3270 0
+}

@@ -1,0 +1,136 @@
+puts "RM-Info: Running script [info script]\n"
+
+##########################################################################################
+# Variables common to all RM scripts
+# Script: common_setup.tcl
+# Version: F-2011.09-SP4 (April 2, 2012)
+# Copyright (C) 2007-2012 Synopsys, Inc. All rights reserved.
+##########################################################################################
+
+set DESIGN_NAME                   "simple_processor_Top"  ;#  The name of the top-level design
+
+## Point to the new 14nm SAED libs
+set DESIGN_REF_PATH "/home/synopsys/SAED14nm_EDK"
+set DESIGN_REF_PATH1 "/home/synopsys/SAED14nm_EDK"
+
+set DESIGN_REF_TECH_PATH          "${DESIGN_REF_PATH}/tech"
+
+#set DESIGN_REF_DATA_PATH          "" ;#  Absolute path prefix variable for library/design data.
+                                       #  Use this variable to prefix the common absolute path to 
+                                       #  the common variables defined below.
+                                       #  Absolute paths are mandatory for hierarchical RM flow.
+##########################################################################################
+# Hierarchical Flow Design Variables
+##########################################################################################
+
+set HIERARCHICAL_DESIGNS           "" ;# List of hierarchical block design names "DesignA DesignB" ...
+set HIERARCHICAL_CELLS             "" ;# List of hierarchical block cell instance names "u_DesignA u_DesignB" ...
+
+##########################################################################################
+# Library Setup Variables
+##########################################################################################
+
+# For the following variables, use a blank space to separate multiple entries
+# Example: set TARGET_LIBRARY_FILES "lib1.db lib2.db lib3.db"
+
+set ADDITIONAL_SEARCH_PATH      " \
+        ${DESIGN_REF_PATH}/stdcell_rvt/db_nldm \
+        ${DESIGN_REF_PATH}/stdcell_hvt/db_nldm \
+        ${DESIGN_REF_PATH}/stdcell_lvt/db_nldm "
+
+
+#clock_gating
+set LINK_LIBRARY_FILES_CLG   "* \
+${DESIGN_REF_PATH1}/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db \
+${DESIGN_REF_PATH1}/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db \
+${DESIGN_REF_PATH1}/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db "
+
+
+#clock_gating
+set TARGET_LIBRARY_FILES_CLG    " \
+${DESIGN_REF_PATH1}/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db \
+${DESIGN_REF_PATH1}/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db \
+${DESIGN_REF_PATH1}/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db"
+
+
+
+set ADDITIONAL_LINK_LIB_FILES     " \
+${DESIGN_REF_PATH}/SAED14nm_EDK_SRAM_v_05072020/lib/sram/logic_synth/single/saed14sram_ff0p88v125c.db \
+saed32io_wb_ff1p16v125c_2p75v.db"
+
+
+
+set NDM_REFERENCE_LIB_DIRS_CLG  " \
+${DESIGN_REF_PATH}/stdcell_rvt/ndm/saed14rvt_frame_only.ndm \
+${DESIGN_REF_PATH}/stdcell_hvt/ndm/saed14hvt_frame_only.ndm \
+${DESIGN_REF_PATH}/stdcell_lvt/ndm/saed14lvt_frame_only.ndm \
+${DESIGN_REF_PATH}/stdcell_slvt/ndm/saed14slvt_frame_only.ndm"
+	
+set MW_REFERENCE_CONTROL_FILE     ""                                                     ;#  Reference Control file to define the MW ref libs
+
+set TECH_FILE           "${DESIGN_REF_PATH}/tech/milkyway/saed14nm_1p9m_mw.tf"            ;#  Milkyway technology file
+set MAP_FILE            "${DESIGN_REF_PATH}/tech/star_rc/saed14nm_tf_itf_tluplus.map"     ;#  Mapping file for TLUplus
+set TLUPLUS_MAX_FILE    "${DESIGN_REF_PATH}/tech/star_rc/max/saed14nm_1p9m_Cmax.tluplus"  ;#  Max TLUplus file
+set TLUPLUS_MIN_FILE    "${DESIGN_REF_PATH}/tech/star_rc/min/saed14nm_1p9m_Cmin.tluplus"  ;#  Min TLUplus file
+set GDS_MAP_FILE        "${DESIGN_REF_PATH}/tech/milkyway/saed14nm_1p9m_gdsout_mw.map"
+
+set STD_CELL_GDS        " \
+${DESIGN_REF_PATH}/stdcell_rvt/gds/saed14rvt.gds \
+${DESIGN_REF_PATH}/stdcell_lvt/gds/saed14lvt.gds \
+${DESIGN_REF_PATH}/stdcell_hvt/gds/saed14hvt.gds \
+${DESIGN_REF_PATH}/stdcell_slvt/gds/saed14slvt.gds "
+
+set NDM_POWER_NET                "VDD" ;#
+set NDM_POWER_PORT               "VDD" ;#
+set NDM_GROUND_NET               "VSS" ;#
+set NDM_GROUND_PORT              "VSS" ;#
+
+set MIN_ROUTING_LAYER            "M2"   ;# Min routing layer
+set MAX_ROUTING_LAYER            "M7"   ;# Max routing layer
+
+# M8 and M9 Power routing 9 layer chip design
+##RH variable for ICC SAED library and design input data
+#set ICC_INPUT_DATA "/global/scratch/mculver/PD_fest_2012/initial_design/dhm"
+
+#set LIBRARY_DONT_USE_FILE        "../../DATA_SAED/use_tie.tcl"   ;# Tcl file with library modifications for dont_use
+
+##########################################################################################
+# Multi-Voltage Common Variables
+#
+# Define the following MV common variables for the RM scripts for multi-voltage flows.
+# Use as few or as many of the following definitions as needed by your design.
+##########################################################################################
+
+set PD1                          ""           ;# Name of power domain/voltage area  1
+set PD1_CELLS                    ""           ;# Instances to include in power domain/voltage area 1
+set VA1_COORDINATES              {}           ;# Coordinates for voltage area 1
+set NDM_POWER_NET1                "VDD1"      ;# Power net for voltage area 1
+set NDM_POWER_PORT1               "VDD"       ;# Power port for voltage area 1
+
+set PD2                          ""           ;# Name of power domain/voltage area  2
+set PD2_CELLS                    ""           ;# Instances to include in power domain/voltage area 2
+set VA2_COORDINATES              {}           ;# Coordinates for voltage area 2
+set NDM_POWER_NET2                "VDD2"      ;# Power net for voltage area 2
+set NDM_POWER_PORT2               "VDD"       ;# Power port for voltage area 2
+
+set PD3                          ""           ;# Name of power domain/voltage area  3
+set PD3_CELLS                    ""           ;# Instances to include in power domain/voltage area 3
+set VA3_COORDINATES              {}           ;# Coordinates for voltage area 3
+set NDM_POWER_NET3                "VDD3"      ;# Power net for voltage area 3
+set NDM_POWER_PORT3               "VDD"       ;# Power port for voltage area 3
+
+set PD4                          ""           ;# Name of power domain/voltage area  4
+set PD4_CELLS                    ""           ;# Instances to include in power domain/voltage area 4
+set VA4_COORDINATES              {}           ;# Coordinates for voltage area 4
+set NDM_POWER_NET4                "VDD4"      ;# Power net for voltage area 4
+set NDM_POWER_PORT4               "VDD"       ;# Power port for voltage area 4
+
+puts "RM-Info: Completed script [info script]\n"
+
+
+
+
+
+
+
+

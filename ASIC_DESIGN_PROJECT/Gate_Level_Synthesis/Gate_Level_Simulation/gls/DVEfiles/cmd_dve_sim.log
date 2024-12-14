@@ -1,0 +1,32 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/userdata/21mvd0086/Simple_Processor_Working/Gate_Level_Synthesis/Gate_Level_Simulation/gls/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp3JCS3z
+synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.21mvd0086.11218}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.21mvd0086.11218}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {simple_processor_testbench_mv_op.T3} -scope "." -depth 1 -fid VPD0
+synopsys::dump -add {simple_processor_testbench_mv_op.T3.G2_Datapath.A_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.G simple_processor_testbench_mv_op.T3.G2_Datapath.R0_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R1_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R2_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R3_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R4_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R5_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R6_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.R7_data_out simple_processor_testbench_mv_op.T3.G2_Datapath.Sum } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

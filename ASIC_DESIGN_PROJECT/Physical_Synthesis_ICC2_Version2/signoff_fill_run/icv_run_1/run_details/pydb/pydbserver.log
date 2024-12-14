@@ -1,0 +1,70 @@
+
+                                  PYDB_Server 
+
+           Version P-2019.06-3 for linux64 - Sep 20, 2019 cl#5068203
+
+                    Copyright (c) 2007 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8296
+PYDB_Server Started on host synopsysserver, Mon 05/30/2022 12:20:13
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client synopsysserver(13114):33 connected (1 total client)
+Client synopsysserver(13196):34 connected (2 total clients)
+Client synopsysserver(13213):35 connected (3 total clients)
+Client synopsysserver(13213):35 connection closed
+Client synopsysserver(13213):35 disconnected (2 clients remain)
+Client synopsysserver(13213):35 connected (3 total clients)
+Client synopsysserver(13196):34 connection closed
+Client synopsysserver(13196):34 disconnected (2 clients remain)
+Client synopsysserver(13196):34 connected (3 total clients)
+Client synopsysserver(13213):35 connection closed
+Client synopsysserver(13213):35 disconnected (2 clients remain)
+Client synopsysserver(13213):35 connected (3 total clients)
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME4_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME4_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME8_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME8_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME6_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME6_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME5_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME5_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/saed14nm_1p9m_mfill_rules.rs:162:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/saed14nm_1p9m_mfill_rules.rs:162:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME3_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME3_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME7_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME7_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME2_14.rs:17:density
+Error insertion complete: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/Include/ME2_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client synopsysserver(13213):35 connection closed
+Client synopsysserver(13196):34 connection closed
+Client synopsysserver(13196):34 disconnected (2 clients remain)
+Client synopsysserver(13213):35 disconnected (1 client remains)
+ Total error insertion Time=0:00:03  User=0.02 Sys=0.02 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+  Total Commands: 8
+  Total Errors: 63
+  Avg Time/Cmd: Wall=0 User=0.00 Sys=0.00 Mem=0.000 GB MySQL Mem=0.000 GB
+Generating /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/29th_MAY_ROUTE_DONE.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client synopsysserver(13114):33
+0 clients remain connected
+Client synopsysserver(13114):33 connection closed
+Overall server Time=0:00:05  User=0.04 Sys=0.04 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB

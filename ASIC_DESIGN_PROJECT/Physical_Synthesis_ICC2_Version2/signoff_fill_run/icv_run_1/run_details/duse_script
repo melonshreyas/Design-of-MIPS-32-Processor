@@ -1,0 +1,8 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/29th_MAY_ROUTE_DONE.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/run_details/duse_master.tmp && \
+mv /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/run_details/duse_master.tmp /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/run_details/duse_master

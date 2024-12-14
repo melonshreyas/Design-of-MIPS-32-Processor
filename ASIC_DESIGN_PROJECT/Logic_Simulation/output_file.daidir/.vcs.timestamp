@@ -1,0 +1,92 @@
+0 
+36
++itf+/home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/synopsys/installs/vcs/O-2018.09-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/libvirsim.so /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/liberrorinf.so /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/libsnpsmalloc.so /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/libvfs.so
+-Mout=output_file
+-Msaverestoreobj=/home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/synopsys/installs/vcs/O-2018.09-SP1/include
+-V
+-Xvcs_run_simv=1
+-debug_access+all+bc
+-debug_region+cell
+-full64
+-gen_obj
+-gui
+-o output_file
+-picarchive
+-ucli
+/home/synopsys/installs/vcs/O-2018.09-SP1/linux64/bin/vcs1
+Datapath_path_work_version_2_26th_april.v
+Decoders.v
+Simple_Processor_Top_Module.v
+Simple_processor_testbench_22_april_sub_work.v
+controller_12_april.v
+38
+sysc_uni_pwd=/home/userdata/21mvd0086/Simple_Processor_Working/Logic_Simulation
+VMR_MODE_FLAG=64
+VG_GNU_PACKAGE=/home/synopsys/installs/vcs/O-2018.09-SP1/gcc_483/linux
+VERA_HOME=/home/synopsys/vera2015/vera_vI-2014.03-1_amd64
+VC_STATIC_HOME=/home/synopsys/installs/vc_static/O-2018.09-SP1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/synopsys/installs/vcs/O-2018.09-SP1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/synopsys/installs/vcs/O-2018.09-SP1/linux64
+STROOT=/home/synopsys/tcad2019/sentaurus/P_2019.03-SP1
+STDB=/home/userdata/xxxx/STDB
+SSH_TTY=/dev/pts/9
+SSH_CONNECTION=10.10.55.169 54193 10.10.5.29 22
+SSH_CLIENT=10.10.55.169 54193 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SAED32_28_PDK=/home/synopsys/installs/library/SAED_PDK32nm
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+ICV_HOME_DIR=/home/synopsys/installs/icvalidator/L-2016.06-SP2-10
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+CVS_RSH=ssh
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+0
+6
+1651689805 Simple_processor_testbench_22_april_sub_work.v
+1650646722 Simple_Processor_Top_Module.v
+1650256722 Decoders.v
+1650998162 Datapath_path_work_version_2_26th_april.v
+1650998169 controller_12_april.v
+1543551547 /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/vcsdp.tab
+4
+1543552622 /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/libvirsim.so
+1543551927 /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/liberrorinf.so
+1543551833 /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/libsnpsmalloc.so
+1543551917 /home/synopsys/installs/vcs/O-2018.09-SP1/linux64/lib/libvfs.so
+1652945188 output_file.daidir
+-1 partitionlib

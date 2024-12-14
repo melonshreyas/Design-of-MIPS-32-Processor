@@ -1,0 +1,29 @@
+#@ # 
+#@ # Running icc2_shell Version O-2018.06-SP4 for linux64 -- Nov 27, 2018
+#@ # Date:   Tue May 24 15:31:46 2022
+#@ # Run by: 21mvd0086@synopsysserver
+#@ 
+
+open_lib lib
+list_blocks
+open_block placement_done_20th_May
+link_block
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+win_set_filter -visible -class cell -filter {hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-72}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {cell_array hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-72}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge edit_group shape via placement_blockage }
+source cts_1.tcl
+legalize_placement
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {4.142 3.749}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {3.126 6.746}
+gui_zoom -window [gui_get_current_window -view] -full
+close_blocks -f
+stop_gui
+close_lib
+sh clear
+quit

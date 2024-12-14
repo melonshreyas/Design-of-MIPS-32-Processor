@@ -1,0 +1,217 @@
+Parsing option_file: xtract.tech (EX-304)
+Initializing extraction ... (EX-724)
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+Reading binary grd file ../saed14nm_1p9m_Cmin.nxtgrd ... (EX-135)
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+WARNING: Instance port via center is not covered by any metal at: (5169 3685), (5199 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5438 3685), (5468 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (5739 3685), (5769 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6035 3685), (6065 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6329 3685), (6359 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6628 3685), (6658 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (6923 3685), (6953 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7575 3685), (7605 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (8052 16825), (8082 16855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10345 17545), (10375 17575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10865 17545), (10895 17575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11233 18745), (11263 18775)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11677 22345), (11707 22375)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12195 21145), (12225 21175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12713 15145), (12743 15175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (13083 20425), (13113 20455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (13603 20425), (13633 20455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14195 15145), (14225 15175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14563 19225), (14593 19255)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14934 13945), (14964 13975)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (15155 15145), (15185 15175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (16266 14425), (16296 14455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (16561 18745), (16591 18775)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (16709 15625), (16739 15655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (17821 19225), (17851 19255)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (18707 15625), (18737 15655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (18857 19225), (18887 19255)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19005 21145), (19035 21175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19079 18025), (19109 18055)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19226 21625), (19256 21655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19447 15625), (19477 15655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19893 21625), (19923 21655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20041 15145), (20071 15175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20485 20425), (20515 20455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20559 19945), (20589 19975)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (21669 16345), (21699 16375)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (22113 15145), (22143 15175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7717 18625), (7747 18655)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7983 19285), (8013 19315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19295 18085), (19325 18115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20405 11485), (20435 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20775 19885), (20805 19915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (22329 15085), (22359 15115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7421 19345), (7451 19375)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7835 18085), (7865 18115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (9389 17485), (9419 17515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14411 15085), (14441 15115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19231 15685), (19261 15715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19739 6085), (19769 6115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20109 21685), (20139 21715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20331 6685), (20361 6715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20701 20485), (20731 20515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (21885 12685), (21915 12715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (3577 19825), (3607 19855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4643 20485), (4673 20515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (18037 19285), (18067 19315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19073 19285), (19103 19315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4169 18145), (4199 18175)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4643 18685), (4673 18715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (10129 17485), (10159 17515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11081 17485), (11111 17515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (18861 12685), (18891 12715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19009 21745), (19039 21775)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19221 21085), (19251 21115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20551 9025), (20581 9055)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (20553 8485), (20583 8515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (21885 16285), (21915 16315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4465 17425), (4495 17455)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7899 17485), (7929 17515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11313 13285), (11343 13315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11757 11485), (11787 11515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12867 20485), (12897 20515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (13819 20485), (13849 20515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14717 13825), (14747 13855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11461 22285), (11491 22315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11535 15685), (11565 15715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (15741 21745), (15771 21775)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (16049 14545), (16079 14575)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (16197 3685), (16227 3715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (17381 10885), (17411 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (17973 2485), (18003 2515)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11017 18685), (11047 18715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (11979 21085), (12009 21115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (13891 22225), (13921 22255)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (18491 15685), (18521 15715)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19295 4285), (19325 4315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19665 3085), (19695 3115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (19665 12085), (19695 12115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4095 19345), (4125 19375)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4939 19285), (4969 19315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (12721 19825), (12751 19855)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (13089 10285), (13119 10315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (13163 10885), (13193 10915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14347 19285), (14377 19315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (14939 15085), (14969 15115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (15299 4285), (15329 4315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (15669 10285), (15699 10315)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (16197 3085), (16227 3115)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (4653 16885), (4683 16915)nm on
+         level 3. (EX-2202)
+WARNING: Instance port via center is not covered by any metal at: (7421 16225), (7451 16255)nm on
+         level 3. (EX-2202)
+Suppression: Message (EX-2202) suppressed beyond 100 times
+Extracted 0 capacitors, 42394 resistors, 39868 nodes
+Reduced to 7945 nodes,  (80.0717%)
+Reduced to 7134 resistors,  (83.1721%)
+Increased the number of caps to 3973 capacitors,  (keep nodes on a skip polygons?)
+Including -3972 coupling caps and 7945 grounded caps
+  
+xTractor      Elp=00:00:01 Cpu=00:00:01 Usr=0.9    Sys=0.1    Mem=357.9 
+  
+Done          Elp=00:00:01 Cpu=00:00:01 Usr=0.9    Sys=0.1    Mem=357.9 

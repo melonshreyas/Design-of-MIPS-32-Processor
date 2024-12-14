@@ -1,0 +1,26 @@
+
+                                  StarRC (TM)
+
+               Version P-2019.03-SP4 for linux64 - Aug 29, 2019 
+
+                    Copyright (c) 1999 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /home/synopsys/installs/starrc/P-2019.03-SP4/linux64_starrc/bin/StarXtract
+Version: P-2019.03-SP4
+Built on: Aug 29 2019 18:58:12
+Start Time: Mon May 30 11:17:30 2022
+
+Host ............ synopsysserver
+
+  
+ReadHNdb            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+XtrNet              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+NETLIST_SELECT_NETS Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+WrtSelectNets       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+WritePowerNets      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 

@@ -1,0 +1,85 @@
+
+icc2_shell> open_ib lib
+Error: unknown command 'open_ib' (CMD-005)
+icc2_shell> open_lib lib
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/lib' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14rvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14hvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14lvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14rvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14hvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14lvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/EXPLORE_physical_only.ndm' (FILE-007)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Information: Auto created reference libraries are up-to-date, no need to rebuild. (LIB-084)
+{lib}
+icc2_shell> list_blocks
+Lib lib /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/lib tech current
+  ->  0 simple_processor_Top.design May-22-15:53
+  ->  0 import_done.design May-22-15:53
+  ->  0 Simple_Processor_Floorplan_done.design May-22-16:12
+  ->  0 Simple_Processor_Powerplan_done.design May-22-16:19
+  ->  0 Placement_done_22nd_may.design May-22-17:31
+  ->  0 CTS_Done_22nd_May.design May-22-17:32
+  ->  0 Simple_Processor_27th_May_Done.design May-27-18:40
+  ->  0 Simple_Processor_Placement_27th_May_done.design May-27-18:42
+  ->  0 29th_MAY_FLOORPLAN.design May-29-20:04
+  ->  0 29th_MAY_POWERPLAN_DONE.design May-29-20:59
+  ->  0 29th_MAY_PLACEMENT_DONE.design May-29-21:12
+  ->  0 29th_MAY_CTS_DONE.design May-29-21:23
+  ->  0 29th_MAY_Initial_Route_1.design May-29-21:40
+  ->  0 29th_MAY_ROUTE_DONE.design May-29-21:45
+14
+icc2_shell> open_blocks 29th_MAY_ROUTE_DONE
+Error: unknown command 'open_blocks' (CMD-005)
+icc2_shell> open_block 29th_MAY_ROUTE_DONE
+Information: User units loaded from library 'saed14rvt_tt0p8v125c' (LNK-040)
+Opening block 'lib:29th_MAY_ROUTE_DONE.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Begin building search trees for block lib:29th_MAY_ROUTE_DONE.design
+Done building search trees for block lib:29th_MAY_ROUTE_DONE.design (time 0s)
+{lib:29th_MAY_ROUTE_DONE.design}
+icc2_shell> link_block
+Using libraries: lib saed14rvt_tt0p8v125c saed14hvt_tt0p8v125c saed14lvt_tt0p8v125c saed14rvt_tt0p8v125c_physical_only saed14hvt_tt0p8v125c_physical_only saed14lvt_tt0p8v125c_physical_only EXPLORE_physical_only
+Updating block lib:29th_MAY_ROUTE_DONE.design
+  skip name data 173... end_option 
+Design 'simple_processor_Top' was successfully linked.
+1
+icc2_shell> start_gui
+Load ICV ICCII menu file: /home/synopsys/installs/icvalidator/P-2019.06-3/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2447
+
+icc2_shell> write_verilog Simple_Processor_ROUTED.v
+1
+icc2_shell> write_sdc -output Simple_Processor_ROUTED.sdc
+1
+icc2_shell> close_blocks -f
+Closing block 'lib:29th_MAY_ROUTE_DONE.design'
+1
+icc2_shell> close_lib lib
+Closing library 'lib'
+1
+icc2_shell> exit
+Maximum memory usage for this session: 412.75 MB
+CPU usage for this session:     14 seconds (  0.00 hours)
+Elapsed time for this session:   4226 seconds (  1.17 hours)
+Thank you for using IC Compiler II.
+

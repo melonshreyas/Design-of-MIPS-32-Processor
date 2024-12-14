@@ -1,0 +1,11 @@
+  
+ReadHNdb            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+XtrNet              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+NETLIST_SELECT_NETS Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+WrtSelectNets       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+WritePowerNets      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=343.0 
+
+End Time: Mon May 30 11:17:30 2022
+

@@ -1,0 +1,2294 @@
+
+icc2_shell> sh clear
+[H[2J
+icc2_shell> open_lib lib'
+Error: File 'lib'' cannot be found using search_path of: '. .'. (FILE-002)
+Error: problem in open_lib
+        Use error_info for more info. (CMD-013)
+icc2_shell> open_lib lib
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/lib' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14rvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14hvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14lvt_tt0p8v125c.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14rvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14hvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/saed14lvt_tt0p8v125c_physical_only.ndm' (FILE-007)
+Information: Loading library file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/CLIBs/EXPLORE_physical_only.ndm' (FILE-007)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Information: Auto created reference libraries are up-to-date, no need to rebuild. (LIB-084)
+{lib}
+icc2_shell> list_blocks
+Lib lib /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/lib tech current
+  ->  0 simple_processor_Top.design May-22-15:53
+  ->  0 import_done.design May-22-15:53
+  ->  0 Simple_Processor_Floorplan_done.design May-22-16:12
+  ->  0 Simple_Processor_Powerplan_done.design May-22-16:19
+  ->  0 Placement_done_22nd_may.design May-22-17:31
+  ->  0 CTS_Done_22nd_May.design May-22-17:32
+6
+icc2_shell> open_block CTS_DOne_22nd_May
+Error: Cannot find block 'CTS_DOne_22nd_May'. (DES-004)
+icc2_shell> open_block CTS_Done_22nd_May
+Information: User units loaded from library 'saed14rvt_tt0p8v125c' (LNK-040)
+Opening block 'lib:CTS_Done_22nd_May.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Begin building search trees for block lib:CTS_Done_22nd_May.design
+Done building search trees for block lib:CTS_Done_22nd_May.design (time 0s)
+{lib:CTS_Done_22nd_May.design}
+icc2_shell> sh ls
+26th_May_Log.log
+CLIBs
+Simple_Processor.sdc
+Simple_Processor_Clock_Tree_Synthesis_22nd_MAY.log
+Simple_Processor_Data_Preparation_22nd_MAY.log
+Simple_Processor_Floorplan_22nd_MAY.log
+Simple_Processor_Placement_22nd_MAY.log
+Simple_Processor_Placement_22nd_MAY_Ver1.log
+Simple_Processor_Powerplan_22nd_MAY.log
+Simple_Processor_common_setup.tcl
+Simple_Processor_common_setup_editing_lab.tcl
+Simple_Processor_data_preparation.tcl
+Simple_Processor_data_preparation.tcl~
+Simple_Processor_floorplan_Powerplan.tcl
+Simple_Processor_mcmm.tcl
+Simple_Processor_mvt_netlist.v
+Simple_Processor_mvt_netlist.v~
+Simple_Processor_placement.tcl
+analyze_design_violations.max_trans.txt
+check_design.ems
+check_design2022May22162358.log
+check_design2022May22170750.log
+check_design2022May22171939.log
+check_workspace.ems
+crte_000047679.txt
+icc2_command.log
+icc2_lm_command.log
+legalizer_debug_plots
+lib
+log
+post_import_design
+icc2_shell> check_design -checks pre_clock_tree_stage
+****************************************
+ Report : check_design 
+ Options: { pre_clock_tree_stage }
+ Design : simple_processor_Top
+ Version: P-2019.03-SP4
+ Date   : Thu May 26 09:31:15 2022
+****************************************
+
+Running mega-check 'pre_clock_tree_stage': 
+    Running atomic-check 'design_mismatch'
+    Running atomic-check 'scan_chain'
+    Running atomic-check 'mv_design'
+    Running atomic-check 'legality'
+    Running atomic-check 'design_extraction'
+    Running atomic-check 'timing'
+    Running atomic-check 'clock_trees'
+    Running atomic-check 'hier_pre_clock_tree'
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  CTS-904      Warn   2          Clock reference cell %libcell(cell %cell) have no LEQ cell speci...
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  NEX-048      Error  1          Port shape or size is abnormal for port '%portName'.
+  TCK-001      Warn   51         The reported endpoint '%endpoint' is unconstrained. Reason: '%re...
+  TCK-002      Warn   41         The register clock pin '%pin' has no fanin clocks. Mode:'%mode'.
+  ----------------------------------------------------------------------------------------------------
+  Total 96 EMS messages : 1 errors, 94 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  CTS-101             1          %s will work on the following scenarios.
+  CTS-107             1          %s will work on all clocks in active scenarios, including %d mas...
+  LGL-050             8          Library cell %s is missing supply pins. Its power structure cann...
+  NEX-001             2          Technology layer '%s' setting '%s' is not valid
+  NEX-007             11         Parasitic Tech Library layer '%s' parameter '%s' = %2.3f does no...
+  PDC-003             2          Routing direction of metal layer %s is neither "horizontal" nor ...
+  PLACE-007           1053       Library cell %s/%s has Vth implant on layer %d which does not co...
+  PVT-032             2          Corner %s: no PVT mismatches.
+  ----------------------------------------------------------------------------------------------------
+  Total 1080 non-EMS messages : 1053 errors, 23 warnings, 4 info.
+  ----------------------------------------------------------------------------------------------------
+
+Warning: EMS database "check_design.ems" already exists, over-writing it. (EMS-040)
+
+Information: EMS database is saved to file 'check_design.ems'.
+Information: Non-EMS messages are saved into file 'check_design2022May26093115.log'.
+1
+icc2_shell> start_gui
+Load ICV ICCII menu file: /home/synopsys/installs/icvalidator/P-2019.06-3/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE INFO: Found a usable port: 2446
+
+icc2_shell> report_constraints -all_violators
+****************************************
+Report : constraint
+        -all_violators
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:32:26 2022
+****************************************
+
+   late_timing
+   -----------
+
+Information: The stitching and editing of coupling caps is turned OFF for design 'lib:CTS_Done_22nd_May.design'. (TIM-125)
+Information: Design CTS_Done_22nd_May has 640 nets, 0 global routed, 74 detail routed. (NEX-024)
+Warning: Technology layer 'M4' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M1' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M2' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M3' parameter 'SMIN' = 0.040 does not match 0.026 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M8' parameter 'WMIN' = 0.030 does not match 0.060 of technology file (NEX-007)
+Warning: Parasitic Tech Library layer 'M8' parameter 'SMIN' = 0.060 does not match 0.040 of technology file (NEX-007)
+Warning: Technology layer 'M4' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Information: The RC mode used is CTO for design 'simple_processor_Top'. (NEX-022)
+Information: Design Average RC for design CTS_Done_22nd_May  (NEX-011)
+Information: r = 2.650059 ohm/um, via_r = 0.608669 ohm/cut, c = 0.129691 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 2.066815 ohm/um, via_r = 0.994006 ohm/cut, c = 0.142517 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 638, routed nets = 74, across physical hierarchy nets = 0, parasitics cached nets = 74, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     disabled
+Advanced Receiver Model:                   disabled
+************************************************************
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+G2_Datapath/Reg6/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.65           0.00    -0.12   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.54 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg4/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg5/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg7/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg3/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg6/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/Reg2/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.11   CLOCK    func_fast
+G1_Controller/opcode_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.55 f         1.66           0.00    -0.10   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_7_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.56 f         1.66           0.00    -0.10   CLOCK    func_fast
+G1_Controller/PS_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.56 f         1.66           0.00    -0.10   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_5_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.56 f         1.66           0.00    -0.10   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_6_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.56 f         1.66           0.00    -0.10   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.56 f         1.66           0.00    -0.10   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.56 f         1.66           0.00    -0.10   CLOCK    func_fast
+G1_Controller/opcode_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.57 f         1.66           0.00    -0.09   CLOCK    func_fast
+G2_Datapath/A5/dout_reg_4_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.57 f         1.66           0.00    -0.09   CLOCK    func_fast
+G1_Controller/PS_reg_0_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.57 f         1.66           0.00    -0.09   CLOCK    func_fast
+G1_Controller/opcode_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.57 f         1.66           0.00    -0.09   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.58 f         1.66           0.00    -0.08   CLOCK    func_fast
+G2_Datapath/Reg1/dout_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.59 f         1.66           0.00    -0.07   CLOCK    func_fast
+G1_Controller/PS_reg_3_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.60 f         1.66           0.00    -0.06   CLOCK    func_fast
+G2_Datapath/Reg0/dout_reg_7_/D (SAEDLVT14_FDP_V2_1)
+                                   1.61 r         1.66           0.00    -0.05   CLOCK    func_fast
+G1_Controller/PS_reg_2_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.62 f         1.66           0.00    -0.04   CLOCK    func_fast
+G2_Datapath/g2/Z_reg_8_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                   1.66 f         1.66           0.00    -0.00   CLOCK    func_fast
+
+   Mode: func Corner: fast
+   Scenario: func_fast
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   Bus[1]                       0.50           0.13           0.37  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+
+
+   Mode: func Corner: fast
+   Scenario: func_fast
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+   Total number of violation(s): 0
+1
+icc2_shell> report_clock_tree_options
+****************************************
+ Report : target skew and latency
+ Design : simple_processor_Top
+ Date   : Thu May 26 09:33:10 2022
+****************************************
+
+##Target Skew
+
+Clock                        Corner                        Target
+-----------------------------------------------------------------
+clock (mode func)            fast                          0.5
+
+##Target Latency
+
+Clock                        Corner                        Target
+-----------------------------------------------------------------
+clock (mode func)            fast                          0.5
+
+##Max Level Count
+
+Clock                                  Count
+-----------------------------------------------------------------
+No max level constraints found.
+
+##Root NDR Fanout Limit
+
+Clock                                  Fanout limit
+-----------------------------------------------------------------
+No Root NDR fanout limit constraints applied.
+1
+icc2_shell> report_clock_qor
+ Info: Initializing timer in CLOCK_SYN_REPORT_MODE
+Warning: The scenario func_fast has max capacitance DRC fixing disabled using the set_scenario_status command.  High DRC count may be expected.
+****************************************
+Report : clock qor
+        -type summary
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:33:29 2022
+****************************************
+
+Attributes
+===========
+M Master Clock
+G Generated Clock
+& Internal Generated Clock
+U User Defined Skew Group
+D Default Skew Group
+* Generated Clock Balanced Separately
+
+===========================================
+==== Summary Reporting for Corner fast ====
+===========================================
+
+================================================== Summary Table for Corner fast ===================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count
+                                                                Count      Area      Area
+------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func_fast
+clock                                   M,D        97     71       73     51.19     51.19      0.51      0.00         0         0
+------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                         97     71       73     51.19     51.19      0.51      0.00         0         0
+
+
+===========================================
+==== Summary Reporting for Corner slow ====
+===========================================
+
+================================================== Summary Table for Corner slow ===================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count
+                                                                Count      Area      Area
+------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func_slow
+clock                                   M,D        97     71       73     51.19     51.19      0.51      0.00         0         0
+------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                         97     71       73     51.19     51.19      0.51      0.00         0         0
+
+
+1
+icc2_shell> report_qor -summary
+****************************************
+Report : qor
+        -summary
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:33:40 2022
+****************************************
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+func_slow          (Setup)             8.61           0.00              0
+Design             (Setup)             8.61           0.00              0
+
+func_fast          (Hold)             -0.12         -10.09             95
+Design             (Hold)             -0.12         -10.09             95
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                            316.84
+Cell Area (netlist and physical only):          370.56
+Nets with DRC Violations:        0
+1
+icc2_shell> report_timing -delay_type min
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:34:03 2022
+****************************************
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 1.50      1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00      1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.03      1.53 f
+  G2_Datapath/Reg6/U4/X (SAEDHVT14_AO32_U_0P5)     0.02      1.54 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00      1.54 f
+  data arrival time                                          1.54
+
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 1.51      1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00      1.51 r
+  clock uncertainty                                0.15      1.66
+  library hold time                                0.00      1.66
+  data required time                                         1.66
+  ------------------------------------------------------------------------
+  data required time                                         1.66
+  data arrival time                                         -1.54
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.12
+
+
+1
+icc2_shell> clear
+Error: unknown command 'clear' (CMD-005)
+icc2_shell> sh clear
+[H[2J
+icc2_shell> report_timing -delay_type min
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:35:06 2022
+****************************************
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 1.50      1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00      1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.03      1.53 f
+  G2_Datapath/Reg6/U4/X (SAEDHVT14_AO32_U_0P5)     0.02      1.54 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00      1.54 f
+  data arrival time                                          1.54
+
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 1.51      1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00      1.51 r
+  clock uncertainty                                0.15      1.66
+  library hold time                                0.00      1.66
+  data required time                                         1.66
+  ------------------------------------------------------------------------
+  data required time                                         1.66
+  data arrival time                                         -1.54
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.12
+
+
+1
+icc2_shell> get_lib_cell */*_FDP_
+Warning: No lib_cell objects matched '*/*_FDP_' (SEL-004)
+icc2_shell> get_lib_cell */*_FDP_*
+{saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2_0P5 saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2_1 saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2_2 saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2_4 saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2LP_0P5 saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2LP_1 saed14rvt_tt0p8v125c/SAEDRVT14_FDP_V2LP_2 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2_0P5 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2_1 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2_2 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2_4 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2LP_0P5 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2LP_1 saed14hvt_tt0p8v125c/SAEDHVT14_FDP_V2LP_2 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2_0P5 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2_1 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2_2 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2_4 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2LP_0P5 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2LP_1 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2LP_2 EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_1/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_2/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2_0P5/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2_1/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2_2/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2_4/frame}
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDLVT14_FDP_V2LP_OP5
+Warning: Nothing implicitly matched 'SAEDLVT14_FDP_V2LP_OP5' (SEL-003)
+Error: Cannot find the specified reference SAEDLVT14_FDP_V2LP_OP5. (UIED-123)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> get_lib_cell */*LVT14_FDP_V2LP_*
+{saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2LP_0P5 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2LP_1 saed14lvt_tt0p8v125c/SAEDLVT14_FDP_V2LP_2 EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_1/frame EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_2/frame}
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDLVT14_FDP_V2LP_0P5
+1
+icc2_shell> report_constraint -verbose
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:45:00 2022
+****************************************
+
+   late_timing
+   -----------
+
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+No paths.
+
+   early_timing
+   -----------
+
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                           Incr     Path  
+  ----------------------------------------------------------------------
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.50    1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.00    1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.02    1.52 f
+  G2_Datapath/Reg6/U4/X (SAEDHVT14_AO32_U_0P5)     0.02    1.53 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.00    1.53 f
+  data arrival time                                        1.53
+
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.51    1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.00    1.51 r
+  clock uncertainty                                0.15    1.66
+  library hold time                                0.01    1.66
+  data required time                                       1.66
+  ----------------------------------------------------------------------
+  data required time                                       1.66
+  data arrival time                                       -1.53
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                        -0.13
+
+
+
+    max_transition                                   0.00  (MET)
+    max_capacitance                                  0.00  (MET)
+    min_capacitance                                  0.00  (MET)
+1
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDHVT14_FDP_V2LP_0P5
+1
+icc2_shell> report_constraint -verbose
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:45:46 2022
+****************************************
+
+   late_timing
+   -----------
+
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+No paths.
+
+   early_timing
+   -----------
+
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                           Incr     Path  
+  ----------------------------------------------------------------------
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.50    1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.03    1.53 f
+  G2_Datapath/Reg6/U4/X (SAEDHVT14_AO32_U_0P5)     0.02    1.54 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.54 f
+  data arrival time                                        1.54
+
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.51    1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.51 r
+  clock uncertainty                                0.15    1.66
+  library hold time                                0.00    1.66
+  data required time                                       1.66
+  ----------------------------------------------------------------------
+  data required time                                       1.66
+  data arrival time                                       -1.54
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                        -0.12
+
+
+
+    max_transition                                   0.00  (MET)
+    max_capacitance                                  0.00  (MET)
+    min_capacitance                                  0.00  (MET)
+1
+icc2_shell> size_cell G2_Datapath/Reg6/U4 SAEDLVT14_AO32_U_0P5
+1
+icc2_shell> report_constraint -verbose
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:46:40 2022
+****************************************
+
+   late_timing
+   -----------
+
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+No paths.
+
+   early_timing
+   -----------
+
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                           Incr     Path  
+  ----------------------------------------------------------------------
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.50    1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.03    1.53 f
+  G2_Datapath/Reg6/U4/X (SAEDLVT14_AO32_U_0P5)     0.01    1.54 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.54 f
+  data arrival time                                        1.54
+
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.51    1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.51 r
+  clock uncertainty                                0.15    1.66
+  library hold time                                0.00    1.66
+  data required time                                       1.66
+  ----------------------------------------------------------------------
+  data required time                                       1.66
+  data arrival time                                       -1.54
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                        -0.12
+
+
+
+    max_transition                                   0.00  (MET)
+    max_capacitance                                  0.02  (VIOLATED)
+    min_capacitance                                  0.00  (MET)
+1
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDSLVT14_FDP_V2LP_0P5
+Error: Port D missing on EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame (NDM-031)
+Error: Port CK missing on EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame (NDM-031)
+Error: Port Q missing on EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame (NDM-031)
+Error: Port QN missing on EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame (NDM-031)
+Error: Port VDD missing on EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame (NDM-031)
+Error: Port VSS missing on EXPLORE_physical_only/SAEDSLVT14_FDP_V2LP_0P5/frame (NDM-031)
+Error: Cannot size cell 'G2_Datapath/Reg6/dout_reg_1_' because the new lib_cell 'SAEDSLVT14_FDP_V2LP_0P5' not compatible with current lib_cell 'SAEDHVT14_FDP_V2LP_0P5'. (NDMUI-023)
+Error: 0 cell(s) are sized.
+        Use error_info for more info. (CMD-013)
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDLVT14_FDP_V2LP_0P5
+1
+icc2_shell> report_constraint -verbose
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:47:22 2022
+****************************************
+
+   late_timing
+   -----------
+
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+No paths.
+
+   early_timing
+   -----------
+
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                           Incr     Path  
+  ----------------------------------------------------------------------
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.50    1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.00    1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.02    1.52 f
+  G2_Datapath/Reg6/U4/X (SAEDLVT14_AO32_U_0P5)     0.01    1.53 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.00    1.53 f
+  data arrival time                                        1.53
+
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.51    1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDLVT14_FDP_V2LP_0P5)
+                                                   0.00    1.51 r
+  clock uncertainty                                0.15    1.66
+  library hold time                                0.01    1.66
+  data required time                                       1.66
+  ----------------------------------------------------------------------
+  data required time                                       1.66
+  data arrival time                                       -1.53
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                        -0.13
+
+
+
+    max_transition                                   0.00  (MET)
+    max_capacitance                                  0.02  (VIOLATED)
+    min_capacitance                                  0.00  (MET)
+1
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDHVT14_FDP_V2LP_0P5
+1
+icc2_shell> report_constraint -verbose
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:47:35 2022
+****************************************
+
+   late_timing
+   -----------
+
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+No paths.
+
+   early_timing
+   -----------
+
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                           Incr     Path  
+  ----------------------------------------------------------------------
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.50    1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.03    1.53 f
+  G2_Datapath/Reg6/U4/X (SAEDLVT14_AO32_U_0P5)     0.01    1.54 f
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.54 f
+  data arrival time                                        1.54
+
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.51    1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDHVT14_FDP_V2LP_0P5)
+                                                   0.00    1.51 r
+  clock uncertainty                                0.15    1.66
+  library hold time                                0.00    1.66
+  data required time                                       1.66
+  ----------------------------------------------------------------------
+  data required time                                       1.66
+  data arrival time                                       -1.54
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                        -0.12
+
+
+
+    max_transition                                   0.00  (MET)
+    max_capacitance                                  0.02  (VIOLATED)
+    min_capacitance                                  0.00  (MET)
+1
+icc2_shell> size_cell G2_Datapath/Reg6/U4 SAEDHVT14_AO32_U_0P5
+1
+icc2_shell> size_cell G2_Datapath/Reg6/dout_reg_1_ SAEDRVT14_FDP_V2LP_0P5
+1
+icc2_shell> report_constraint -verbose
+****************************************
+Report : constraint
+        -verbose
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:47:56 2022
+****************************************
+
+   late_timing
+   -----------
+
+Error: None of the specified scenarios are active for setup analysis. (UIC-057)
+No paths.
+
+   early_timing
+   -----------
+
+
+  Startpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G2_Datapath/Reg6/dout_reg_1_ (rising edge-triggered flip-flop clocked by clock)
+  Mode: func
+  Corner: fast
+  Scenario: func_fast
+  Path Group: CLOCK
+  Path Type: min
+
+  Point                                           Incr     Path  
+  ----------------------------------------------------------------------
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.50    1.50
+
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00    1.50 r
+  G2_Datapath/Reg6/dout_reg_1_/Q (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.02    1.52 r
+  G2_Datapath/Reg6/U4/X (SAEDHVT14_AO32_U_0P5)     0.02    1.54 r
+  G2_Datapath/Reg6/dout_reg_1_/D (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00    1.54 r
+  data arrival time                                        1.54
+
+  clock clock (rise edge)                          0.00    0.00
+  clock network delay (propagated)                 1.51    1.51
+  G2_Datapath/Reg6/dout_reg_1_/CK (SAEDRVT14_FDP_V2LP_0P5)
+                                                   0.00    1.51 r
+  clock uncertainty                                0.15    1.66
+  library hold time                                0.00    1.66
+  data required time                                       1.66
+  ----------------------------------------------------------------------
+  data required time                                       1.66
+  data arrival time                                       -1.54
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                        -0.12
+
+
+
+    max_transition                                   0.00  (MET)
+    max_capacitance                                  0.00  (MET)
+    min_capacitance                                  0.00  (MET)
+1
+icc2_shell> get_flat_cells
+{G1_Controller/Z1/U3 G1_Controller/Z1/U4 G1_Controller/Z1/U5 G1_Controller/Z1/U6 G1_Controller/Z1/U7 G1_Controller/Z1/U8 G1_Controller/Z1/U9 G1_Controller/Z1/U10 G1_Controller/Z1/U11 G1_Controller/Z1/U12 G1_Controller/Z1/U13 G1_Controller/Z1/U14 G1_Controller/Z1/U15 G1_Controller/Z1/U16 G1_Controller/Z1/U17 G1_Controller/Z2/U3 G1_Controller/Z2/U4 G1_Controller/Z2/U5 G1_Controller/Z2/U6 G1_Controller/Z2/U7 G1_Controller/Z2/U8 G1_Controller/Z2/U9 G1_Controller/Z2/U10 G1_Controller/Z2/U11 G1_Controller/Z2/U12 G1_Controller/Z2/U13 G1_Controller/Z2/U14 G1_Controller/Z2/U15 G1_Controller/Z2/U16 G1_Controller/Z2/U17 G1_Controller/LdR3_reg G1_Controller/R2out_reg G1_Controller/IR_reg_6_ G1_Controller/IR_reg_7_ G1_Controller/IR_reg_8_ G1_Controller/IRin_reg G1_Controller/LdA_reg G1_Controller/LdG_reg G1_Controller/Gout_reg G1_Controller/IR_reg_5_ G1_Controller/IR_reg_4_ G1_Controller/IR_reg_3_ G1_Controller/LdR7_reg G1_Controller/LdR6_reg G1_Controller/LdR5_reg G1_Controller/LdR4_reg G1_Controller/LdR2_reg G1_Controller/LdR1_reg G1_Controller/LdR0_reg G1_Controller/IR_reg_2_ G1_Controller/IR_reg_1_ G1_Controller/IR_reg_0_ G1_Controller/R7out_reg G1_Controller/R6out_reg G1_Controller/R5out_reg G1_Controller/Done_reg G1_Controller/Add_sub_reg G1_Controller/DINout_reg G1_Controller/R0out_reg G1_Controller/R1out_reg G1_Controller/R3out_reg G1_Controller/R4out_reg G1_Controller/opcode_reg_2_ G1_Controller/opcode_reg_0_ G1_Controller/opcode_reg_1_ G1_Controller/PS_reg_2_ G1_Controller/PS_reg_1_ G1_Controller/PS_reg_3_ G1_Controller/PS_reg_0_ G1_Controller/U3 G1_Controller/U4 G1_Controller/U5 G1_Controller/U6 G1_Controller/U7 G1_Controller/U8 G1_Controller/U9 G1_Controller/U10 G1_Controller/U11 G1_Controller/U12 G1_Controller/U13 G1_Controller/U14 G1_Controller/U15 G1_Controller/U16 G1_Controller/U17 G1_Controller/U18 G1_Controller/U19 G1_Controller/U20 G1_Controller/HFSINV_1260_0 G1_Controller/U22 G1_Controller/U23 G1_Controller/U24 G1_Controller/U25 G1_Controller/U26 G1_Controller/U27 G1_Controller/U28 G1_Controller/U29 G1_Controller/U30 G1_Controller/U31 G1_Controller/U32 G1_Controller/U33 ...}
+icc2_shell> get_flat_nets
+{Run ctsbuf_net_10 Clock {DIN[8]} {DIN[7]} {DIN[6]} {DIN[5]} {DIN[4]} {DIN[3]} {DIN[2]} {DIN[1]} {DIN[0]} aps_rename_6_ {Bus[7]} aps_rename_7_ {Bus[5]} aps_rename_8_ {Bus[3]} aps_rename_9_ {Bus[1]} aps_rename_10_ Done R0out R1out R2out R3out R4out R5out R6out R7out Gout DINout LdR0 LdR1 LdR2 LdR3 LdR4 LdR5 LdR6 LdR7 LdA LdG Add_sub Resetn ctsbuf_net_21 ctsbuf_net_32 ctsbuf_net_43 cts0 cts1 cts2 cts3 cts4 cts5 cts6 cts7 cts8 cts9 cts10 cts11 cts12 cts13 cts14 cts15 cts16 cts17 cts18 cts19 cts20 cts21 cts22 cts23 cts24 cts25 cts26 cts27 cts28 cts29 cts30 cts31 cts32 cts33 cts34 cts35 cts36 cts37 cts38 cts39 cts40 cts41 cts42 cts43 cts44 cts45 cts46 cts47 cts48 cts49 cts50 cts51 cts52 ...}
+icc2_shell> legalize_placement
+----------------------------------------------------------------
+running legalize_placement
+Information: The net parasitics of block simple_processor_Top are cleared. (TIM-123)
+nplDplc2Placer::setParam(effort,1)
+nplDplc2Placer::setParam(debug,0)
+nplDplc2Placer::setParam(site_check,2)
+nplDplc2Placer::setParam(app_firm_wgt,0)
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+        place.legalize.enable_prerouted_net_check: 1
+        place.legalize.num_tracks_for_access_check: 1
+        place.legalize.use_eol_spacing_for_access_check: 0
+        place.legalize.allow_touch_track_for_access_check: 1
+        place.legalize.reduce_conservatism_in_eol_check: 0
+        place.legalize.preroute_shape_merge_distance: 0.0
+        place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 43 total shapes.
+Layer M2: cached 132 shapes out of 292 total shapes.
+Cached 396 vias out of 1820 total vias.
+
+Legalizing Top Level Design simple_processor_Top ... 
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Information: Initializing classic cellmap without advanced rules enabled
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+=====> Processed 144 ref cells (100 fillers) from library
+
+
+****************************************
+  Report : Fillers
+  Site   : unit
+****************************************
+
+Filler widths available for different combinations of VT, OD and TPO:
+----------------------------------------------------------------------
+     VT1      VT2      OD1      OD2      TPO   WIDTHS
+                    height   height            sites
+----------------------------------------------------------------------
+DefaultVTH DefaultVTH     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  HVTIMP   HVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  LVTIMP   LVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+----------------------------------------------------------------------
+Smallest non-OD filler width is 1 sites.
+----------------------------------------------------------------------
+
+
+Bounds/Regions In This Design:
+        Area    Num Cells  Exclusive Name
+ (square um)
+     369.408          812        Yes DEFAULT_VA
+
+Warning: max_legality_failures=5000 ignored.
+        To use it, set limit_legality_checks to true.
+Warning: max_legality_check_range=500 ignored.
+        To use it, set limit_legality_checks to true.
+Optimizing attract points
+Warning: Density is 100.0%
+    Done attract points (0 sec)
+Starting legalizer.
+Warning: Estimated density including spacing rules is 100.0%
+Warning: Exclusive bound 'DEFAULT' has no cells.
+Optimizing Exclusive Bound 'DEFAULT_VA' (2/2)
+Warning: Density is 100.0%
+    Warning: Legal sites for width 11 cell G1_Controller/copt_h_inst_326 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        1843 sites are taken up by fixed cells.
+        526 sites are blockages.
+        (2 rows are entirely blocked.  Unblocked sites
+        are in 30 rows from row 1 to row 30.)
+        5663 sites are 493 other cells.
+        70 sites are other cells' spacing.
+        208 sites are unusable due to fragmentation.
+        10 sites cause DRC violations.
+    Warning: Legal sites for width 10 cell G2_Datapath/Reg6/U3 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        1843 sites are taken up by fixed cells.
+        526 sites are blockages.
+        (2 rows are entirely blocked.  Unblocked sites
+        are in 30 rows from row 1 to row 30.)
+        5663 sites are 493 other cells.
+        70 sites are other cells' spacing.
+        199 sites are unusable due to fragmentation.
+        19 sites cause DRC violations.
+    Warning: Legal sites for width 9 cell G2_Datapath/Reg0/copt_h_inst_253 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        1843 sites are taken up by fixed cells.
+        526 sites are blockages.
+        (2 rows are entirely blocked.  Unblocked sites
+        are in 30 rows from row 1 to row 30.)
+        5663 sites are 493 other cells.
+        70 sites are other cells' spacing.
+        187 sites are unusable due to fragmentation.
+        31 sites cause DRC violations.
+    Warning: Legal sites for width 9 cell G2_Datapath/Reg0/copt_h_inst_254 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        1843 sites are taken up by fixed cells.
+        526 sites are blockages.
+        (2 rows are entirely blocked.  Unblocked sites
+        are in 30 rows from row 1 to row 30.)
+        5663 sites are 493 other cells.
+        70 sites are other cells' spacing.
+        187 sites are unusable due to fragmentation.
+        31 sites cause DRC violations.
+    Warning: Legal sites for width 9 cell G2_Datapath/Reg1/copt_h_inst_276 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        1843 sites are taken up by fixed cells.
+        526 sites are blockages.
+        (2 rows are entirely blocked.  Unblocked sites
+        are in 30 rows from row 1 to row 30.)
+        5663 sites are 493 other cells.
+        70 sites are other cells' spacing.
+        187 sites are unusable due to fragmentation.
+        31 sites cause DRC violations.
+    Warning: Re-placing failed on 5 out of 43 cells.
+    Warning: Gave up re-placing early, skipped 38 cells.
+    Done Exclusive Bound 'DEFAULT_VA' (2/2) (0 sec)
+Legalization complete (0 total sec)
+
+****************************************
+  Report : Placement Attempts
+  Site   : unit
+****************************************
+
+number of cells:                    812
+number of references:               144
+number of site rows:                 32
+number of locations attempted:     6769
+number of locations failed:           0  (0.0%)
+
+Legality of references at locations:
+0 references had failures.
+
+Legality of references in rows:
+0 references had row failures.
+
+****************************************
+  Report : Cell Displacements
+****************************************
+
+Warning: There were 57 cells for which the legalizer could not find a legal placement:
+ G1_Controller/U30
+ G1_Controller/U10
+ G1_Controller/U22
+ G1_Controller/U35
+ G1_Controller/U36
+ G2_Datapath/m1/U89
+ G1_Controller/Z1/U5
+ G1_Controller/Z2/U13
+ G1_Controller/U27
+ G1_Controller/U28
+...
+number of cells aggregated:         493 (5663 total sites)
+avg row height over cells:        0.600 um
+rms cell displacement:            0.327 um ( 0.55 row height)
+rms weighted cell displacement:   0.327 um ( 0.55 row height)
+max cell displacement:            4.165 um ( 6.94 row height)
+avg cell displacement:            0.136 um ( 0.23 row height)
+avg weighted cell displacement:   0.136 um ( 0.23 row height)
+number of cells moved:              190
+number of large displacements:        6
+large displacement threshold:     3.000 row height
+
+Displacements of worst 10 cells:
+Cell: G2_Datapath/m1/U57 (SAEDHVT14_INV_0P5)
+  Input location: (11.212,7.6)
+  Legal location: (14.616,5.2)
+  Displacement:   4.165 um ( 6.94 row height)
+Cell: G2_Datapath/Reg3/copt_h_inst_256 (SAEDHVT14_DEL_R2V2_1)
+  Input location: (4.5,20.7)
+  Legal location: (3.96,17.8)
+  Displacement:   2.950 um ( 4.92 row height)
+Cell: G1_Controller/U15 (SAEDHVT14_INV_0P5)
+  Input location: (4.9036,3.2928)
+  Legal location: (4.848,5.8)
+  Displacement:   2.508 um ( 4.18 row height)
+Cell: G2_Datapath/Reg3/copt_h_inst_264 (SAEDHVT14_DEL_R2V3_1)
+  Input location: (4.5,20.7)
+  Legal location: (2.702,19)
+  Displacement:   2.474 um ( 4.12 row height)
+Cell: G2_Datapath/m1/U97 (SAEDHVT14_ND2_CDC_1)
+  Input location: (12.988,11.8)
+  Legal location: (12.914,13.6)
+  Displacement:   1.802 um ( 3.00 row height)
+Cell: G2_Datapath/m1/U53 (SAEDHVT14_NR2_MM_0P5)
+  Input location: (10.25,8.8)
+  Legal location: (10.25,10.6)
+  Displacement:   1.800 um ( 3.00 row height)
+Cell: G2_Datapath/add_top/add1/csa_slice2/rca2/fa1/h1/U1 (SAEDHVT14_AN2_MM_0P5)
+  Input location: (3.442,17.8)
+  Legal location: (3.812,16.6)
+  Displacement:   1.256 um ( 2.09 row height)
+Cell: G2_Datapath/m1/U87 (SAEDHVT14_ND2_CDC_1)
+  Input location: (12.174,12.4)
+  Legal location: (12.544,13.6)
+  Displacement:   1.256 um ( 2.09 row height)
+Cell: G2_Datapath/Reg2/U9 (SAEDHVT14_AO32_U_0P5)
+  Input location: (14.542,14.2)
+  Legal location: (14.172,15.4)
+  Displacement:   1.256 um ( 2.09 row height)
+Cell: G2_Datapath/m1/U92 (SAEDHVT14_AN4_0P75)
+  Input location: (14.986,8.8)
+  Legal location: (14.616,7.6)
+  Displacement:   1.256 um ( 2.09 row height)
+
+Warning: Some cells could not be placed.
+Warning: Perform NDM update as "place.legalize.always_continue" is set to true
+Legalization failed.
+Total Legalizer CPU: 2.075
+----------------------------------------------------------------
+0
+icc2_shell> place.legalize.always_contiune
+Error: unknown command 'place.legalize.always_contiune' (CMD-005)
+icc2_shell> legalize_placement - place.legalize.always_contiune
+Error: extra positional option '-' (CMD-012)
+Error: extra positional option 'place.legalize.always_contiune' (CMD-012)
+icc2_shell> legalize_placement -place.legalize.always_contiune
+Error: unknown option '-place.legalize.always_contiune' (CMD-010)
+icc2_shell> legalize_placement -help
+Usage: legalize_placement    # Legalize a placement.
+        [-cells list]          (List of cells to be legalized)
+        [-moveable_distance float]
+                               (Specify a distance around each target cell to allow moving other non-target cells within that distance during legalization)
+        [-boundary boundary]   (Legalize the cells within the boundary where its syntax can be {{{llx lly} {urx ury}} | {{x1 y1} {x2 y2} ...}})
+        [-incremental]         (Perform incremental legalization only for illegal cells)
+        [-post_route]          (Run in post-route mode)
+        [-priority string]     (Specify priority on cells. Valid string is low, medium, high. Default is low)
+icc2_shell> legalize_placement -incremental
+----------------------------------------------------------------
+running legalize_placement
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Information: Initializing classic cellmap without advanced rules enabled
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+        place.legalize.enable_prerouted_net_check: 1
+        place.legalize.num_tracks_for_access_check: 1
+        place.legalize.use_eol_spacing_for_access_check: 0
+        place.legalize.allow_touch_track_for_access_check: 1
+        place.legalize.reduce_conservatism_in_eol_check: 0
+        place.legalize.preroute_shape_merge_distance: 0.0
+        place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 43 total shapes.
+Layer M2: cached 132 shapes out of 292 total shapes.
+Cached 396 vias out of 1820 total vias.
+=====> Processed 144 ref cells (100 fillers) from library
+
+
+****************************************
+  Report : Fillers
+  Site   : unit
+****************************************
+
+Filler widths available for different combinations of VT, OD and TPO:
+----------------------------------------------------------------------
+     VT1      VT2      OD1      OD2      TPO   WIDTHS
+                    height   height            sites
+----------------------------------------------------------------------
+DefaultVTH DefaultVTH     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  HVTIMP   HVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  LVTIMP   LVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+----------------------------------------------------------------------
+Smallest non-OD filler width is 1 sites.
+----------------------------------------------------------------------
+
+Checking legality
+Checking cell legality:
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Sorting rows.
+Checking spacing rule legality.
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Checking packing rule legality.
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Checking layer rule legality.
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+
+****************************************
+  Report : Legality
+****************************************
+
+VIOLATIONS BY CATEGORY:
+   MOVABLE  APP-FIXED USER-FIXED  DESCRIPTION
+        95          0          0  Two objects overlap.
+         0          0          0  A cell violates a pnet.
+         0          0          0  A cell is illegal at a site.
+        18          0          0  A cell is not aligned with a site.
+         0          0          0  A cell has an illegal orientation.
+         0          0          0  A cell spacing rule is violated.
+         1          0          0  A layer rule is violated.
+         3          0          0  A cell is in the wrong region.
+         0          0          0  Two cells violate cts margins.
+         0          0          0  Two cells violate coloring.
+
+       117          0          0  TOTAL
+
+TOTAL 117 Violations.
+
+VIOLATIONS BY SUBCATEGORY:
+     MOVABLE  APP-FIXED USER-FIXED  DESCRIPTION
+
+        95          0          0    Two objects overlap.
+          95          0          0    Two cells overlap.
+           0          0          0    Two cells have overlapping keepout margins.
+           0          0          0    A cell overlaps a blockage.
+           0          0          0    A cell keepout margin overlaps a blockage.
+
+         0          0          0    A cell violates a pnet.
+
+         0          0          0    A cell is illegal at a site.
+           0          0          0    A cell violates pin-track alignment rules.
+           0          0          0    A cell is illegal at a site.
+           0          0          0    A cell violates legal index rule.
+           0          0          0    A cell has the wrong variant for its location.
+
+        18          0          0    A cell is not aligned with a site.
+          18          0          0    A cell is not aligned with the base site.
+           0          0          0    A cell is not aligned with an overlaid site.
+
+         0          0          0    A cell has an illegal orientation.
+
+         0          0          0    A cell spacing rule is violated.
+           0          0          0    A spacing rule is violated in a row.
+           0          0          0    A spacing rule is violated between adjacent rows.
+           0          0          0    A cell violates vertical abutment rule.
+           0          0          0    A cell violates metal spacing rule.
+
+         1          0          0    A layer rule is violated.
+           1          0          0    A layer VTH rule is violated.
+           0          0          0    A layer OD rule is violated.
+           0          0          0    A layer OD max-width rule is violated.
+           0          0          0    A layer ALL_OD corner rule is violated.
+           0          0          0    A layer max-vertical-length rule is violated.
+           0          0          0    A layer TPO rule is violated.
+           0          0          0    Filler cell insertion cannot satisfy layer rules.
+
+         3          0          0    A cell is in the wrong region.
+           0          0          0    A cell is outside its hard bound.
+           3          0          0    A cell is in the wrong voltage area.
+           0          0          0    A cell violates an exclusive movebound.
+
+         0          0          0    Two cells violate cts margins.
+
+         0          0          0    Two cells violate coloring.
+
+Information: Legalizing 116 cells and 434 out of total 812 cells will remain unchanged during legalization
+Information: 262 cells were skipped due to unplaced or fixed status
+nplDplc2Placer::setParam(effort,1)
+nplDplc2Placer::setParam(debug,0)
+nplDplc2Placer::setParam(site_check,2)
+nplDplc2Placer::setParam(app_firm_wgt,0)
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+        place.legalize.enable_prerouted_net_check: 1
+        place.legalize.num_tracks_for_access_check: 1
+        place.legalize.use_eol_spacing_for_access_check: 0
+        place.legalize.allow_touch_track_for_access_check: 1
+        place.legalize.reduce_conservatism_in_eol_check: 0
+        place.legalize.preroute_shape_merge_distance: 0.0
+        place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 43 total shapes.
+Layer M2: cached 132 shapes out of 292 total shapes.
+Cached 396 vias out of 1820 total vias.
+
+Legalizing Top Level Design simple_processor_Top ... 
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Information: Initializing classic cellmap without advanced rules enabled
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+=====> Processed 144 ref cells (100 fillers) from library
+
+
+****************************************
+  Report : Fillers
+  Site   : unit
+****************************************
+
+Filler widths available for different combinations of VT, OD and TPO:
+----------------------------------------------------------------------
+     VT1      VT2      OD1      OD2      TPO   WIDTHS
+                    height   height            sites
+----------------------------------------------------------------------
+DefaultVTH DefaultVTH     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  HVTIMP   HVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  LVTIMP   LVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+----------------------------------------------------------------------
+Smallest non-OD filler width is 1 sites.
+----------------------------------------------------------------------
+
+
+Bounds/Regions In This Design:
+        Area    Num Cells  Exclusive Name
+ (square um)
+     369.408          812        Yes DEFAULT_VA
+
+Optimizing attract points
+Warning: Density is 99.5%
+Warning: There is high fragmentation caused by many blockages or fixed cells.
+        The median subrow width (space between blockages) is 15 sites
+        and the median cell width is 9 sites. This makes it difficult for
+        the legalizer to pack in the cells and can result in high
+        displacements and long runtimes.
+Please look for the GIF files that are written out at the end of
+        legalization to see the impact of the fragmentation.
+
+Warning: Found cells with large displacements during legalization. If the
+    cells with large displacements are timing critical these displacements
+    may cause problems. Please see the following plots for details.
+
+    The 'max_displacements' plot shows the design with blockages in green
+    and the legalized cells with the largest displacements drawn
+    with red displacement vectors.
+
+    The 'colored_displacements' plot shows the design with blockages in green
+    and with placed cells colored according to their displacements.
+    The mapping of colors to displacements can be seen in the
+    legend in the lower right.
+
+    Done attract points (0 sec)
+Starting legalizer.
+Warning: Many cells are placed far from legal locations. When the cells
+        are simply snapped to their nearest legal location, the
+        displacements are:
+            Average displacement:    0.659 um (1.10 rows)
+            Max Displacement:        2.942 um (4.90 rows)
+            Number of cells moved: 46 (out of 116 cells)
+
+Writing GIF plot to file './legalizer_debug_plots/CTS_Done_22nd_May_SITE_unit.001-0001-nearest_legal_locations.gif'.
+Warning: Estimated density including spacing rules is 99.5%
+Warning: There is high fragmentation caused by many blockages or fixed cells.
+        The median subrow width (space between blockages) is 15 sites
+        and the median cell width is 9 sites. This makes it difficult for
+        the legalizer to pack in the cells and can result in high
+        displacements and long runtimes.
+Please look for the GIF files that are written out at the end of
+        legalization to see the impact of the fragmentation.
+Warning: Exclusive bound 'DEFAULT' has no cells.
+Optimizing Exclusive Bound 'DEFAULT_VA' (2/2)
+Warning: Density is 99.5%
+Warning: There is high fragmentation caused by many blockages or fixed cells.
+        The median subrow width (space between blockages) is 15 sites
+        and the median cell width is 9 sites. This makes it difficult for
+        the legalizer to pack in the cells and can result in high
+        displacements and long runtimes.
+Please look for the GIF files that are written out at the end of
+        legalization to see the impact of the fragmentation.
+    Warning: Legal sites for width 11 cell G1_Controller/copt_h_inst_326 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        6653 sites are taken up by fixed cells.
+        802 sites are blockages.
+        (3 rows are entirely blocked.  Unblocked sites
+        are in 29 rows from row 1 to row 30.)
+        587 sites are 58 other cells.
+        409 sites are unusable due to fragmentation.
+        10 sites cause DRC violations.
+    Warning: Legal sites for width 10 cell G2_Datapath/Reg6/U3 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        6653 sites are taken up by fixed cells.
+        802 sites are blockages.
+        (3 rows are entirely blocked.  Unblocked sites
+        are in 29 rows from row 1 to row 30.)
+        587 sites are 58 other cells.
+        325 sites are unusable due to fragmentation.
+        19 sites cause DRC violations.
+    Warning: Legal sites for width 9 cell G2_Datapath/Reg0/copt_h_inst_253 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        6653 sites are taken up by fixed cells.
+        802 sites are blockages.
+        (3 rows are entirely blocked.  Unblocked sites
+        are in 29 rows from row 1 to row 30.)
+        587 sites are 58 other cells.
+        289 sites are unusable due to fragmentation.
+        31 sites cause DRC violations.
+    Warning: Legal sites for width 9 cell G2_Datapath/Reg0/copt_h_inst_254 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        6653 sites are taken up by fixed cells.
+        802 sites are blockages.
+        (3 rows are entirely blocked.  Unblocked sites
+        are in 29 rows from row 1 to row 30.)
+        587 sites are 58 other cells.
+        289 sites are unusable due to fragmentation.
+        31 sites cause DRC violations.
+    Warning: Legal sites for width 9 cell G2_Datapath/Reg1/copt_h_inst_276 are all in use.
+    Placement area: rows 0 to 31, columns 1 to 260
+    Considered and rejected 8320 sites.
+        6653 sites are taken up by fixed cells.
+        802 sites are blockages.
+        (3 rows are entirely blocked.  Unblocked sites
+        are in 29 rows from row 1 to row 30.)
+        587 sites are 58 other cells.
+        289 sites are unusable due to fragmentation.
+        31 sites cause DRC violations.
+    Warning: Re-placing failed on 5 out of 42 cells.
+    Warning: Gave up re-placing early, skipped 37 cells.
+    Done Exclusive Bound 'DEFAULT_VA' (2/2) (0 sec)
+Writing GIF plot to file './legalizer_debug_plots/CTS_Done_22nd_May_SITE_unit.001-0002-max_displacements.gif'.
+Writing GIF plot to file './legalizer_debug_plots/CTS_Done_22nd_May_SITE_unit.001-0003-colored_displacements.gif'.
+Legalization complete (1 total sec)
+
+****************************************
+  Report : Placement Attempts
+  Site   : unit
+****************************************
+
+number of cells:                    812
+number of references:               144
+number of site rows:                 32
+number of locations attempted:      979
+number of locations failed:           0  (0.0%)
+
+Legality of references at locations:
+0 references had failures.
+
+Legality of references in rows:
+0 references had row failures.
+
+****************************************
+  Report : Cell Displacements
+****************************************
+
+Warning: There were 58 cells for which the legalizer could not find a legal placement:
+ G1_Controller/U33
+ G1_Controller/U30
+ G1_Controller/Z2/U12
+ G1_Controller/U10
+ G1_Controller/U22
+ G1_Controller/U35
+ G1_Controller/U36
+ G1_Controller/Z1/U4
+ G1_Controller/Z1/U5
+ G1_Controller/Z1/U13
+...
+number of cells aggregated:          58 (587 total sites)
+avg row height over cells:        0.600 um
+rms cell displacement:            1.310 um ( 2.18 row height)
+rms weighted cell displacement:   1.310 um ( 2.18 row height)
+max cell displacement:           10.508 um (17.51 row height)
+avg cell displacement:            0.401 um ( 0.67 row height)
+avg weighted cell displacement:   0.401 um ( 0.67 row height)
+number of cells moved:               16
+number of large displacements:        8
+large displacement threshold:     3.000 row height
+
+Displacements of worst 10 cells:
+Cell: G2_Datapath/Reg1/U4 (SAEDHVT14_INV_0P5)
+  Input location: (14.616,5.2)
+  Legal location: (4.108,5.2)
+  Displacement:  10.508 um (17.51 row height)
+Cell: G2_Datapath/m1/U56 (SAEDHVT14_INV_0P5)
+  Input location: (10.7966,8.1925)
+  Legal location: (5.662,7.6)
+  Displacement:   5.169 um ( 8.61 row height)
+Cell: G1_Controller/U7 (SAEDHVT14_AN2_MM_0P5)
+  Input location: (5.07,8.8)
+  Legal location: (2.258,5.2)
+  Displacement:   4.568 um ( 7.61 row height)
+Cell: G2_Datapath/g2/copt_h_inst_314 (SAEDHVT14_BUF_U_0P5)
+  Input location: (3.516,11.2)
+  Legal location: (5.218,7.6)
+  Displacement:   3.982 um ( 6.64 row height)
+Cell: G2_Datapath/Reg3/U6 (SAEDHVT14_INV_0P5)
+  Input location: (10.62,17.2)
+  Legal location: (12.692,14.2)
+  Displacement:   3.646 um ( 6.08 row height)
+Cell: G1_Controller/U3 (SAEDHVT14_AN2_MM_0P5)
+  Input location: (5.588,8.8)
+  Legal location: (3.072,7.6)
+  Displacement:   2.788 um ( 4.65 row height)
+Cell: G2_Datapath/m1/U89 (SAEDHVT14_ND2_CDC_1)
+  Input location: (11.36,10.6)
+  Legal location: (11.138,8.2)
+  Displacement:   2.410 um ( 4.02 row height)
+Cell: ZBUF_inst_248 (SAEDHVT14_BUF_UCDC_0P5)
+  Input location: (12.766,15.4)
+  Legal location: (13.358,13.6)
+  Displacement:   1.895 um ( 3.16 row height)
+Cell: G1_Controller/U55 (SAEDHVT14_OAI22_0P5)
+  Input location: (2.85,2.8)
+  Legal location: (2.332,4)
+  Displacement:   1.307 um ( 2.18 row height)
+Cell: G1_Controller/U9 (SAEDHVT14_ND3B_0P5)
+  Input location: (3.664,4)
+  Legal location: (3.22,5.2)
+  Displacement:   1.280 um ( 2.13 row height)
+
+Warning: Some cells could not be placed.
+Warning: Perform NDM update as "place.legalize.always_continue" is set to true
+Legalization failed.
+Total Legalizer CPU: 4.409
+----------------------------------------------------------------
+0
+icc2_shell> legalize_placement -help
+Usage: legalize_placement    # Legalize a placement.
+        [-cells list]          (List of cells to be legalized)
+        [-moveable_distance float]
+                               (Specify a distance around each target cell to allow moving other non-target cells within that distance during legalization)
+        [-boundary boundary]   (Legalize the cells within the boundary where its syntax can be {{{llx lly} {urx ury}} | {{x1 y1} {x2 y2} ...}})
+        [-incremental]         (Perform incremental legalization only for illegal cells)
+        [-post_route]          (Run in post-route mode)
+        [-priority string]     (Specify priority on cells. Valid string is low, medium, high. Default is low)
+icc2_shell> legalize_placement -priority high
+----------------------------------------------------------------
+running legalize_placement
+
+Error: -priority option should be used only with -cells option.
+Legalization failed.
+0
+icc2_shell> check_legality -verbose
+
+************************
+
+running check_legality
+
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+        place.legalize.enable_prerouted_net_check: 1
+        place.legalize.num_tracks_for_access_check: 1
+        place.legalize.use_eol_spacing_for_access_check: 0
+        place.legalize.allow_touch_track_for_access_check: 1
+        place.legalize.reduce_conservatism_in_eol_check: 0
+        place.legalize.preroute_shape_merge_distance: 0.0
+        place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 43 total shapes.
+Layer M2: cached 132 shapes out of 292 total shapes.
+Cached 396 vias out of 1820 total vias.
+
+check_legality for block design simple_processor_Top ... 
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14rvt_tt0p8v125c:SAEDRVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14hvt_tt0p8v125c:SAEDHVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell saed14lvt_tt0p8v125c:SAEDLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_DCAP_PV1ECO_12.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Warning: Library cell EXPLORE_physical_only:SAEDSLVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Information: Initializing classic cellmap without advanced rules enabled
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+=====> Processed 144 ref cells (100 fillers) from library
+
+
+****************************************
+  Report : Fillers
+  Site   : unit
+****************************************
+
+Filler widths available for different combinations of VT, OD and TPO:
+----------------------------------------------------------------------
+     VT1      VT2      OD1      OD2      TPO   WIDTHS
+                    height   height            sites
+----------------------------------------------------------------------
+DefaultVTH DefaultVTH     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  HVTIMP   HVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+  LVTIMP   LVTIMP     none     none     none   1 4 5 6 7 9 10 14 17 18 20 34 66
+----------------------------------------------------------------------
+Smallest non-OD filler width is 1 sites.
+----------------------------------------------------------------------
+
+Checking legality
+Checking cell legality:
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Sorting rows.
+Checking spacing rule legality.
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Checking packing rule legality.
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Checking layer rule legality.
+0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+
+****************************************
+  Report : Legality
+****************************************
+
+VIOLATIONS BY CATEGORY:
+   MOVABLE  APP-FIXED USER-FIXED  DESCRIPTION
+        97          0          0  Two objects overlap.
+         0          0          0  A cell violates a pnet.
+         0          0          0  A cell is illegal at a site.
+        17          0          0  A cell is not aligned with a site.
+         0          0          0  A cell has an illegal orientation.
+         0          0          0  A cell spacing rule is violated.
+         1          0          0  A layer rule is violated.
+         3          0          0  A cell is in the wrong region.
+         0          0          0  Two cells violate cts margins.
+         0          0          0  Two cells violate coloring.
+
+       118          0          0  TOTAL
+
+TOTAL 118 Violations.
+
+VIOLATIONS BY SUBCATEGORY:
+     MOVABLE  APP-FIXED USER-FIXED  DESCRIPTION
+
+        97          0          0    Two objects overlap.
+          97          0          0    Two cells overlap.
+           0          0          0    Two cells have overlapping keepout margins.
+           0          0          0    A cell overlaps a blockage.
+           0          0          0    A cell keepout margin overlaps a blockage.
+
+         0          0          0    A cell violates a pnet.
+
+         0          0          0    A cell is illegal at a site.
+           0          0          0    A cell violates pin-track alignment rules.
+           0          0          0    A cell is illegal at a site.
+           0          0          0    A cell violates legal index rule.
+           0          0          0    A cell has the wrong variant for its location.
+
+        17          0          0    A cell is not aligned with a site.
+          17          0          0    A cell is not aligned with the base site.
+           0          0          0    A cell is not aligned with an overlaid site.
+
+         0          0          0    A cell has an illegal orientation.
+
+         0          0          0    A cell spacing rule is violated.
+           0          0          0    A spacing rule is violated in a row.
+           0          0          0    A spacing rule is violated between adjacent rows.
+           0          0          0    A cell violates vertical abutment rule.
+           0          0          0    A cell violates metal spacing rule.
+
+         1          0          0    A layer rule is violated.
+           1          0          0    A layer VTH rule is violated.
+           0          0          0    A layer OD rule is violated.
+           0          0          0    A layer OD max-width rule is violated.
+           0          0          0    A layer ALL_OD corner rule is violated.
+           0          0          0    A layer max-vertical-length rule is violated.
+           0          0          0    A layer TPO rule is violated.
+           0          0          0    Filler cell insertion cannot satisfy layer rules.
+
+         3          0          0    A cell is in the wrong region.
+           0          0          0    A cell is outside its hard bound.
+           3          0          0    A cell is in the wrong voltage area.
+           0          0          0    A cell violates an exclusive movebound.
+
+         0          0          0    Two cells violate cts margins.
+
+         0          0          0    Two cells violate coloring.
+
+****************************************
+  Report : Legality Violations
+****************************************
+
+-----------------------------------------------------------------
+Category:    [movable]    Two objects overlap.
+Subcategory: [movable]    Two cells overlap.
+-----------------------------------------------------------------
+
+Cell G1_Controller/copt_h_inst_322 and Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h1/U1 overlap.
+Cell G1_Controller/copt_h_inst_322 rect: { 4.848 2.800 5.662 3.400 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa3/h1/U1 rect: { 4.848 2.800 5.366 3.400 } (um)
+
+Cell G1_Controller/U33 and Cell G1_Controller/U55 overlap.
+Cell G1_Controller/U33 rect: { 1.888 4.000 2.406 4.600 } (um)
+Cell G1_Controller/U55 rect: { 2.332 4.000 2.850 4.600 } (um)
+
+Cell G1_Controller/U33 and Cell G1_Controller/U35 overlap.
+Cell G1_Controller/U33 rect: { 1.888 4.000 2.406 4.600 } (um)
+Cell G1_Controller/U35 rect: { 2.139 3.951 2.509 4.551 } (um)
+
+Cell G1_Controller/U33 and Cell G1_Controller/U38 overlap.
+Cell G1_Controller/U33 rect: { 1.888 4.000 2.406 4.600 } (um)
+Cell G1_Controller/U38 rect: { 1.888 4.000 2.332 4.600 } (um)
+
+Cell G1_Controller/Z1/U14 and Cell G1_Controller/Z1/U9 overlap.
+Cell G1_Controller/Z1/U14 rect: { 6.328 7.600 6.698 8.200 } (um)
+Cell G1_Controller/Z1/U9 rect: { 6.402 7.600 6.698 8.200 } (um)
+
+Cell G1_Controller/Z2/U12 and Cell G1_Controller/Z2/U13 overlap.
+Cell G1_Controller/Z2/U12 rect: { 3.220 7.600 3.590 8.200 } (um)
+Cell G1_Controller/Z2/U13 rect: { 2.998 7.600 3.368 8.200 } (um)
+
+Cell G1_Controller/U10 and Cell G1_Controller/U9 overlap.
+Cell G1_Controller/U10 rect: { 3.664 5.200 4.034 5.800 } (um)
+Cell G1_Controller/U9 rect: { 3.220 5.200 4.108 5.800 } (um)
+
+Cell G1_Controller/U22 and Cell G1_Controller/copt_h_inst_327 overlap.
+Cell G1_Controller/U22 rect: { 1.888 2.800 2.258 3.400 } (um)
+Cell G1_Controller/copt_h_inst_327 rect: { 1.888 2.800 2.554 3.400 } (um)
+
+Cell G1_Controller/U35 and Cell G1_Controller/U55 overlap.
+Cell G1_Controller/U35 rect: { 2.139 3.951 2.509 4.551 } (um)
+Cell G1_Controller/U55 rect: { 2.332 4.000 2.850 4.600 } (um)
+
+Cell G1_Controller/U35 and Cell G1_Controller/U38 overlap.
+Cell G1_Controller/U35 rect: { 2.139 3.951 2.509 4.551 } (um)
+Cell G1_Controller/U38 rect: { 1.888 4.000 2.332 4.600 } (um)
+
+Cell G1_Controller/U35 and Cell cts_trgdly_236 overlap.
+Cell G1_Controller/U35 rect: { 2.139 3.951 2.509 4.551 } (um)
+Cell cts_trgdly_236 rect: { 1.962 3.400 3.072 4.000 } (um)
+
+Cell G1_Controller/U36 and Cell G1_Controller/U8 overlap.
+Cell G1_Controller/U36 rect: { 3.309 3.964 3.679 4.564 } (um)
+Cell G1_Controller/U8 rect: { 2.850 4.000 3.442 4.600 } (um)
+
+Cell G1_Controller/Z1/U4 and Cell G1_Controller/Z1/U8 overlap.
+Cell G1_Controller/Z1/U4 rect: { 5.218 7.600 5.588 8.200 } (um)
+Cell G1_Controller/Z1/U8 rect: { 5.366 7.600 5.662 8.200 } (um)
+
+Cell G1_Controller/Z1/U4 and Cell G2_Datapath/g2/copt_h_inst_314 overlap.
+Cell G1_Controller/Z1/U4 rect: { 5.218 7.600 5.588 8.200 } (um)
+Cell G2_Datapath/g2/copt_h_inst_314 rect: { 5.218 7.600 5.662 8.200 } (um)
+
+Cell G1_Controller/Z1/U13 and Cell G2_Datapath/m1/U56 overlap.
+Cell G1_Controller/Z1/U13 rect: { 5.588 7.600 5.958 8.200 } (um)
+Cell G2_Datapath/m1/U56 rect: { 5.662 7.600 5.958 8.200 } (um)
+
+Cell G1_Controller/Z1/U13 and Cell G1_Controller/Z1/U8 overlap.
+Cell G1_Controller/Z1/U13 rect: { 5.588 7.600 5.958 8.200 } (um)
+Cell G1_Controller/Z1/U8 rect: { 5.366 7.600 5.662 8.200 } (um)
+
+Cell G1_Controller/Z1/U13 and Cell G2_Datapath/g2/copt_h_inst_314 overlap.
+Cell G1_Controller/Z1/U13 rect: { 5.588 7.600 5.958 8.200 } (um)
+Cell G2_Datapath/g2/copt_h_inst_314 rect: { 5.218 7.600 5.662 8.200 } (um)
+
+Cell G1_Controller/Z2/U13 and Cell G1_Controller/Z2/U5 overlap.
+Cell G1_Controller/Z2/U13 rect: { 2.998 7.600 3.368 8.200 } (um)
+Cell G1_Controller/Z2/U5 rect: { 2.850 7.600 3.220 8.200 } (um)
+
+Cell G1_Controller/U27 and Cell G1_Controller/copt_h_inst_327 overlap.
+Cell G1_Controller/U27 rect: { 2.258 2.800 2.628 3.400 } (um)
+Cell G1_Controller/copt_h_inst_327 rect: { 1.888 2.800 2.554 3.400 } (um)
+
+Cell G1_Controller/U27 and Cell G1_Controller/copt_h_inst_328 overlap.
+Cell G1_Controller/U27 rect: { 2.258 2.800 2.628 3.400 } (um)
+Cell G1_Controller/copt_h_inst_328 rect: { 2.554 2.800 3.368 3.400 } (um)
+
+Cell G1_Controller/U34 and Cell G2_Datapath/Reg3/copt_h_inst_264 overlap.
+Cell G1_Controller/U34 rect: { 2.480 19.000 2.850 19.600 } (um)
+Cell G2_Datapath/Reg3/copt_h_inst_264 rect: { 2.480 19.000 3.146 19.600 } (um)
+
+Cell G1_Controller/U34 and Cell G2_Datapath/Reg3/copt_h_inst_265 overlap.
+Cell G1_Controller/U34 rect: { 2.480 19.000 2.850 19.600 } (um)
+Cell G2_Datapath/Reg3/copt_h_inst_265 rect: { 2.702 19.000 3.368 19.600 } (um)
+
+Cell G2_Datapath/m1/U48 and Cell G2_Datapath/m1/U78 overlap.
+Cell G2_Datapath/m1/U48 rect: { 10.842 7.600 11.212 8.200 } (um)
+Cell G2_Datapath/m1/U78 rect: { 10.620 7.600 11.212 8.200 } (um)
+
+Cell G2_Datapath/m1/U50 and Cell G2_Datapath/m1/U60 overlap.
+Cell G2_Datapath/m1/U50 rect: { 9.732 6.400 10.102 7.000 } (um)
+Cell G2_Datapath/m1/U60 rect: { 9.658 6.400 10.250 7.000 } (um)
+
+Cell G2_Datapath/m1/U50 and Cell G2_Datapath/m1/U52 overlap.
+Cell G2_Datapath/m1/U50 rect: { 9.732 6.400 10.102 7.000 } (um)
+Cell G2_Datapath/m1/U52 rect: { 9.446 5.876 9.742 6.476 } (um)
+
+Cell G2_Datapath/m1/U58 and Cell G2_Datapath/m1/U78 overlap.
+Cell G2_Datapath/m1/U58 rect: { 10.472 7.600 10.842 8.200 } (um)
+Cell G2_Datapath/m1/U78 rect: { 10.620 7.600 11.212 8.200 } (um)
+
+Cell G2_Datapath/m1/U58 and Cell G2_Datapath/m1/U59 overlap.
+Cell G2_Datapath/m1/U58 rect: { 10.472 7.600 10.842 8.200 } (um)
+Cell G2_Datapath/m1/U59 rect: { 10.472 7.600 10.768 8.200 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa0/h1/U2 and Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h2/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa0/h1/U2 rect: { 5.662 10.600 6.254 11.200 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa0/h2/U1 rect: { 5.736 10.600 6.032 11.200 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h1/U2 and Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h1/U2 rect: { 1.888 19.000 2.480 19.600 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 rect: { 1.554 18.985 2.072 19.585 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa2/h2/U2 and Cell G2_Datapath/g2/copt_h_inst_312 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa2/h2/U2 rect: { 4.700 14.800 5.292 15.400 } (um)
+Cell G2_Datapath/g2/copt_h_inst_312 rect: { 4.774 14.800 5.366 15.400 } (um)
+
+Cell G1_Controller/U3 and Cell G1_Controller/Z2/U13 overlap.
+Cell G1_Controller/U3 rect: { 3.072 7.600 3.590 8.200 } (um)
+Cell G1_Controller/Z2/U13 rect: { 2.998 7.600 3.368 8.200 } (um)
+
+Cell G1_Controller/U3 and Cell G1_Controller/Z2/U12 overlap.
+Cell G1_Controller/U3 rect: { 3.072 7.600 3.590 8.200 } (um)
+Cell G1_Controller/Z2/U12 rect: { 3.220 7.600 3.590 8.200 } (um)
+
+Cell G1_Controller/U3 and Cell G1_Controller/Z2/U5 overlap.
+Cell G1_Controller/U3 rect: { 3.072 7.600 3.590 8.200 } (um)
+Cell G1_Controller/Z2/U5 rect: { 2.850 7.600 3.220 8.200 } (um)
+
+Cell G1_Controller/U7 and Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa1/h1/copt_h_inst_344 overlap.
+Cell G1_Controller/U7 rect: { 2.258 5.200 2.776 5.800 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa1/h1/copt_h_inst_344 rect: { 1.888 5.200 2.406 5.800 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h1/U1 and Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h1/U1 rect: { 3.812 11.800 4.330 12.400 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice1/rca2/fa2/h2/U1 rect: { 3.812 11.800 4.330 12.400 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa0/h1/U1 and Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h2/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa0/h1/U1 rect: { 3.220 15.400 3.738 16.000 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h2/U1 rect: { 3.072 15.400 3.368 16.000 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 and Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!94 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 rect: { 1.554 18.985 2.072 19.585 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!94 rect: { 1.000 19.000 1.592 19.600 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 and Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!93 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 rect: { 1.554 18.985 2.072 19.585 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!93 rect: { 1.000 18.400 1.592 19.000 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 and Cell cts_trgdly_224 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 rect: { 1.554 18.985 2.072 19.585 } (um)
+Cell cts_trgdly_224 rect: { 1.592 18.400 2.702 19.000 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 and Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!88 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 rect: { 1.438 15.118 1.956 15.718 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!88 rect: { 1.000 15.400 1.592 16.000 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 and Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!87 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 rect: { 1.438 15.118 1.956 15.718 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!87 rect: { 1.000 14.800 1.592 15.400 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa1/h1/U1 and Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa1/h2/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa1/h1/U1 rect: { 3.812 16.600 4.330 17.200 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa1/h2/U1 rect: { 3.812 16.600 4.330 17.200 } (um)
+
+Cell G2_Datapath/Reg2/U7 and Cell G2_Datapath/Reg6/U3 overlap.
+Cell G2_Datapath/Reg2/U7 rect: { 14.172 16.600 14.912 17.200 } (um)
+Cell G2_Datapath/Reg6/U3 rect: { 14.172 16.600 14.912 17.200 } (um)
+
+Cell G2_Datapath/Reg3/U10 and Cell G2_Datapath/Reg4/U8 overlap.
+Cell G2_Datapath/Reg3/U10 rect: { 10.250 15.400 10.990 16.000 } (um)
+Cell G2_Datapath/Reg4/U8 rect: { 10.667 15.668 10.963 16.268 } (um)
+
+Cell G2_Datapath/Reg5/U11 and Cell G2_Datapath/Reg5/U8 overlap.
+Cell G2_Datapath/Reg5/U11 rect: { 13.358 9.400 14.098 10.000 } (um)
+Cell G2_Datapath/Reg5/U8 rect: { 13.876 9.400 14.172 10.000 } (um)
+
+Cell G2_Datapath/Reg6/U4 and Cell G2_Datapath/Reg6/dout_reg_1_ overlap.
+Cell G2_Datapath/Reg6/U4 rect: { 13.284 13.600 14.024 14.200 } (um)
+Cell G2_Datapath/Reg6/dout_reg_1_ rect: { 13.876 13.600 15.430 14.200 } (um)
+
+Cell G2_Datapath/Reg6/U4 and Cell ZBUF_inst_248 overlap.
+Cell G2_Datapath/Reg6/U4 rect: { 13.284 13.600 14.024 14.200 } (um)
+Cell ZBUF_inst_248 rect: { 13.358 13.600 13.802 14.200 } (um)
+
+Cell G1_Controller/U44 and Cell G1_Controller/U7 overlap.
+Cell G1_Controller/U44 rect: { 1.880 4.757 2.324 5.357 } (um)
+Cell G1_Controller/U7 rect: { 2.258 5.200 2.776 5.800 } (um)
+
+Cell G1_Controller/U44 and Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa1/h1/copt_h_inst_344 overlap.
+Cell G1_Controller/U44 rect: { 1.880 4.757 2.324 5.357 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa1/h1/copt_h_inst_344 rect: { 1.888 5.200 2.406 5.800 } (um)
+
+Cell G1_Controller/U44 and Cell G1_Controller/U6 overlap.
+Cell G1_Controller/U44 rect: { 1.880 4.757 2.324 5.357 } (um)
+Cell G1_Controller/U6 rect: { 1.888 5.200 2.184 5.800 } (um)
+
+Cell G2_Datapath/Reg3/copt_h_inst_256 and Cell G2_Datapath/Reg3/copt_h_inst_257 overlap.
+Cell G2_Datapath/Reg3/copt_h_inst_256 rect: { 3.960 17.800 4.552 18.400 } (um)
+Cell G2_Datapath/Reg3/copt_h_inst_257 rect: { 3.960 17.800 4.552 18.400 } (um)
+
+Cell G2_Datapath/Reg0/copt_h_inst_253 and Cell boundarycell!endcap!SAEDRVT14_CAPBIN13!163 overlap.
+Cell G2_Datapath/Reg0/copt_h_inst_253 rect: { 18.900 4.500 19.566 5.100 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBIN13!163 rect: { 19.130 4.000 20.240 4.600 } (um)
+
+Cell G2_Datapath/Reg0/copt_h_inst_253 and Cell boundarycell!endcap!SAEDRVT14_CAPBIN13!164 overlap.
+Cell G2_Datapath/Reg0/copt_h_inst_253 rect: { 18.900 4.500 19.566 5.100 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBIN13!164 rect: { 19.130 4.600 20.240 5.200 } (um)
+
+Cell G2_Datapath/Reg0/copt_h_inst_253 and Cell G2_Datapath/Reg1/dout_reg_0_ overlap.
+Cell G2_Datapath/Reg0/copt_h_inst_253 rect: { 18.900 4.500 19.566 5.100 } (um)
+Cell G2_Datapath/Reg1/dout_reg_0_ rect: { 17.576 4.600 19.130 5.200 } (um)
+
+Cell G2_Datapath/Reg0/copt_h_inst_253 and Cell G2_Datapath/Reg7/U7 overlap.
+Cell G2_Datapath/Reg0/copt_h_inst_253 rect: { 18.900 4.500 19.566 5.100 } (um)
+Cell G2_Datapath/Reg7/U7 rect: { 18.390 4.000 19.130 4.600 } (um)
+
+Cell G2_Datapath/Reg3/copt_h_inst_264 and Cell G2_Datapath/Reg3/copt_h_inst_265 overlap.
+Cell G2_Datapath/Reg3/copt_h_inst_264 rect: { 2.480 19.000 3.146 19.600 } (um)
+Cell G2_Datapath/Reg3/copt_h_inst_265 rect: { 2.702 19.000 3.368 19.600 } (um)
+
+Cell G2_Datapath/Reg3/copt_h_inst_264 and Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h1/U1 overlap.
+Cell G2_Datapath/Reg3/copt_h_inst_264 rect: { 2.480 19.000 3.146 19.600 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h1/U1 rect: { 2.850 19.000 3.368 19.600 } (um)
+
+Cell G2_Datapath/Reg3/copt_h_inst_265 and Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h1/U1 overlap.
+Cell G2_Datapath/Reg3/copt_h_inst_265 rect: { 2.702 19.000 3.368 19.600 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h1/U1 rect: { 2.850 19.000 3.368 19.600 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa2/h1/copt_h_inst_342 and Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h2/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa2/h1/copt_h_inst_342 rect: { 2.554 15.400 3.220 16.000 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h2/U1 rect: { 3.072 15.400 3.368 16.000 } (um)
+
+Cell G2_Datapath/add_top/add1/csa_slice1/copt_h_inst_343 and Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 overlap.
+Cell G2_Datapath/add_top/add1/csa_slice1/copt_h_inst_343 rect: { 1.888 15.400 2.554 16.000 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 rect: { 1.438 15.118 1.956 15.718 } (um)
+
+Cell G1_Controller/copt_h_inst_326 and Cell boundarycell!endcap!SAEDRVT14_CAPT2!6 overlap.
+Cell G1_Controller/copt_h_inst_326 rect: { 2.700 0.900 3.514 1.500 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPT2!6 rect: { 2.776 1.000 3.072 1.600 } (um)
+
+Cell G1_Controller/copt_h_inst_326 and Cell boundarycell!endcap!SAEDRVT14_CAPT2!5 overlap.
+Cell G1_Controller/copt_h_inst_326 rect: { 2.700 0.900 3.514 1.500 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPT2!5 rect: { 2.480 1.000 2.776 1.600 } (um)
+
+Cell G1_Controller/copt_h_inst_326 and Cell boundarycell!endcap!SAEDRVT14_CAPT2!7 overlap.
+Cell G1_Controller/copt_h_inst_326 rect: { 2.700 0.900 3.514 1.500 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPT2!7 rect: { 3.072 1.000 3.368 1.600 } (um)
+
+Cell G1_Controller/copt_h_inst_326 and Cell boundarycell!endcap!SAEDRVT14_CAPT2!8 overlap.
+Cell G1_Controller/copt_h_inst_326 rect: { 2.700 0.900 3.514 1.500 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPT2!8 rect: { 3.368 1.000 3.664 1.600 } (um)
+
+Cell G1_Controller/Z1/U8 and Cell G2_Datapath/g2/copt_h_inst_314 overlap.
+Cell G1_Controller/Z1/U8 rect: { 5.366 7.600 5.662 8.200 } (um)
+Cell G2_Datapath/g2/copt_h_inst_314 rect: { 5.218 7.600 5.662 8.200 } (um)
+
+Cell G1_Controller/U6 and Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa1/h1/copt_h_inst_344 overlap.
+Cell G1_Controller/U6 rect: { 1.888 5.200 2.184 5.800 } (um)
+Cell G2_Datapath/add_top/add1/csa_slice1/rca1/fa1/h1/copt_h_inst_344 rect: { 1.888 5.200 2.406 5.800 } (um)
+
+Cell G1_Controller/U11 and Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!66 overlap.
+Cell G1_Controller/U11 rect: { 1.532 1.784 1.828 2.384 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!66 rect: { 1.000 2.200 1.592 2.800 } (um)
+
+Cell G1_Controller/U11 and Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!65 overlap.
+Cell G1_Controller/U11 rect: { 1.532 1.784 1.828 2.384 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPBTAP6!65 rect: { 1.000 1.600 1.592 2.200 } (um)
+
+Cell G1_Controller/U12 and Cell cts_trgdly_176 overlap.
+Cell G1_Controller/U12 rect: { 3.448 1.891 3.744 2.490 } (um)
+Cell cts_trgdly_176 rect: { 2.702 1.600 3.812 2.200 } (um)
+
+Cell G1_Controller/U12 and Cell cts_trgdly_200 overlap.
+Cell G1_Controller/U12 rect: { 3.448 1.891 3.744 2.490 } (um)
+Cell cts_trgdly_200 rect: { 3.072 2.200 4.182 2.800 } (um)
+
+Cell G1_Controller/U13 and Cell cts_trgdly_202 overlap.
+Cell G1_Controller/U13 rect: { 4.286 3.364 4.582 3.964 } (um)
+Cell cts_trgdly_202 rect: { 3.812 3.400 4.922 4.000 } (um)
+
+Cell G1_Controller/U13 and Cell cts_trgdly_178 overlap.
+Cell G1_Controller/U13 rect: { 4.286 3.364 4.582 3.964 } (um)
+Cell cts_trgdly_178 rect: { 3.738 2.800 4.848 3.400 } (um)
+
+Cell G2_Datapath/m1/U52 and Cell G2_Datapath/m1/U60 overlap.
+Cell G2_Datapath/m1/U52 rect: { 9.446 5.876 9.742 6.476 } (um)
+Cell G2_Datapath/m1/U60 rect: { 9.658 6.400 10.250 7.000 } (um)
+
+Cell G2_Datapath/m1/U52 and Cell G2_Datapath/m1/U75 overlap.
+Cell G2_Datapath/m1/U52 rect: { 9.446 5.876 9.742 6.476 } (um)
+Cell G2_Datapath/m1/U75 rect: { 9.436 5.800 10.028 6.400 } (um)
+
+Cell G2_Datapath/m1/U54 and Cell G2_Datapath/m1/U79 overlap.
+Cell G2_Datapath/m1/U54 rect: { 9.362 8.800 9.658 9.400 } (um)
+Cell G2_Datapath/m1/U79 rect: { 8.770 8.800 9.658 9.400 } (um)
+
+Cell G2_Datapath/m1/U59 and Cell G2_Datapath/m1/U78 overlap.
+Cell G2_Datapath/m1/U59 rect: { 10.472 7.600 10.768 8.200 } (um)
+Cell G2_Datapath/m1/U78 rect: { 10.620 7.600 11.212 8.200 } (um)
+
+Cell G2_Datapath/add_top/U1 and Cell G2_Datapath/add_top/add1/fa0/h1/U1 overlap.
+Cell G2_Datapath/add_top/U1 rect: { 7.142 16.600 7.438 17.200 } (um)
+Cell G2_Datapath/add_top/add1/fa0/h1/U1 rect: { 7.142 16.600 7.660 17.200 } (um)
+
+Cell G2_Datapath/Reg0/U4 and Cell G2_Datapath/m1/U57 overlap.
+Cell G2_Datapath/Reg0/U4 rect: { 14.616 5.200 14.912 5.800 } (um)
+Cell G2_Datapath/m1/U57 rect: { 14.616 5.200 14.912 5.800 } (um)
+
+Cell G2_Datapath/Reg2/U4 and Cell G2_Datapath/Reg6/dout_reg_1_ overlap.
+Cell G2_Datapath/Reg2/U4 rect: { 13.876 13.600 14.172 14.200 } (um)
+Cell G2_Datapath/Reg6/dout_reg_1_ rect: { 13.876 13.600 15.430 14.200 } (um)
+
+Cell G2_Datapath/Reg2/U4 and Cell G2_Datapath/Reg6/U4 overlap.
+Cell G2_Datapath/Reg2/U4 rect: { 13.876 13.600 14.172 14.200 } (um)
+Cell G2_Datapath/Reg6/U4 rect: { 13.284 13.600 14.024 14.200 } (um)
+
+Cell G2_Datapath/Reg4/U8 and Cell G2_Datapath/Reg4/U9 overlap.
+Cell G2_Datapath/Reg4/U8 rect: { 10.667 15.668 10.963 16.268 } (um)
+Cell G2_Datapath/Reg4/U9 rect: { 10.620 16.000 11.360 16.600 } (um)
+
+Cell G2_Datapath/Reg5/U8 and Cell ZBUF_inst_252 overlap.
+Cell G2_Datapath/Reg5/U8 rect: { 13.876 9.400 14.172 10.000 } (um)
+Cell ZBUF_inst_252 rect: { 14.098 9.400 14.542 10.000 } (um)
+
+Cell G2_Datapath/Reg6/U6 and Cell G2_Datapath/m1/U85 overlap.
+Cell G2_Datapath/Reg6/U6 rect: { 17.132 14.200 17.428 14.800 } (um)
+Cell G2_Datapath/m1/U85 rect: { 17.132 14.200 17.502 14.800 } (um)
+
+Cell G2_Datapath/Reg7/U4 and Cell boundarycell!endcap!SAEDRVT14_CAPT2!60 overlap.
+Cell G2_Datapath/Reg7/U4 rect: { 18.634 1.469 18.930 2.069 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPT2!60 rect: { 18.760 1.000 19.056 1.600 } (um)
+
+Cell G2_Datapath/Reg7/U4 and Cell boundarycell!endcap!SAEDRVT14_CAPT2!59 overlap.
+Cell G2_Datapath/Reg7/U4 rect: { 18.634 1.469 18.930 2.069 } (um)
+Cell boundarycell!endcap!SAEDRVT14_CAPT2!59 rect: { 18.464 1.000 18.760 1.600 } (um)
+
+Cell G2_Datapath/A5/U8 and Cell G2_Datapath/add_top/U6 overlap.
+Cell G2_Datapath/A5/U8 rect: { 7.364 15.400 7.660 16.000 } (um)
+Cell G2_Datapath/add_top/U6 rect: { 7.290 15.400 7.956 16.000 } (um)
+
+Cell G1_Controller/HFSINV_1260_0 and Cell G2_Datapath/Reg7/U10 overlap.
+Cell G1_Controller/HFSINV_1260_0 rect: { 11.118 2.399 11.414 2.999 } (um)
+Cell G2_Datapath/Reg7/U10 rect: { 10.990 2.800 11.730 3.400 } (um)
+
+Cell G1_Controller/HFSINV_1260_0 and Cell G1_Controller/opcode_reg_1_ overlap.
+Cell G1_Controller/HFSINV_1260_0 rect: { 11.118 2.399 11.414 2.999 } (um)
+Cell G1_Controller/opcode_reg_1_ rect: { 9.658 2.200 11.212 2.800 } (um)
+
+Cell G1_Controller/HFSINV_1260_0 and Cell G2_Datapath/Reg7/dout_reg_5_ overlap.
+Cell G1_Controller/HFSINV_1260_0 rect: { 11.118 2.399 11.414 2.999 } (um)
+Cell G2_Datapath/Reg7/dout_reg_5_ rect: { 11.212 2.200 12.766 2.800 } (um)
+
+Cell G2_Datapath/Reg3/dout_reg_1_ and Cell G2_Datapath/g2/U2 overlap.
+Cell G2_Datapath/Reg3/dout_reg_1_ rect: { 8.548 13.600 10.102 14.200 } (um)
+Cell G2_Datapath/g2/U2 rect: { 8.548 13.600 8.844 14.200 } (um)
+
+Cell G1_Controller/LdG_reg and Cell G1_Controller/U30 overlap.
+Cell G1_Controller/LdG_reg rect: { 3.812 4.600 4.848 5.200 } (um)
+Cell G1_Controller/U30 rect: { 3.812 4.600 4.182 5.200 } (um)
+
+Cell G1_Controller/LdR6_reg and Cell G1_Controller/Z1/U5 overlap.
+Cell G1_Controller/LdR6_reg rect: { 5.070 8.800 6.106 9.400 } (um)
+Cell G1_Controller/Z1/U5 rect: { 4.996 8.800 5.366 9.400 } (um)
+
+Cell G1_Controller/IR_reg_1_ and Cell G1_Controller/U36 overlap.
+Cell G1_Controller/IR_reg_1_ rect: { 3.442 4.000 4.478 4.600 } (um)
+Cell G1_Controller/U36 rect: { 3.309 3.964 3.679 4.564 } (um)
+
+Cell G1_Controller/DINout_reg and Cell G2_Datapath/m1/U62 overlap.
+Cell G1_Controller/DINout_reg rect: { 8.622 6.400 9.658 7.000 } (um)
+Cell G2_Datapath/m1/U62 rect: { 8.392 6.815 8.688 7.415 } (um)
+
+Cell G1_Controller/DINout_reg and Cell G2_Datapath/m1/U52 overlap.
+Cell G1_Controller/DINout_reg rect: { 8.622 6.400 9.658 7.000 } (um)
+Cell G2_Datapath/m1/U52 rect: { 9.446 5.876 9.742 6.476 } (um)
+
+Cell G1_Controller/R1out_reg and Cell G2_Datapath/m1/U62 overlap.
+Cell G1_Controller/R1out_reg rect: { 7.586 6.400 8.622 7.000 } (um)
+Cell G2_Datapath/m1/U62 rect: { 8.392 6.815 8.688 7.415 } (um)
+
+Cell G1_Controller/R3out_reg and Cell G2_Datapath/m1/U62 overlap.
+Cell G1_Controller/R3out_reg rect: { 7.808 7.000 8.844 7.600 } (um)
+Cell G2_Datapath/m1/U62 rect: { 8.392 6.815 8.688 7.415 } (um)
+
+
+-----------------------------------------------------------------
+Category:    [movable]    A cell is not aligned with a site.
+Subcategory: [movable]    A cell is not aligned with the base site.
+-----------------------------------------------------------------
+
+Cell G1_Controller/U35 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/U36 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca1/fa1/h2/U1 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/add_top/add1/csa_slice2/rca2/fa0/h1/U1 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/U44 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/Reg3/copt_h_inst_266 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/Reg0/copt_h_inst_253 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/Reg1/copt_h_inst_276 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/copt_h_inst_326 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/U11 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/U12 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/U13 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/m1/U52 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/m1/U62 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/Reg4/U8 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G2_Datapath/Reg7/U4 is not on a base site row or is misaligned with the sites in the row.
+
+Cell G1_Controller/HFSINV_1260_0 is not on a base site row or is misaligned with the sites in the row.
+
+
+-----------------------------------------------------------------
+Category:    [movable]    A layer rule is violated.
+Subcategory: [movable]    A layer VTH rule is violated.
+-----------------------------------------------------------------
+
+Adjacent cells G2_Datapath/Reg0/copt_h_inst_254 and boundarycell!endcap!SAEDRVT14_CAPBIN13!160 in row unit_row_3 violate a VTH rule.
+
+
+-----------------------------------------------------------------
+Category:    [movable]    A cell is in the wrong region.
+Subcategory: [movable]    A cell is in the wrong voltage area.
+-----------------------------------------------------------------
+
+Cell G2_Datapath/Reg3/copt_h_inst_266 is not inside Voltage Area DEFAULT_VA.
+Cell G2_Datapath/Reg3/copt_h_inst_266 rect: { 4.500 20.700 4.944 21.300 } (um)
+Voltage Area DEFAULT_VA rects: { 1.000 1.000 20.240 20.200 } (um)
+
+Cell G2_Datapath/Reg1/copt_h_inst_276 is not inside Voltage Area DEFAULT_VA.
+Cell G2_Datapath/Reg1/copt_h_inst_276 rect: { 20.574 0.810 21.240 1.410 } (um)
+Voltage Area DEFAULT_VA rects: { 1.000 1.000 20.240 20.200 } (um)
+
+Cell G1_Controller/copt_h_inst_326 is not inside Voltage Area DEFAULT_VA.
+Cell G1_Controller/copt_h_inst_326 rect: { 2.700 0.900 3.514 1.500 } (um)
+Voltage Area DEFAULT_VA rects: { 1.000 1.000 20.240 20.200 } (um)
+
+
+
+
+check_legality for block design simple_processor_Top failed!
+
+check_legality failed.
+
+**************************
+
+0
+icc2_shell> create_utilization_configuration -scope block core_utilization -include {all}
+{core_utilization}
+icc2_shell> report_utilization -config core_utilization
+****************************************
+Report : report_utilization
+Design : simple_processor_Top
+Version: P-2019.03-SP4
+Date   : Thu May 26 09:52:19 2022
+****************************************
+Utilization Ratio:                      0.8577
+Utilization options:
+ - Area calculation based on:           core_area of block CTS_Done_22nd_May
+ - Categories of objects excluded:      None
+Total Area:                             369.4080
+Total Capacity Area:                    369.4080
+Total Area of cells:                    316.8384
+
+0.8577
+icc2_shell> sh clear
+[H[2J
+icc2_shell> exit
+icc2_shell> stop_gui
+icc2_shell> close_blocks -f
+Closing block 'lib:CTS_Done_22nd_May.design'
+1
+icc2_shell> close_lib
+Closing library 'lib'
+1
+icc2_shell> exit
+Maximum memory usage for this session: 665.12 MB
+CPU usage for this session:     77 seconds (  0.02 hours)
+Elapsed time for this session:   1654 seconds (  0.46 hours)
+Thank you for using IC Compiler II.
+

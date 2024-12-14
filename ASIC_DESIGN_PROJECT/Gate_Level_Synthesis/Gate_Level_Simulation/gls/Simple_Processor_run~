@@ -1,0 +1,1 @@
+vcs -V -R -f Simple_Processor_filelist -full64 -debug_all -o gls -gui

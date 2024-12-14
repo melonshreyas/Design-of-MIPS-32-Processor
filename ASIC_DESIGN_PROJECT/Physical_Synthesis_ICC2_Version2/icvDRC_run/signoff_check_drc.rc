@@ -1,0 +1,13 @@
+/* ============================================ */
+/*   Environment setup for signoff_check_drc   */
+/* ============================================ */
+#define SNPSINDESIGN 
+#define USE_ICC2 
+#define SNPSINDESIGN_DRC_RUN_DIRECTORY /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2
+#define NDM_OPTIONS_DRC_BLACK_BOX_CELLS {"*","!29th_MAY_ROUTE_DONE"}
+#define NDM_OPTIONS_MISSING_CELL ABORT
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_INTERNAL_DESIGNS {{use=FILL_USE,read_from=ALL,out_of_date=DISCARD}}
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW,FRAME_VIEW}, cells={"*","!"+get_top_cell()} }
+#define NDM_OPTIONS_SEARCH_PATH "/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2  ."
+#define ERROR_OPTIONS_ERROR_LIMIT_PER_CHECK 1000

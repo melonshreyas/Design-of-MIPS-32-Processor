@@ -1,0 +1,28 @@
+
+                                  ICV_Master 
+
+           Version P-2019.06-3 for linux64 - Sep 20, 2019 cl#5068203
+
+                    Copyright (c) 1996 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -icc2 -f NDM -i lib -p /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2 -c 29th_MAY_ROUTE_DONE -icc_density_blockage -I /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run -I /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1 -I /home/synopsys/installs/icc2/P-2019.03-SP4/etc/pxl -I /home/synopsys/installs/icc2/P-2019.03-SP4/etc/pxl -rc /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/signoff_fill_run/icv_run_1/icvOptionFile.rc /home/synopsys/installs/icc2/P-2019.03-SP4/etc/pxl/signoff_metal_fill.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        21mvd0086
+Layout format:    NDM
+Input file name:  lib
+Top cell name:    29th_MAY_ROUTE_DONE
+Time started:     2022/05/30 12:20:15PM
+
+--------------------------------------------------------------------------------
+                          Signoff Rules to be Executed                          
+--------------------------------------------------------------------------------
+
+@ "Densisty across chip"
+@ "Density across window"
+@ "Fill candidates within window"

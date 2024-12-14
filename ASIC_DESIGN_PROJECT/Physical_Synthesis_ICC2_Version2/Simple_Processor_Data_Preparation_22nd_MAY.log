@@ -1,0 +1,305 @@
+
+icc2_shell> source Simple_Processor_data_preparation.tcl
+Error: could not open script file "./Simple_Processor_common_setup.tcl" (CMD-015)
+Information: script '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_data_preparation.tcl'
+        stopped at line 3 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"source ./Simple_Processor_common_setup.tcl"
+ -- End Extended Error Info
+icc2_shell> 
+icc2_shell> source Simple_Processor_data_preparation.tcl
+RM-Info: Running script /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_common_setup.tcl
+
+RM-Info: Completed script /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_common_setup.tcl
+
+Warning: Pitch 0.074000 for layer M4 is less than sum(0.100000) of minSpacing(0.040000) and minWidth(0.060000).(saed14nm_1p9m_mw.tf line:727) (TECH-223)
+Warning: Pitch 0.600000 for layer MRDL is less than sum(4.000000) of minSpacing(2.000000) and minWidth(2.000000).(saed14nm_1p9m_mw.tf line:1356) (TECH-223)
+Warning: saed14nm_1p9m_mw.tf line 779, 'cutNameTbl' on Layer 'VIA4' has cut name 'VIA4BAR1' with no matching ContactCode found. (TECH-252)
+Warning: Layer 'M2' is missing the attribute 'maskEndMaxWidthThresholdTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToEndKeepoutLengthTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToSideKeepoutLengthTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToEndMinSpacingTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: Layer 'M2' is missing the attribute 'maskEndToSideMinSpacingTbl'. (saed14nm_1p9m_mw.tf line 618) (TECH-026)
+Warning: The value of the pitch attribute of layer M4 is invalid. Attribute pitch should not be less than sum of attribute minWidth and minSpacing. (saed14nm_1p9m_mw.tf line 727) (TECH-050)
+Warning: The value of the pitch attribute of layer MRDL is invalid. Attribute pitch should not be less than sum of attribute minWidth and minSpacing. (saed14nm_1p9m_mw.tf line 1356) (TECH-050)
+Information: ContactCode 'VIA12SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1667) (TECH-084)
+Information: ContactCode 'VIA12BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1685) (TECH-084)
+Information: ContactCode 'VIA12BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1704) (TECH-084)
+Information: ContactCode 'VIA12LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1723) (TECH-084)
+Information: ContactCode 'VIA12SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1742) (TECH-084)
+Information: ContactCode 'VIA12BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1761) (TECH-084)
+Information: ContactCode 'VIA12BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1780) (TECH-084)
+Information: ContactCode 'VIA12LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1799) (TECH-084)
+Information: ContactCode 'VIA1_32SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1818) (TECH-084)
+Information: ContactCode 'VIA1_32BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1837) (TECH-084)
+Information: ContactCode 'VIA1_32BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1856) (TECH-084)
+Information: ContactCode 'VIA1_32LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1875) (TECH-084)
+Information: ContactCode 'VIA1_32SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1894) (TECH-084)
+Information: ContactCode 'VIA1_32BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1913) (TECH-084)
+Information: ContactCode 'VIA1_32BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1932) (TECH-084)
+Information: ContactCode 'VIA1_32LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1951) (TECH-084)
+Information: ContactCode 'VIA12_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1970) (TECH-084)
+Information: ContactCode 'VIA12_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 1989) (TECH-084)
+Information: ContactCode 'VIA12_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2008) (TECH-084)
+Information: ContactCode 'VIA12_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2027) (TECH-084)
+Information: ContactCode 'VIA12_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2046) (TECH-084)
+Information: ContactCode 'VIA12_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2065) (TECH-084)
+Information: ContactCode 'VIA12_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2084) (TECH-084)
+Information: ContactCode 'VIA12_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2103) (TECH-084)
+Information: ContactCode 'VIA1_32_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2122) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2141) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2160) (TECH-084)
+Information: ContactCode 'VIA1_32_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2179) (TECH-084)
+Information: ContactCode 'VIA1_32_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2198) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2217) (TECH-084)
+Information: ContactCode 'VIA1_32_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2236) (TECH-084)
+Information: ContactCode 'VIA1_32_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.04. (line 2255) (TECH-084)
+Information: ContactCode 'VIA23SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2275) (TECH-084)
+Information: ContactCode 'VIA23BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2295) (TECH-084)
+Information: ContactCode 'VIA23BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2314) (TECH-084)
+Information: ContactCode 'VIA23LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2333) (TECH-084)
+Information: ContactCode 'VIA23SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2352) (TECH-084)
+Information: ContactCode 'VIA23BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2371) (TECH-084)
+Information: ContactCode 'VIA23BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2390) (TECH-084)
+Information: ContactCode 'VIA23LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2409) (TECH-084)
+Information: ContactCode 'VIA2_33SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2428) (TECH-084)
+Information: ContactCode 'VIA2_33BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2447) (TECH-084)
+Information: ContactCode 'VIA2_33BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2466) (TECH-084)
+Information: ContactCode 'VIA2_33LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2485) (TECH-084)
+Information: ContactCode 'VIA2_33SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2504) (TECH-084)
+Information: ContactCode 'VIA2_33BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2523) (TECH-084)
+Information: ContactCode 'VIA2_33BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2542) (TECH-084)
+Information: ContactCode 'VIA2_33LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2561) (TECH-084)
+Information: ContactCode 'VIA23_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2580) (TECH-084)
+Information: ContactCode 'VIA23_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2599) (TECH-084)
+Information: ContactCode 'VIA23_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2618) (TECH-084)
+Information: ContactCode 'VIA23_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2637) (TECH-084)
+Information: ContactCode 'VIA23_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2656) (TECH-084)
+Information: ContactCode 'VIA23_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2675) (TECH-084)
+Information: ContactCode 'VIA23_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2694) (TECH-084)
+Information: ContactCode 'VIA23_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2712) (TECH-084)
+Information: ContactCode 'VIA2_33_3SQ_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2731) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR1_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2750) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR2_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2769) (TECH-084)
+Information: ContactCode 'VIA2_33_3LG_C' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2788) (TECH-084)
+Information: ContactCode 'VIA2_33_3SQ' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2807) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR1' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2826) (TECH-084)
+Information: ContactCode 'VIA2_33_3BAR2' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2845) (TECH-084)
+Information: ContactCode 'VIA2_33_3LG' has a minimum cut spacing 0.026 that is less than the cut layer minimum spacing 0.05. (line 2864) (TECH-084)
+Information: Loading technology file '/home/synopsys/SAED14nm_EDK/tech/milkyway/saed14nm_1p9m_mw.tf' (FILE-007)
+... run icc2_lm_shell to group libraries.
+..........
+... 7 libraries to build.
+
+... processing cell library: saed14rvt_tt0p8v125c.ndm (1/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14rvt_tt0p8v125c.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+........
+created new cell library under output directory: CLIBs/saed14rvt_tt0p8v125c.ndm
+
+... processing cell library: saed14hvt_tt0p8v125c.ndm (2/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14hvt_tt0p8v125c.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+........
+created new cell library under output directory: CLIBs/saed14hvt_tt0p8v125c.ndm
+
+... processing cell library: saed14lvt_tt0p8v125c.ndm (3/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14lvt_tt0p8v125c.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+........
+created new cell library under output directory: CLIBs/saed14lvt_tt0p8v125c.ndm
+
+... processing cell library: saed14rvt_tt0p8v125c_physical_only.ndm (4/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14rvt_tt0p8v125c_physical_only.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+....................
+created new cell library under output directory: CLIBs/saed14rvt_tt0p8v125c_physical_only.ndm
+
+... processing cell library: saed14hvt_tt0p8v125c_physical_only.ndm (5/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14hvt_tt0p8v125c_physical_only.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+....................
+created new cell library under output directory: CLIBs/saed14hvt_tt0p8v125c_physical_only.ndm
+
+... processing cell library: saed14lvt_tt0p8v125c_physical_only.ndm (6/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14lvt_tt0p8v125c_physical_only.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+....................
+created new cell library under output directory: CLIBs/saed14lvt_tt0p8v125c_physical_only.ndm
+
+... processing cell library: EXPLORE_physical_only.ndm (7/7)
+... Checking whether can reuse library under output directory
+cannot reuse CLIBs/EXPLORE_physical_only.ndm under output directory: library not exists
+... run icc2_lm_shell to build the cell library
+...............................................................................
+..................................
+created new cell library under output directory: CLIBs/EXPLORE_physical_only.ndm
+Information: Successfully built 7 reference libraries: saed14rvt_tt0p8v125c.ndm saed14hvt_tt0p8v125c.ndm saed14lvt_tt0p8v125c.ndm saed14rvt_tt0p8v125c_physical_only.ndm saed14hvt_tt0p8v125c_physical_only.ndm saed14lvt_tt0p8v125c_physical_only.ndm EXPLORE_physical_only.ndm. (LIB-093)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "lib'. (NDM-102)
+Loading verilog file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor_mvt_netlist.v'
+Information: Reading Verilog into new design 'simple_processor_Top' in library 'lib'. (VR-012)
+Number of modules read: 79
+Top level ports: 22
+Total ports in all modules: 840
+Total nets in all modules: 1376
+Total instances in all modules: 610
+Elapsed = 00:00:00.01, CPU = 00:00:00.01
+Using libraries: lib saed14rvt_tt0p8v125c saed14hvt_tt0p8v125c saed14lvt_tt0p8v125c saed14rvt_tt0p8v125c_physical_only saed14hvt_tt0p8v125c_physical_only saed14lvt_tt0p8v125c_physical_only EXPLORE_physical_only
+Linking block lib:simple_processor_Top.design
+Information: User units loaded from library 'saed14rvt_tt0p8v125c' (LNK-040)
+Design 'simple_processor_Top' was successfully linked.
+Saving library 'lib' as 'post_import_design'
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14rvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14hvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'saed14lvt_tt0p8v125c_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: Technology used to create frame-view and current technology have inconsistency: Min spacings are different for layer 'M1'. (FRAM-054)
+Warning: Technology 'saed14rvt_1p9m.tf' used for frame-view creation in library 'EXPLORE_physical_only', is inconsistent with the current technology 'saed14nm_1p9m_mw.tf' of library "post_import_design'. (NDM-102)
+Warning: All user-defined attributes are persistent by default from 2018.06 release. Please use the '-non_persistent' if non-persistent user attribute is preferred. (NDMUI-669)
+Information: The design specific attribute override for layer 'M1' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M3' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M5' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M7' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M9' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M2' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M4' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M6' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M8' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'MRDL' is set in the current block 'simple_processor_Top', because the actual library setting may not be overwritten. (ATTR-12)
+# Multi coener multi mode analysis
+set Constraints_file "./Simple_Processor.sdc"
+./Simple_Processor.sdc
+remove_corners -all
+1
+remove_modes -all
+1
+remove_scenarios -all
+1
+#remove_propagated_clocks [all_clocks]
+#remove_propagated_clocks [get_ports]
+#remove_propagated_clocks [get_pins -hierarchical]
+create_corner slow
+1
+create_corner fast
+1
+read_parasitic_tech     -tlup /home/synopsys/SAED14nm_EDK/tech/star_rc/min/saed14nm_1p9m_Cmin.tluplus   -layermap /home/synopsys/SAED14nm_EDK/tech/star_rc/saed14nm_tf_itf_tluplus.map  -name tlup_min
+1
+read_parasitic_tech     -tlup /home/synopsys/SAED14nm_EDK/tech/star_rc/max/saed14nm_1p9m_Cmax.tluplus   -layermap /home/synopsys/SAED14nm_EDK/tech/star_rc/saed14nm_tf_itf_tluplus.map  -name tlup_max
+1
+set_parasitics_parameters       -early_spec tlup_max    -late_spec tlup_max     -early_temperature 125  -late_temperature 125   -corners {slow}
+1
+set_parasitics_parameters       -early_spec tlup_min    -late_spec tlup_min     -early_temperature -40  -late_temperature -40   -corners {fast}
+1
+create_mode func
+1
+current_mode func
+{func}
+create_scenario -mode func -corner fast -name func_fast
+Created scenario func_fast for mode func and corner fast
+All analysis types are activated.
+{func_fast}
+create_scenario -mode func -corner slow -name func_slow
+Created scenario func_slow for mode func and corner slow
+All analysis types are activated.
+{func_slow}
+current_scenario func_slow
+{func_slow}
+read_sdc $Constraints_file
+Information: Loading SDC version 2.1 file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor.sdc' (FILE-007)
+Warning: Constraint 'set_wire_load_mode' is not supported by icc2. (SDC-3)
+Warning: Constraint 'set_wire_load_model' is not supported by icc2. (SDC-3)
+Warning: The 'set_max_fanout' command is not supported in this program.  The command will be ignored. (CSTR-011)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Begin building search trees for block lib:simple_processor_Top.design
+Done building search trees for block lib:simple_processor_Top.design (time 0s)
+
+
+Summary of unsupported constraints:
+Information: Ignored 1 unsupported 'set_wire_load_mode' constraint. (SDC-4)
+Information: Ignored 1 unsupported 'set_wire_load_model' constraint. (SDC-4)
+1
+current_scenario func_fast
+{func_fast}
+read_sdc $Constraints_file
+Information: Loading SDC version 2.1 file '/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor.sdc' (FILE-007)
+Warning: Constraint 'set_wire_load_mode' is not supported by icc2. (SDC-3)
+Warning: Constraint 'set_wire_load_model' is not supported by icc2. (SDC-3)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: The -library option of set_driving_cell is not supported. (CSTR-022)
+Warning: Redefining clock 'clock'.  
+ Previously defined at: /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor.sdc, line 46; /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor.sdc, line 47; /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/Simple_Processor.sdc, line 48 (UIC-034)
+
+
+Summary of unsupported constraints:
+Information: Ignored 1 unsupported 'set_wire_load_mode' constraint. (SDC-4)
+Information: Ignored 1 unsupported 'set_wire_load_model' constraint. (SDC-4)
+1
+set_scenario_status func_slow -none -setup true -hold false -leakage_power true -dynamic_power true -max_transition true -max_capacitance true -min_capacitance false -active true
+Scenario func_slow (mode func corner slow) is active for setup/leakage_power/dynamic_power/max_transition/max_capacitance analysis.
+1
+set_scenario_status func_fast -none -setup false -hold true -leakage_power true -dynamic_power false -max_transition true -max_capacitance false -min_capacitance true -active true
+Scenario func_fast (mode func corner fast) is active for hold/leakage_power/max_transition/min_capacitance analysis.
+1
+## To remove duplicate modes, corners, scenarios, and to improve runtime and capacity without loss of constraints :
+remove_duplicate_timing_contexts
+Information: No Scenario reduction opportunities were found
+Information: No Mode reduction opportunities were found
+Information: No Corner reduction opportunities were found
+Information: No Mode, Corner or Scenario reduction was possible
+1
+Information: Saving 'lib:simple_processor_Top.design' to 'lib:import_done.design'. (DES-028)
+Saving library 'lib'
+icc2_shell> exit
+Maximum memory usage for this session: 320.12 MB
+CPU usage for this session:      7 seconds (  0.00 hours)
+Elapsed time for this session:    179 seconds (  0.05 hours)
+Thank you for using IC Compiler II.
+

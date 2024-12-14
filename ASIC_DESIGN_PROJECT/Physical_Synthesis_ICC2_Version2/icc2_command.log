@@ -1,0 +1,156 @@
+#@ # 
+#@ # Running icc2_shell Version P-2019.03-SP4 for linux64 -- Sep 06, 2019
+#@ # Date:   Mon May 30 10:33:27 2022
+#@ # Run by: 21mvd0086@synopsysserver
+#@ 
+
+open_lib
+open_lib lib
+list_blocks
+open_blocks 29th_MAY_ROUTE_DONE
+open_block 29th_MAY_ROUTE_DONE
+link+block
+link_block
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+win_set_filter -visible -class cell -filter {hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-72}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {cell_array hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-72}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+gui_zoom -window [gui_get_current_window -view] -full
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value false
+win_set_select_class -visible {cell pin port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_select_class {cell pin port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value false
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+sh clear
+sh gedit &
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {5.139 12.817}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {5.139 12.817}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {5.139 12.817}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {4.870 12.833}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {4.772 13.206}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {4.785 13.207}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {5.849 13.182}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {7.052 12.353}
+gui_zoom -window [gui_get_current_window -view] -full
+report_cells
+report_cell
+report_lib_cells
+report_lib_cells -objects
+report_lib_cells -objects -help
+report_lib_cells -help
+report_lib_cells -objects [report_cells]
+report_lib_cells -help
+gui_zoom -window [gui_get_current_window -view] -full
+report_lib_cells > Standard_Cell_List.txt
+report_lib_cells >Standard_Cell_List.txt
+report_lib_cells>Standard_Cell_List.txt
+report_lib_cells>Standard_Cell_List.txt
+list_blocks
+link_block
+source post_sta/timing_eco_1.tcl
+legalize_placement
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {18.374 23.065}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {18.404 23.080}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {18.404 23.080}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {18.402 23.080}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {18.190 22.833}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {18.190 22.833}
+gui_scroll -window [gui_get_current_window -view] -vrel -.2
+gui_scroll -window [gui_get_current_window -view] -vrel -.2
+gui_scroll -window [gui_get_current_window -view] -vrel -.2
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {15.872 24.170}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {15.857 24.137}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {15.860 24.125}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {15.863 24.120}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.948 24.067}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.948 24.066}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.948 24.065}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.947 24.065}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.947 24.065}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.917 24.035}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.917 24.021}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.917 24.021}
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.276 -3.444}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.156 -1.948}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.156 -0.991}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.155 -0.496}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.155 -0.248}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.191 -0.033}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {16.190 -0.017}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.839 0.040}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.857 0.044}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {15.813 0.025}
+gui_zoom -window [gui_get_current_window -view] -full
+save_block -as 30th_MAY_PT_SHELL_DONE
+check_legality
+report_timing -delay_type min
+source ./post_sta/run_eco.tcl
+source ./post_sta/run_eco.tcl
+place_eco_cells -eco_changed_cells
+save_block -as 30th_MAY_ECO_DONE
+create_stdcell_fillers  -lib_cells { */SAEDLVT14_FILL64 */SAEDLVT14_FILL32 */SAEDLVT14_FILL3 */SAEDLVT14_FILL2 */SAEDLVT14_FILL4 }
+connect_pg_net -net VSS [get_pins */VSS]
+connect_pg_net -net VDD [get_pins */VDD]
+remove_stdcell_fillers_with_violation
+check_routes
+set_app_options -name signoff.check_drc.runset -value saed14nm_1p9m_drc_rules.rs
+set_app_options -name signoff.check_drc.max_errors_per_rule -value 1000
+set_app_options -name signoff.check_drc.run_dir -value "icvDRC_run"
+setenv _ICV_RSH_COMMAND ssh
+signoff_check_drc
+set_app_options -name signoff.check_drc.runset -value ./pv/saed14nm_1p9m_drc_rules.rs
+set_app_options -name signoff.check_drc.max_errors_per_rule -value 1000
+set_app_options -name signoff.check_drc.run_dir -value "icvDRC_run"
+setenv _ICV_RSH_COMMAND ssh
+signoff_check_drc
+gui_show_error_data
+gui_set_error_browser_option -show_mode all
+gui_set_error_browser_option -view_mode zoom
+gui_set_error_browser_option -zoom_factor 1.000000
+gui_set_error_browser_option -grouping type
+gui_error_browser -show
+gui_open_error_data -name {signoff_check_drc.err}
+gui_open_error_data -name {signoff_check_drc.err}
+gui_set_current_errors
+gui_set_selected_errors -replace [gui_get_errors -data_name {signoff_check_drc.err} -id {2709}] -force
+gui_error_browser -hide
+check_lvs
+set_app_options  -name signoff.create_metal_fill.runset -value ./pv/saed14nm_1p9m_mfill_rules.rs
+signoff_create_metal_fill
+error_info
+set_app_options -name signoff.create_metal_fill.runset -value ./pv/saed14nm_1p9m_mfill_rules.rs
+signoff_create_metal_fill
+create_utilization_configuration -scope block core_utilization -include {all}
+report_utilization -config core_utilization
+save_block -as 30th_MAY_SIGN_OFF
+gui_zoom -window [gui_get_current_window -view] -full
+gui_zoom -window [gui_get_current_window -view] -full
+gui_zoom -window [gui_get_current_window -view] -full
+set_app_options -name signoff.create_metal_fill.runset -value ./pv/saed14nm_1p9m_mfill_rules.rs
+signoff.create_metal_fill.runset
+set_app_options -help
+signoff.create_metal_fill.runset
+set_app_options -name signoff.create_metal_fill.runset -value "./pv/saed14nm_1p9m_mfill_rules.rs"
+signoff_create_metal_fill
+sh xterm &
+set_app_options -name signoff.create_metal_fill.runset -value "./pv/saed14nm_1p9m_mfill_rules.rs"
+signoff_create_metal_fill
+sh pwd
+set_app_options -name signoff.create_metal_fill.runset -value "./pv/saed14nm_1p9m_mfill_rules.rs"
+signoff_create_metal_fill
+create_utilization_configuration -scope block core_utilization -include {all}
+report_utilization -config core_utilization
+save_block -as 30th_MAY_SIGN_OFF_DONE
+close_blocks -f
+gui_clear_selected_errors
+close_lib lib
+exit

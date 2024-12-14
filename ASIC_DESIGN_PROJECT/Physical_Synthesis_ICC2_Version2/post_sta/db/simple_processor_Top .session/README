@@ -1,0 +1,28 @@
+-------------------------------------------------------
+
+PrimeTime save_session README file
+
+-------------------------------------------------------
+
+PrimeTime Version: 
+	P-2019.03-SP4 for linux64 -- Aug 29, 2019
+Save Session Date:
+	Mon May 30 11:31:36 2022
+ 
+-------------------------------------------------------
+
+Command log of this session is saved in "cmd_log".
+If the saved session is moved to a different location, 
+    please update the paths in the cmd_log file accordingly, 
+    in order to use the Constraints in-design flow.
+-------------------------------------------------------
+
+Current Design: Register_0
+
+Technology librares referenced by this session:
+/home/synopsys/SAED14nm_EDK/stdcell_rvt/db_nldm/saed14rvt_tt0p8v125c.db     saed14rvt_tt0p8v125c.db
+/home/synopsys/SAED14nm_EDK/stdcell_hvt/db_nldm/saed14hvt_tt0p8v125c.db     saed14hvt_tt0p8v125c.db
+/home/synopsys/SAED14nm_EDK/stdcell_lvt/db_nldm/saed14lvt_tt0p8v125c.db     saed14lvt_tt0p8v125c.db
+-------------------------------------------------------
+At least 1 MB of free disk space in pt_tmp_dir will be required to restore this session.
+-------------------------------------------------------

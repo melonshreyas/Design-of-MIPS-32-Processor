@@ -1,0 +1,134 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+           Version P-2019.06-3 for linux64 - Sep 20, 2019 cl#5068203
+
+                    Copyright (c) 1996 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -icc2 -f NDM -i lib -p /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2 -c 29th_MAY_ROUTE_DONE -clf /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/icvDRC_run/slnFile.txt -icc_density_blockage -icc2_error_categories -I /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/icvDRC_run -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -rc /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/icvDRC_run/signoff_check_drc.rc -I /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/icvDRC_run /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/saed14nm_1p9m_drc_rules.rs 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        21mvd0086
+Layout format:    NDM
+Input file name:  lib
+Top cell name:    29th_MAY_ROUTE_DONE
+Time started:     2022/05/30 12:01:27PM
+Time ended:       2022/05/30 12:01:43PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+218 total rules were run.
+154 rules NOT EXECUTED.
+40 rules have violations.
+There are 24520 total violations.
+Refer to 29th_MAY_ROUTE_DONE.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 26
+ Empty Utilized Assign Layers = 9
+ Non-Empty Utilized Assign Layers = 17
+Pruned Assign Layers = 80
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/userdata/21mvd0086"
+ICV_HOME_DIR = "/home/synopsys/installs/icvalidator/P-2019.06-3"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+LM_LICENSE_FILE = "27020@synopsysserver"
+PATH = "/home/synopsys/installs/icvalidator/P-2019.06-3/bin/LINUX64_L26el:/home/synopsys/tcad2019/spxviewer/P-2019.06-SP1/bin:/home/synopsys/tcad2019/spx/P-2019.06-SP1/bin:/home/synopsys/tcad2019/tcadpython/P_2019.03-SP1/bin:/home/synopsys/tcad2019/pcm_studio/p_2019.09/bin:/home/synopsys/tcad2019/raphael/P_2019.03/bin:/home/synopsys/tcad2019/taurus_medici/P_2019.03/bin:/home/synopsys/tcad2019/taurus_tsuprem4/P_2019.03/bin:/home/synopsys/tcad2019/sentaurus/P_2019.03-SP1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/synopsys/installs/syn/P-2019.03-SP4/bin:/home/synopsys/installs/customcompiler/P-2019.06-3/bin:/home/synopsys/installs/esp/P-2019.03-SP2-1/bin:/home/synopsys/installs/finesim/P-2019.06-SP1/bin:/home/synopsys/installs/fm/P-2019.03-SP4/bin:/home/synopsys/installs/fpga/P-2019.09/bin:/home/synopsys/installs/hsim/P-2019.06-SP2/bin:/home/synopsys/installs/hspice/P-2019.06-SP1/bin:/home/synopsys/installs/icc/P-2019.03-SP4/bin:/home/synopsys/installs/icc2/P-2019.03-SP4/bin:/home/synopsys/installs/icvalidator/P-2019.06-3/bin:/home/synopsys/installs/icwbev_plus/P-2019.03-SP2/bin:/home/synopsys/installs/identify/J-2015.03-SP1/bin:/home/synopsys/installs/identify/P-2019.09/bin:/home/synopsys/installs/idq/P-2019.03-SP4/bin:/home/synopsys/installs/laker/L-2018.06-SP1-5/bin:/home/synopsys/installs/lc/P-2019.03-SP4/bin:/home/synopsys/installs/mw/P-2019.03-SP4/bin:/home/synopsys/installs/nt/P-2019.03-SP4/bin:/home/synopsys/installs/pts/P-2019.03-SP4/bin:/home/synopsys/installs/pwr/P-2019.03-SP4/bin:/home/synopsys/installs/siliconsmart/P-2019.06-4/bin:/home/synopsysinstallsspyglass/P-2019.06-SP1/bin:/home/synopsys/installs/starrc/P-2019.03-SP4/bin:/home/synopsys/installs/tx/P-2019.03-SP4/bin:/home/synopsys/installs/txs/P-2019.03-SP4/bin:/home/synopsys/installs/ufe_optional_spyglass-vcs/P-2019.06-SP1/bin:/home/synopsys/installs/vc_ml_platform/2019.06/bin:/home/synopsys/installs/vc_static/P-2019.06-1/bin:/home/synopsys/installs/vcs/P-2019.06-1/bin:/home/synopsys/installs/vcs-mx/O-2018.09-SP2/bin:/home/synopsys/installs/xa/P-2019.06-SP2/bin:/home/synopsys/installs/wv/P-2019.06-SP1/bin:/home/synopsys/installs/verdi/P-2019.06-1/bin:/home/userdata/21mvd0086/bin"
+USER = "21mvd0086"
+
+6 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+_ICV_RSH_COMMAND = "ssh"
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/icvDRC_run/tech.tf"
+
+2 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ synopsysserver (2/48)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+   CPU:   48 cpu 2600 MHz
+   Cores: 24 HT
+   RAM:   252.289 GB
+   Swap:  3.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:16
+Peak Single Command Memory = 0.591 GB
+Peak Disk Usage = 0.005 GB
+
+Distributed Host Memory Usage
+ synopsysserver (2/48)  ....  Average=0.009 GB, Peak=0.590 GB / 252.289 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

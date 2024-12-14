@@ -1,0 +1,27 @@
+
+                                  StarRC (TM)
+
+               Version P-2019.03-SP4 for linux64 - Aug 29, 2019 
+
+                    Copyright (c) 1999 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /home/synopsys/installs/starrc/P-2019.03-SP4/linux64_starrc/bin/StarXtract
+Version: P-2019.03-SP4
+Built on: Aug 29 2019 18:58:12
+Start Time: Mon May 30 11:17:45 2022
+
+Host ............ synopsysserver
+
+WARNING: Found vias with one or no connection (see file vias.sum) (SX-0959)
+WARNING: Found shorted nets (see file shorts_all.sum). The capacitances of these nets may be
+         unreliable due to the shorts. (SX-0955)
+WARNING: Found vias with one or no connection (see file vias.sum) (SX-0959)
+  
+ReportShorts  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 

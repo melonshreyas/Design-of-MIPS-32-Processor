@@ -1,0 +1,16 @@
+Num parts for violation reports = 0
+  Parsing summary/xtract.sum
+  Parsing shorts binary files ...
+  Parsing via violations binary files ...
+WARNING: Found vias with one or no connection (see file vias.sum) (SX-0959)
+WARNING: Found shorted nets (see file shorts_all.sum). The capacitances of these nets may be
+         unreliable due to the shorts. (SX-0955)
+WARNING: Found vias with one or no connection (see file vias.sum) (SX-0959)
+  
+ReportShorts  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=342.9 
+
+End Time: Mon May 30 11:17:45 2022
+

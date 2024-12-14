@@ -1,0 +1,70 @@
+run_information runset_file /home/userdata/21mvd0086/Simple_Processor_Working/Physical_Synthesis_ICC2_Version2/pv/saed14nm_1p9m_drc_rules.rs
+run_information max_errors 1000
+run_information read_design_view_missing_view_ignore N
+run_information ignore_frame_blockages Y
+run_information ignore_child_cell_errors N
+run_information error_data_name signoff_check_drc.err
+tech_information db_unit 10000
+tech_information layer layer_name FIN layer_mask_name fin
+tech_information layer layer_name NWELL layer_mask_name nwell
+tech_information layer layer_name DNW
+tech_information layer layer_name DIFF layer_mask_name diffusion
+tech_information layer layer_name PIMP layer_mask_name pplus
+tech_information layer layer_name NIMP layer_mask_name nplus
+tech_information layer layer_name DIFF_15 layer_mask_name 18volt
+tech_information layer layer_name PAD
+tech_information layer layer_name ESD
+tech_information layer layer_name SBLK layer_mask_name sblk
+tech_information layer layer_name PO layer_mask_name poly
+tech_information layer layer_name M1 layer_mask_name metal1 layer_pitch 740
+tech_information layer layer_name VIA1 layer_mask_name via1 layer_pitch -1
+tech_information layer layer_name M2 layer_mask_name metal2 layer_pitch 600
+tech_information layer layer_name VIA2 layer_mask_name via2 layer_pitch -1
+tech_information layer layer_name M3 layer_mask_name metal3 layer_pitch 740
+tech_information layer layer_name VIA3 layer_mask_name via3 layer_pitch -1
+tech_information layer layer_name M4 layer_mask_name metal4 layer_pitch 740
+tech_information layer layer_name VIA4 layer_mask_name via4 layer_pitch -1
+tech_information layer layer_name M5 layer_mask_name metal5 layer_pitch 1200
+tech_information layer layer_name VIA5 layer_mask_name via5 layer_pitch -1
+tech_information layer layer_name M6 layer_mask_name metal6 layer_pitch 1200
+tech_information layer layer_name VIA6 layer_mask_name via6 layer_pitch -1
+tech_information layer layer_name M7 layer_mask_name metal7 layer_pitch 1200
+tech_information layer layer_name VIA7 layer_mask_name via7 layer_pitch -1
+tech_information layer layer_name M8 layer_mask_name metal8 layer_pitch 1200
+tech_information layer layer_name VIA8 layer_mask_name via8 layer_pitch -1
+tech_information layer layer_name M9 layer_mask_name metal9 layer_pitch 1200
+tech_information layer layer_name CPO layer_mask_name DIFFVIA0
+tech_information layer layer_name CTM1 layer_mask_name SUBCONT layer_pitch 1040
+tech_information layer layer_name VIA0 layer_mask_name POLYVIA0 layer_pitch 1040
+tech_information layer layer_name HVTIMP layer_mask_name implant
+tech_information layer layer_name VIARDL layer_mask_name via9 layer_pitch 40000
+tech_information layer layer_name LVTIMP layer_mask_name implant
+tech_information layer layer_name M1PIN layer_mask_name m1txt layer_pitch 100
+tech_information layer layer_name M2PIN layer_mask_name m2txt layer_pitch 100
+tech_information layer layer_name M3PIN layer_mask_name m3txt layer_pitch 100
+tech_information layer layer_name M4PIN layer_mask_name m4txt layer_pitch 100
+tech_information layer layer_name M5PIN layer_mask_name m5txt layer_pitch 100
+tech_information layer layer_name M6PIN layer_mask_name m6txt layer_pitch 100
+tech_information layer layer_name M7PIN layer_mask_name m7txt layer_pitch 100
+tech_information layer layer_name M8PIN layer_mask_name m8txt layer_pitch 100
+tech_information layer layer_name M9PIN layer_mask_name m9txt layer_pitch 100
+tech_information layer layer_name MRDL layer_mask_name metal10 layer_pitch 6000
+tech_information layer layer_name MRPIN layer_mask_name mrdl9txt layer_pitch 100
+tech_information layer layer_name HOTNWL
+tech_information layer layer_name DIOD
+tech_information layer layer_name BJTDMY
+tech_information layer layer_name RNW
+tech_information layer layer_name RMARK
+tech_information layer layer_name prBoundary
+tech_information layer layer_name LOGO
+tech_information layer layer_name IP layer_mask_name tag layer_pitch 1000
+tech_information layer layer_name RM1
+tech_information layer layer_name RM2
+tech_information layer layer_name RM3
+tech_information layer layer_name RM4
+tech_information layer layer_name RM5
+tech_information layer layer_name RM6
+tech_information layer layer_name RM7
+tech_information layer layer_name RM8
+tech_information layer layer_name RM9
+tech_information layer layer_name DIFF_25 layer_mask_name 25volt
