@@ -1,0 +1,3 @@
+program automatic Simple_Processor_Testbench(Simple_Processor_interface.Simple_Processor_Test bus_interface);
+
+endprogram
