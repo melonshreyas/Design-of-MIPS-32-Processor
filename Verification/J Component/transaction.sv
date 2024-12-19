@@ -3,6 +3,7 @@
 class transaction;
  
   //declaring the transaction items
+  //Random cyclic. Generate the numbers uniquely until one cycle completion happens and then follows back.
   randc bit [8:0] DIN;
   bit [8:0] Bus;
   bit Done;
@@ -14,7 +15,9 @@ class transaction;
   That's the reason we are generating the mv opcode only. 
   Whereas the Register are from R0 to R7. 
   */
-  constraint din {DIN[8:6] >= 3'd0;DIN[8:6] < 3'd1;DIN[5:3]>= 3'd0;DIN[5:3]<= 3'd7;DIN[2:0]>= 3'd0;DIN[2:0]<= 3'd7;}
+  constraint din {DIN[8:6] >= 3'd0;DIN[8:6] < 3'd1;DIN[5:3]>= 3'd0;DIN[5:3]<= 3'd7;DIN[2:0]>= 3'd0;DIN[2:0]<= 3'd7;};
+  // Constraint for generating all opcodes. 
+  constraint ALL_OPCODES {DIN[8:6] >= 3'd0;DIN[8:6] < 3'd7;DIN[5:3]>= 3'd0;DIN[5:3]<= 3'd7;DIN[2:0]>= 3'd0;DIN[2:0]<= 3'd7;};
   //constraint run {Run > 1'd0;Run<2'd2;}
 
   function automatic new();
@@ -23,14 +26,15 @@ class transaction;
  endfunction
 
   function automatic void print (bit [8:0] DIN);
-  this.DIN <= DIN;
-  $display("Time=%0t --  DIN=%b_%b_%b  --",$time,DIN[8:6],DIN[5:3],DIN[2:0]);
+	  this.DIN <= DIN;
+	  $display("Time=%0t --  DIN=%b_%b_%b  --",$time,DIN[8:6],DIN[5:3],DIN[2:0]);
   endfunction
   
 endclass
 
 
 /*
+// Testbench to evaluate only transaction class.
 initial
 begin
 transaction trans;
