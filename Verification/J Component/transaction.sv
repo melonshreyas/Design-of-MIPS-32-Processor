@@ -1,9 +1,5 @@
-//module trans_check();
-
-//module trans_check();
 
 class transaction;
- 
   //declaring the transaction items
   //Random cyclic. Generate the numbers uniquely until one cycle completion happens and then follows back.
   randc bit [8:0] DIN;
@@ -19,12 +15,10 @@ class transaction;
   */
   constraint din {DIN[8:6] >= 3'd0;DIN[8:6] < 3'd1;DIN[5:3]>= 3'd0;DIN[5:3]<= 3'd7;DIN[2:0]>= 3'd0;DIN[2:0]<= 3'd7;};
   // Constraint for generating all opcodes. 
-  //constraint ALL_OPCODES {DIN[8:6] >= 3'd0;DIN[8:6] < 3'd7;DIN[5:3]>= 3'd0;DIN[5:3]<= 3'd7;DIN[2:0]>= 3'd0;DIN[2:0]<= 3'd7;};
-  constraint run {Run > 1'd0;Run<2'd2;}
+  constraint ALL_OPCODES {DIN[8:6] >= 3'd0;DIN[8:6] < 3'd7;DIN[5:3]>= 3'd0;DIN[5:3]<= 3'd7;DIN[2:0]>= 3'd0;DIN[2:0]<= 3'd7;};
 
   function new();
 	this.DIN <= DIN;
-	//this.Run <= Run;
   endfunction
 
   function automatic void print (bit [8:0] DIN);
@@ -35,9 +29,6 @@ class transaction;
 endclass
 
 
-
-
-
 /*
 // Testbench to evaluate only transaction class.
 module tb();
@@ -45,9 +36,12 @@ module tb();
   initial
   begin
     trans = new();
+    // Disabling the constraint type din.
+    trans.din.constraint_mode(0);
+    $display("Disabling the Constrint condition Name : din");
     for (int i =0; i <8; i++)
-    begin
-      #5 if(trans.randomize())
+    begin     
+      #5 assert(trans.randomize());
           trans.print (trans.DIN);
     end
   end
