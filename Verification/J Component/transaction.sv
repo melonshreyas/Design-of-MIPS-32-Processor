@@ -36,9 +36,11 @@ module tb();
   initial
   begin
     trans = new();
+    // Disabling all the constraints
+    // trans.rand_mode(0);
     // Disabling the constraint type din.
     trans.din.constraint_mode(0);
-    $display("Disabling the Constrint condition Name : din");
+    $display("Disabling the Constraint condition Name : din");
     for (int i =0; i <8; i++)
     begin     
       #5 assert(trans.randomize());
