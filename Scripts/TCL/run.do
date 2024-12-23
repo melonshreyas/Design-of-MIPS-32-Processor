@@ -1,0 +1,1 @@
+run -all; onbreak {quit -force};
