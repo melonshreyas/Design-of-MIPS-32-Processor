@@ -1,0 +1,335 @@
+ NOTE - DPI TRANSMITTER BFM :  PCLK FREQUENCY IS
+        83                 mhz
+                   0
+ NOTE - DPI TRANSMITTER BFM : PIXEL FORMAT HAS 
+BEEN SET 
+
+NOTE - AHB MASTER : DDRTIME VALUE IS   31250000 
+
+              218757
+ NOTE - AHB MASTER : WRITE ADDR : 00000008 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - DPI TRANSMITTER BFM : END OF FILE REACHED IN DPI
+
+
+ NOTE - AHB MASTER : **** Display Time :-->               260426
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   ffffffff 
+
+              281259
+ NOTE - AHB MASTER : WRITE ADDR : 0000000c 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               322928
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000e7ff 
+
+              343761
+ NOTE - AHB MASTER : WRITE ADDR : 00000010 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               385430
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   00ffffff 
+
+              406263
+ NOTE - AHB MASTER : WRITE ADDR : 00000014 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               447932
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   00ffffff 
+
+              468765
+ NOTE - AHB MASTER : WRITE ADDR : 00000018 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               510434
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000003f 
+
+              531267
+ NOTE - AHB MASTER : WRITE ADDR : 0000001c 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               572936
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+              593769
+ NOTE - AHB MASTER : WRITE ADDR : 00000020 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               635438
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   ffffffff 
+
+              656271
+ NOTE - AHB MASTER : WRITE ADDR : 00000024 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               697940
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   00000003 
+
+              718773
+ NOTE - AHB MASTER : WRITE ADDR : 00000028 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               760442
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+              781275
+ NOTE - AHB MASTER : WRITE ADDR : 0000002c 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               822944
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+              843777
+ NOTE - AHB MASTER : WRITE ADDR : 00000030 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               885446
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+              906279
+ NOTE - AHB MASTER : WRITE ADDR : 00000034 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->               947948
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+              968781
+ NOTE - AHB MASTER : WRITE ADDR : 00000038 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1010450
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+             1031283
+ NOTE - AHB MASTER : WRITE ADDR : 0000003c 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1072952
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+             1093785
+ NOTE - AHB MASTER : WRITE ADDR : 00000040 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+ 
+NOTE-DBI MODEL : **** Display Time :-->              1116250
+
+DBI MODEL : THE END OF FILE REACHED IN DBI COMMAND FILE
+
+
+ NOTE - AHB MASTER : **** Display Time :-->              1135454
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+             1156287
+ NOTE - AHB MASTER : WRITE ADDR : 00000044 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1197956
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+             1218789
+ NOTE - AHB MASTER : WRITE ADDR : 00000048 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1260458
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   000000ff 
+
+             1281291
+ NOTE - AHB MASTER : WRITE ADDR : 0000004c 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1322960
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000003f 
+
+             1343793
+ NOTE - AHB MASTER : WRITE ADDR : 00000050 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1385462
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+             1406295
+ NOTE - AHB MASTER : WRITE ADDR : 00000054 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1447964
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   000003ff 
+
+             1468797
+ NOTE - AHB MASTER : WRITE ADDR : 00000058 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1510466
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000000f 
+
+             1531299
+ NOTE - AHB MASTER : WRITE ADDR : 0000005c 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1572968
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   000000ff 
+
+             1593801
+ NOTE - AHB MASTER : WRITE ADDR : 00000060 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1635470
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000ffff 
+
+             1656303
+ NOTE - AHB MASTER : WRITE ADDR : 00000078 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1697972
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   00000001 
+
+             1718805
+ NOTE - AHB MASTER : WRITE ADDR : 00000080 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1760474
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   3f1fff1f 
+
+             1781307
+ NOTE - AHB MASTER : WRITE ADDR : 00000084 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1822976
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   ffffffff 
+
+             1843809
+ NOTE - AHB MASTER : WRITE ADDR : 00000088 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1885478
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   ffffffff 
+
+             1906311
+ NOTE - AHB MASTER : WRITE ADDR : 00000000 
+
+ NOTE - AHB MASTER : WRITE DATA : ffffffff 
+
+ NOTE - AHB MASTER : **** Display Time :-->              1947980
+
+ NOTE - AHB MASTER : EXPECTED READ VALUE IS RECEIVED
+
+               AHB MASTER : RECEIVED VALUE  -   0000000f 
+
+
+ NOTE - AHB MASTER : **** Display Time :-->              1947980
+
+ NOTE - AHB MASTER : END OF FILE REACHED IN MASTER COMMAND
+TEST PASSED
+$finish called from file "../model/test_env.v", line 2179.
+$finish at simulation time 101947980000000000.000fs
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 101947980
+CPU Time:      0.380 seconds;       Data structure size: 114.0Mb
+Mon Jan 18 05:01:10 2010
